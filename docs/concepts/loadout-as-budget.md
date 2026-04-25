@@ -35,13 +35,14 @@ This solves several problems at once:
 | **[Warframe](/games/warframe/modding)** | **Numeric + categorical** — 60 mod points + polarity slots | Mods costing N points each | Total points + matching polarity = packing efficiency | A non-matching slot costs +25%; matching slot costs −50% |
 | **[Slay the Spire](/games/slay-the-spire/combat)** | **Combinatorial** — 3 energy / turn + ~5-card hand from a thin deck | Cards costing energy | Energy per turn + draw consistency | Bigger deck dilutes draws; energy can't carry to next turn |
 | **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** | **Adjacency-driven** — fixed backpack grid where placement triggers synergies | Relics with conditional placement tags (POINTED, ABSORB, corner, row) | Adjacency rules + grid position | Where you put a relic determines whether it triggers a synergy or wastes its tag |
+| **[Path of Exile 1](/games/path-of-exile/passive-tree)** | **Massive numeric** — 1500 nodes shared across classes; ~122 points at level 100 | Single-point passives, multi-point notables, keystones, jewel sockets | Total points + pathing — points spent traversing also count | Respec costs Orbs of Regret; full re-spec is endgame-currency-expensive |
 
 ### Visual contrast
 
-| Sparklite | Warframe | Slay the Spire | Moonlighter 2 |
-|---|---|---|---|
-| ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Warframe modding upgrade detail](/images/warframe/modding-upgrade-detail.jpg) | ![Slay the Spire Defect combat](/images/slay-the-spire/combat-defect.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) |
-| Patches collected, awaiting placement on the Med Bay grid | Mod points + polarity slots; matching polarity halves cost | 4/3 energy + 5-card hand; every turn is allocation | Backpack grid where adjacency triggers POINTED / ABSORB synergies |
+| Sparklite | Warframe | Slay the Spire | Moonlighter 2 | Path of Exile |
+|---|---|---|---|---|
+| ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Warframe modding upgrade detail](/images/warframe/modding-upgrade-detail.jpg) | ![Slay the Spire Defect combat](/images/slay-the-spire/combat-defect.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) | ![PoE Atlas tree showing massive node graph](/images/path-of-exile/atlas-of-worlds.jpg) |
+| Patches collected, awaiting placement on the Med Bay grid | Mod points + polarity slots; matching polarity halves cost | 4/3 energy + 5-card hand; every turn is allocation | Backpack grid where adjacency triggers POINTED / ABSORB synergies | Atlas tree (≈700 nodes) — the *meta*-budget; the character passive tree is even bigger (~1500 nodes) |
 
 ## When to use this pattern
 

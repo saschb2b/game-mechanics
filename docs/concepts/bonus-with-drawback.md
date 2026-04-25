@@ -30,6 +30,7 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Slay the Spire — boss relics](/games/slay-the-spire/relics)** | +1 energy / draw / damage / etc. | Lose potions, lose Rest, lose strikes, gain a curse | One of 3 picks after each act boss; usually game-defining |
 | **[Slay the Spire — events](/games/slay-the-spire/relics)** | Powerful relic ("5 Apparition") | Real HP cost ("Lose 50% Max HP") | Event nodes throughout the run |
 | **[Moonlighter 2 — perk nodes](/games/moonlighter-2/dungeon-map)** | Ice damage scaling, Thunder damage scaling, etc. | Picking one closes off the other tracks for that run | Perk nodes on the dungeon DAG |
+| **[Path of Exile — keystones](/games/path-of-exile/passive-tree)** | Game-warping rule changes (Chaos Inoculation = no chaos damage; Resolute Technique = always hit; Mind Over Matter = mana absorbs damage) | Equally game-warping cost (max life set to 1; cannot crit; mana becomes a defence pool) | Notable nodes on the passive tree; one passive point each |
 
 ### Visual reference
 

@@ -12,4 +12,6 @@ The concept page has the lemma, the cross-game contrast table, when to use this 
 ## Games tagged with this pattern
 
 - [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map)
+- [Path of Exile — Ascendancy](/games/path-of-exile/ascendancy)
+- [Path of Exile 2: The Endless Vault](/games/path-of-exile-2/)
 - [Slay the Spire — Relics](/games/slay-the-spire/relics)

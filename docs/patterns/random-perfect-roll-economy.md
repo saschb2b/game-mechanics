@@ -9,6 +9,7 @@ title: "Pattern: random-perfect-roll-economy"
 
 ## Games using this pattern
 
+- [Path of Exile — Crafting & currency](/games/path-of-exile/crafting-and-currency)
 - [Warframe — Modding system](/games/warframe/modding)
 
 *Want a curated discussion of this pattern? Add `docs/concepts/random-perfect-roll-economy.md`.*

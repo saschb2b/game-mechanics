@@ -9,6 +9,8 @@ title: "Pattern: nested-progression-graph"
 
 ## Games using this pattern
 
+- [Path of Exile — Atlas of Worlds](/games/path-of-exile/atlas)
+- [Path of Exile 2 — Atlas (one-death maps)](/games/path-of-exile-2/atlas-one-death)
 - [Warframe — Progression layers](/games/warframe/progression-layers)
 
 *Want a curated discussion of this pattern? Add `docs/concepts/nested-progression-graph.md`.*

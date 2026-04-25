@@ -1,15 +1,14 @@
 ---
 generated: true
-title: "Pattern: enemy-intent-telegraph"
+title: "Pattern: anti-screen-clear-combat"
 ---
 
-# `enemy-intent-telegraph`
+# `anti-screen-clear-combat`
 
 > No curated concept page exists yet. The list below is auto-generated from frontmatter.
 
 ## Games using this pattern
 
 - [Path of Exile 2 — Combat philosophy](/games/path-of-exile-2/combat-philosophy)
-- [Slay the Spire — Combat](/games/slay-the-spire/combat)
 
-*Want a curated discussion of this pattern? Add `docs/concepts/enemy-intent-telegraph.md`.*
+*Want a curated discussion of this pattern? Add `docs/concepts/anti-screen-clear-combat.md`.*

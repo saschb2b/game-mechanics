@@ -12,6 +12,7 @@ The concept page has the lemma, the cross-game contrast table, when to use this 
 ## Games tagged with this pattern
 
 - [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle)
+- [Path of Exile — Passive tree](/games/path-of-exile/passive-tree)
 - [Slay the Spire — Combat](/games/slay-the-spire/combat)
 - [Sparklite — Patch board](/games/sparklite/patch-board)
 - [Warframe — Modding system](/games/warframe/modding)

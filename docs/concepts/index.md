@@ -26,6 +26,9 @@ Cross-game design patterns. Each concept page is **pattern-first** — a one-lin
 - [**Bounded roguelite**](./bounded-roguelite) — a roguelite that *ends*.
 - [**Meta as variety, not power**](./meta-as-variety-not-power) — unlock options, not strength.
 
+### Studio philosophy
+- [**Vision-driven iteration**](./vision-driven-iteration) — balance decisions driven by stated philosophy vs. by player metrics. PoE vs. Slay the Spire.
+
 ## Patterns awaiting curation
 
 The [patterns index](/patterns/) lists everything tagged across games. Patterns marked "stub" are referenced by ≥1 game but don't yet have a curated concept page. **Defaults: don't curate until ≥2 games use the pattern.** Stubs are useful for navigating in the meantime.

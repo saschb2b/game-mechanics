@@ -108,6 +108,40 @@ export default defineConfig({
             { text: 'Sources', link: '/games/moonlighter-2/sources' },
           ]
         },
+        {
+          text: 'Path of Exile',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/path-of-exile/' },
+            { text: 'Passive tree', link: '/games/path-of-exile/passive-tree' },
+            { text: 'Skill gems', link: '/games/path-of-exile/skill-gems' },
+            { text: 'Ascendancy', link: '/games/path-of-exile/ascendancy' },
+            { text: 'Crafting & currency', link: '/games/path-of-exile/crafting-and-currency' },
+            { text: 'Trade & economy', link: '/games/path-of-exile/trade-and-economy' },
+            { text: 'Atlas of Worlds', link: '/games/path-of-exile/atlas' },
+            { text: 'Death & difficulty', link: '/games/path-of-exile/death-and-difficulty' },
+            { text: 'Design tensions', link: '/games/path-of-exile/design-tensions' },
+            { text: 'Patterns', link: '/games/path-of-exile/patterns' },
+            { text: 'Lessons', link: '/games/path-of-exile/lessons' },
+            { text: 'Sources', link: '/games/path-of-exile/sources' },
+          ]
+        },
+        {
+          text: 'Path of Exile 2',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/path-of-exile-2/' },
+            { text: 'Combat philosophy', link: '/games/path-of-exile-2/combat-philosophy' },
+            { text: 'Weapons grant skills', link: '/games/path-of-exile-2/weapons-grant-skills' },
+            { text: 'Skill gem rework', link: '/games/path-of-exile-2/skill-gem-rework' },
+            { text: 'Atlas (one-death)', link: '/games/path-of-exile-2/atlas-one-death' },
+            { text: 'Crafting pulled back', link: '/games/path-of-exile-2/crafting-pulled-back' },
+            { text: 'Design tensions', link: '/games/path-of-exile-2/design-tensions' },
+            { text: 'Patterns', link: '/games/path-of-exile-2/patterns' },
+            { text: 'Lessons', link: '/games/path-of-exile-2/lessons' },
+            { text: 'Sources', link: '/games/path-of-exile-2/sources' },
+          ]
+        },
       ],
       '/concepts/': [
         { text: 'All concepts', link: '/concepts/' },
@@ -136,6 +170,13 @@ export default defineConfig({
           items: [
             { text: 'Bounded roguelite', link: '/concepts/bounded-roguelite' },
             { text: 'Meta as variety, not power', link: '/concepts/meta-as-variety-not-power' },
+          ]
+        },
+        {
+          text: 'Studio philosophy',
+          collapsed: false,
+          items: [
+            { text: 'Vision-driven iteration', link: '/concepts/vision-driven-iteration' },
           ]
         },
       ],
