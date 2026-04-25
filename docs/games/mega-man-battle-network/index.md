@@ -19,6 +19,7 @@ patterns:
   - block-puzzle-stat-upgrades
   - iterative-yearly-refinement
 tags: [arpg, gba, deckbuilder, card-hybrid, capcom, handheld, series]
+og_image: images/mega-man-battle-network/combat-grid-custom-gauge.jpg
 ---
 
 # Mega Man Battle Network (series)

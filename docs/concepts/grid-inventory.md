@@ -8,6 +8,7 @@ related_patterns:
   - opportunity-cost-loadout
   - fusion-economy
   - bonus-with-drawback
+og_image: images/moonlighter-2/backpack-puzzle.jpg
 ---
 
 # Grid inventory

@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - aspirational-crafting
   - currency-as-crafting
+og_image: images/warframe/modding-upgrade-detail.jpg
 ---
 
 # Random perfect-roll economy

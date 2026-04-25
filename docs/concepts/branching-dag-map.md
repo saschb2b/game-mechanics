@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - handcrafted-pcg-hybrid
   - bonus-with-drawback
+og_image: images/moonlighter-2/dungeon-map-dag.jpg
 ---
 
 # Branching DAG map

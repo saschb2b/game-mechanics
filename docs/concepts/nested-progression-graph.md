@@ -7,6 +7,7 @@ related_patterns:
   - meta-progression-tree
   - atlas-as-build
   - mastery-as-meta-currency
+og_image: images/warframe/star-chart-1.jpg
 ---
 
 # Nested progression graph

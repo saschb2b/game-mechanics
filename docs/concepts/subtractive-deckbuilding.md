@@ -7,6 +7,7 @@ related_patterns:
   - loadout-as-budget
   - card-draft-with-skip
   - opportunity-cost-loadout
+og_image: images/slay-the-spire/shop-card-removal.jpg
 ---
 
 # Subtractive deckbuilding

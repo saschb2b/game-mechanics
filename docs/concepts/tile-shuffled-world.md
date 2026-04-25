@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - handcrafted-pcg-hybrid
   - permalife
+og_image: images/sparklite/vinelands-biome.jpg
 ---
 
 # Tile-shuffled world

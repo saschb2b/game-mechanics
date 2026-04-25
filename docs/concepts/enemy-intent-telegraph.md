@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - anti-screen-clear-combat
   - expiring-block
+og_image: images/slay-the-spire/combat-silent.jpg
 ---
 
 # Enemy intent telegraph

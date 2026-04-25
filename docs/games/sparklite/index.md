@@ -16,6 +16,7 @@ patterns:
   - fusion-economy
   - opportunity-cost-loadout
 tags: [roguelite, zelda-like, indie, single-player]
+og_image: images/sparklite/refuge-festival.jpg
 ---
 
 # Sparklite

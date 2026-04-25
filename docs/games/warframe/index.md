@@ -24,6 +24,7 @@ patterns:
   - subsume-system
   - incarnon-evolution
 tags: [looter-shooter, live-service, f2p, co-op, third-person]
+og_image: images/warframe/in-mission-hud.jpg
 ---
 
 # Warframe

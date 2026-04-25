@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - branching-dag-map
   - tile-shuffled-world
+og_image: images/sparklite/vinelands-biome.jpg
 ---
 
 # Handcrafted-PCG hybrid

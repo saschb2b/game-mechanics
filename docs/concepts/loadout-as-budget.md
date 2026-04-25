@@ -8,6 +8,7 @@ related_patterns:
   - opportunity-cost-loadout
   - subtractive-deckbuilding
   - grid-inventory
+og_image: images/sparklite/adventure-log-ui.jpg
 ---
 
 # Loadout as budget

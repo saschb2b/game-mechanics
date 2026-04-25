@@ -16,6 +16,7 @@ patterns:
   - vision-driven-iteration
   - aspirational-crafting
 tags: [arpg, soulslike-leaning, f2p, sequel, early-access]
+og_image: images/path-of-exile-2/boss-jamanra.jpg
 ---
 
 # Path of Exile 2: The Endless Vault

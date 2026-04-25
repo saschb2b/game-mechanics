@@ -18,6 +18,7 @@ patterns:
   - aspirational-crafting
   - random-perfect-roll-economy
 tags: [arpg, looter, f2p, live-service, hardcore, deep-builds]
+og_image: images/path-of-exile/atlas-of-worlds.jpg
 ---
 
 # Path of Exile

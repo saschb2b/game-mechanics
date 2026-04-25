@@ -14,6 +14,7 @@ hero:
     - theme: alt
       text: About
       link: /about
+og_image: images/path-of-exile/atlas-of-worlds.jpg
 ---
 
 <div class="games-grid">

@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 const siteUrl = 'https://saschb2b.github.io/game-mechanics'
+const defaultDescription = 'A designer\'s reference of game mechanics, reward loops, and the patterns that recur across roguelikes, ARPGs, deckbuilders, and looters. Per-game deep dives plus cross-game concept pages.'
+const defaultOgImage = `${siteUrl}/images/path-of-exile/atlas-of-worlds.jpg`
 
 export default defineConfig({
   title: 'game-mechanics',
-  description: 'A personal knowledge base of game mechanics, design patterns, reward loops, and what they teach.',
+  description: defaultDescription,
   base: '/game-mechanics/',
   lang: 'en-US',
   lastUpdated: true,
@@ -21,9 +23,63 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: 'game design, game mechanics, reward loops, roguelike, deckbuilder, looter, ludonarrative, godot' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'game-mechanics' }],
-    ['meta', { property: 'og:title', content: 'game-mechanics' }],
-    ['meta', { property: 'og:url', content: siteUrl }],
+    ['meta', { property: 'og:locale', content: 'en_US' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@saschb2b' }],
+    ['meta', { name: 'twitter:creator', content: '@saschb2b' }],
+    ['meta', { name: 'theme-color', content: '#1a1a1a' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/game-mechanics/favicon.svg' }],
   ],
+
+  transformHead({ pageData }) {
+    const fm = pageData.frontmatter || {}
+
+    // siteUrl already contains the GitHub Pages base path, so URLs are
+    // siteUrl + '/' + <relative-page-path>. Don't concat siteData.base again.
+    const rel = (pageData.relativePath || '')
+      .replace(/\.md$/, '')
+      .replace(/(^|\/)index$/, '$1')
+      .replace(/\/$/, '')
+    const url = rel ? `${siteUrl}/${rel}/` : `${siteUrl}/`
+
+    // Title: page title falls back to site title
+    const title = fm.title || pageData.title || 'game-mechanics'
+    const fullTitle = title === 'game-mechanics' ? title : `${title} · game-mechanics`
+
+    // Description priority:
+    //   1. explicit fm.description
+    //   2. game-page synthesis: iconic_mechanic — core_dialectic
+    //   3. site default
+    let description = fm.description
+    if (!description && fm.iconic_mechanic) {
+      description = fm.core_dialectic
+        ? `${fm.iconic_mechanic} — ${fm.core_dialectic}.`
+        : fm.iconic_mechanic
+    }
+    if (!description) description = defaultDescription
+
+    // Image priority: fm.og_image (rooted at /public) → site default
+    let image = defaultOgImage
+    if (fm.og_image) {
+      image = fm.og_image.startsWith('http')
+        ? fm.og_image
+        : `${siteUrl}/${fm.og_image.replace(/^\//, '')}`
+    }
+
+    return [
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:title', content: fullTitle }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { property: 'og:image:width', content: '1920' }],
+      ['meta', { property: 'og:image:height', content: '1080' }],
+      ['meta', { name: 'twitter:title', content: fullTitle }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['meta', { name: 'twitter:image', content: image }],
+      ['meta', { name: 'description', content: description }],
+    ]
+  },
 
   themeConfig: {
     siteTitle: 'game-mechanics',

@@ -24,6 +24,7 @@ patterns:
   - pity-system-anti-streak
   - handcrafted-pcg-hybrid
 tags: [deckbuilder, roguelike, turn-based, single-player, indie]
+og_image: images/slay-the-spire/combat-defect.jpg
 ---
 
 # Slay the Spire

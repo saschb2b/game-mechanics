@@ -6,6 +6,7 @@ patterns:
 related_patterns:
   - aspirational-crafting
   - random-perfect-roll-economy
+og_image: images/path-of-exile/atlas-of-worlds.jpg
 ---
 
 # Currency as crafting

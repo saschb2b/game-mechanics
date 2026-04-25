@@ -18,6 +18,7 @@ patterns:
   - opportunity-cost-loadout
   - meta-as-variety-not-power
 tags: [roguelite, action-rpg, shopkeeper, indie, isometric-3d, sequel]
+og_image: images/moonlighter-2/backpack-puzzle.jpg
 ---
 
 # Moonlighter 2: The Endless Vault

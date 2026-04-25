@@ -7,6 +7,7 @@ related_patterns:
   - nested-progression-graph
   - earned-identity-gating
   - iterative-yearly-refinement
+og_image: images/xenoblade-chronicles/xc1-bionis-landscape.jpg
 ---
 
 # Late-introduced mechanics

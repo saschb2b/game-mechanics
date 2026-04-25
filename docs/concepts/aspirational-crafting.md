@@ -7,6 +7,7 @@ related_patterns:
   - random-perfect-roll-economy
   - currency-as-crafting
   - vision-driven-iteration
+og_image: images/path-of-exile/pinnacle-boss-fear.jpg
 ---
 
 # Aspirational crafting

@@ -15,6 +15,7 @@ patterns:
   - bonus-with-drawback
   - enemy-intent-telegraph
 tags: [jrpg, action-rpg, single-player, series]
+og_image: images/xenoblade-chronicles/xc1-bionis-landscape.jpg
 ---
 
 # Xenoblade Chronicles
