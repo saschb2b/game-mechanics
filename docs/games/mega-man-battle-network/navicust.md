@@ -13,6 +13,9 @@ patterns:
 
 Introduced in **BN3 (2002)** as a replacement for the linear stat-upgrade system. The single most-original meta-progression mechanic the series produced — and a textbook [`grid-inventory`](/concepts/grid-inventory) implementation that **pre-dates Sparklite by 17 years** and Moonlighter 2 by 23.
 
+![NaviCust 4×4 grid with pink, white, and grey program blocks placed in cells; NormStyl indicator on the left and RUN button on the right](/images/mega-man-battle-network/navicust-grid.png)
+*The NaviCust customization screen in BN3. Pink program (UnderSht — keeps you at 1 HP on otherwise-lethal hits), white programs (Atk+1, Speed+1), grey buster mods. The third row is the Command Line — solid programs must touch it; striped programs must not. Source: image captured during a community Let's Play of MMBN3 (CC) on the [LP Archive](https://lparchive.org/Mega-Man-Battle-Network-3-Blue/Update%2009/); underlying game © Capcom.*
+
 ## Structure
 
 A small grid (4×4 in BN3, expandable to 5×5; effectively doubled in BN6 via off-grid overflow). The player drops **Tetromino-shaped programs** onto the grid: HP+50, Charge+1, Shield, AirShoes, FloatShoes, Custom+1, Buster+1, etc. Each program is a 1–4 cell shape — same Tetris-style geometry as Sparklite's patches.

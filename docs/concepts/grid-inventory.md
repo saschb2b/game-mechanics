@@ -45,10 +45,10 @@ This isn't a "BN was a precursor" trivia note. It's a **pattern stability indica
 
 ### Visual contrast
 
-| Mega Man Battle Network — combat (NaviCust upgrades visible in HUD) | Sparklite — patches awaiting placement | Moonlighter 2 — backpack with synergy markers |
+| Mega Man Battle Network — NaviCust 4×4 grid | Sparklite — patches awaiting placement | Moonlighter 2 — backpack with synergy markers |
 |---|---|---|
-| ![BN combat with Custom Gauge](/images/mega-man-battle-network/combat-grid-custom-gauge.jpg) | ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) |
-| Tetris programs on a 4×4 grid feed buffs into combat. Opt-in **Bug** debuffs let you bend the rules to fit more. | Different patches have different *shapes*; the puzzle is fitting them. | All relics are 1×1; the puzzle is *what's next to what*. |
+| ![NaviCust 4x4 grid with pink, white, and grey programs placed; NormStyl on the left, RUN on the right](/images/mega-man-battle-network/navicust-grid.png) | ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) |
+| Tetris programs on a 4×4 grid; the third row is the Command Line. Solid programs must touch it; striped programs must not. Violations cause **Bugs** (debuffs) — opt-in to bend the rules. | Different patches have different *shapes*; the puzzle is fitting them. | All relics are 1×1; the puzzle is *what's next to what*. |
 
 Three teams, three slightly different rule schemes, the same core insight: **spatial packing > flat lists.**
 
