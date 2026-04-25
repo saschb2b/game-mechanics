@@ -98,6 +98,21 @@ export default defineConfig({
       '/games/': [
         { text: 'All games', link: '/games/' },
         {
+          text: 'Hades',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/hades/' },
+            { text: 'Boons & gods', link: '/games/hades/boons-and-gods' },
+            { text: 'Chamber paths', link: '/games/hades/chamber-and-paths' },
+            { text: 'Death as narrative', link: '/games/hades/death-as-narrative' },
+            { text: 'Meta-progression', link: '/games/hades/meta-progression' },
+            { text: 'Series evolution (H1 → H2)', link: '/games/hades/series-evolution' },
+            { text: 'Patterns', link: '/games/hades/patterns' },
+            { text: 'Lessons', link: '/games/hades/lessons' },
+            { text: 'Sources', link: '/games/hades/sources' },
+          ]
+        },
+        {
           text: 'Mega Man Battle Network',
           collapsed: false,
           items: [

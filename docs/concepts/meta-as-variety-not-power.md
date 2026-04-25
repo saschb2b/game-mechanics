@@ -28,6 +28,7 @@ The "variety, not power" stance says: **unlock more cards, more relics, more cha
 |---|---|---|
 | **[Slay the Spire](/games/slay-the-spire/ascension)** | New cards, new relics, new characters, Ascension difficulty levels | No starting HP/damage/energy bumps. Ever. |
 | **[Moonlighter 2](/games/moonlighter-2/progression)** | New recipes, new perks, new shop decorations, new village NPC services | Some permanent power exists (blacksmith stat upgrades) — partial commitment |
+| **[Hades](/games/hades/meta-progression)** | Mirror talents (mostly variety effects); Arcana cards (combinatorial loadout); weapon Aspects; god-favor unlocks | Mirror does include some +HP / +damage; Arcana grid leans variety hard. Softer than Spire; harder than Moonlighter 2 — a *middle stance* |
 
 ### The strict vs. relaxed stance
 

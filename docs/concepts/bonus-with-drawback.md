@@ -33,6 +33,8 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Path of Exile — keystones](/games/path-of-exile/passive-tree)** | Game-warping rule changes (Chaos Inoculation = no chaos damage; Resolute Technique = always hit; Mind Over Matter = mana absorbs damage) | Equally game-warping cost (max life set to 1; cannot crit; mana becomes a defence pool) | Notable nodes on the passive tree; one passive point each |
 | **[Mega Man Battle Network — NaviCust Bugs](/games/mega-man-battle-network/navicust)** | Fit one more buff program into the grid by violating adjacency rules | Persistent debuff in combat (panel cracks, HP regen loss, button corruption) | Opt-in: place a program illegally to take the bug |
 | **[Mega Man Battle Network — Beast Out](/games/mega-man-battle-network/power-forms)** | Temporary super-form: massive ATK / SPD / auto-counter (BN6) | When timer runs out → **Bug Out / Beast Over** = Tired emotion locks Full Synchro for 1+ turns | Per-battle, costs Emotion Counter |
+| **[Hades — Pact of Punishment](/games/hades/meta-progression)** | Heat counter for clearing run = bonus reward (currency, gem caches, gift items) | Each Heat level adds a Condition that makes runs harder (enemies stronger, shop costs more, less healing, time-pressured bosses) | Hub menu, opt-in difficulty stack post-credits |
+| **[Hades — Hammers of Daedalus](/games/hades/boons-and-gods)** | Weapon-altering upgrade (e.g. Sister Blades become a forward lunge) | Forecloses 1–2 alternative hammer paths for the run; sometimes nerfs another stat (slower swing, less range) | 1–2 chambers per run |
 
 ### Visual reference
 

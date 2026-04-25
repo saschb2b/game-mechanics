@@ -26,6 +26,7 @@ A bounded roguelite says: **the run-replay structure is the gameplay shape, but 
 |---|---|---|---|
 | **[Sparklite](/games/sparklite/world-and-loop)** | 10–30 min | ~20-hour campaign | Five Titans defeated → credits |
 | **[Moonlighter 2](/games/moonlighter-2/dual-life-loop)** | 30–60 min | Three biomes (EA scope) → final-release content | Final story / biome boss |
+| **[Hades](/games/hades/)** | 20–40 min | ~30–40h to credits, ~80–100h to "true ending" | Final boss → credits → opt-in Pact-of-Punishment difficulty for replay |
 
 ### Why these games chose to be bounded
 

@@ -27,6 +27,7 @@ This is one of the most-imitated patterns in modern roguelites. Slay the Spire p
 |---|---|---|---|
 | **[Slay the Spire](/games/slay-the-spire/map-and-nodes)** | Vertical DAG, 15 floors per act | Monster, Elite, Event, Shop, Rest, Treasure, Boss | Whole act visible from floor 1 |
 | **[Moonlighter 2](/games/moonlighter-2/dungeon-map)** | Horizontal DAG per biome | Chest, Event, Potion, Blacksmith, Recipe, Elite, Miniboss, Boss, Ice/Thunder Perk | Full biome path visible at start |
+| **[Hades](/games/hades/chamber-and-paths)** | Per-biome chamber DAG, *one chamber visible ahead* | Boon (per god), Hammer, Gold, Healing, Charon shop, Nectar, biome-specific currencies | Just the next chamber's reward — no whole-biome view; the player commits chamber-by-chamber |
 
 ### Visual contrast
 

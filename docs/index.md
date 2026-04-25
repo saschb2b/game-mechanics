@@ -19,6 +19,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 
 <div class="games-grid">
 
+<a class="game-card" href="games/hades/">
+  <img class="gc-img" src="/images/hades/h2-title-screen.jpg" alt="Hades II title screen with Melinoë">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Hades</h3>
+    <p class="gc-iconic">Boon-draft + dialogue-after-death · death as story beat, not failure</p>
+    <div class="gc-meta">
+      <span>2020–2025</span><span>Action roguelite</span><span>Series</span>
+    </div>
+  </div>
+</a>
+
 <a class="game-card" href="games/mega-man-battle-network/">
   <img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge">
   <div class="gc-overlay"></div>
