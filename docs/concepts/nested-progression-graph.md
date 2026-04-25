@@ -13,6 +13,9 @@ related_patterns:
 
 > **Lemma:** Long-running games stack **multiple orthogonal progression axes** instead of one big track. Each axis is its own graph (tree, chart, currency rank); the player picks an edge each session. Adding a new system *layers in* rather than replacing — old axes keep their meaning.
 
+![Warframe Star Chart — solar system overview with planet nodes](/images/warframe/star-chart-1.jpg)
+*Warframe's Star Chart — one of nine progression axes. Beating Junctions unlocks new planets *and* new sub-systems (Archwing, Operator, Railjack), each of which is its own separate graph layered alongside this one. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+
 ## What it solves
 
 Linear XP is a thin treadmill. Once a player hits the cap, the game has nothing left to give except harder content. Live-service games solve this by exploding "progression" into a **graph of progressions** — character XP is one axis among many, and the others stay productive long after the level cap is hit.
@@ -28,6 +31,15 @@ The discipline is **orthogonality**. New systems must do something the old syste
 | **[Warframe](/games/warframe/progression-layers)** | Star Chart · Mastery Rank · Quest progression · Focus (5 trees) · Syndicates (6 factions) · Helminth (subsume) · Steel Path · Incarnon · Arcanes | Each layer was added in a different year (2013–2024). Every new system added a parallel axis, never deprecated an old one. | Mastery Rank rewards *breadth* (rank everything to 30), making time-played proportional to content-experienced rather than to power. |
 
 The cleanest test of the pattern: **what does a player do once they hit the level cap?** Single-axis games have nothing. Nested-graph games have a dozen edges to follow.
+
+### Visual contrast — three games, three meta-graphs
+
+| Warframe — Star Chart | Path of Exile — Atlas of Worlds | Path of Exile 2 — Endgame World Map |
+|---|---|---|
+| ![Warframe Star Chart](/images/warframe/star-chart-1.jpg) | ![PoE Atlas of Worlds](/images/path-of-exile/atlas-of-worlds.jpg) | ![PoE2 Endgame World Map](/images/path-of-exile-2/endgame-world-map.jpg) |
+| Solar system overview: planets gated by Junctions. Each planet hosts mission types and entire sub-systems (Operator, Railjack). | ~115 map nodes connected in a web. Each map has its own affixes; the *Atlas tree* is a separate ~700-node passive tree on top. | Continuous overworld where corruption visibly spreads through completed nodes. Same role as PoE1's Atlas, different topology. |
+
+These are three different shapes (radial chart, web, contiguous overworld), but each is **a meta-progression axis the player builds out alongside the character**. None of them are character XP; all three are productive long after the level cap.
 
 ## When to use this pattern
 

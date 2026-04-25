@@ -13,6 +13,9 @@ related_patterns:
 
 > **Lemma:** A "perfect" craftable item must be **reachable but rarely reached**. Determinism in crafting is a *bug* the design tolerates only in regulated doses; whenever a crafting subsystem makes top-tier items easy, it gets nerfed. The chase *is* the game.
 
+![PoE Incarnation of Fear pinnacle boss with fire mechanics](/images/path-of-exile/pinnacle-boss-fear.jpg)
+*PoE pinnacle-boss combat — the wall the perfect-rolled gear is *for*. Aspirational crafting only earns its keep if there's a chase tall enough to need the asymptote-tier item. Pinnacle bosses are that wall. Source: [Steam](https://store.steampowered.com/app/238960/).*
+
 ## What it solves
 
 The naive design move for crafting is: *"give players control over their items."* Add deterministic mods, targeted reforges, copy-paste affixes. Players celebrate.

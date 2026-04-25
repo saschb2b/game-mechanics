@@ -12,6 +12,9 @@ related_patterns:
 
 > **Lemma:** Item identity is shaped by **multiple independently-rolled stats**. Most rolls are average; the joint distribution of "all stats are great" is astronomically rare. The rare instances become **traded market commodities** — per-item unique, expensive, identity-defining for the buyer's build.
 
+![Warframe mod detail showing slotted mods, polarities, and rolled stat magnitudes](/images/warframe/modding-upgrade-detail.jpg)
+*Warframe's mod detail screen — the Riven slot is one of these. Each Riven mod rolls 2–3 random positive stats and sometimes a random negative; perfect rolls become tradable market commodities denominated in Platinum. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+
 ## What it solves
 
 A flat "best item" design has nothing to chase past acquisition. You found the legendary; the legendary is the same as everyone else's; done.

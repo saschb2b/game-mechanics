@@ -22,6 +22,8 @@ The most iconic PoE1 visual — the **passive skill tree** — is not in the Ste
 
 Also missing: a 6-link inventory shot, the modding currency stash, the trade site UI.
 
+**Confirmed (2026-04): the Steam carousel for app 238960 has 20 screenshots, *all combat shots*.** No currency tab, no passive tree, no 6-link gear, no trade UI. Future visuals for these will need to come from poewiki.net (which has individual orb icons but few in-context UI screenshots), pathofexile.com press kit, or community capture.
+
 ## License
 
 Educational fair use; will be removed on rights-holder request.

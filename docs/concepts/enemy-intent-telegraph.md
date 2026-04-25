@@ -12,6 +12,9 @@ related_patterns:
 
 > **Lemma:** The enemy **shows what they're about to do** before the player commits to a response. This converts combat from "RNG fight" into a **complete-information optimization puzzle** at the per-turn (or per-encounter) timescale. Randomness moves out of *what the enemy will do* and into *what resources the player has to respond.*
 
+![Slay the Spire combat — intent icons above each enemy show exactly what's coming next turn](/images/slay-the-spire/combat-silent.jpg)
+*Slay the Spire's intent icons — the canonical implementation. The icon above each enemy shows the next action (attack with damage number, buff, defend, multi-hit count). Combat is a turn-by-turn optimization puzzle, not a coin flip. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+
 ## What it solves
 
 A combat system where the enemy's next action is hidden has two failure modes:
@@ -40,6 +43,18 @@ A few are worth contrasting:
 - **PoE1 is the explicit counter-example.** Screen-clearing combat dissolves telegraphs into noise; PoE2's slowdown was greenlit partly to restore them. (See `anti-screen-clear-combat`.)
 
 This pattern is **the most-imitated single mechanic in the modern roguelike-deckbuilder** — every Spire-like ships intent icons. It's also the keystone of the soulslike combat tradition (Souls / Elden Ring / Sekiro) — wind-up + tell + dodge window. And it predates both: tile-grid telegraphs were already the combat language of Battle Network in 2001.
+
+### Visual contrast
+
+| Slay the Spire | Mega Man Battle Network | Path of Exile 2 |
+|---|---|---|
+| ![Slay the Spire intent icons](/images/slay-the-spire/combat-defect.jpg) | ![MMBN 6×3 grid combat with Custom Gauge](/images/mega-man-battle-network/combat-grid-custom-gauge.jpg) | ![PoE2 boss Cualli mid-windup](/images/path-of-exile-2/boss-cualli.jpg) |
+| Icon above each enemy = next action. Combat is a per-turn allocation puzzle. | Telegraph through the grid: panels flash, rows highlight, hazards mark the floor. Reaction is positional. | Boss wind-ups + ground markers. Real-time, soulslike-leaning. The player dodges, not the build. |
+
+| Sparklite | Moonlighter 2 |
+|---|---|
+| ![Sparklite top-down combat](/images/sparklite/combat-wrench.jpg) | ![Moonlighter 2 boss arena with bullet patterns](/images/moonlighter-2/boss-fight.jpg) |
+| Standard 2D wind-ups + flashes. Load-bearing for the tight 3-heart starter HP. | 3D ground markers + projectile fan-outs. Telegraph as the floor of fairness for locked perk builds. |
 
 ## When to use this pattern
 

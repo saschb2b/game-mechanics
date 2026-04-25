@@ -13,6 +13,9 @@ related_patterns:
 
 > **Lemma:** A deck that's *too big* is *worse*, because every card dilutes the chance of drawing the cards you actually want. The strongest play is **carving out a tight loop**, not stacking power on top of stuff. Skipping a card is a first-class option; removing one is a power move.
 
+![Slay the Spire merchant shop — Card Removal Service panel highlighted](/images/slay-the-spire/shop-card-removal.jpg)
+*Spire's Card Removal Service. Pay gold *to make your deck smaller.* The escalating cost is the design's pulse — removing one card is cheap, removing five is the run's economy. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+
 ## What it solves
 
 The instinctive deck-shape in TCGs (Magic, Hearthstone) is **build up** — add the strong cards, fill to deck size, win. Modern roguelike-deckbuilders inverted this: the deck has a starting size, additions dilute it, and the winning strategy is *thinning to the synergies you've committed to.*
@@ -33,6 +36,13 @@ The inversion is what defines the modern roguelike-deckbuilder genre.
 | **[Mega Man Battle Network](/games/mega-man-battle-network/folder-and-chip-codes)** | 30-chip Folder (fixed size) | *Size is fixed, so subtraction is in code spread.* Mono-code or name-stacked Folders draw co-playable hands; spread-code Folders draw uncoordinated hands. | Letter-code coherence, name-stacking (4 of one chip), ★ wildcards as flex slots | Opening 5-chip Hand drawn from Folder; the *letter-code rule* gates which Hand chips are co-playable per turn |
 
 The two cases sit on opposite ends of the constraint axis but converge on the same insight: **focus dominates breadth.** Spire achieves it through deck-size shrinkage; BN achieves it through code-coherence within a fixed-size deck. Same effect, different lever.
+
+### Visual contrast
+
+| Slay the Spire — Compendium | Mega Man Battle Network — Folder editor |
+|---|---|
+| ![Spire compendium of Ironclad cards](/images/slay-the-spire/compendium-cards.jpg) | ![BN Folder editor showing Cannon A×2, Cannon B×2, Shotgun N×3](/images/mega-man-battle-network/folder-cannon-shotgun.jpg) |
+| ~75 cards per character — but the run's deck is 15–20. Subtraction is *literal*: pay to remove. | 30 chips per Folder, fixed. Subtraction is in the *code spread*: stack one letter to make hands play together. |
 
 ## When to use this pattern
 

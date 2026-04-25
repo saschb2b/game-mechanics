@@ -12,6 +12,9 @@ related_patterns:
 
 > **Lemma:** Author **rooms / tiles / chunks** by hand; let the procedural layer **decide which tiles connect and where.** Each descent feels like a fresh map, but the moments inside it are still hand-tuned. Cheaper than full PCG; more variety than fully static.
 
+![Sparklite Vinelands biome — hand-authored tile, randomly placed](/images/sparklite/vinelands-biome.jpg)
+*Sparklite's Vinelands — one of five biomes, each composed of hand-authored tiles shuffled into a fresh layout each descent. The tile *content* is static (this trap room, this NPC encounter); the *positions* shift. Source: [Steam](https://store.steampowered.com/app/943140/Sparklite/).*
+
 ## What it solves
 
 Two opposite failure modes for repeatable level content:
@@ -31,6 +34,13 @@ The result feels fresh-each-run because the *map* is fresh, while preserving the
 | **[Warframe](/games/warframe/combat)** | Hand-crafted tile rooms per faction (Grineer asteroid, Corpus ship, Infested ship, Earth forest, Orokin tower …) | Procedurally connected tile-paths per mission; mission *type* (Survival, Defense, Capture) sets the objective | Tile aesthetics + room layouts are static; which tiles connect, in what order, varies per mission instance |
 
 Worth flagging: **Warframe shipped this approach in 2013; Sparklite shipped it in 2019.** Sparklite's devs explicitly named the design choice — they rejected procedural-dungeon generation because *"very few puzzles work well in a repeated context and procedurally reproducing the elegant progression of puzzles you see in a Zelda dungeon is not something we wanted to tackle."* That's the cleanest articulation of the pattern's motivation.
+
+### Visual contrast
+
+| Sparklite — Vinelands | Sparklite — Shifting Sands | Warframe — in-mission |
+|---|---|---|
+| ![Sparklite Vinelands biome](/images/sparklite/vinelands-biome.jpg) | ![Sparklite Shifting Sands biome](/images/sparklite/shifting-sands-biome.jpg) | ![Warframe in-mission HUD with tile-set visible](/images/warframe/in-mission-hud.jpg) |
+| Each biome has its own tile pool. The *biome* is fixed (compass direction); the *layout* shuffles per descent. | A different tile pool, same shuffle algorithm. Same fresh-feeling, same authored set-pieces. | Tile-set procedurally connected on every mission. Mission *type* (Survival, Defense, Capture) sets the objective; tile-set sets the aesthetic. |
 
 ## When to use this pattern
 

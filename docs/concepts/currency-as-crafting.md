@@ -12,6 +12,9 @@ related_patterns:
 
 > **Lemma:** Drop the abstract "gold" currency. Make every "currency" a **consumable that performs a specific operation on an item**. Trade prices are denominated in those same currencies — so every transaction is also a sink, and every drop carries real opportunity cost.
 
+![PoE Atlas of Worlds — the endgame map graph](/images/path-of-exile/atlas-of-worlds.jpg)
+*PoE's endgame: every map node is a currency tap. Maps drop currency that crafts gear *or* buys gear from other players — same Chaos Orb does both. The economy is the system. Source: [Steam](https://store.steampowered.com/app/238960/).*
+
 ## What it solves
 
 Traditional games have **gold** — an abstract trading medium with no intrinsic effect. Monsters drop infinite gold; the only sinks are vendor purchases and gambling. Inflation is structural: gold supply grows monotonically, demand doesn't keep pace, and the in-game economy degrades over the lifetime of the game.
