@@ -24,7 +24,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for:
 - Sub-page split rule
 - Local dev commands
 
-Open ongoing decisions are tracked in [TODO.md](./TODO.md).
 LLM-specific conventions are in [CLAUDE.md](./CLAUDE.md).
 
 ## Stack

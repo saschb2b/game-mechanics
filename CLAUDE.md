@@ -34,4 +34,4 @@ There are two workflows, both fully documented in CONTRIBUTING.md. Read the rele
 
 **`/concepts/` is the canonical curated surface for design patterns.** Game `patterns.md` tables link out to `/concepts/<x>` for curated patterns; uncurated patterns appear as plain `` `pattern-name` `` (no link). There is no `/patterns/` directory — `patterns:` frontmatter is a machine-readable tag list only.
 
-Open decisions are in [TODO.md](./TODO.md).
+Per-game image wishlists live in each `docs/public/images/<game>/CREDITS.md` (no top-level TODO).
