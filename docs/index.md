@@ -29,13 +29,21 @@ hero:
     <span class="stat-num">53</span>
     <span class="stat-label">Patterns indexed</span>
   </div>
-  <div class="stat-card">
-    <span class="stat-num">2k+</span>
-    <span class="stat-label">Hours played</span>
-  </div>
 </div>
 
 <div class="games-grid">
+
+<a class="game-card" href="games/moonlighter-2/">
+  <img class="gc-img" src="/images/moonlighter-2/showcase-pricing.jpg" alt="Moonlighter 2 showcase pricing UI">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Moonlighter 2</h3>
+    <p class="gc-iconic">Backpack-puzzle pricing + dual-life loop · greed vs gold</p>
+    <div class="gc-meta">
+      <span>2025</span><span>Roguelite + shop sim</span><span>Premium</span>
+    </div>
+  </div>
+</a>
 
 <a class="game-card" href="games/path-of-exile/">
   <img class="gc-img" src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas of Worlds">
@@ -44,19 +52,7 @@ hero:
     <h3 class="gc-title">Path of Exile</h3>
     <p class="gc-iconic">1500-node passive tree + skill gems as gear · friction over convenience</p>
     <div class="gc-meta">
-      <span>F2P</span><span>Action RPG</span><span>1000+ hrs</span>
-    </div>
-  </div>
-</a>
-
-<a class="game-card" href="games/warframe/">
-  <img class="gc-img" src="/images/warframe/in-mission-hud.jpg" alt="Warframe in-mission HUD">
-  <div class="gc-overlay"></div>
-  <div class="gc-content">
-    <h3 class="gc-title">Warframe</h3>
-    <p class="gc-iconic">Forma + Riven Disposition · power fantasy vs grind</p>
-    <div class="gc-meta">
-      <span>F2P</span><span>Looter-shooter</span><span>1000+ hrs</span>
+      <span>2013</span><span>Action RPG</span><span>F2P</span>
     </div>
   </div>
 </a>
@@ -68,7 +64,7 @@ hero:
     <h3 class="gc-title">Path of Exile 2</h3>
     <p class="gc-iconic">Slowed combat + weapons grant skills · re-litigating PoE1's drift</p>
     <div class="gc-meta">
-      <span>F2P</span><span>Early Access</span><span>Sequel</span>
+      <span>2024</span><span>Action RPG</span><span>F2P · EA</span>
     </div>
   </div>
 </a>
@@ -80,19 +76,7 @@ hero:
     <h3 class="gc-title">Slay the Spire</h3>
     <p class="gc-iconic">Card draft + Ascension staircase · risk vs reward, fractally</p>
     <div class="gc-meta">
-      <span>Premium</span><span>Roguelike deckbuilder</span>
-    </div>
-  </div>
-</a>
-
-<a class="game-card" href="games/moonlighter-2/">
-  <img class="gc-img" src="/images/moonlighter-2/showcase-pricing.jpg" alt="Moonlighter 2 showcase pricing UI">
-  <div class="gc-overlay"></div>
-  <div class="gc-content">
-    <h3 class="gc-title">Moonlighter 2</h3>
-    <p class="gc-iconic">Backpack-puzzle pricing + dual-life loop · greed vs gold</p>
-    <div class="gc-meta">
-      <span>Premium</span><span>Roguelite + shop sim</span><span>EA</span>
+      <span>2019</span><span>Roguelike deckbuilder</span><span>Premium</span>
     </div>
   </div>
 </a>
@@ -104,7 +88,19 @@ hero:
     <h3 class="gc-title">Sparklite</h3>
     <p class="gc-iconic">Patch-board grid inventory + permalife · power growth vs spatial budget</p>
     <div class="gc-meta">
-      <span>Premium</span><span>Action-adventure roguelite</span>
+      <span>2019</span><span>Action-adventure roguelite</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
+<a class="game-card" href="games/warframe/">
+  <img class="gc-img" src="/images/warframe/in-mission-hud.jpg" alt="Warframe in-mission HUD">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Warframe</h3>
+    <p class="gc-iconic">Forma + Riven Disposition · power fantasy vs grind</p>
+    <div class="gc-meta">
+      <span>2013</span><span>Looter-shooter</span><span>F2P</span>
     </div>
   </div>
 </a>
@@ -173,44 +169,9 @@ Pattern-first pages with cross-game contrast tables. Each one shows how multiple
 
 <div class="concept-callouts">
 
-<a class="concept-callout" href="concepts/loadout-as-budget">
-  <p class="cc-name">Loadout as budget</p>
-  <p class="cc-lemma">Power lives inside a fixed budget — points, cells, slots, hand size. Adding more of one means having less of another.</p>
-</a>
-
-<a class="concept-callout" href="concepts/handcrafted-pcg-hybrid">
-  <p class="cc-name">Handcrafted-PCG hybrid</p>
-  <p class="cc-lemma">Author content units (rooms, tiles, encounters); randomize the layout. The modern roguelite default.</p>
-</a>
-
-<a class="concept-callout" href="concepts/branching-dag-map">
-  <p class="cc-name">Branching DAG map</p>
-  <p class="cc-lemma">Partial-info graph of node types. Player picks the run's shape before the first encounter.</p>
-</a>
-
 <a class="concept-callout" href="concepts/bonus-with-drawback">
   <p class="cc-name">Bonus with drawback</p>
   <p class="cc-lemma">Game-defining items pair real upside with real cost. Forces commitment, not collection.</p>
-</a>
-
-<a class="concept-callout" href="concepts/meta-as-variety-not-power">
-  <p class="cc-name">Meta as variety, not power</p>
-  <p class="cc-lemma">Unlock options, never raise base stats. Each new run is more <em>interesting</em>, not easier.</p>
-</a>
-
-<a class="concept-callout" href="concepts/vision-driven-iteration">
-  <p class="cc-name">Vision-driven iteration</p>
-  <p class="cc-lemma">Balance decisions driven by stated philosophy vs. by player metrics. PoE vs. Slay the Spire.</p>
-</a>
-
-<a class="concept-callout" href="concepts/grid-inventory">
-  <p class="cc-name">Grid inventory</p>
-  <p class="cc-lemma">Items live on an explicit 2D grid. <em>Where</em> you place them — not just <em>how many</em> — determines value.</p>
-</a>
-
-<a class="concept-callout" href="concepts/fusion-economy">
-  <p class="cc-name">Fusion economy</p>
-  <p class="cc-lemma">Multiple low-tier items consolidate into one higher-tier item. The release valve for grid clog.</p>
 </a>
 
 <a class="concept-callout" href="concepts/bounded-roguelite">
@@ -218,9 +179,44 @@ Pattern-first pages with cross-game contrast tables. Each one shows how multiple
   <p class="cc-lemma">A roguelite that <em>ends</em>. Real campaign, real credits, ~20–40 hour arc.</p>
 </a>
 
+<a class="concept-callout" href="concepts/branching-dag-map">
+  <p class="cc-name">Branching DAG map</p>
+  <p class="cc-lemma">Partial-info graph of node types. Player picks the run's shape before the first encounter.</p>
+</a>
+
+<a class="concept-callout" href="concepts/fusion-economy">
+  <p class="cc-name">Fusion economy</p>
+  <p class="cc-lemma">Multiple low-tier items consolidate into one higher-tier item. The release valve for grid clog.</p>
+</a>
+
+<a class="concept-callout" href="concepts/grid-inventory">
+  <p class="cc-name">Grid inventory</p>
+  <p class="cc-lemma">Items live on an explicit 2D grid. <em>Where</em> you place them — not just <em>how many</em> — determines value.</p>
+</a>
+
+<a class="concept-callout" href="concepts/handcrafted-pcg-hybrid">
+  <p class="cc-name">Handcrafted-PCG hybrid</p>
+  <p class="cc-lemma">Author content units (rooms, tiles, encounters); randomize the layout. The modern roguelite default.</p>
+</a>
+
+<a class="concept-callout" href="concepts/loadout-as-budget">
+  <p class="cc-name">Loadout as budget</p>
+  <p class="cc-lemma">Power lives inside a fixed budget — points, cells, slots, hand size. Adding more of one means having less of another.</p>
+</a>
+
+<a class="concept-callout" href="concepts/meta-as-variety-not-power">
+  <p class="cc-name">Meta as variety, not power</p>
+  <p class="cc-lemma">Unlock options, never raise base stats. Each new run is more <em>interesting</em>, not easier.</p>
+</a>
+
 <a class="concept-callout" href="concepts/opportunity-cost-loadout">
   <p class="cc-name">Opportunity-cost loadout</p>
   <p class="cc-lemma">Every loadout choice forecloses other choices. The forecast is forced.</p>
+</a>
+
+<a class="concept-callout" href="concepts/vision-driven-iteration">
+  <p class="cc-name">Vision-driven iteration</p>
+  <p class="cc-lemma">Balance decisions driven by stated philosophy vs. by player metrics. PoE vs. Slay the Spire.</p>
 </a>
 
 </div>

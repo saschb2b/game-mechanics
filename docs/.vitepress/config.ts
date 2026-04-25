@@ -43,55 +43,6 @@ export default defineConfig({
       '/games/': [
         { text: 'All games', link: '/games/' },
         {
-          text: 'Sparklite',
-          collapsed: false,
-          items: [
-            { text: 'Overview', link: '/games/sparklite/' },
-            { text: 'Patch board', link: '/games/sparklite/patch-board' },
-            { text: 'World & loop', link: '/games/sparklite/world-and-loop' },
-            { text: 'Combat', link: '/games/sparklite/combat' },
-            { text: 'Design tensions', link: '/games/sparklite/design-tensions' },
-            { text: 'Patterns', link: '/games/sparklite/patterns' },
-            { text: 'Lessons', link: '/games/sparklite/lessons' },
-            { text: 'Sources', link: '/games/sparklite/sources' },
-          ]
-        },
-        {
-          text: 'Warframe',
-          collapsed: false,
-          items: [
-            { text: 'Overview', link: '/games/warframe/' },
-            { text: 'Acquisition', link: '/games/warframe/acquisition' },
-            { text: 'Modding', link: '/games/warframe/modding' },
-            { text: 'Progression layers', link: '/games/warframe/progression-layers' },
-            { text: 'Reward loops', link: '/games/warframe/reward-loops' },
-            { text: 'Monetization', link: '/games/warframe/monetization' },
-            { text: 'Combat', link: '/games/warframe/combat' },
-            { text: 'Design tensions', link: '/games/warframe/design-tensions' },
-            { text: 'Patterns', link: '/games/warframe/patterns' },
-            { text: 'Lessons', link: '/games/warframe/lessons' },
-            { text: 'Sources', link: '/games/warframe/sources' },
-          ]
-        },
-        {
-          text: 'Slay the Spire',
-          collapsed: false,
-          items: [
-            { text: 'Overview', link: '/games/slay-the-spire/' },
-            { text: 'Map & nodes', link: '/games/slay-the-spire/map-and-nodes' },
-            { text: 'Combat', link: '/games/slay-the-spire/combat' },
-            { text: 'Deckbuilding', link: '/games/slay-the-spire/deckbuilding' },
-            { text: 'Relics', link: '/games/slay-the-spire/relics' },
-            { text: 'Characters', link: '/games/slay-the-spire/characters' },
-            { text: 'Ascension', link: '/games/slay-the-spire/ascension' },
-            { text: 'Daily climb', link: '/games/slay-the-spire/daily-climb' },
-            { text: 'Design tensions', link: '/games/slay-the-spire/design-tensions' },
-            { text: 'Patterns', link: '/games/slay-the-spire/patterns' },
-            { text: 'Lessons', link: '/games/slay-the-spire/lessons' },
-            { text: 'Sources', link: '/games/slay-the-spire/sources' },
-          ]
-        },
-        {
           text: 'Moonlighter 2',
           collapsed: false,
           items: [
@@ -140,6 +91,55 @@ export default defineConfig({
             { text: 'Patterns', link: '/games/path-of-exile-2/patterns' },
             { text: 'Lessons', link: '/games/path-of-exile-2/lessons' },
             { text: 'Sources', link: '/games/path-of-exile-2/sources' },
+          ]
+        },
+        {
+          text: 'Slay the Spire',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/slay-the-spire/' },
+            { text: 'Map & nodes', link: '/games/slay-the-spire/map-and-nodes' },
+            { text: 'Combat', link: '/games/slay-the-spire/combat' },
+            { text: 'Deckbuilding', link: '/games/slay-the-spire/deckbuilding' },
+            { text: 'Relics', link: '/games/slay-the-spire/relics' },
+            { text: 'Characters', link: '/games/slay-the-spire/characters' },
+            { text: 'Ascension', link: '/games/slay-the-spire/ascension' },
+            { text: 'Daily climb', link: '/games/slay-the-spire/daily-climb' },
+            { text: 'Design tensions', link: '/games/slay-the-spire/design-tensions' },
+            { text: 'Patterns', link: '/games/slay-the-spire/patterns' },
+            { text: 'Lessons', link: '/games/slay-the-spire/lessons' },
+            { text: 'Sources', link: '/games/slay-the-spire/sources' },
+          ]
+        },
+        {
+          text: 'Sparklite',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/sparklite/' },
+            { text: 'Patch board', link: '/games/sparklite/patch-board' },
+            { text: 'World & loop', link: '/games/sparklite/world-and-loop' },
+            { text: 'Combat', link: '/games/sparklite/combat' },
+            { text: 'Design tensions', link: '/games/sparklite/design-tensions' },
+            { text: 'Patterns', link: '/games/sparklite/patterns' },
+            { text: 'Lessons', link: '/games/sparklite/lessons' },
+            { text: 'Sources', link: '/games/sparklite/sources' },
+          ]
+        },
+        {
+          text: 'Warframe',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/warframe/' },
+            { text: 'Acquisition', link: '/games/warframe/acquisition' },
+            { text: 'Modding', link: '/games/warframe/modding' },
+            { text: 'Progression layers', link: '/games/warframe/progression-layers' },
+            { text: 'Reward loops', link: '/games/warframe/reward-loops' },
+            { text: 'Monetization', link: '/games/warframe/monetization' },
+            { text: 'Combat', link: '/games/warframe/combat' },
+            { text: 'Design tensions', link: '/games/warframe/design-tensions' },
+            { text: 'Patterns', link: '/games/warframe/patterns' },
+            { text: 'Lessons', link: '/games/warframe/lessons' },
+            { text: 'Sources', link: '/games/warframe/sources' },
           ]
         },
       ],
