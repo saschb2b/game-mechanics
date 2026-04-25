@@ -1,7 +1,6 @@
 ---
 title: "Slay the Spire"
 type: game
-status: research-only
 studio: Mega Crit
 released: 2019
 genre: roguelike-deckbuilder

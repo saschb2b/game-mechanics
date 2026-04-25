@@ -1,12 +1,10 @@
 ---
 title: "Path of Exile"
 type: game
-status: shelved
 studio: Grinding Gear Games
 released: 2013
 genre: f2p-action-rpg
 business_model: f2p
-hours_played: 1000
 iconic_mechanic: "1500-node passive tree + skill gems as gear"
 core_dialectic: "Friction over convenience — at every layer"
 patterns:

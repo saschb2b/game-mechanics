@@ -1,7 +1,6 @@
 ---
 title: "Moonlighter 2: The Endless Vault"
 type: game
-status: research-only
 studio: Digital Sun
 publisher: 11 bit studios
 released: 2025-11-19

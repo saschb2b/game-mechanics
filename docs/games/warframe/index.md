@@ -1,7 +1,6 @@
 ---
 title: "Warframe"
 type: game
-status: shelved
 studio: Digital Extremes
 released: 2013
 genre: f2p-co-op-looter-shooter

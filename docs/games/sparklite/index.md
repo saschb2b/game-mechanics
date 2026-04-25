@@ -1,7 +1,6 @@
 ---
 title: "Sparklite"
 type: game
-status: research-only
 studio: Red Blue Games
 released: 2019
 genre: action-adventure-roguelite

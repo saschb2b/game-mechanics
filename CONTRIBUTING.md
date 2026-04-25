@@ -75,14 +75,12 @@ Folder split is always safer — allows growth.
 ---
 title: "Slay the Spire"
 type: game
-status: complete         # playing | complete | shelved | research-only
 studio: Mega Crit
 publisher: Mega Crit     # omit if same as studio
 released: 2019           # year only, OR YYYY-MM-DD for new releases
 release_status: 1.0      # 1.0 | early-access — omit if shipped
 genre: roguelike-deckbuilder
 business_model: premium  # premium | f2p | subscription | hybrid
-hours_played: 120        # null/omit for research-only
 iconic_mechanic: "Card draft + Ascension staircase"
 core_dialectic: "Risk vs reward, fractally"
 patterns:
@@ -92,6 +90,8 @@ patterns:
 tags: [deckbuilder, roguelike, single-player]
 ---
 ```
+
+The site is a design-pattern reference, not a personal play log — don't add `status`, `hours_played`, or similar personal-timeline fields. Personal context belongs in `lessons.md` if anywhere.
 
 The two fields that earn their keep:
 - **`iconic_mechanic`** — the *one phrase* that summarises this game's mechanical identity.
@@ -132,7 +132,7 @@ Add a new section under `/games/` listing every page in the new folder. Match th
 
 ### 7. Update `docs/games/index.md`
 
-Add one row to the games table: name, iconic mechanic, core dialectic, status. Match the column widths of existing rows.
+Add one row to the games table (alphabetical order): name, release year, iconic mechanic, core dialectic. Match the column widths of existing rows.
 
 ### 8. Cross-cut: update concept pages this game exemplifies
 

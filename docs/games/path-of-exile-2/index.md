@@ -1,7 +1,6 @@
 ---
 title: "Path of Exile 2: The Endless Vault"
 type: game
-status: research-only
 studio: Grinding Gear Games
 released: 2024-12-06
 release_status: early-access
