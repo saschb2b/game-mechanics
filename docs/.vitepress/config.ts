@@ -43,6 +43,23 @@ export default defineConfig({
       '/games/': [
         { text: 'All games', link: '/games/' },
         {
+          text: 'Mega Man Battle Network',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/mega-man-battle-network/' },
+            { text: 'Battle system', link: '/games/mega-man-battle-network/battle-system' },
+            { text: 'Folder & chip codes', link: '/games/mega-man-battle-network/folder-and-chip-codes' },
+            { text: 'Program Advance', link: '/games/mega-man-battle-network/program-advance' },
+            { text: 'NaviCust', link: '/games/mega-man-battle-network/navicust' },
+            { text: 'Power forms', link: '/games/mega-man-battle-network/power-forms' },
+            { text: 'Series evolution', link: '/games/mega-man-battle-network/series-evolution' },
+            { text: 'Design tensions', link: '/games/mega-man-battle-network/design-tensions' },
+            { text: 'Patterns', link: '/games/mega-man-battle-network/patterns' },
+            { text: 'Lessons', link: '/games/mega-man-battle-network/lessons' },
+            { text: 'Sources', link: '/games/mega-man-battle-network/sources' },
+          ]
+        },
+        {
           text: 'Moonlighter 2',
           collapsed: false,
           items: [

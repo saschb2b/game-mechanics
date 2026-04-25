@@ -36,6 +36,7 @@ This solves several problems at once:
 | **[Slay the Spire](/games/slay-the-spire/combat)** | **Combinatorial** — 3 energy / turn + ~5-card hand from a thin deck | Cards costing energy | Energy per turn + draw consistency | Bigger deck dilutes draws; energy can't carry to next turn |
 | **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** | **Adjacency-driven** — fixed backpack grid where placement triggers synergies | Relics with conditional placement tags (POINTED, ABSORB, corner, row) | Adjacency rules + grid position | Where you put a relic determines whether it triggers a synergy or wastes its tag |
 | **[Path of Exile 1](/games/path-of-exile/passive-tree)** | **Massive numeric** — 1500 nodes shared across classes; ~122 points at level 100 | Single-point passives, multi-point notables, keystones, jewel sockets | Total points + pathing — points spent traversing also count | Respec costs Orbs of Regret; full re-spec is endgame-currency-expensive |
+| **[Mega Man Battle Network](/games/mega-man-battle-network/folder-and-chip-codes)** | **Layered fixed budgets** — 30-chip Folder + 4×4 NaviCust grid + ~5-card Hand drawn from Folder | Battle Chips (codes A–Z + ★), NaviCust programs (Tetris shapes), opening Hand from random draw | Folder size (30) + Hand size (5) + NaviCust cells; chip codes constrain co-play | Fewer co-playable codes = more dead Hand draws; more bug-tolerant NaviCust = more debuffs |
 
 ### Visual contrast
 

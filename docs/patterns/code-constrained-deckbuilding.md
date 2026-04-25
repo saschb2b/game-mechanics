@@ -1,15 +1,14 @@
 ---
 generated: true
-title: "Pattern: subtractive-deckbuilding"
+title: "Pattern: code-constrained-deckbuilding"
 ---
 
-# `subtractive-deckbuilding`
+# `code-constrained-deckbuilding`
 
 > No curated concept page exists yet. The list below is auto-generated from frontmatter.
 
 ## Games using this pattern
 
 - [Mega Man Battle Network — Folder & chip codes](/games/mega-man-battle-network/folder-and-chip-codes)
-- [Slay the Spire — Deckbuilding](/games/slay-the-spire/deckbuilding)
 
-*Want a curated discussion of this pattern? Add `docs/concepts/subtractive-deckbuilding.md`.*
+*Want a curated discussion of this pattern? Add `docs/concepts/code-constrained-deckbuilding.md`.*

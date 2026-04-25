@@ -7,6 +7,7 @@ related_patterns:
   - loadout-as-budget
   - opportunity-cost-loadout
   - fusion-economy
+  - bonus-with-drawback
 ---
 
 # Grid inventory
@@ -26,24 +27,30 @@ Grid inventories are a special case of [`loadout-as-budget`](./loadout-as-budget
 
 ## Variants across games
 
-| Game | Grid | Item geometry | Driving constraint |
-|---|---|---|---|
-| **[Sparklite](/games/sparklite/patch-board)** | 3×3 → 4×4 → 5×5 | **Tetris-shaped patches** (1–4 cells per patch) | Footprint: bigger patches eat more cells |
-| **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** | Fixed-size backpack grid | **One cell per relic**; tags trigger on placement | Adjacency: corners, rows, "POINTED at" rules |
+| Game | Released | Grid | Item geometry | Driving constraint |
+|---|---|---|---|---|
+| **[Mega Man Battle Network](/games/mega-man-battle-network/navicust)** (NaviCust) | 2002 (BN3) | 4×4 → 5×5 (later doubled in BN6) | **Tetris-shaped programs** + **Command Line constraint** + **same-color non-adjacency** | Violations = **Bugs** (opt-in debuffs, not failures) |
+| **[Sparklite](/games/sparklite/patch-board)** (patch board) | 2019 | 3×3 → 4×4 → 5×5 | **Tetris-shaped patches** (1–4 cells per patch) | Footprint: bigger patches eat more cells |
+| **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** (backpack) | 2025 | Fixed-size backpack grid | **One cell per relic**; tags trigger on placement | Adjacency: corners, rows, "POINTED at" rules |
+
+### The lineage matters
+
+**MMBN3 shipped this in 2002.** Sparklite's patch board (2019) and Moonlighter 2's backpack puzzle (2025) are independent re-discoveries of the same core idea — Tetris-shaped buff blocks on a small grid with adjacency rules — but Capcom got there first by 17–23 years.
+
+This isn't a "BN was a precursor" trivia note. It's a **pattern stability indicator.** When three teams independently land on the same shape over two decades, the pattern is genuinely strong. Each one tunes the rules differently:
+
+- **NaviCust** — adjacency violations cause Bugs (debuffs you live with).
+- **Sparklite** — the grid is *the* constraint; items don't conflict with neighbors.
+- **Moonlighter 2** — adjacency *triggers* synergies; placement is positive, not negative.
 
 ### Visual contrast
 
-| Sparklite — patches awaiting placement | Moonlighter 2 — backpack with synergy markers |
-|---|---|
-| ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) |
-| Different patches have different *shapes*; the puzzle is fitting them. | All relics are 1×1; the puzzle is *what's next to what*. |
+| Mega Man Battle Network — combat (NaviCust upgrades visible in HUD) | Sparklite — patches awaiting placement | Moonlighter 2 — backpack with synergy markers |
+|---|---|---|
+| ![BN combat with Custom Gauge](/images/mega-man-battle-network/combat-grid-custom-gauge.jpg) | ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) |
+| Tetris programs on a 4×4 grid feed buffs into combat. Opt-in **Bug** debuffs let you bend the rules to fit more. | Different patches have different *shapes*; the puzzle is fitting them. | All relics are 1×1; the puzzle is *what's next to what*. |
 
-The two games solve nearly opposite versions of the same idea:
-
-- **Sparklite** — items have non-uniform *shape*, the grid is what's fixed. Power per cell is the thing being optimized.
-- **Moonlighter 2** — items are uniform 1×1, but their *behavior* depends on neighbors. Adjacency synergy is the thing being optimized.
-
-Both are valid. Both produce hours of "okay, but what if I move *this* over here…" between-runs play.
+Three teams, three slightly different rule schemes, the same core insight: **spatial packing > flat lists.**
 
 ## When to use this pattern
 
@@ -59,12 +66,14 @@ Avoid when:
 ## Pitfalls
 
 - **Grid that's too small** — feels punishing, players can't fit anything they want.
-- **Grid that's too big** — defeats the point; the puzzle stops biting.
+- **Grid that's too big** — defeats the point; the puzzle stops biting. **A 4×4 is genuinely enough** (NaviCust ships with 4×4 in BN3).
 - **Item shapes / tags too uniform** — if every item plays the same with the grid, the spatial layer adds nothing.
-- **Synergy rules too complex to read** — players need to *see* whether a placement is good. Sparklite shows footprint visually; Moonlighter 2 shows arrows pointing at affected relics. Without that visual feedback, the puzzle becomes opaque.
+- **Synergy / constraint rules too complex to read** — players need to *see* whether a placement is good. NaviCust shows the Command Line and color clashes. Sparklite shows footprint visually. Moonlighter 2 shows arrows. Without that visual feedback, the puzzle is opaque.
+- **Strict failure on rule violations** — if breaking the rule rejects the placement, the system feels punishing. NaviCust's Bug-as-cost approach is more forgiving and produces more interesting decisions.
 
 ## Adjacent patterns
 
 - [`loadout-as-budget`](./loadout-as-budget.md) — broader pattern; grid inventory is one specific budget shape.
 - [`opportunity-cost-loadout`](./opportunity-cost-loadout.md) — what the grid forces.
-- [`fusion-economy`](./fusion-economy.md) — both games pair grid inventory with a fusion mechanic to keep the grid from clogging up.
+- [`fusion-economy`](./fusion-economy.md) — Sparklite and Moonlighter 2 both pair grid inventory with a fusion mechanic to keep the grid from clogging up. NaviCust uses **Compression Codes** (BN6) for the same purpose.
+- [`bonus-with-drawback`](./bonus-with-drawback.md) — NaviCust's Bug system is a textbook example: opt into chaos for a buff slot.

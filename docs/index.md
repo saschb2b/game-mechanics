@@ -18,7 +18,7 @@ hero:
 
 <div class="stats-row">
   <div class="stat-card">
-    <span class="stat-num">6</span>
+    <span class="stat-num">7</span>
     <span class="stat-label">Games</span>
   </div>
   <div class="stat-card">
@@ -32,6 +32,18 @@ hero:
 </div>
 
 <div class="games-grid">
+
+<a class="game-card" href="games/mega-man-battle-network/">
+  <img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Mega Man Battle Network</h3>
+    <p class="gc-iconic">6×3 real-time grid + Folder of chips + Custom Gauge · action + card hybrid</p>
+    <div class="gc-meta">
+      <span>2001–2005</span><span>Action-RPG / card hybrid</span><span>Series</span>
+    </div>
+  </div>
+</a>
 
 <a class="game-card" href="games/moonlighter-2/">
   <img class="gc-img" src="/images/moonlighter-2/showcase-pricing.jpg" alt="Moonlighter 2 showcase pricing UI">
