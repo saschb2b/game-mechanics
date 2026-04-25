@@ -49,6 +49,7 @@ The pay-off:
 | **[Mega Man Battle Network](/games/mega-man-battle-network/navicust)** | Folder, basic chip codes | NaviCust opens (program packing) | Beast Out / Cross / Soul transformations | Program Advance recipes (community-discovered, in-game cryptic) |
 | **[Slay the Spire](/games/slay-the-spire/ascension)** | Combat, deck, map | Act 4 unlocks after first Heart-key | Ascension unlocks new modifier per win | Ascension 20, Daily Climb, Endless Mode |
 | **[Hades](/games/hades/death-as-narrative)** | Run loop, hub dialogue, boon draft | Mirror of Night talents, weapon Aspects, first dialogue arcs | Pact of Punishment / Heat opens after first credits; deeper character arcs land at run #30+ | "True ending" arc requires ~10 specific clears; deepest dialogue lines fire at run #80+; H2 adds the surface path as a hour-30 reveal |
+| **[Hollow Knight](/games/hollow-knight/map-and-discovery)** | Combat, charms, exploration | Cornifer + Iselda map tooling, first charms, Wayward Compass | Dream Nail (NPC mind-reading layer) ~hour 8–10, late-game biomes, White Palace platforming | Path of Pain (DLC), all Pantheon boss-rush content (DLC), True Ending requirements span 50+ hours |
 
 The pattern spans wildly different genres — JRPGs, ARPGs, looter-shooters, deckbuilders. The common thread: **the studio kept content gated behind hours of play, betting that hour-30 players would be more receptive to new systems than hour-1 players.**
 

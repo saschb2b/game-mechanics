@@ -31,6 +31,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
   </div>
 </a>
 
+<a class="game-card" href="games/hollow-knight/">
+  <img class="gc-img" src="/images/hollow-knight/hk-world-map.jpg" alt="Hollow Knight world map of Hallownest">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Hollow Knight</h3>
+    <p class="gc-iconic">Charm-notch loadout + soul-as-heal-resource · exploration as mastery, not direction</p>
+    <div class="gc-meta">
+      <span>2017</span><span>Metroidvania</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
 <a class="game-card" href="games/mega-man-battle-network/">
   <img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge">
   <div class="gc-overlay"></div>

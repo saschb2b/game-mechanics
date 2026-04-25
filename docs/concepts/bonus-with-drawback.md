@@ -35,6 +35,9 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Mega Man Battle Network — Beast Out](/games/mega-man-battle-network/power-forms)** | Temporary super-form: massive ATK / SPD / auto-counter (BN6) | When timer runs out → **Bug Out / Beast Over** = Tired emotion locks Full Synchro for 1+ turns | Per-battle, costs Emotion Counter |
 | **[Hades — Pact of Punishment](/games/hades/meta-progression)** | Heat counter for clearing run = bonus reward (currency, gem caches, gift items) | Each Heat level adds a Condition that makes runs harder (enemies stronger, shop costs more, less healing, time-pressured bosses) | Hub menu, opt-in difficulty stack post-credits |
 | **[Hades — Hammers of Daedalus](/games/hades/boons-and-gods)** | Weapon-altering upgrade (e.g. Sister Blades become a forward lunge) | Forecloses 1–2 alternative hammer paths for the run; sometimes nerfs another stat (slower swing, less range) | 1–2 chambers per run |
+| **[Hollow Knight — Joni's Blessing](/games/hollow-knight/charms-and-notches)** | +40% maximum HP (replaces blue Lifeblood masks with permanent white ones) | **Cannot heal with Soul.** The entire Focus heal system is removed | Charm slot, late-game discovery |
+| **[Hollow Knight — Overcharming](/games/hollow-knight/charms-and-notches)** | Cram extra charms past your notch budget | Take 2× damage from all sources until you remove charms | Opt-in toggle when equipping |
+| **[Hollow Knight — Fragile charms](/games/hollow-knight/charms-and-notches)** | +HP / +Damage / +Geo bonuses for the duration | **Shatter on death.** Must pay 200/350/450 Geo at Leg Eater to repair each | Opt-in equip; the death-loop converts the charm to a Geo sink |
 
 ### Visual reference
 

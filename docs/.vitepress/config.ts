@@ -113,6 +113,20 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Hollow Knight',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/hollow-knight/' },
+            { text: 'Charms & notches', link: '/games/hollow-knight/charms-and-notches' },
+            { text: 'Soul & focus', link: '/games/hollow-knight/soul-and-focus' },
+            { text: 'Map & discovery', link: '/games/hollow-knight/map-and-discovery' },
+            { text: 'Shade on death', link: '/games/hollow-knight/shade-on-death' },
+            { text: 'Patterns', link: '/games/hollow-knight/patterns' },
+            { text: 'Lessons', link: '/games/hollow-knight/lessons' },
+            { text: 'Sources', link: '/games/hollow-knight/sources' },
+          ]
+        },
+        {
           text: 'Mega Man Battle Network',
           collapsed: false,
           items: [
