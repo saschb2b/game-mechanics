@@ -13,3 +13,4 @@ Sorted alphabetically.
 | [**Slay the Spire**](/games/slay-the-spire/) | 2019 | Card draft + Ascension staircase | Risk vs reward, fractally |
 | [**Sparklite**](/games/sparklite/) | 2019 | Patch-board grid inventory + permalife | Power growth vs spatial budget |
 | [**Warframe**](/games/warframe/) | 2013 | Forma + Riven Disposition | Power fantasy vs grind |
+| [**Xenoblade Chronicles (series)**](/games/xenoblade-chronicles/) | 2010–2025 | MMO-shape combat + new systems unlocking 30+ hours in | How long can you keep teaching a player? |

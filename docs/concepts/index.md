@@ -25,6 +25,7 @@ Cross-game design patterns. Each concept page is **pattern-first** — a one-lin
 - [**Bounded roguelite**](./bounded-roguelite) — a roguelite that *ends*.
 - [**Meta as variety, not power**](./meta-as-variety-not-power) — unlock options, not strength.
 - [**Nested progression graph**](./nested-progression-graph) — long-running games stack orthogonal progression axes; new systems layer in rather than replace.
+- [**Late-introduced mechanics**](./late-introduced-mechanics) — major systems unlock 5–60 hours into the game; engagement past hour 30 comes from learning new mechanics, not just more content.
 
 ## Crafting & economy
 - [**Currency as crafting**](./currency-as-crafting) — drop "gold"; every currency is a consumable that does something. Inflation control as a property of the system.

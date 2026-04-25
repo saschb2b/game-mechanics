@@ -102,6 +102,18 @@ hero:
   </div>
 </a>
 
+<a class="game-card" href="games/xenoblade-chronicles/">
+  <img class="gc-img" src="/images/xenoblade-chronicles/xc1-bionis-landscape.jpg" alt="Xenoblade Chronicles Bionis vista">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Xenoblade Chronicles</h3>
+    <p class="gc-iconic">MMO-shape combat + new systems unlocking 30+ hours in · how long can you keep teaching</p>
+    <div class="gc-meta">
+      <span>2010–2025</span><span>Action-RPG</span><span>Series</span>
+    </div>
+  </div>
+</a>
+
 </div>
 
 <div class="home-section">

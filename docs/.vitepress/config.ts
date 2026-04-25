@@ -142,6 +142,22 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Xenoblade Chronicles',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/xenoblade-chronicles/' },
+            { text: 'Combat foundation', link: '/games/xenoblade-chronicles/combat-foundation' },
+            { text: 'Vision system (XC1)', link: '/games/xenoblade-chronicles/vision-system' },
+            { text: 'Driver–Blade pairing (XC2)', link: '/games/xenoblade-chronicles/blade-driver-pairing' },
+            { text: 'Class & Ouroboros (XC3)', link: '/games/xenoblade-chronicles/class-and-ouroboros' },
+            { text: 'Skells & FrontierNav (XCX)', link: '/games/xenoblade-chronicles/skells-and-frontiernav' },
+            { text: 'Series evolution', link: '/games/xenoblade-chronicles/series-evolution' },
+            { text: 'Patterns', link: '/games/xenoblade-chronicles/patterns' },
+            { text: 'Lessons', link: '/games/xenoblade-chronicles/lessons' },
+            { text: 'Sources', link: '/games/xenoblade-chronicles/sources' },
+          ]
+        },
+        {
           text: 'Warframe',
           collapsed: false,
           items: [
@@ -190,6 +206,7 @@ export default defineConfig({
             { text: 'Bounded roguelite', link: '/concepts/bounded-roguelite' },
             { text: 'Meta as variety, not power', link: '/concepts/meta-as-variety-not-power' },
             { text: 'Nested progression graph', link: '/concepts/nested-progression-graph' },
+            { text: 'Late-introduced mechanics', link: '/concepts/late-introduced-mechanics' },
           ]
         },
         {
