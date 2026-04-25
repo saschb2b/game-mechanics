@@ -26,11 +26,20 @@ Telegraphing the next attack solves both. **Each engagement becomes a decision: 
 | Game | Telegraph form | Timescale | What the player solves |
 |---|---|---|---|
 | **[Slay the Spire](/games/slay-the-spire/combat)** | Icon above each enemy: attack (with damage number), buff, debuff, defend, special, multi-hit count | Turn-based, before the player's turn | Allocate energy: attack now? block exactly the incoming damage? buff for sustained combat? Block expires next turn, so over-blocking wastes energy. |
+| **[Mega Man Battle Network](/games/mega-man-battle-network/battle-system)** | **Tile state on the 6×3 grid** — flashing / coloured panels mark incoming attack zones; charging enemies highlight their row; hazardous floor (lava, poison, ice) is visibly tagged | Real-time, but on a discrete grid | *Where to stand.* Slide left, jump rows, steal panels to compress the enemy's space. Reaction is positional, not button-press. |
+| **[Sparklite](/games/sparklite/combat)** | Genre-default wind-ups: hitch + flash + swing for melee enemies; layered phase patterns for biome bosses | Real-time, top-down action | Dodge in 2D space; learn boss patterns. Tight starter HP makes telegraphs *load-bearing* — un-telegraphed attacks would make the patch-board tightness feel unfair. |
+| **[Moonlighter 2](/games/moonlighter-2/combat)** | Boss wind-ups + ground markers + projectile fan-outs in 3D isometric | Real-time, mid-combat | Position relative to telegraphed AoEs; commit to perk-locked weapon-combo windows. |
 | **[Path of Exile 2](/games/path-of-exile-2/combat-philosophy)** | Boss/elite wind-ups, cone tells, ground markers, animation commits | Real-time, mid-combat | Dodge-roll *now*, position before the swing, choose between reactive defense and offense. The "build" doesn't dodge — the player does. |
 
-The two cases sit on opposite ends of the timescale axis but use the same insight: **show the player what's coming and let them solve.** Spire telegraphs *which action* on a turn cadence; PoE2 telegraphs *which animation* on a frame cadence.
+The cases span turn-based to real-time, icon-based to spatial-tile to animation-tell. The insight is invariant: **show the player what's coming and let them solve.** What changes is the *medium* of the telegraph (icon, tile colour, wind-up animation) and the *response vocabulary* (allocate energy, slide rows, dodge-roll, position).
 
-This pattern is **the most-imitated single mechanic in the modern roguelike-deckbuilder** — every Spire-like ships intent icons. It's also the keystone of the soulslike combat tradition (Souls / Elden Ring / Sekiro) — wind-up + tell + dodge window. PoE2's adoption of the soulslike telegraph in an ARPG is the bridge between the two traditions in this knowledge base.
+A few are worth contrasting:
+
+- **Spire** telegraphs *what action*; **PoE2** telegraphs *which animation*; **MMBN** telegraphs *which tiles*. Same pattern, three render targets.
+- **Sparklite and Moonlighter 2** are the "standard genre default" cases — every action-roguelite has wind-ups. They're listed because the *load-bearing role* of the telegraph is what makes the tight HP / locked-perk builds feel fair. The pattern earns its concept page even when it's not the headline mechanic.
+- **PoE1 is the explicit counter-example.** Screen-clearing combat dissolves telegraphs into noise; PoE2's slowdown was greenlit partly to restore them. (See `anti-screen-clear-combat`.)
+
+This pattern is **the most-imitated single mechanic in the modern roguelike-deckbuilder** — every Spire-like ships intent icons. It's also the keystone of the soulslike combat tradition (Souls / Elden Ring / Sekiro) — wind-up + tell + dodge window. And it predates both: tile-grid telegraphs were already the combat language of Battle Network in 2001.
 
 ## When to use this pattern
 

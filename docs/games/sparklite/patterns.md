@@ -17,3 +17,4 @@ Quick reference — full lemmas live on each concept page.
 | `permalife` | Death resets the *world* but not the *character*. Preserves narrative momentum without losing roguelite tempo. |
 | [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid) | Hand-authored room/structure tiles + procedurally chosen layout. Cheap to author, varied to play, no procedural-puzzle tax. |
 | [`bounded-roguelite`](/concepts/bounded-roguelite) | Roguelite with an actual ending. Five Titans → credits → done. ~20-hour campaign. |
+| [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) | Telegraphed wind-ups + layered boss patterns make the tight starter HP pool readable rather than punishing. |

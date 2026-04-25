@@ -2,6 +2,8 @@
 title: "Sparklite — Combat"
 type: game
 game: sparklite
+patterns:
+  - enemy-intent-telegraph
 ---
 
 # Combat
@@ -32,6 +34,8 @@ The dual-purpose pattern (some gadgets are weapons, others are traversal keys fo
 ## Combat shape
 
 Pattern-recognition first, reflex second. Enemies have clearly telegraphed wind-ups; bosses are layered patterns. Starter HP is deliberately tight — about 3 hearts, and most enemies hit for a full heart — so first runs are punishing. The patch board is the lever that opens that bottleneck.
+
+The wind-ups are the genre default — flash, hitch, swing. They're worth flagging because the patch board's tightness *depends* on combat being readable: if attacks were unannounced, no patch loadout would feel survivable. See [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph).
 
 ## Why this matters for the patch-board design
 

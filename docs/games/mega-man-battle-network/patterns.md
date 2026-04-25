@@ -16,6 +16,7 @@ game: mega-man-battle-network
 | [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding) | Different shape than Spire (cohesion via codes, not subtraction by count) but same insight: tighter focus = stronger draws. |
 | `real-time-grid-tactics` | 6×3 discrete grid + real-time movement, attacks, dodging. Genuinely rare hybrid. |
 | `draw-step-as-tactical-resource` | The Custom Gauge — card-draw embedded in real-time combat as something you fight to enable. |
+| [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) | Tiles flash / highlight before an attack lands. Telegraph through the grid itself rather than icons or animations. |
 | `code-constrained-deckbuilding` | Letter codes determine which chips can co-play. Folders converge on archetypes for combinatorial reasons. |
 | `card-combo-recipes` | Program Advances — multi-chip combos with bespoke effects. |
 | `hidden-knowledge-depth` | PA recipes + NaviCust Compression Codes — community-curated depth, not in-game UI. |

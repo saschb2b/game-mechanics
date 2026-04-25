@@ -19,3 +19,4 @@ game: moonlighter-2
 | [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid) | Encounters & arenas hand-authored; map layout procedurally arranged. |
 | [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power) | Mostly variety unlocks (recipes, perks, decorations). Some permanent power exists (blacksmith stat bumps), unlike Spire's stricter stance. |
 | [`bounded-roguelite`](/concepts/bounded-roguelite) | Three biomes leading to a final-game arc, not infinite escalation. (EA scope; full release will add more.) |
+| [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) | Boss wind-ups, ground markers, projectile fan-outs. Standard for the genre but load-bearing — the tight perk-locked builds rely on attacks being legible. |

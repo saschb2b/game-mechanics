@@ -5,6 +5,7 @@ game: mega-man-battle-network
 patterns:
   - real-time-grid-tactics
   - draw-step-as-tactical-resource
+  - enemy-intent-telegraph
 ---
 
 # Battle system
@@ -71,7 +72,16 @@ Both cost more Custom Gauge to use *and* are restricted in what they can combine
 
 **Critique** — the system has known weak points. BN1's difficulty curve is rough. Random virus encounters in the cyber world are slogs on replay. The series' AI difficulty plateaus by mid-game; chip-stacking makes the late game easy if you've collected the right Mega chips. BN4's structure (forced multi-playthroughs of an inferior version of the system) is universally panned.
 
+## Telegraph through tile state
+
+Attacks aren't surprise events — they're **announced on the grid**. Before a wide-area chip fires, the affected tiles flash red. Before a charging enemy lunges down a row, that row highlights. Heat / lava / poison panels visibly mark hazardous floor in advance. Cracked panels warn that the spot will become un-standable on the next step. The grid is the telegraph surface.
+
+This is the same insight as Spire's intent icons or PoE2's wind-ups, **rendered into the spatial vocabulary of the grid itself.** The 6×3 board has 18 tiles; the player can scan the whole arena in one glance, so "show what's coming where" is cheap to communicate. Reaction is positional — slide left, jump rows — rather than a dodge-roll button.
+
+See [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph).
+
 ## Patterns this exemplifies
 
 - `real-time-grid-tactics` — discrete tile movement in a real-time combat fight. The defining BN move.
 - `draw-step-as-tactical-resource` — the Custom Gauge is the genuinely original mechanic. Card draw becomes something you fight to enable.
+- [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) — colored / blinking tile highlights mark incoming attacks. Telegraph through the grid rather than icons or wind-ups.

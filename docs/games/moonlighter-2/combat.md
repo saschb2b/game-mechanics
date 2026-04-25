@@ -4,6 +4,7 @@ type: game
 game: moonlighter-2
 patterns:
   - handcrafted-pcg-hybrid
+  - enemy-intent-telegraph
 ---
 
 # Combat
@@ -43,3 +44,4 @@ Bosses end each biome arc. Mechanically standard for the genre (telegraphed atta
 ## Patterns this exemplifies
 
 - [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid) — encounters / arenas hand-authored, dungeon path procedurally arranged.
+- [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) — boss attacks announce themselves via wind-ups, ground markers, and projectile fan-outs in 3D. Standard for the action-roguelite genre.
