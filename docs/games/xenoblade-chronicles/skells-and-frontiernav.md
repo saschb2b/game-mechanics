@@ -12,8 +12,11 @@ patterns:
 
 XCX is the *odd one* in the series — a Wii U launch-window game (2015), Switch DE remaster (2025). It's structured around an alien planet (Mira) the player explores on foot for the first ~30 hours, then **earns a Skell license, gets a giant transforming mech, and the game changes shape entirely.**
 
-![XCX combat — character with sword facing a flying boss](/images/xenoblade-chronicles/xcx-skell-combat.jpg)
-*XCX combat. The HUD is denser than XC1's — arts row at the bottom, soul-voice prompts during combat, party panels with separate gauges. Players spend the first ~30 hours fighting on-foot like this; then the Skell license drops and combat changes scale entirely. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X).*
+![XCX — two Skell mechs in combat](/images/xenoblade-chronicles/xcx-skell-combat.jpg)
+*Two Skells facing off — the iconic XCX visual the player doesn't get to see for ~30 hours. Skells are 10-meter transforming mechs the player licenses mid-campaign; combat at this scale is fundamentally different from the on-foot game that preceded it. Source: [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-x-review).*
+
+![XCX — Elma, the player's mentor figure](/images/xenoblade-chronicles/xcx-elma-portrait.jpg)
+*Elma, XCX's defining NPC and mentor — she onboards the player into BLADE, the colony's military arm, and is the human face of the planet's stranger systems. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-x-definitive-edition).*
 
 ## Skells — the late-arriving mech
 

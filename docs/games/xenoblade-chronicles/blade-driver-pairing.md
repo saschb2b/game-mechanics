@@ -13,8 +13,8 @@ patterns:
 
 XC2's signature system. Every party member is a **Driver** who fights with a **Blade** — a weapon-and-companion that *also* acts as a second character on screen. Drivers can swap between Blades mid-combat to change their entire moveset, weapon class, and elemental affinity.
 
-![XC2 Driver Rex with Blade Pyra — boxart](/images/xenoblade-chronicles/xc2-boxart.jpg)
-*Rex (Driver, foreground) and Pyra (Blade, behind him). The relationship between the two is the game's load-bearing mechanical and narrative thread. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_2).*
+![XC2 promo art — the party with Pyra and a giant titan](/images/xenoblade-chronicles/xc2-promo-art.jpg)
+*The XC2 cast in their world: Rex (Driver, foreground left) and Pyra (Blade, red), with the rest of the party scattered across the field of a Titan — the gigantic living creatures that make up the world. The Driver–Blade relationship is the game's load-bearing mechanical *and* narrative thread. Source: [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-2-review).*
 
 ## The pairing
 

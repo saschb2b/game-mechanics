@@ -37,6 +37,9 @@ og_image: images/xenoblade-chronicles/xc1-bionis-landscape.jpg
 | **Core dialectic** | Mechanic drip vs. tutorial overload |
 | **Hours to credits** | XC1 ≈ 60–80h · XC2 ≈ 80–110h · XC3 ≈ 80–120h · XCX ≈ 60h main story (200+ for completion) |
 
+![Xenoblade Chronicles 3 — title art with the cast facing the world](/images/xenoblade-chronicles/xc3-title-art.jpg)
+*Xenoblade Chronicles 3 — the synthesis entry. Six party members on a vast vista, the same series-iconic shape as the XC1 Bionis vista 12 years earlier. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
+
 ## The four entries
 
 | Entry | Year | Iconic mechanic | What it adds late |
