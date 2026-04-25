@@ -31,6 +31,9 @@ Combat that asks for fast movement *plus* big AoE *plus* power-fantasy abilities
 
 Cycle freely between them. Most missions reward switching — heavy gunners for crowd, melee for heat-wave room clears, abilities for boss debuff windows.
 
+![Excalibur abilities screen — frame model with surrounding enemies in tableau, four ability icons at the bottom: Slash Dash, Radial Blind, Radial Javelin, Exalted Blade](/images/warframe/abilities.jpg)
+*The 4-ability bar — every frame has exactly four. Excalibur shown: Slash Dash (mobility burst), Radial Blind (CC), Radial Javelin (AoE damage), Exalted Blade (channeled signature ult). Each ability has its own Energy cost and tactical role; ability order across frames is a hidden language ("4 is the ult, 1 is the cheap one"). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+
 ## Damage type matrix
 
 The actual combat-design depth lives here.

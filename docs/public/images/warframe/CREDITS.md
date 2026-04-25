@@ -8,6 +8,7 @@ All images sourced from the [Game UI Database — Warframe entry](https://www.ga
 |---|---|---|
 | `abilities.jpg` | Ability List | The 4-ability bar / frame ability tooltip |
 | `daily-tribute.jpg` | Daily & Timed Rewards | Daily Tribute screen — milestone-based login reward |
+| `foundry-crafting.jpg` | Crafting: Browse | Foundry build queue with timers, materials, and segment-required gating |
 | `in-mission-hud.jpg` | Equipped Items & Abilities, Loot & Exp Log, Waypoints, Reticles | In-mission HUD overview |
 | `loadout-overview.jpg` | Equipping: Overview & Loadout | Loadout summary screen — frame, weapons, companion |
 | `lobby.jpg` | Pre-Game & Lobby | Mission lobby / squad assembly |

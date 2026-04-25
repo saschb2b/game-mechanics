@@ -11,6 +11,9 @@ patterns:
 
 How do you get a Warframe? Five-day-real-time chain across multiple sub-systems. The structure repeats for most loot in the game.
 
+![Warframe Foundry — build queue showing Air Support Charges (1 minute), Archwing Launcher (30 minutes, Archwing Launcher Segment Required), Ascaris Negator (1 blueprint left, Not Enough Components), with material costs and timers visible](/images/warframe/foundry-crafting.jpg)
+*The Foundry. Three concurrent builds in different states: one ready to start (1 minute timer, all materials present), one gated on a *segment* unlock (which is itself a separate quest reward), one stalled on missing components. The whole acquisition pipeline routes through this screen — every Warframe, weapon, gadget, and upgrade resource passes through a Foundry queue with real-time timers. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+
 ## A standard (non-Prime) frame
 
 Every frame has **four parts**:

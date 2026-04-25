@@ -14,6 +14,9 @@ patterns:
 ![Star Chart — solar system overview](/images/warframe/star-chart-1.jpg)
 *The Star Chart — the navigation root for everything. Each planet is gated by Junctions (mini-bosses). Beating Junctions unlocks new planets, mission types, and entire sub-systems (Archwing, Operator, Railjack). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
+![Warframe planet selection — Earth highlighted with a Vor's Prize "Restore Ship Comms" Grineer 1-2 mission card, the player's Tenno avatar holding the planet at left](/images/warframe/lobby.jpg)
+*The pre-mission lobby — pick a planet (here Earth), pick a node, see the mission objective and faction. This is the *actual entry-point per session* — the Star Chart is the macro view; this is the click that launches a 10-minute mission. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+
 Warframe layers progression like a parfait. Roughly in order of when a player encounters each:
 
 | Layer | What it gates | How it scales |
