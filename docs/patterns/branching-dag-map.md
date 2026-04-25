@@ -5,11 +5,11 @@ title: "Pattern: branching-dag-map"
 
 # `branching-dag-map`
 
-> No curated concept page exists yet. The list below is auto-generated from frontmatter.
+> Curated concept page: **[/concepts/branching-dag-map](/concepts/branching-dag-map)**
 
-## Games using this pattern
+The concept page has the lemma, the cross-game contrast table, when to use this pattern, and pitfalls. Read it there.
+
+## Games tagged with this pattern
 
 - [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map)
 - [Slay the Spire — Map & node types](/games/slay-the-spire/map-and-nodes)
-
-*Want a curated discussion of this pattern? Add `docs/concepts/branching-dag-map.md`.*

@@ -14,13 +14,13 @@ _39 pattern(s) indexed across 4 distinct game(s)._
 |---|---|---|
 | `handcrafted-pcg-hybrid` | [Moonlighter 2 — Combat](/games/moonlighter-2/combat), [Slay the Spire — Map & node types](/games/slay-the-spire/map-and-nodes), [Sparklite — World structure & loop](/games/sparklite/world-and-loop), [Warframe — Combat](/games/warframe/combat) | [concept](/concepts/handcrafted-pcg-hybrid) |
 | `loadout-as-budget` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Slay the Spire — Combat](/games/slay-the-spire/combat), [Sparklite — Patch board](/games/sparklite/patch-board), [Warframe — Modding system](/games/warframe/modding) | [concept](/concepts/loadout-as-budget) |
-| `bonus-with-drawback` | [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map), [Slay the Spire — Relics](/games/slay-the-spire/relics) | [stub](/patterns/bonus-with-drawback) |
-| `bounded-roguelite` | [Moonlighter 2 — Dual-life loop](/games/moonlighter-2/dual-life-loop), [Sparklite — World structure & loop](/games/sparklite/world-and-loop) | [stub](/patterns/bounded-roguelite) |
-| `branching-dag-map` | [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map), [Slay the Spire — Map & node types](/games/slay-the-spire/map-and-nodes) | [stub](/patterns/branching-dag-map) |
-| `fusion-economy` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [stub](/patterns/fusion-economy) |
-| `grid-inventory` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [stub](/patterns/grid-inventory) |
-| `meta-as-variety-not-power` | [Moonlighter 2 — Progression](/games/moonlighter-2/progression), [Slay the Spire — Ascension & meta-progression](/games/slay-the-spire/ascension) | [stub](/patterns/meta-as-variety-not-power) |
-| `opportunity-cost-loadout` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [stub](/patterns/opportunity-cost-loadout) |
+| `bonus-with-drawback` | [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map), [Slay the Spire — Relics](/games/slay-the-spire/relics) | [concept](/concepts/bonus-with-drawback) |
+| `bounded-roguelite` | [Moonlighter 2 — Dual-life loop](/games/moonlighter-2/dual-life-loop), [Sparklite — World structure & loop](/games/sparklite/world-and-loop) | [concept](/concepts/bounded-roguelite) |
+| `branching-dag-map` | [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map), [Slay the Spire — Map & node types](/games/slay-the-spire/map-and-nodes) | [concept](/concepts/branching-dag-map) |
+| `fusion-economy` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [concept](/concepts/fusion-economy) |
+| `grid-inventory` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [concept](/concepts/grid-inventory) |
+| `meta-as-variety-not-power` | [Moonlighter 2 — Progression](/games/moonlighter-2/progression), [Slay the Spire — Ascension & meta-progression](/games/slay-the-spire/ascension) | [concept](/concepts/meta-as-variety-not-power) |
+| `opportunity-cost-loadout` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle), [Sparklite — Patch board](/games/sparklite/patch-board) | [concept](/concepts/opportunity-cost-loadout) |
 | `tile-shuffled-world` | [Sparklite — World structure & loop](/games/sparklite/world-and-loop), [Warframe — Combat](/games/warframe/combat) | [stub](/patterns/tile-shuffled-world) |
 | `backpack-puzzle` | [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle) | [stub](/patterns/backpack-puzzle) |
 | `card-draft-with-skip` | [Slay the Spire — Deckbuilding](/games/slay-the-spire/deckbuilding) | [stub](/patterns/card-draft-with-skip) |

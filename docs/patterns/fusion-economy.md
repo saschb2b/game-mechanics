@@ -5,11 +5,11 @@ title: "Pattern: fusion-economy"
 
 # `fusion-economy`
 
-> No curated concept page exists yet. The list below is auto-generated from frontmatter.
+> Curated concept page: **[/concepts/fusion-economy](/concepts/fusion-economy)**
 
-## Games using this pattern
+The concept page has the lemma, the cross-game contrast table, when to use this pattern, and pitfalls. Read it there.
+
+## Games tagged with this pattern
 
 - [Moonlighter 2 — Backpack puzzle](/games/moonlighter-2/backpack-puzzle)
 - [Sparklite — Patch board](/games/sparklite/patch-board)
-
-*Want a curated discussion of this pattern? Add `docs/concepts/fusion-economy.md`.*

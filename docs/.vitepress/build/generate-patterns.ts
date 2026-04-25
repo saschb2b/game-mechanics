@@ -181,10 +181,30 @@ async function writeStubs(map: PatternMap) {
   const written = new Set<string>(['index.md'])
 
   for (const [pattern, refs] of map) {
-    if (await conceptExists(pattern)) continue
-
+    const hasConcept = await conceptExists(pattern)
     const games = renderStubGameList(refs)
-    const stub = `---
+
+    let body: string
+    if (hasConcept) {
+      // Redirect stub — /patterns/<name> stays resolvable when game prose links there,
+      // but we point the reader at the curated concept page.
+      body = `---
+generated: true
+title: "Pattern: ${pattern}"
+---
+
+# \`${pattern}\`
+
+> Curated concept page: **[/concepts/${pattern}](/concepts/${pattern})**
+
+The concept page has the lemma, the cross-game contrast table, when to use this pattern, and pitfalls. Read it there.
+
+## Games tagged with this pattern
+
+${games}
+`
+    } else {
+      body = `---
 generated: true
 title: "Pattern: ${pattern}"
 ---
@@ -199,7 +219,9 @@ ${games}
 
 *Want a curated discussion of this pattern? Add \`docs/concepts/${pattern}.md\`.*
 `
-    await writeFile(join(PATTERNS_DIR, `${pattern}.md`), stub, 'utf8')
+    }
+
+    await writeFile(join(PATTERNS_DIR, `${pattern}.md`), body, 'utf8')
     written.add(`${pattern}.md`)
   }
 

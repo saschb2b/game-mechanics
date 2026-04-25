@@ -5,11 +5,11 @@ title: "Pattern: bonus-with-drawback"
 
 # `bonus-with-drawback`
 
-> No curated concept page exists yet. The list below is auto-generated from frontmatter.
+> Curated concept page: **[/concepts/bonus-with-drawback](/concepts/bonus-with-drawback)**
 
-## Games using this pattern
+The concept page has the lemma, the cross-game contrast table, when to use this pattern, and pitfalls. Read it there.
+
+## Games tagged with this pattern
 
 - [Moonlighter 2 — Dungeon map](/games/moonlighter-2/dungeon-map)
 - [Slay the Spire — Relics](/games/slay-the-spire/relics)
-
-*Want a curated discussion of this pattern? Add `docs/concepts/bonus-with-drawback.md`.*

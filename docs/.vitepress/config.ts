@@ -110,14 +110,34 @@ export default defineConfig({
         },
       ],
       '/concepts/': [
+        { text: 'All concepts', link: '/concepts/' },
         {
-          text: 'Concepts',
+          text: 'Loadout & inventory',
+          collapsed: false,
           items: [
-            { text: 'Index', link: '/concepts/' },
             { text: 'Loadout as budget', link: '/concepts/loadout-as-budget' },
+            { text: 'Grid inventory', link: '/concepts/grid-inventory' },
+            { text: 'Opportunity-cost loadout', link: '/concepts/opportunity-cost-loadout' },
+            { text: 'Fusion economy', link: '/concepts/fusion-economy' },
+          ]
+        },
+        {
+          text: 'Maps & encounters',
+          collapsed: false,
+          items: [
+            { text: 'Branching DAG map', link: '/concepts/branching-dag-map' },
+            { text: 'Bonus with drawback', link: '/concepts/bonus-with-drawback' },
             { text: 'Handcrafted-PCG hybrid', link: '/concepts/handcrafted-pcg-hybrid' },
           ]
-        }
+        },
+        {
+          text: 'Run shape & meta',
+          collapsed: false,
+          items: [
+            { text: 'Bounded roguelite', link: '/concepts/bounded-roguelite' },
+            { text: 'Meta as variety, not power', link: '/concepts/meta-as-variety-not-power' },
+          ]
+        },
       ],
       '/patterns/': [
         {

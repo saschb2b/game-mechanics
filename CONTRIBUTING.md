@@ -211,8 +211,10 @@ The generator:
 - Scans every `docs/**/*.md` for `patterns: [...]` frontmatter.
 - Deduplicates per game (prefers mechanic sub-pages over the game index).
 - Writes `docs/patterns/index.md` — the grand table of patterns × games.
-- Writes a stub `docs/patterns/<name>.md` for each pattern that doesn't have a concept page.
-- Removes orphan stubs (patterns no longer referenced anywhere).
+- Writes `docs/patterns/<name>.md` for *every* referenced pattern:
+  - **No concept page yet** → plain stub explaining no curated page exists, listing games using it.
+  - **Concept page exists at `docs/concepts/<name>.md`** → redirect stub linking to the concept page (so `/patterns/<name>` links in prose still resolve).
+- Removes orphan files (patterns no longer referenced anywhere).
 
 Hand-written `docs/concepts/<name>.md` files are **never touched** by the generator.
 
