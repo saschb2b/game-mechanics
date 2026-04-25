@@ -27,6 +27,11 @@ Don't treat research dumps as long-term content. The published `docs/` is canoni
 
 Frontmatter fields, sub-page split rule, concept-page template, patterns generator contract, screenshot procedure — all in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-**Before adding a new game entry**, read the **"Adding a new game entry"** section of CONTRIBUTING.md end-to-end. It's a numbered 11-step checklist covering research → folder layout → frontmatter → screenshots → sidebar → cross-cutting concept-page updates → build verification → cleanup. Don't skip steps; in particular don't forget step 8 (updating curated concept pages with the new game's variant — the auto-generated patterns index updates itself, but `docs/concepts/<pattern>.md` does not).
+There are two workflows, both fully documented in CONTRIBUTING.md. Read the relevant one end-to-end before starting:
+
+- **Adding a new game entry** — 11-step checklist (research → folder → frontmatter → screenshots → sidebar → cross-cut concepts → build → cleanup). Don't skip step 8: when a game's `patterns:` includes one that already has a curated concept page, you must hand-edit that concept page to add a row in its variants table. The generator does *not* do this for you.
+- **Adding (promoting) a concept page** — 6-step procedure for when ≥2 games tag a pattern and you want to curate it. Covers the standard template (lemma → variants table → visual contrast → when to use → pitfalls → adjacent patterns), updating `docs/concepts/index.md`, sidebar, and how the generator auto-flips the patterns index row from `[stub]` to `[concept]`.
+
+The "Workflow at a glance" section near the bottom of CONTRIBUTING.md summarizes the three layers (game pages → auto-generated patterns/ → curated concepts/) and which edits trigger which auto-updates.
 
 Open decisions are in [TODO.md](./TODO.md).

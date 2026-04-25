@@ -169,14 +169,36 @@ If you used `planning/research/<game>/` during step 1, delete the folder now. Th
 
 ## Adding a concept page
 
-Concept pages live at `docs/concepts/<pattern>.md` and are the **curated** discussion of a cross-game pattern. They follow this template:
+A concept page is the **curated** discussion of a cross-game pattern. End-to-end procedure for when you decide to promote a pattern from "stub" to "curated."
+
+### When to promote a pattern
+
+Default rule: **≥2 games tag a pattern in their `patterns:` frontmatter** before you write a curated concept page for it.
+
+Why wait: a one-game concept page is just a restatement of the game's mechanic page. The point of the concept layer is *contrast* across games — the variants table is what earns the page its existence. Without ≥2 games, you have nothing meaningful to put in it.
+
+Exception: a pattern with only 1 current game but a strong unique angle (e.g. `permalife` — a deliberate dev-coined term) can earn its own page early.
+
+To find candidates, scan the [patterns index](/patterns/) — patterns with multiple games in the "Games" column and `[stub]` in the "Page" column are the obvious queue.
+
+### 1. Create the concept page
+
+```
+docs/concepts/<pattern-slug>.md
+```
+
+The slug must match the pattern ID used in game pages' `patterns:` frontmatter exactly.
+
+### 2. Use the standard template
+
+Every section is required. Don't skip the variants table — it's the load-bearing piece.
 
 ```markdown
 ---
 title: "Pattern Name"
 type: concept
 patterns:
-  - pattern-name
+  - <pattern-slug>
 related_patterns:
   - adjacent-pattern-1
   - adjacent-pattern-2
@@ -184,24 +206,119 @@ related_patterns:
 
 # Pattern Name
 
-> **Lemma:** one-line description.
+> **Lemma:** one-line description of the pattern.
 
 ## What it solves
-The design problem this pattern addresses.
+
+The design problem this pattern addresses. ~2 paragraphs. Be concrete: what
+goes wrong without this pattern, and what does adding it fix?
 
 ## Variants across games
-| Game | Instantiation | Trade-off |
-|---|---|---|
-| Game A | ... | ... |
 
-## When to use
+| Game | <axis-1> | <axis-2> | <trade-off> |
+|---|---|---|---|
+| **[Game A](/games/<a>/<mechanic>)** | ... | ... | ... |
+| **[Game B](/games/<b>/<mechanic>)** | ... | ... | ... |
+
+The column headers are pattern-specific. For loadout patterns: budget shape /
+what gets packed / constraint / cost. For map patterns: shape / node types /
+what's revealed. Pick columns that highlight where the games *differ*.
+
+### Visual contrast (when images exist)
+
+| Game A — caption | Game B — caption |
+|---|---|
+| ![alt](/images/<a>/<file>.jpg) | ![alt](/images/<b>/<file>.jpg) |
+| One-line description of what this image shows of the pattern. | Same. |
+
+Optional but high-value when good screenshots exist for each game.
+
+## When to use this pattern
+
+- Genres / scales / contexts where it works.
+- Avoid when: ...
+
 ## Pitfalls
+
+- Where the pattern fails or feels bad.
+- Common implementation mistakes.
+
 ## Adjacent patterns
+
+- [`other-pattern`](./other-pattern.md) — relationship to this one.
 ```
 
-The contrast table is the load-bearing feature. **Pattern-first, with games-as-examples** — don't write a concept page until you have ≥2 games (or ≥1 game and a strong unique angle).
+See existing concept pages for examples — [`loadout-as-budget`](docs/concepts/loadout-as-budget.md) is the canonical four-game contrast; [`grid-inventory`](docs/concepts/grid-inventory.md) is a tighter two-game contrast.
 
-When a concept page exists at `docs/concepts/<name>.md`, the patterns index automatically links to it instead of generating a stub.
+### 3. Update `docs/concepts/index.md`
+
+Add the new page under the right category. The index groups concepts by area:
+
+- **Loadout & inventory** — patterns about what the player carries.
+- **Maps & encounters** — patterns about run structure.
+- **Run shape & meta** — patterns about progression / scope.
+
+Pick the category, add a `- [**Title**](./slug) — one-line lemma` bullet.
+
+If the new pattern doesn't fit any existing category, add a new category section. Categories are cheap; rename / regroup if needed.
+
+### 4. Update the sidebar in `docs/.vitepress/config.ts`
+
+Add the new page to the `/concepts/` sidebar map under the matching category. The sidebar mirrors `concepts/index.md` — keep them in sync.
+
+### 5. Run the generator
+
+```sh
+pnpm generate
+```
+
+Behind the scenes:
+- The generator notices `docs/concepts/<slug>.md` exists.
+- The patterns index row for `<slug>` flips from `[stub]` → `[concept]`.
+- `docs/patterns/<slug>.md` is rewritten as a *redirect stub* pointing at `/concepts/<slug>` (so older `/patterns/<slug>` links in game-page prose still resolve cleanly).
+
+You don't manually edit anything in `docs/patterns/` — the generator owns it.
+
+### 6. Verify
+
+`pnpm build` should pass. Click through the new concept page in the browser; cross-check that:
+- Each game in the variants table links to a real mechanic sub-page.
+- The `[concept]` link in `docs/patterns/index.md` lands on your new page.
+- The concept appears under the right category in `docs/concepts/index.md`.
+
+## Workflow at a glance — game ↔ concept ↔ pattern
+
+The three layers and how they update each other:
+
+```
+Game pages (hand-written)
+  ├─ frontmatter: patterns: [a, b, c]
+  └─ prose: links to /patterns/<x> or /concepts/<x>
+
+         ↓ (generator scans frontmatter)
+
+docs/patterns/ (auto-generated)
+  ├─ index.md  — table of patterns × games
+  └─ <p>.md    — per-pattern stub OR redirect to concept
+
+         ↓ (when ≥2 games tag a pattern, manually promote)
+
+docs/concepts/<p>.md (hand-written, curated)
+  ├─ Lemma + variants table + visual contrast + pitfalls
+  └─ Listed in docs/concepts/index.md under a category
+
+```
+
+**Two human-driven workflows, two automatic updates:**
+
+| When you... | Edit by hand | Auto-updates |
+|---|---|---|
+| Add a new game with `patterns: [a, b, c]` in frontmatter | Game pages, `docs/games/index.md`, sidebar, **and concept pages where a, b, c are already curated** ([step 8](#adding-a-new-game-entry)) | The patterns index, per-pattern stubs |
+| Promote a pattern to a curated concept page | `docs/concepts/<p>.md`, `docs/concepts/index.md`, sidebar | Patterns index row flips `[stub]` → `[concept]`; per-pattern stub becomes a redirect |
+
+**The thing the generator doesn't do for you:** keep concept-page contrast tables in sync with new games. When game X is added with pattern Y, and Y already has a curated concept page, *you* must add a row to that concept page's variants table. The generator only updates the *patterns* index, not the curated concept pages.
+
+This is intentional — concept-page rows are bespoke prose ("how does game X *specifically* instantiate this pattern, and what's the trade-off?") and aren't well-served by frontmatter-driven boilerplate. They are the artisanal layer.
 
 ## Patterns index
 
