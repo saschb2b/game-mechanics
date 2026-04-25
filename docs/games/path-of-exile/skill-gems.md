@@ -63,4 +63,4 @@ Both layers are explicitly **aspirational** — most players never see them; pla
 ## Patterns this exemplifies
 
 - `skill-as-item` — skills are tradable, levelable, droppable items.
-- `random-perfect-roll-economy` — the 6-link is the canonical expression: a stat that's binary, expensive, and traded between players.
+- [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy) — the 6-link is the canonical expression: a stat that's binary, expensive, and traded between players.

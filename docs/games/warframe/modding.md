@@ -80,11 +80,11 @@ Why this is a design innovation:
 - The market self-adjusts: prices on Rivens for popular weapons soft-cap, prices on off-meta weapon Rivens float upward.
 - The community itself becomes the balance signal — usage stats drive Disposition, which adjusts power, which shifts usage. Closed loop.
 
-See `community-driven-balance` and `random-perfect-roll-economy`.
+See `community-driven-balance` and [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy).
 
 ## Patterns this exemplifies
 
 - [`loadout-as-budget`](/concepts/loadout-as-budget) — power lives inside a fixed mod-capacity budget.
 - `permanent-grind-currency` — Forma converts time into permanent slot expansion.
 - `community-driven-balance` — Riven Disposition shifts based on usage stats.
-- `random-perfect-roll-economy` — Rivens as a lottery + market mechanic.
+- [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy) — Rivens as a lottery + market mechanic.

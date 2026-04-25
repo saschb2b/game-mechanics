@@ -89,6 +89,6 @@ Whether this is right is contested. The community position: deterministic crafti
 
 ## Patterns this exemplifies
 
-- `currency-as-crafting` — the canonical example. No gold; every currency does something.
-- `aspirational-crafting` — perfect items must be *reachable but rarely reached*; deterministic crafting is repeatedly nerfed to preserve the asymptote.
-- `random-perfect-roll-economy` — same shape as Warframe's Riven mods. Affix RNG creates per-item uniqueness; perfect rolls become market commodities.
+- [`currency-as-crafting`](/concepts/currency-as-crafting) — the canonical example. No gold; every currency does something.
+- [`aspirational-crafting`](/concepts/aspirational-crafting) — perfect items must be *reachable but rarely reached*; deterministic crafting is repeatedly nerfed to preserve the asymptote.
+- [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy) — same shape as Warframe's Riven mods. Affix RNG creates per-item uniqueness; perfect rolls become market commodities.

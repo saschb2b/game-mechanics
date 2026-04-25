@@ -61,7 +61,7 @@ The pattern requires:
 ## Adjacent patterns
 
 - [`branching-dag-map`](/concepts/branching-dag-map) — Spire's specific layout structure. Visible to the player, partial-info path planning.
-- `tile-shuffled-world` — Sparklite's specific implementation. Less visible, but cheap to ship.
+- [`tile-shuffled-world`](/concepts/tile-shuffled-world) — Sparklite's specific implementation. Less visible, but cheap to ship.
 
 ## Why this matters as a design lesson
 

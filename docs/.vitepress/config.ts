@@ -168,6 +168,7 @@ export default defineConfig({
             { text: 'Loadout as budget', link: '/concepts/loadout-as-budget' },
             { text: 'Grid inventory', link: '/concepts/grid-inventory' },
             { text: 'Opportunity-cost loadout', link: '/concepts/opportunity-cost-loadout' },
+            { text: 'Subtractive deckbuilding', link: '/concepts/subtractive-deckbuilding' },
             { text: 'Fusion economy', link: '/concepts/fusion-economy' },
           ]
         },
@@ -178,6 +179,8 @@ export default defineConfig({
             { text: 'Branching DAG map', link: '/concepts/branching-dag-map' },
             { text: 'Bonus with drawback', link: '/concepts/bonus-with-drawback' },
             { text: 'Handcrafted-PCG hybrid', link: '/concepts/handcrafted-pcg-hybrid' },
+            { text: 'Tile-shuffled world', link: '/concepts/tile-shuffled-world' },
+            { text: 'Enemy intent telegraph', link: '/concepts/enemy-intent-telegraph' },
           ]
         },
         {
@@ -186,6 +189,16 @@ export default defineConfig({
           items: [
             { text: 'Bounded roguelite', link: '/concepts/bounded-roguelite' },
             { text: 'Meta as variety, not power', link: '/concepts/meta-as-variety-not-power' },
+            { text: 'Nested progression graph', link: '/concepts/nested-progression-graph' },
+          ]
+        },
+        {
+          text: 'Crafting & economy',
+          collapsed: false,
+          items: [
+            { text: 'Currency as crafting', link: '/concepts/currency-as-crafting' },
+            { text: 'Aspirational crafting', link: '/concepts/aspirational-crafting' },
+            { text: 'Random perfect-roll economy', link: '/concepts/random-perfect-roll-economy' },
           ]
         },
         {

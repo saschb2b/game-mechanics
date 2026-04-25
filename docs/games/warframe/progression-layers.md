@@ -36,7 +36,7 @@ That orthogonality is the design discipline. When DE adds Helminth, it doesn't *
 
 > **The lesson for any long-running game:** if every new system is orthogonal to existing ones, you can layer indefinitely. If new systems compete with old ones, you eventually have to deprecate the old.
 
-See `nested-progression-graph`.
+See [`nested-progression-graph`](/concepts/nested-progression-graph).
 
 ## Mastery Rank — meta currency that rewards breadth
 
@@ -74,7 +74,7 @@ See `incarnon-evolution`.
 
 ## Patterns this exemplifies
 
-- `nested-progression-graph`
+- [`nested-progression-graph`](/concepts/nested-progression-graph)
 - `mastery-as-meta-currency`
 - `subsume-system`
 - `incarnon-evolution`

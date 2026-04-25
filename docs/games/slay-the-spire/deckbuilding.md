@@ -64,7 +64,7 @@ Tools for thinning:
 
 This makes deckbuilding **subtractive, not just additive.** You're not stacking power on top of stuff, you're carving out a tight loop. **That's the inversion that defines the genre.**
 
-See `subtractive-deckbuilding`.
+See [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding).
 
 ## Card draft with skip
 
@@ -87,6 +87,6 @@ This is a deliberate design call — Mega Crit explicitly rejected letting playe
 
 ## Patterns this exemplifies
 
-- `subtractive-deckbuilding`
+- [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding)
 - `card-draft-with-skip`
 - `pity-system-anti-streak`

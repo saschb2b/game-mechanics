@@ -222,43 +222,6 @@
   margin: 2px 0 0;
 }
 
-/* ---------- Quick stats row ---------- */
-
-.stats-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
-  margin: 32px auto;
-  max-width: 1200px;
-  padding: 0 24px;
-}
-
-.stat-card {
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  padding: 18px 20px;
-  text-align: center;
-}
-
-.stat-card .stat-num {
-  font-size: 32px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: var(--vp-c-brand-1);
-  display: block;
-  line-height: 1;
-}
-
-.stat-card .stat-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  opacity: 0.75;
-  margin-top: 6px;
-  display: block;
-}
-
 /* ---------- Concept callouts ---------- */
 
 .concept-callouts {

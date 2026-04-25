@@ -57,5 +57,5 @@ EA-stage Recombinators have been cited as "powerful enough to be the next nerf c
 
 ## Patterns this exemplifies
 
-- `currency-as-crafting` — same pattern as PoE1, simplified.
-- `aspirational-crafting` — same philosophy, sequel-tightened.
+- [`currency-as-crafting`](/concepts/currency-as-crafting) — same pattern as PoE1, simplified.
+- [`aspirational-crafting`](/concepts/aspirational-crafting) — same philosophy, sequel-tightened.

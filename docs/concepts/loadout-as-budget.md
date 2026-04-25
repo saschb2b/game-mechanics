@@ -68,7 +68,7 @@ The pattern requires:
 
 - `power-creep-mitigation` — broader category. A loadout budget is one mechanism for mitigating power creep; there are others (e.g. enemy scaling, content gating).
 - [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — restates the trade-off framing.
-- `subtractive-deckbuilding` — Spire's specific implementation: a deck that's *too big* is *worse*, so the budget pressure is internal to the deck rather than external to it.
+- [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding) — Spire's specific implementation: a deck that's *too big* is *worse*, so the budget pressure is internal to the deck rather than external to it.
 - [`grid-inventory`](/concepts/grid-inventory) — the specifically-spatial flavor.
 
 ## Why this matters as a design lesson

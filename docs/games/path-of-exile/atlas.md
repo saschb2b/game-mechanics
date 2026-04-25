@@ -88,6 +88,6 @@ Acts 1–10 (campaign, the prologue)
 
 ## Patterns this exemplifies
 
-- `nested-progression-graph` — the Atlas is one of three orthogonal trees (character passive, ascendancy, atlas). Each is its own progression axis.
+- [`nested-progression-graph`](/concepts/nested-progression-graph) — the Atlas is one of three orthogonal trees (character passive, ascendancy, atlas). Each is its own progression axis.
 - `atlas-as-build` — the meta-game gets its *own* build space, not just a difficulty slider.
 - `meta-progression-tree` — earning passive points from completing maps (not character XP) decouples meta-progression from per-character progression.

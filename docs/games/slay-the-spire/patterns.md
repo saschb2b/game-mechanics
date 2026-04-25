@@ -8,12 +8,12 @@ game: slay-the-spire
 
 | Pattern | How Spire uses it |
 |---|---|
-| `subtractive-deckbuilding` | Power lives in *removing* weak cards, not adding strong ones. Inverts traditional deckbuilders. |
+| [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding) | Power lives in *removing* weak cards, not adding strong ones. Inverts traditional deckbuilders. |
 | `card-draft-with-skip` | Post-fight reward = pick 1 of 3 *or* skip. Skipping has real value because thin decks are stronger. |
 | [`branching-dag-map`](/concepts/branching-dag-map) | Procedural map with partial-info path planning; player commits to a route at the start of each act. |
 | `tight-energy-budget` | 3 energy / 5 cards forces hard prioritization every turn. |
 | `expiring-block` | Defense doesn't accumulate across turns. Forecast every turn separately. |
-| `enemy-intent-telegraph` | Enemies signal next action visibly. Combat = optimization puzzle, not RNG fight. |
+| [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) | Enemies signal next action visibly. Combat = optimization puzzle, not RNG fight. |
 | `rule-breaking-relics` | Each relic adds a small modifier that warps a run's identity. Hundreds of relics → hundreds of run flavors. |
 | [`bonus-with-drawback`](/concepts/bonus-with-drawback) | Boss relics (and many uncommon relics) pair upside with a real cost. Forces commit. |
 | `cumulative-modifier-staircase` | 20 stacking single-lesson modifiers, not a slider. Now a genre-standard pattern. |

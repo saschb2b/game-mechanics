@@ -16,17 +16,6 @@ hero:
       link: /about
 ---
 
-<div class="stats-row">
-  <div class="stat-card">
-    <span class="stat-num">7</span>
-    <span class="stat-label">Games</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-num">10</span>
-    <span class="stat-label">Curated concepts</span>
-  </div>
-</div>
-
 <div class="games-grid">
 
 <a class="game-card" href="games/mega-man-battle-network/">

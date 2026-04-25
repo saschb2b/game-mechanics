@@ -51,7 +51,7 @@ Every enemy shows their **next action above their head** before you take your tu
 
 This is the **most-imitated single mechanic in the genre.** It transforms combat from "RNG fight" into a **deterministic optimization puzzle each turn.** The randomness is in *which cards you drew*, not *what the enemy will do.*
 
-See `enemy-intent-telegraph`.
+See [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph).
 
 ## Why the triad is so strong
 
@@ -63,4 +63,4 @@ This is **the genre-defining design move.** Every modern roguelike-deckbuilder h
 
 - `tight-energy-budget`
 - `expiring-block`
-- `enemy-intent-telegraph`
+- [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph)

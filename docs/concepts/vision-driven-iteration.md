@@ -57,7 +57,7 @@ Avoid when:
 ## Adjacent patterns
 
 - [`metrics-driven-balance`](/games/slay-the-spire/design-tensions) — the opposing stance. Both work for different game shapes.
-- `aspirational-crafting` — a specific manifestation of vision-driven iteration in PoE: the recurring "ship deterministic crafting → nerf it" cycle is downstream of the thesis that crafting should be aspirational.
+- [`aspirational-crafting`](/concepts/aspirational-crafting) — a specific manifestation of vision-driven iteration in PoE: the recurring "ship deterministic crafting → nerf it" cycle is downstream of the thesis that crafting should be aspirational.
 
 ## Why this is worth its own concept page
 
