@@ -15,9 +15,6 @@ XC3's signature systems. **Every party member can master every class, and any tw
 ![XC3 — Noah with the Lucky Seven sword](/images/xenoblade-chronicles/xc3-noah-portrait.jpg)
 *Noah, XC3's protagonist, with the Lucky Seven — the sword whose form changes in Ouroboros mode. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
 
-![XC3 combat with multiple party members and chain-attack overlay](/images/xenoblade-chronicles/xc3-combat-chain.jpg)
-*XC3 combat. Six party members on screen, each with class-driven art palettes. The chain-attack callout (top right) and the floating "Daze" damage number (centre) are part of XC3's much heavier combat HUD compared to earlier entries. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3).*
-
 ## The class system
 
 Six base party members. Each starts with a **base class** locked in (Noah is a Swordfighter, Mio a Zephyr, etc.). But over the course of the campaign, the party meets **Heroes** — NPC seventh members who join temporarily — and *each Hero unlocks their class as a swappable option for the entire main party.*

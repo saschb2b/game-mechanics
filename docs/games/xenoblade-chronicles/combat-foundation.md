@@ -11,8 +11,8 @@ patterns:
 
 The shared combat grammar across all four Xenoblade entries. Every game in the series is recognizably *Xenoblade combat*, even though each one adds new layers on top.
 
-![XC1 combat HUD with arts row, party panels, and the future-attack telegraph](/images/xenoblade-chronicles/xc1-battle-system.png)
-*The XC1 combat HUD. Three party panels (left), 8-art palette (bottom), aggro indicators above each enemy, and — at the bottom — a "Turn Strike" callout from the Vision system: "Attack inflicts Break." This is the future the player just saw, and the mission for the next 30 seconds is to make it not happen. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)).*
+![XC3 combat — six party members on screen with arts palette, party panels, chain-attack overlay, and a "Daze" damage callout](/images/xenoblade-chronicles/xc3-combat-chain.jpg)
+*XC3 combat — the modern incarnation of the shared series HUD. Six party panels (left), arts palette (bottom-right), aggro indicators above enemies, the chain-attack callout at the top right, a floating "Daze" damage number from the active state combo. The vocabulary — auto-attack hum, arts on cooldown, position-aware, status-chain combos — has been the same since 2010. Only the density grew. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3).*
 
 ## The grammar
 
