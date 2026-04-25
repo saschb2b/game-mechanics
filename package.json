@@ -1,0 +1,13 @@
+{
+  "name": "game-mechanics",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @game-mechanics/docs dev",
+    "build": "pnpm --filter @game-mechanics/docs build",
+    "preview": "pnpm --filter @game-mechanics/docs preview"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
