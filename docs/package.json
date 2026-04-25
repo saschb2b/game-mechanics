@@ -4,16 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm run generate && vitepress dev",
-    "build": "pnpm run generate && vitepress build",
-    "preview": "vitepress preview",
-    "generate": "tsx .vitepress/build/generate-patterns.ts"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "globby": "^14.0.2",
-    "gray-matter": "^4.0.3",
     "medium-zoom": "^1.1.0",
-    "tsx": "^4.19.2",
     "vitepress": "^1.6.0",
     "vue": "^3.5.0"
   }

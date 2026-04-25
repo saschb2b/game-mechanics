@@ -25,7 +25,7 @@ Turn-based, card-driven, single-player. The player faces 1–4 enemies at a time
 
 This is a **tight budget**. You almost never have enough energy for everything you'd like to play, so every turn is an explicit prioritization. Compare with traditional CCGs (Hearthstone, MTG) where mana grows over time — Spire's flat 3/turn forces sharp decisions every turn from turn 1.
 
-See [`tight-energy-budget`](/patterns/tight-energy-budget).
+See `tight-energy-budget`.
 
 ## Block — defense that expires
 
@@ -36,7 +36,7 @@ See [`tight-energy-budget`](/patterns/tight-energy-budget).
 
 The "use it this turn or lose it" design creates a **forecasting problem**: look at enemy intent, block exactly the right amount — not too much (wasted energy on overkill block) and not too little (damage through). Block is allocation, not investment.
 
-See [`expiring-block`](/patterns/expiring-block).
+See `expiring-block`.
 
 ## Intent — the telegraph
 
@@ -51,7 +51,7 @@ Every enemy shows their **next action above their head** before you take your tu
 
 This is the **most-imitated single mechanic in the genre.** It transforms combat from "RNG fight" into a **deterministic optimization puzzle each turn.** The randomness is in *which cards you drew*, not *what the enemy will do.*
 
-See [`enemy-intent-telegraph`](/patterns/enemy-intent-telegraph).
+See `enemy-intent-telegraph`.
 
 ## Why the triad is so strong
 
@@ -61,6 +61,6 @@ This is **the genre-defining design move.** Every modern roguelike-deckbuilder h
 
 ## Patterns this exemplifies
 
-- [`tight-energy-budget`](/patterns/tight-energy-budget)
-- [`expiring-block`](/patterns/expiring-block)
-- [`enemy-intent-telegraph`](/patterns/enemy-intent-telegraph)
+- `tight-energy-budget`
+- `expiring-block`
+- `enemy-intent-telegraph`

@@ -24,7 +24,7 @@ patterns:
 
 This is one of those features that **costs almost nothing to ship** (it's a seeded run with a leaderboard) but produces enormous community engagement. Compare with Wordle's same-puzzle-for-everyone model, which exploded into a phenomenon partly because of this exact design.
 
-See [`shared-seed-daily`](/patterns/shared-seed-daily).
+See `shared-seed-daily`.
 
 ## Custom seeds
 
@@ -45,4 +45,4 @@ Core requirements:
 
 ## Patterns this exemplifies
 
-- [`shared-seed-daily`](/patterns/shared-seed-daily)
+- `shared-seed-daily`

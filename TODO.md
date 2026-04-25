@@ -27,7 +27,6 @@ The current image set is sourced from Steam screenshot CDNs + gameuidatabase. A 
 - **Slay the Spire — card draft post-fight, Ascension select, character select.**
 - **Warframe — Foundry timer screen, Riven mod screen.** gameuidatabase has more shots than the 12 we picked; can mine more.
 
-## Pattern-graph follow-ups
-- [ ] **Parent/child pattern hierarchy?** Currently `loadout-as-budget` and its specific flavors (`grid-inventory`, `tight-energy-budget`) sit flat in the index. Some kind of grouping might be useful once there are 50+ patterns — defer until friction is felt.
-- [ ] **Tags index.** A separate, lighter-weight axis from patterns. Same generator pattern. Defer until tag friction is felt.
-- [ ] **Frontmatter linting.** The generator could fail-build when a game `index.md` is missing `iconic_mechanic` or `core_dialectic`. Defer until the first time we forget one.
+## Concepts follow-ups
+- [ ] **Parent/child concept hierarchy?** Currently `loadout-as-budget` and its specific flavors (`grid-inventory`, `tight-energy-budget`) sit flat in `concepts/index.md`. Some kind of grouping might be useful once there are 50+ concepts — defer until friction is felt.
+- [ ] **Frontmatter linting.** A pre-build script could fail when a game `index.md` is missing `iconic_mechanic` or `core_dialectic`. Defer until the first time we forget one.

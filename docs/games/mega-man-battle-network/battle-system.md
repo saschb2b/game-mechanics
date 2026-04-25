@@ -73,5 +73,5 @@ Both cost more Custom Gauge to use *and* are restricted in what they can combine
 
 ## Patterns this exemplifies
 
-- [`real-time-grid-tactics`](/patterns/real-time-grid-tactics) — discrete tile movement in a real-time combat fight. The defining BN move.
-- [`draw-step-as-tactical-resource`](/patterns/draw-step-as-tactical-resource) — the Custom Gauge is the genuinely original mechanic. Card draw becomes something you fight to enable.
+- `real-time-grid-tactics` — discrete tile movement in a real-time combat fight. The defining BN move.
+- `draw-step-as-tactical-resource` — the Custom Gauge is the genuinely original mechanic. Card draw becomes something you fight to enable.

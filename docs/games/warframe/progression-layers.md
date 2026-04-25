@@ -36,7 +36,7 @@ That orthogonality is the design discipline. When DE adds Helminth, it doesn't *
 
 > **The lesson for any long-running game:** if every new system is orthogonal to existing ones, you can layer indefinitely. If new systems compete with old ones, you eventually have to deprecate the old.
 
-See [`nested-progression-graph`](/patterns/nested-progression-graph).
+See `nested-progression-graph`.
 
 ## Mastery Rank — meta currency that rewards breadth
 
@@ -52,7 +52,7 @@ Why this is a clever design:
 - **Rewards exploration over execution.** A skilled player who only plays Saryn caps MR slower than a casual player who tries 50 frames.
 - **Aligns "how much have you played" with "how much have you experienced."** MR is roughly synonymous with content breadth.
 
-Compare with games where "playtime" is just hours-played. MR forces hours-played to be *varied*-played. See [`mastery-as-meta-currency`](/patterns/mastery-as-meta-currency).
+Compare with games where "playtime" is just hours-played. MR forces hours-played to be *varied*-played. See `mastery-as-meta-currency`.
 
 ## Helminth — subsume system
 
@@ -62,7 +62,7 @@ Sacrifice a frame to the Helminth (an Infested hivemind in your Orbiter); after 
 - Each frame can host one subsumed ability per loadout config.
 - Resource cost per subsume application — Helminth needs feeding.
 
-Effect: combinatorial depth on top of an already-large set. With 50+ subsumable abilities × 50+ frames, the build space explodes. See [`subsume-system`](/patterns/subsume-system).
+Effect: combinatorial depth on top of an already-large set. With 50+ subsumable abilities × 50+ frames, the build space explodes. See `subsume-system`.
 
 ## Incarnon — evolving old gear
 
@@ -70,11 +70,11 @@ Incarnon Genesis adapters can be applied to older weapons, granting them an alte
 
 The design move: **resurrect obsoleted gear instead of designing new gear.** A weapon that was outclassed by power creep gets a new mode that competes with current meta. Cheaper to author than a full new weapon, and players reconnect with old favorites.
 
-See [`incarnon-evolution`](/patterns/incarnon-evolution).
+See `incarnon-evolution`.
 
 ## Patterns this exemplifies
 
-- [`nested-progression-graph`](/patterns/nested-progression-graph)
-- [`mastery-as-meta-currency`](/patterns/mastery-as-meta-currency)
-- [`subsume-system`](/patterns/subsume-system)
-- [`incarnon-evolution`](/patterns/incarnon-evolution)
+- `nested-progression-graph`
+- `mastery-as-meta-currency`
+- `subsume-system`
+- `incarnon-evolution`

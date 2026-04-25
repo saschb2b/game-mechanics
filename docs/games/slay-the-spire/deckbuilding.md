@@ -32,7 +32,7 @@ A hidden "rare drift" counter:
 - Every common rolled bumps the rare chance by +1%.
 - Rolling a rare resets the counter.
 
-Result: you can't go too long without seeing a rare. Same anti-streak philosophy as Unknown node resolution. See [`pity-system-anti-streak`](/patterns/pity-system-anti-streak).
+Result: you can't go too long without seeing a rare. Same anti-streak philosophy as Unknown node resolution. See `pity-system-anti-streak`.
 
 ## Card upgrades
 
@@ -64,13 +64,13 @@ Tools for thinning:
 
 This makes deckbuilding **subtractive, not just additive.** You're not stacking power on top of stuff, you're carving out a tight loop. **That's the inversion that defines the genre.**
 
-See [`subtractive-deckbuilding`](/patterns/subtractive-deckbuilding).
+See `subtractive-deckbuilding`.
 
 ## Card draft with skip
 
 Each post-fight draft: pick 1 of 3 cards **or skip.** Skipping has real value — fewer cards is better, but you need *some* cards. So every draft is a question: "is this card better than nothing?"
 
-Skip is a first-class option, not a punishment. That changes the entire shape of decision-making vs. games where you must pick. See [`card-draft-with-skip`](/patterns/card-draft-with-skip).
+Skip is a first-class option, not a punishment. That changes the entire shape of decision-making vs. games where you must pick. See `card-draft-with-skip`.
 
 ## Archetypes
 
@@ -87,6 +87,6 @@ This is a deliberate design call — Mega Crit explicitly rejected letting playe
 
 ## Patterns this exemplifies
 
-- [`subtractive-deckbuilding`](/patterns/subtractive-deckbuilding)
-- [`card-draft-with-skip`](/patterns/card-draft-with-skip)
-- [`pity-system-anti-streak`](/patterns/pity-system-anti-streak)
+- `subtractive-deckbuilding`
+- `card-draft-with-skip`
+- `pity-system-anti-streak`

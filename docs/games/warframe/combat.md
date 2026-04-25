@@ -55,7 +55,7 @@ Each enemy faction (Grineer / Corpus / Infested / Sentient / Murmur) has its own
 
 **Build crafting is partly choosing which elements to layer.** A weapon with Toxin + Cold mods does Viral, ignores armor scaling, and demolishes Grineer flesh — but is mediocre against Corpus shields. So players carry multiple builds or pick the loadout per mission.
 
-The depth isn't *raw damage* — it's *damage type*. See [`damage-type-matrix`](/patterns/damage-type-matrix).
+The depth isn't *raw damage* — it's *damage type*. See `damage-type-matrix`.
 
 ## Status effects as build-defining tags
 
@@ -69,7 +69,7 @@ Each damage type has its own **status effect**:
 
 Many builds chase a *status* not a *damage number*. "Slash priming" or "Viral spam" are recognized playstyles. The pattern: **status effects become an alternative scaling axis** to raw damage. Players tag a build by its status, not by its DPS.
 
-See [`damage-archetype-via-tags`](/patterns/damage-archetype-via-tags) (concept page TBD).
+See `damage-archetype-via-tags` (concept page TBD).
 
 ## Tile-set procedural levels
 
@@ -87,5 +87,5 @@ The **power fantasy** intent is explicit. Maxed builds melt entire rooms — by 
 
 ## Patterns this exemplifies
 
-- [`damage-type-matrix`](/patterns/damage-type-matrix)
+- `damage-type-matrix`
 - [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)

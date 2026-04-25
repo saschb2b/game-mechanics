@@ -25,7 +25,7 @@ Net effect:
 - DE makes money from both populations.
 - **Free players are *content* for paying players** — their farming generates the supply that paying players' demand consumes.
 
-See [`dual-currency-with-trade`](/patterns/dual-currency-with-trade).
+See `dual-currency-with-trade`.
 
 ## Why it doesn't collapse into pay-to-win
 
@@ -60,4 +60,4 @@ If trades didn't have a tax, the economy would slowly drift. The tax is small en
 
 ## Patterns this exemplifies
 
-- [`dual-currency-with-trade`](/patterns/dual-currency-with-trade)
+- `dual-currency-with-trade`

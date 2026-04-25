@@ -79,5 +79,5 @@ The discourse split between purists ("this is what ARPG endgame should be") and 
 
 ## Patterns this exemplifies
 
-- [`one-death-map`](/patterns/one-death-map) — the design pattern. One attempt per content unit; failure ends the run.
-- [`nested-progression-graph`](/patterns/nested-progression-graph) — like PoE1, the Atlas is a separate progression axis from the character. The shape is different (continuous overworld vs. per-map graph) but the role is the same.
+- `one-death-map` — the design pattern. One attempt per content unit; failure ends the run.
+- `nested-progression-graph` — like PoE1, the Atlas is a separate progression axis from the character. The shape is different (continuous overworld vs. per-map graph) but the role is the same.

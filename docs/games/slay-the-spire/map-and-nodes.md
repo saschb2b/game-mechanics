@@ -61,10 +61,10 @@ The "?" Unknown nodes have a **dynamic resolution table**: the longer it's been 
 
 That's a great example of anti-streak RNG. Pure randomness would produce stretches of "all events" or "no events ever." Spire **biases against feel-bad runs without lying to the player.** Same pattern shows up in card-reward rarity (see [deckbuilding](./deckbuilding.md)).
 
-See [`pity-system-anti-streak`](/patterns/pity-system-anti-streak).
+See `pity-system-anti-streak`.
 
 ## Patterns this exemplifies
 
 - [`branching-dag-map`](/concepts/branching-dag-map)
-- [`pity-system-anti-streak`](/patterns/pity-system-anti-streak)
+- `pity-system-anti-streak`
 - [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)

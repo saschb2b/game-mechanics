@@ -53,7 +53,7 @@ This is unusual in F2P because it's *expensive* — two games, two teams, two se
 
 The benefit: GGG didn't have to betray either audience. The PoE1 player who hates one-death maps doesn't have to play PoE2; the new player who wants soulslike-leaning ARPG doesn't have to learn PoE1's surface area.
 
-This is its own concept — see [`parallel-products`](/patterns/parallel-products).
+This is its own concept — see `parallel-products`.
 
 ## What's preserved
 
@@ -80,4 +80,4 @@ This is the rare case where PoE2 walked back a *good* PoE1 design — the Labyri
 ## Patterns this exemplifies
 
 - [`vision-driven-iteration`](/concepts/vision-driven-iteration) — PoE2 is GGG's Vision applied to a new canvas. Same balance philosophy, same nerf-cycle, same friction stance.
-- [`parallel-products`](/patterns/parallel-products) — running two games to serve two audiences rather than picking one.
+- `parallel-products` — running two games to serve two audiences rather than picking one.

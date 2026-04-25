@@ -17,7 +17,7 @@ Per-descent state, lost on death (mostly):
 - Map perks chosen this run.
 - HP / shields.
 
-Note: *some* loot is preserved on death by being in the backpack at exit; the rest is left behind. This is friendlier than full permadeath and similar to Sparklite's ["permalife"](/patterns/permalife) framing — but Moonlighter 2 doesn't fully commit to permalife. Death has real cost.
+Note: *some* loot is preserved on death by being in the backpack at exit; the rest is left behind. This is friendlier than full permadeath and similar to Sparklite's "permalife" framing — but Moonlighter 2 doesn't fully commit to permalife. Death has real cost.
 
 ## 2. Per-day meta
 

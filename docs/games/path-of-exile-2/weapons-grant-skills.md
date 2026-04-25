@@ -66,4 +66,4 @@ The pushback: theory-crafters miss PoE1's freedom. There are fewer "creative" bu
 
 ## Patterns this exemplifies
 
-- [`weapon-grants-skills`](/patterns/weapon-grants-skills) — the design pattern. Weapon archetype provides the build identity; gear becomes legibly tied to playstyle. New for the ARPG genre.
+- `weapon-grants-skills` — the design pattern. Weapon archetype provides the build identity; gear becomes legibly tied to playstyle. New for the ARPG genre.

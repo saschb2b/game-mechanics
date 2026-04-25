@@ -24,7 +24,7 @@ Where Warframe is most aggressive *and* most nuanced. The core thesis: **stack m
 
 Devs replaced an older streak-based system in 2015 because it was punitive. The fix: switch the metric from *consecutive* to *cumulative*. Same long-term incentive, no anxiety.
 
-See [`non-streak-login-rewards`](/patterns/non-streak-login-rewards).
+See `non-streak-login-rewards`.
 
 ## Nightwave (the seasonal "battle pass")
 
@@ -35,7 +35,7 @@ See [`non-streak-login-rewards`](/patterns/non-streak-login-rewards).
 
 Kotaku flagged Nightwave specifically as a non-predatory take on the battle-pass form. The design move: **strip the paid tier entirely.** The pass exists to give players a regular reason to log in, not to monetize FOMO.
 
-See [`free-battle-pass`](/patterns/free-battle-pass).
+See `free-battle-pass`.
 
 ![End-of-mission rewards screen](/images/warframe/rewards.jpg)
 *End-of-mission rewards. Mods, resources, credits, and (in fissure missions) Prime parts. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
@@ -54,7 +54,7 @@ A daily challenge specifically for endgame players. Smaller than Nightwave, hard
 - Drives both: paying customers (who buy Prime Access for instant access) and grinders (who farm relics before vaulting).
 - **Disposition rebalance ships alongside the new Prime drop** — the meta shifts every quarter, on a known schedule.
 
-See [`vault-rotation-economy`](/patterns/vault-rotation-economy).
+See `vault-rotation-economy`.
 
 ## Foundry crafting timer
 
@@ -64,7 +64,7 @@ This is **both a retention loop and a soft monetization mechanism**:
 - Anti-rush pacing: you finish the boss but can't immediately use the reward, smoothing dopamine across days.
 - Soft monetization: impatient players pay.
 
-DE is reportedly considering reducing 72h → 24h, suggesting they think the timer has gotten too long. See [`crafting-timer-as-pacing`](/patterns/crafting-timer-as-pacing).
+DE is reportedly considering reducing 72h → 24h, suggesting they think the timer has gotten too long. See `crafting-timer-as-pacing`.
 
 ## Layered cadences
 
@@ -83,7 +83,7 @@ That layering is the retention strategy. Compare with games that hammer one dail
 
 ## Patterns this exemplifies
 
-- [`non-streak-login-rewards`](/patterns/non-streak-login-rewards)
-- [`free-battle-pass`](/patterns/free-battle-pass)
-- [`vault-rotation-economy`](/patterns/vault-rotation-economy)
-- [`crafting-timer-as-pacing`](/patterns/crafting-timer-as-pacing)
+- `non-streak-login-rewards`
+- `free-battle-pass`
+- `vault-rotation-economy`
+- `crafting-timer-as-pacing`

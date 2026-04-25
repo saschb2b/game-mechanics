@@ -59,4 +59,4 @@ The day-end is the **dopamine pinch point** — see your packing/pricing decisio
 
 ## Pattern angles
 
-The shop-pricing system is best read as a **separate-but-coupled mini-game** to the dungeon-roguelite. It's not strictly part of any single cross-game pattern, but the *coupling* — same items move through both games, with each game judging them differently — is part of [`dual-life-loop`](/patterns/dual-life-loop).
+The shop-pricing system is best read as a **separate-but-coupled mini-game** to the dungeon-roguelite. It's not strictly part of any single cross-game pattern, but the *coupling* — same items move through both games, with each game judging them differently — is part of `dual-life-loop`.

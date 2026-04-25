@@ -58,4 +58,4 @@ The "Ascension staircase" pattern from [Slay the Spire](/games/slay-the-spire/as
 
 ## Patterns this exemplifies
 
-- [`xp-loss-penalty`](/patterns/xp-loss-penalty) — a soft permadeath penalty that creates real death stakes without going full HC.
+- `xp-loss-penalty` — a soft permadeath penalty that creates real death stakes without going full HC.

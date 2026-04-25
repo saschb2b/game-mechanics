@@ -25,13 +25,13 @@ Don't treat research dumps as long-term content. The published `docs/` is canoni
 
 ## Repo conventions are documented in CONTRIBUTING.md
 
-Frontmatter fields, sub-page split rule, concept-page template, patterns generator contract, screenshot procedure — all in [CONTRIBUTING.md](./CONTRIBUTING.md).
+Frontmatter fields, sub-page split rule, concept-page template, screenshot procedure — all in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 There are two workflows, both fully documented in CONTRIBUTING.md. Read the relevant one end-to-end before starting:
 
-- **Adding a new game entry** — 11-step checklist (research → folder → frontmatter → screenshots → sidebar → cross-cut concepts → build → cleanup). Don't skip step 8: when a game's `patterns:` includes one that already has a curated concept page, you must hand-edit that concept page to add a row in its variants table. The generator does *not* do this for you.
-- **Adding (promoting) a concept page** — 6-step procedure for when ≥2 games tag a pattern and you want to curate it. Covers the standard template (lemma → variants table → visual contrast → when to use → pitfalls → adjacent patterns), updating `docs/concepts/index.md`, sidebar, and how the generator auto-flips the patterns index row from `[stub]` to `[concept]`.
+- **Adding a new game entry** — 11-step checklist (research → folder → frontmatter → screenshots → sidebar → cross-cut concepts → build → cleanup). Don't skip step 8: when a game's `patterns:` includes one that already has a curated concept page, you must hand-edit that concept page to add a row in its variants table.
+- **Adding (promoting) a concept page** — 5-step procedure for when ≥2 games tag a pattern and you want to curate it. Covers the standard template (lemma → variants table → visual contrast → when to use → pitfalls → adjacent patterns), updating `docs/concepts/index.md`, and the sidebar.
 
-The "Workflow at a glance" section near the bottom of CONTRIBUTING.md summarizes the layers. Short version: **`/concepts/` is the canonical curated surface for design patterns.** `/patterns/<x>` exists only as auto-generated stubs that keep prose links resolving — it's not in the site nav and shouldn't be referenced as a destination.
+**`/concepts/` is the canonical curated surface for design patterns.** Game `patterns.md` tables link out to `/concepts/<x>` for curated patterns; uncurated patterns appear as plain `` `pattern-name` `` (no link). There is no `/patterns/` directory — `patterns:` frontmatter is a machine-readable tag list only.
 
 Open decisions are in [TODO.md](./TODO.md).

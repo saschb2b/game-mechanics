@@ -49,8 +49,8 @@ Most games offer "classes" that are reskins of the same system. **Spire's charac
 
 This is much stronger than "this class has +20% crit". It's "this class plays a different game inside the same engine."
 
-See [`orthogonal-class-design`](/patterns/orthogonal-class-design).
+See `orthogonal-class-design`.
 
 ## Patterns this exemplifies
 
-- [`orthogonal-class-design`](/patterns/orthogonal-class-design)
+- `orthogonal-class-design`

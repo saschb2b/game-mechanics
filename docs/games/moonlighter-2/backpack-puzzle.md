@@ -67,5 +67,5 @@ This is the same instinct as deck-thinning in Spire: **don't try to optimize all
 - [`loadout-as-budget`](/concepts/loadout-as-budget) — the budget is grid-adjacency rather than total cells / total points.
 - [`grid-inventory`](/concepts/grid-inventory) — explicit spatial layout matters.
 - [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — placing a relic in one slot precludes the synergies of every other placement.
-- [`backpack-puzzle`](/patterns/backpack-puzzle) — the specific lemma. Loot value is a function of placement, not just quantity.
+- `backpack-puzzle` — the specific lemma. Loot value is a function of placement, not just quantity.
 - [`fusion-economy`](/concepts/fusion-economy) — burn / absorb / transform mechanics consolidate loot at quality cost.

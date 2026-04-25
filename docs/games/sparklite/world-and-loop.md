@@ -61,6 +61,6 @@ The devs explicitly **rejected the "thousands of hours" roguelite model.** Spark
 
 ## Patterns this exemplifies
 
-- [`permalife`](/patterns/permalife)
+- `permalife`
 - [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)
 - [`bounded-roguelite`](/concepts/bounded-roguelite)

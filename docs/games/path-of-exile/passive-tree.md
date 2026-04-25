@@ -67,4 +67,4 @@ This means **build commits matter.** You don't experiment lightly post-campaign;
 
 - [`loadout-as-budget`](/concepts/loadout-as-budget) — the tree is a *very* large numeric budget (≈122 points at level 100). Every point is an opportunity cost.
 - [`bonus-with-drawback`](/concepts/bonus-with-drawback) — keystones are the canonical genre example; every keystone closes off other build directions.
-- [`nested-progression-graph`](/patterns/nested-progression-graph) — the passive tree is one axis; ascendancy, the Atlas tree, gear, and skill gems are orthogonal axes. PoE's progression is a graph, not a line.
+- `nested-progression-graph` — the passive tree is one axis; ascendancy, the Atlas tree, gear, and skill gems are orthogonal axes. PoE's progression is a graph, not a line.

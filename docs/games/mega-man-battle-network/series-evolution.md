@@ -96,4 +96,4 @@ Inafune has also noted that BN3 was originally intended as the series finale; BN
 
 ## Patterns this exemplifies
 
-- [`iterative-yearly-refinement`](/patterns/iterative-yearly-refinement) — five years of iterating meta-systems on a frozen combat core. Capcom's working model for the BN series.
+- `iterative-yearly-refinement` — five years of iterating meta-systems on a frozen combat core. Capcom's working model for the BN series.

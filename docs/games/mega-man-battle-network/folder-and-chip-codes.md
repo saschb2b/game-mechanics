@@ -74,6 +74,6 @@ So the design lever is "cohesion within fixed size" rather than "shrink the deck
 
 ## Patterns this exemplifies
 
-- [`subtractive-deckbuilding`](/patterns/subtractive-deckbuilding) — different shape (cohesion vs. count) but same insight: tighter focus = stronger draws.
-- [`code-constrained-deckbuilding`](/patterns/code-constrained-deckbuilding) — BN's specific lever. Letter codes as a co-play constraint.
+- `subtractive-deckbuilding` — different shape (cohesion vs. count) but same insight: tighter focus = stronger draws.
+- `code-constrained-deckbuilding` — BN's specific lever. Letter codes as a co-play constraint.
 - [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — every chip slot taken by a B-code chip is a slot not held by an A-code chip. Folder commits matter.

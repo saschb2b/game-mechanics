@@ -70,5 +70,5 @@ This is a textbook iterative-balance moment — see [series evolution](./series-
 
 ## Patterns this exemplifies
 
-- [`card-combo-recipes`](/patterns/card-combo-recipes) — multi-card combos that produce unique fused effects, distinct from sum-of-parts.
-- [`hidden-knowledge-depth`](/patterns/hidden-knowledge-depth) — recipes that aren't fully documented in-game; community knowledge is a meta-game layer.
+- `card-combo-recipes` — multi-card combos that produce unique fused effects, distinct from sum-of-parts.
+- `hidden-knowledge-depth` — recipes that aren't fully documented in-game; community knowledge is a meta-game layer.

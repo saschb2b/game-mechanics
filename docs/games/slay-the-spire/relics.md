@@ -48,7 +48,7 @@ Relics fundamentally **break rules.** A few examples:
 
 Each relic is a small *modifier* that turns a normal run into a specific puzzle. **Combined with deck composition, relics produce hundreds of distinct "this run is about X" identities.** Snecko Eye + Runic Pyramid is a wildly different game from Velvet Choker + Calling Bell.
 
-See [`rule-breaking-relics`](/patterns/rule-breaking-relics).
+See `rule-breaking-relics`.
 
 ## Boss relics — the highest-stakes choice
 
@@ -69,5 +69,5 @@ If your game has run-defining loot, **give it costs.** Uncosted upgrades flatten
 
 ## Patterns this exemplifies
 
-- [`rule-breaking-relics`](/patterns/rule-breaking-relics)
+- `rule-breaking-relics`
 - [`bonus-with-drawback`](/concepts/bonus-with-drawback)

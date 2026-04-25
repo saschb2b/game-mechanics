@@ -54,4 +54,4 @@ The cost: BN's audience saw similar games every year and some critics dismissed 
 ## Patterns this exemplifies
 
 - [`bonus-with-drawback`](/concepts/bonus-with-drawback) — Beast Out's burst-then-Bug-Out cycle is a textbook example.
-- [`iterative-yearly-refinement`](/patterns/iterative-yearly-refinement) — five years of iterating one transformation system on a frozen core, converging on a layered synthesis.
+- `iterative-yearly-refinement` — five years of iterating one transformation system on a frozen core, converging on a layered synthesis.

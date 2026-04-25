@@ -34,7 +34,7 @@ This pattern is now widely copied:
 - **Monster Train** — Covenants.
 - **Inscryption, Wildfrost, Across the Obelisk** — variations.
 
-See [`cumulative-modifier-staircase`](/patterns/cumulative-modifier-staircase).
+See `cumulative-modifier-staircase`.
 
 ## Card / relic unlocks layer
 
@@ -57,5 +57,5 @@ See [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power).
 
 ## Patterns this exemplifies
 
-- [`cumulative-modifier-staircase`](/patterns/cumulative-modifier-staircase)
+- `cumulative-modifier-staircase`
 - [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power)

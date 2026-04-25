@@ -43,7 +43,7 @@ GDC 2019 talk: every card and relic has its win-rate and pick-rate tracked acros
 
 Most games ship too much; Spire shipped what survived testing. **Pruning is design.**
 
-See [`metrics-driven-balance`](/patterns/metrics-driven-balance).
+See `metrics-driven-balance`.
 
 ## Meta-progression as variety, not power
 
@@ -69,4 +69,4 @@ Giovannetti notes that single-player digital games have advantages over physical
 
 ## Patterns this exemplifies
 
-- [`metrics-driven-balance`](/patterns/metrics-driven-balance)
+- `metrics-driven-balance`

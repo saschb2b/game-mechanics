@@ -58,7 +58,7 @@ GGG has integrated NeverSink's filter as the default on console, and the filter 
 
 **Why is this delegated?** Because filter "correctness" depends on live economy data — Chaos prices on specific bases shift weekly. GGG cannot ship a patch fast enough to track the market; NeverSink's release cadence (sometimes daily during a fresh league) can.
 
-This is a clear case of **community-driven tooling as design feature.** GGG ships hooks (the filter language); the community ships the actual product. See [`community-driven-tooling`](/patterns/community-driven-tooling).
+This is a clear case of **community-driven tooling as design feature.** GGG ships hooks (the filter language); the community ships the actual product. See `community-driven-tooling`.
 
 ## What the trade philosophy actually produces
 
@@ -74,5 +74,5 @@ The last row is the cost. PoE's trade UX is **deliberately bad**, not accidental
 
 ## Patterns this exemplifies
 
-- [`trade-friction-as-feature`](/patterns/trade-friction-as-feature) — the explicit position that friction in trading is part of the game design, not a UX failure.
-- [`community-driven-tooling`](/patterns/community-driven-tooling) — GGG ships the language, the community ships the tool. Same pattern as text editors with package ecosystems.
+- `trade-friction-as-feature` — the explicit position that friction in trading is part of the game design, not a UX failure.
+- `community-driven-tooling` — GGG ships the language, the community ships the tool. Same pattern as text editors with package ecosystems.

@@ -40,5 +40,5 @@ Same shape as Hades' House of Hades — a permanent settlement that visibly impr
 
 ## Patterns this exemplifies
 
-- [`dual-life-loop`](/patterns/dual-life-loop) — the same character toggles between two distinct mini-games, each feeding the other.
+- `dual-life-loop` — the same character toggles between two distinct mini-games, each feeding the other.
 - [`bounded-roguelite`](/concepts/bounded-roguelite) — the campaign has a clear arc (Early Access has 3 biomes leading toward final-release content), not infinite escalation.

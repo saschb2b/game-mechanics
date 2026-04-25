@@ -48,7 +48,7 @@ This is **textbook [`bonus-with-drawback`](/concepts/bonus-with-drawback) at the
 
 ## Compression Codes (BN6)
 
-BN6 added a depth layer: **secret button-input codes that compress a program by one cell.** Hold Up + B + Select on the Customizer screen with a specific program selected, and its footprint shrinks. The codes are released in magazines, in-game hints, and (now) community wikis — same "[hidden knowledge depth](/patterns/hidden-knowledge-depth)" pattern as Program Advance recipes.
+BN6 added a depth layer: **secret button-input codes that compress a program by one cell.** Hold Up + B + Select on the Customizer screen with a specific program selected, and its footprint shrinks. The codes are released in magazines, in-game hints, and (now) community wikis — same "hidden knowledge depth" pattern as Program Advance recipes.
 
 Compressed programs let you fit *more* into the same grid. Players who memorize the codes can ship 50%+ more programs than players who don't.
 
@@ -86,6 +86,6 @@ NaviCust matches the [`grid-inventory`](/concepts/grid-inventory) pattern as cle
 ## Patterns this exemplifies
 
 - [`grid-inventory`](/concepts/grid-inventory) — the canonical example, predating most modern instances.
-- [`block-puzzle-stat-upgrades`](/patterns/block-puzzle-stat-upgrades) — Tetris-shaped stat blocks; passive upgrades through spatial packing.
+- `block-puzzle-stat-upgrades` — Tetris-shaped stat blocks; passive upgrades through spatial packing.
 - [`bonus-with-drawback`](/concepts/bonus-with-drawback) — Bugs as opt-in costs for fitting more.
 - [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — every cell taken by HP+ is a cell not available for Charge+, FloatShoes, etc.

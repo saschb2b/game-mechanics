@@ -69,5 +69,5 @@ The comparison some streamers and reviewers settled on: **PoE2 campaign is souls
 
 ## Patterns this exemplifies
 
-- [`anti-screen-clear-combat`](/patterns/anti-screen-clear-combat) — design pattern: deliberately slow combat to restore per-encounter meaning. PoE2 is the canonical case study.
-- [`enemy-intent-telegraph`](/patterns/enemy-intent-telegraph) — same family as Spire's intent system, but real-time: bosses telegraph their next attack visually, so dodging is a reaction not a roll.
+- `anti-screen-clear-combat` — design pattern: deliberately slow combat to restore per-encounter meaning. PoE2 is the canonical case study.
+- `enemy-intent-telegraph` — same family as Spire's intent system, but real-time: bosses telegraph their next attack visually, so dodging is a reaction not a roll.

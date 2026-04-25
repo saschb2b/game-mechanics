@@ -68,9 +68,9 @@ This drives both populations:
 - **Paying customers** who buy Prime Access or Prime Vault bundles for instant access.
 - **Grinders** who farm relics aggressively before vaulting (creating market scarcity later).
 
-It also rotates the player base's attention to current content rather than letting old Primes dominate forever. See [`vault-rotation-economy`](/patterns/vault-rotation-economy).
+It also rotates the player base's attention to current content rather than letting old Primes dominate forever. See `vault-rotation-economy`.
 
 ## Patterns this exemplifies
 
-- [`crafting-timer-as-pacing`](/patterns/crafting-timer-as-pacing)
-- [`vault-rotation-economy`](/patterns/vault-rotation-economy)
+- `crafting-timer-as-pacing`
+- `vault-rotation-economy`

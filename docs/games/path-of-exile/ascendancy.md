@@ -55,4 +55,4 @@ PoE's "earn it through a skill check" framing is unusual. It's the *only* major 
 ## Patterns this exemplifies
 
 - [`bonus-with-drawback`](/concepts/bonus-with-drawback) — committing to an ascendancy forecloses 2 others; the build ramifications are large.
-- [`earned-identity-gating`](/patterns/earned-identity-gating) — the gate is skill-based, not RNG. A small but distinct pattern: "the most identity-defining decision in the game is the one you genuinely earn."
+- `earned-identity-gating` — the gate is skill-based, not RNG. A small but distinct pattern: "the most identity-defining decision in the game is the one you genuinely earn."
