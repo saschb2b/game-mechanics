@@ -15,11 +15,12 @@ docs/                          VitePress site (the published content)
     patterns.md                Quick pattern table (link out to concept pages)
     lessons.md                 What I'd steal for my own games
     sources.md                 Citations
-  concepts/<concept>.md        Curated cross-game pattern pages
-  patterns/                    Auto-generated; do not edit by hand
+  concepts/<concept>.md        Curated cross-game pattern pages — the canonical "design patterns" surface
+  patterns/<pattern>.md        Auto-generated stubs that exist only so prose links /patterns/<x> resolve.
+                               NOT navigated. Don't edit by hand.
   .vitepress/
     config.ts                  Sidebar, nav, theme config
-    build/generate-patterns.ts Patterns index generator (runs on dev/build)
+    build/generate-patterns.ts Stub generator (runs on dev/build)
 
 CLAUDE.md                      Conventions for the LLM working on this repo
 CONTRIBUTING.md                This file
@@ -53,7 +54,7 @@ Every game folder has these files. Even small games create stubs for all of them
 | `index.md` | yes | Snapshot, macro loop, TOC of mechanic sub-pages, "What this game teaches" summary |
 | `<mechanic-1>.md`, `<mechanic-2>.md`, … | yes | One file per major mechanic system. Tag each with `patterns:` |
 | `design-tensions.md` | yes if devs are explicit; skip if no quotes available | Block-quoted dev quotes; what the game wrestles with |
-| `patterns.md` | yes | Quick reference table of patterns this game exemplifies, linking out to `/patterns/<pattern>` |
+| `patterns.md` | yes | Quick reference table of patterns this game exemplifies. Curated patterns link to `/concepts/<pattern>`; uncurated patterns link to `/patterns/<pattern>` (the auto-generated stub) |
 | `lessons.md` | yes | Opinionated "what I'd steal for my own (Godot) games", with cautionary lessons |
 | `sources.md` | yes | Bibliography. Wiki, Steam, dev interviews, reviews, guides. Group by category. |
 
@@ -144,12 +145,12 @@ Specifically:
 - If the concept page has a **Visual contrast** image grid, add a column for the new game.
 - See `loadout-as-budget.md` and `handcrafted-pcg-hybrid.md` for examples of the pattern.
 
-The auto-generated patterns index (`docs/patterns/`) updates itself from frontmatter, but **curated concept pages do not** — you must edit them by hand.
+**Curated concept pages do not auto-update.** You must edit them by hand. The auto-generator only owns the `/patterns/<x>` URL-resolution stubs — see [Pattern stubs](#pattern-stubs-url-resolution).
 
-### 9. Run the patterns generator + build
+### 9. Run the generator + build
 
 ```sh
-pnpm generate   # regenerate /patterns/ from frontmatter
+pnpm generate   # regenerate /patterns/<x>.md stubs from frontmatter
 pnpm build      # full build; fails on dead links
 ```
 
@@ -160,7 +161,6 @@ Fix any dead-link errors before considering the entry done. Common cause: a `pat
 Restart `pnpm dev` (the generator runs once at startup). Click through:
 - The new game's index page.
 - Each mechanic sub-page.
-- The patterns index (`/patterns/`) — confirm the new patterns appear.
 - The concept pages you updated — confirm the new variants row appears.
 
 ### 11. Delete research scaffolding
@@ -179,7 +179,7 @@ Why wait: a one-game concept page is just a restatement of the game's mechanic p
 
 Exception: a pattern with only 1 current game but a strong unique angle (e.g. `permalife` — a deliberate dev-coined term) can earn its own page early.
 
-To find candidates, scan the [patterns index](/patterns/) — patterns with multiple games in the "Games" column and `[stub]` in the "Page" column are the obvious queue.
+To find candidates, grep the repo for `patterns:` frontmatter entries that appear in two or more games' files but don't yet have a `docs/concepts/<slug>.md`. The auto-generated stubs at `docs/patterns/<slug>.md` show which games tag each pattern (machine reference; not navigated).
 
 ### 1. Create the concept page
 
@@ -272,70 +272,48 @@ Add the new page to the `/concepts/` sidebar map under the matching category. Th
 pnpm generate
 ```
 
-Behind the scenes:
-- The generator notices `docs/concepts/<slug>.md` exists.
-- The patterns index row for `<slug>` flips from `[stub]` → `[concept]`.
-- `docs/patterns/<slug>.md` is rewritten as a *redirect stub* pointing at `/concepts/<slug>` (so older `/patterns/<slug>` links in game-page prose still resolve cleanly).
-
-You don't manually edit anything in `docs/patterns/` — the generator owns it.
+Behind the scenes the generator notices `docs/concepts/<slug>.md` exists and rewrites the corresponding `docs/patterns/<slug>.md` stub as a one-line redirect to the concept page — so any pre-existing `/patterns/<slug>` links in game prose keep resolving. (See [Pattern stubs](#pattern-stubs-url-resolution).)
 
 ### 6. Verify
 
-`pnpm build` should pass. Click through the new concept page in the browser; cross-check that:
+`pnpm build` should pass. Click through the new concept page in the browser and confirm:
 - Each game in the variants table links to a real mechanic sub-page.
-- The `[concept]` link in `docs/patterns/index.md` lands on your new page.
 - The concept appears under the right category in `docs/concepts/index.md`.
+- The new entry shows up in the `/concepts/` sidebar.
 
-## Workflow at a glance — game ↔ concept ↔ pattern
-
-The three layers and how they update each other:
+## Workflow at a glance
 
 ```
 Game pages (hand-written)
   ├─ frontmatter: patterns: [a, b, c]
-  └─ prose: links to /patterns/<x> or /concepts/<x>
-
-         ↓ (generator scans frontmatter)
-
-docs/patterns/ (auto-generated)
-  ├─ index.md  — table of patterns × games
-  └─ <p>.md    — per-pattern stub OR redirect to concept
+  └─ prose: links to /concepts/<x> for curated, /patterns/<x> for uncurated
 
          ↓ (when ≥2 games tag a pattern, manually promote)
 
 docs/concepts/<p>.md (hand-written, curated)
   ├─ Lemma + variants table + visual contrast + pitfalls
-  └─ Listed in docs/concepts/index.md under a category
+  └─ Listed in docs/concepts/index.md under a category — THIS is the canonical surface
 
+docs/patterns/<p>.md (auto-generated, NOT navigated)
+  └─ One-line stub or concept redirect; exists only so prose links resolve.
 ```
 
-**Two human-driven workflows, two automatic updates:**
+**The thing the generator doesn't do for you:** keep concept-page contrast tables in sync with new games. When game X is added with pattern Y, and Y already has a curated concept page, *you* must add a row to that concept page's variants table. Concept-page rows are bespoke prose ("how does game X specifically instantiate this pattern?") and aren't well-served by frontmatter-driven boilerplate. They are the artisanal layer.
 
-| When you... | Edit by hand | Auto-updates |
-|---|---|---|
-| Add a new game with `patterns: [a, b, c]` in frontmatter | Game pages, `docs/games/index.md`, sidebar, **and concept pages where a, b, c are already curated** ([step 8](#adding-a-new-game-entry)) | The patterns index, per-pattern stubs |
-| Promote a pattern to a curated concept page | `docs/concepts/<p>.md`, `docs/concepts/index.md`, sidebar | Patterns index row flips `[stub]` → `[concept]`; per-pattern stub becomes a redirect |
+## Pattern stubs (URL resolution)
 
-**The thing the generator doesn't do for you:** keep concept-page contrast tables in sync with new games. When game X is added with pattern Y, and Y already has a curated concept page, *you* must add a row to that concept page's variants table. The generator only updates the *patterns* index, not the curated concept pages.
+`docs/patterns/<name>.md` files are **auto-generated** by `docs/.vitepress/build/generate-patterns.ts` and are not part of the site nav. They exist purely so in-prose links of the form `/patterns/<x>` from game pages resolve to *something* rather than 404.
 
-This is intentional — concept-page rows are bespoke prose ("how does game X *specifically* instantiate this pattern, and what's the trade-off?") and aren't well-served by frontmatter-driven boilerplate. They are the artisanal layer.
+There are two kinds of stub:
 
-## Patterns index
+- **Redirect stub** — written when `docs/concepts/<x>.md` exists. A one-line "see the concept page" pointer.
+- **Plain stub** — written when no concept page exists. Lists which games tag the pattern.
 
-`docs/patterns/index.md` and `docs/patterns/<name>.md` files are **auto-generated** by `docs/.vitepress/build/generate-patterns.ts`. Don't edit them by hand — your edits will be overwritten on next `pnpm generate` (or `pnpm dev` / `pnpm build`).
-
-The generator:
-- Scans every `docs/**/*.md` for `patterns: [...]` frontmatter.
-- Deduplicates per game (prefers mechanic sub-pages over the game index).
-- Writes `docs/patterns/index.md` — the grand table of patterns × games.
-- Writes `docs/patterns/<name>.md` for *every* referenced pattern:
-  - **No concept page yet** → plain stub explaining no curated page exists, listing games using it.
-  - **Concept page exists at `docs/concepts/<name>.md`** → redirect stub linking to the concept page (so `/patterns/<name>` links in prose still resolve).
-- Removes orphan files (patterns no longer referenced anywhere).
-
-Hand-written `docs/concepts/<name>.md` files are **never touched** by the generator.
+Don't edit stubs by hand — they're regenerated on every `pnpm generate` / `pnpm dev` / `pnpm build`. Hand-written `docs/concepts/<name>.md` files are **never touched** by the generator.
 
 Pattern IDs are kebab-case (lowercase letters, digits, hyphens). Invalid IDs are warned about and skipped.
+
+In practice you don't visit `/patterns/<x>` URLs as a reader. You navigate via `/concepts/` (curated) or via game pages (origin). The generator just keeps stale links from breaking.
 
 ## Local dev
 
@@ -343,10 +321,10 @@ Pattern IDs are kebab-case (lowercase letters, digits, hyphens). Invalid IDs are
 pnpm install
 pnpm dev      # localhost:5173, runs the generator before vitepress dev
 pnpm build    # production build, fails on dead links
-pnpm generate # regenerate patterns/ on demand (e.g. after editing frontmatter while dev is running)
+pnpm generate # regenerate /patterns/ stubs on demand (after editing `patterns:` frontmatter mid-session)
 ```
 
-The generator only runs once at `pnpm dev` startup, so editing `patterns:` frontmatter mid-session needs `pnpm generate` again to refresh the index.
+The generator only runs once at `pnpm dev` startup. Editing `patterns:` frontmatter mid-session needs `pnpm generate` again to refresh the stubs (otherwise new prose `/patterns/<x>` links may not resolve).
 
 ## Visuals
 

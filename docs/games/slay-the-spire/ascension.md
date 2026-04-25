@@ -53,9 +53,9 @@ Their meta-progression is *unlocking variety*, not unlocking strength:
 
 This is a strong, opinionated design call worth its own concept page. **The next run is more *interesting*, not easier.**
 
-See [`meta-as-variety-not-power`](/patterns/meta-as-variety-not-power).
+See [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power).
 
 ## Patterns this exemplifies
 
 - [`cumulative-modifier-staircase`](/patterns/cumulative-modifier-staircase)
-- [`meta-as-variety-not-power`](/patterns/meta-as-variety-not-power)
+- [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power)

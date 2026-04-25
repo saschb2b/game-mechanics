@@ -55,4 +55,4 @@ Compare with [Spire's `meta-as-variety-not-power`](/concepts/handcrafted-pcg-hyb
 
 ## Patterns this exemplifies
 
-- [`meta-as-variety-not-power`](/patterns/meta-as-variety-not-power) — but only partially; permanent stat upgrades exist alongside variety unlocks.
+- [`meta-as-variety-not-power`](/concepts/meta-as-variety-not-power) — but only partially; permanent stat upgrades exist alongside variety unlocks.

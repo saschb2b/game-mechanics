@@ -18,7 +18,7 @@ The Sparklite answer: permalife. Death resets the *world*, not the *character*. 
 
 > *"The marriage of deliberately authored adventure gameplay to the organized chaos of procedural generation… two completely competing genres."* — **Kevin Mabie**
 
-The Sparklite answer: hand-author tiles, procedurally arrange them. See [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid).
+The Sparklite answer: hand-author tiles, procedurally arrange them. See [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid).
 
 ## Skill floor vs. depth
 

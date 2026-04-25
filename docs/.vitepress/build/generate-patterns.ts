@@ -1,11 +1,19 @@
 /**
  * Scans all game and concept pages, collects `patterns:` frontmatter,
- * and generates:
- *   - docs/patterns/index.md — grand table of patterns × games
- *   - docs/patterns/<pattern>.md — stub per pattern (when no concept page exists)
+ * and generates per-pattern stub pages at docs/patterns/<pattern>.md.
  *
- * Re-runnable. Hand-written concept pages at /concepts/<name>.md are NEVER touched.
- * Files at /patterns/ with `generated: true` in frontmatter are safe to overwrite.
+ * The stubs are NOT a navigated section — they exist purely so in-prose
+ * links `/patterns/<x>` from game pages resolve. When a curated concept
+ * page exists at `docs/concepts/<x>.md`, the stub redirects to it.
+ * Otherwise it lists which games tag the pattern.
+ *
+ * The /patterns/ section is intentionally absent from the site nav. The
+ * canonical surface for design patterns is /concepts/ — hand-curated,
+ * grouped, with cross-game contrast tables.
+ *
+ * Re-runnable. Hand-written concept pages at /concepts/<name>.md are NEVER
+ * touched. Files at /patterns/ with `generated: true` in frontmatter are
+ * safe to overwrite.
  */
 
 import { readFile, writeFile, readdir, mkdir, unlink } from 'node:fs/promises'
@@ -88,82 +96,6 @@ function extractGameFromPath(file: string): string | undefined {
 
 async function conceptExists(pattern: string): Promise<boolean> {
   return existsSync(join(CONCEPTS_DIR, `${pattern}.md`))
-}
-
-/**
- * For a pattern's references, produce the rendered "Games" cell:
- *   - One entry per distinct game.
- *   - Prefer the most-specific mechanic page over the game index.
- *   - Concept pages excluded entirely.
- */
-function renderGameRefs(refs: PageRef[]): string {
-  const byGame = new Map<string, PageRef>()
-  for (const ref of refs) {
-    if (ref.type !== 'game') continue
-    if (!ref.game) continue
-    const existing = byGame.get(ref.game)
-    if (!existing) {
-      byGame.set(ref.game, ref)
-      continue
-    }
-    // Prefer mechanic sub-page over the game index.
-    if (existing.isGameIndex && !ref.isGameIndex) {
-      byGame.set(ref.game, ref)
-    }
-  }
-
-  if (byGame.size === 0) return '—'
-
-  return [...byGame.values()]
-    .sort((a, b) => (a.game ?? '').localeCompare(b.game ?? ''))
-    .map(r => `[${gameLabelFromRef(r)}](${r.link})`)
-    .join(', ')
-}
-
-function gameLabelFromRef(ref: PageRef): string {
-  // For sub-pages, the title already has "Game — Section" form.
-  // For game indexes, just use the game's pretty title.
-  return ref.title
-}
-
-async function writeIndex(map: PatternMap) {
-  // Sort by number of distinct games covered, descending.
-  const entries = [...map.entries()].map(([pattern, refs]) => {
-    const distinctGames = new Set(refs.filter(r => r.type === 'game').map(r => r.game)).size
-    return { pattern, refs, distinctGames }
-  })
-  entries.sort((a, b) => b.distinctGames - a.distinctGames || a.pattern.localeCompare(b.pattern))
-
-  let body = `---
-generated: true
----
-
-# Patterns Index
-
-*Auto-generated from \`patterns:\` frontmatter across all game and concept pages.*
-
-*Run \`pnpm generate\` to regenerate.*
-
-`
-
-  if (entries.length === 0) {
-    body += `*No patterns indexed yet. Add \`patterns: [...]\` frontmatter to game pages and run \`pnpm generate\`.*\n`
-  } else {
-    body += `_${entries.length} pattern(s) indexed across ${countGamesAcrossPatterns(map)} distinct game(s)._\n\n`
-    body += `| Pattern | Games | Page |\n|---|---|---|\n`
-    for (const { pattern, refs, distinctGames } of entries) {
-      const hasConcept = await conceptExists(pattern)
-      const pageCell = hasConcept
-        ? `[concept](/concepts/${pattern})`
-        : `[stub](/patterns/${pattern})`
-      const gamesCell = renderGameRefs(refs)
-      const _ = distinctGames // currently unused, kept for sort key clarity
-      body += `| \`${pattern}\` | ${gamesCell} | ${pageCell} |\n`
-    }
-  }
-
-  await mkdir(PATTERNS_DIR, { recursive: true })
-  await writeFile(join(PATTERNS_DIR, 'index.md'), body, 'utf8')
 }
 
 function countGamesAcrossPatterns(map: PatternMap): number {
@@ -255,11 +187,15 @@ function renderStubGameList(refs: PageRef[]): string {
 
 async function main() {
   const map = await scanFrontmatter()
-  await writeIndex(map)
   await writeStubs(map)
+  // Drop a leftover /patterns/index.md from previous generator versions.
+  const oldIndex = join(PATTERNS_DIR, 'index.md')
+  if (existsSync(oldIndex)) {
+    await unlink(oldIndex).catch(() => {})
+  }
   const total = map.size
   const games = countGamesAcrossPatterns(map)
-  console.log(`[patterns] indexed ${total} pattern(s) across ${games} game(s)`)
+  console.log(`[patterns] wrote ${total} stub(s) for prose-link resolution; ${games} game(s) tagged`)
 }
 
 main().catch(err => {

@@ -39,7 +39,7 @@ The map is the **meta-decision layer** that wraps the combat layer. Every node-c
 
 Critically: **paths are partially-visible from the start of the act** — so the player plans the *shape* of the run before the first fight. This is what makes Spire feel strategic across runs of similar enemies. The map turns "random encounters" into "**chosen sequences of risks.**"
 
-See [`branching-dag-map`](/patterns/branching-dag-map).
+See [`branching-dag-map`](/concepts/branching-dag-map).
 
 ## Procedural generation rules
 
@@ -53,7 +53,7 @@ See [`branching-dag-map`](/patterns/branching-dag-map).
   - Floor 9 in Act 1 is always a Rest Site.
   - First 4 floors never have an Elite.
 
-This is a clean **handcrafted-PCG hybrid**: the *positions* of certain key node types are fixed; the *layout* connecting them is procedural. Same trick Sparklite uses for biome layout, same trick Warframe uses for tile-set assembly. See [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid).
+This is a clean **handcrafted-PCG hybrid**: the *positions* of certain key node types are fixed; the *layout* connecting them is procedural. Same trick Sparklite uses for biome layout, same trick Warframe uses for tile-set assembly. See [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid).
 
 ## Anti-streak RNG
 
@@ -65,6 +65,6 @@ See [`pity-system-anti-streak`](/patterns/pity-system-anti-streak).
 
 ## Patterns this exemplifies
 
-- [`branching-dag-map`](/patterns/branching-dag-map)
+- [`branching-dag-map`](/concepts/branching-dag-map)
 - [`pity-system-anti-streak`](/patterns/pity-system-anti-streak)
-- [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid)
+- [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)

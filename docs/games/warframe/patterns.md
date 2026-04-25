@@ -8,7 +8,7 @@ game: warframe
 
 | Pattern | How Warframe uses it |
 |---|---|
-| [`loadout-as-budget`](/patterns/loadout-as-budget) | Power lives inside a fixed mod-capacity budget (60 points); matching polarities = packing efficiency. |
+| [`loadout-as-budget`](/concepts/loadout-as-budget) | Power lives inside a fixed mod-capacity budget (60 points); matching polarities = packing efficiency. |
 | [`permanent-grind-currency`](/patterns/permanent-grind-currency) | Forma converts time spent into permanent slot expansion, but each Forma costs full re-leveling. |
 | [`community-driven-balance`](/patterns/community-driven-balance) | Riven Disposition rebalances quarterly based on weapon usage stats. Soft balance without base-stat nerfs. |
 | [`random-perfect-roll-economy`](/patterns/random-perfect-roll-economy) | Rivens are unique-stat mods with random rolls → built-in lottery + market mechanic. |
@@ -19,7 +19,7 @@ game: warframe
 | [`free-battle-pass`](/patterns/free-battle-pass) | All Nightwave rewards free. Distinguishes from predatory paid passes. |
 | [`nested-progression-graph`](/patterns/nested-progression-graph) | Multiple orthogonal progression axes layered over years. New systems live alongside old ones. |
 | [`mastery-as-meta-currency`](/patterns/mastery-as-meta-currency) | A meta-rank that gates content but is earned by *trying* every piece of gear, incentivizing breadth. |
-| [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid) | Hand-authored tile-sets, procedurally connected. (Same trick as Sparklite, predates it by 6 years.) |
+| [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid) | Hand-authored tile-sets, procedurally connected. (Same trick as Sparklite, predates it by 6 years.) |
 | [`damage-type-matrix`](/patterns/damage-type-matrix) | Combat depth from element/armor matchups rather than from raw damage. |
 | [`subsume-system`](/patterns/subsume-system) | Helminth lets you replace 1 of 4 abilities with another frame's. Combinatorial depth on top of an already-large set. |
 | [`incarnon-evolution`](/patterns/incarnon-evolution) | Old weapons get an alternate "void-attuned" mode + 5 evolutions. Resurrects obsolete gear instead of designing new gear. |

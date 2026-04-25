@@ -64,6 +64,6 @@ For any game with sequential encounters, the cost of adding a node-map is small 
 
 ## Patterns this exemplifies
 
-- [`branching-dag-map`](/patterns/branching-dag-map)
-- [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid)
-- [`bonus-with-drawback`](/patterns/bonus-with-drawback) — perk node choices.
+- [`branching-dag-map`](/concepts/branching-dag-map)
+- [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — perk node choices.

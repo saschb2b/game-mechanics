@@ -42,4 +42,4 @@ Bosses end each biome arc. Mechanically standard for the genre (telegraphed atta
 
 ## Patterns this exemplifies
 
-- [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid) — encounters / arenas hand-authored, dungeon path procedurally arranged.
+- [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid) — encounters / arenas hand-authored, dungeon path procedurally arranged.

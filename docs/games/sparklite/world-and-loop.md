@@ -57,10 +57,10 @@ Trade-off the design accepts: the reshuffle has lower replay variety than full P
 - **Mid-loop (~hours)** — accumulate enough Sparklite to upgrade a facility tier, or unlock a new gadget that opens a new biome.
 - **Macro (~the campaign)** — five Titans → endgame → credits.
 
-The devs explicitly **rejected the "thousands of hours" roguelite model.** Sparklite is one of the few roguelites with a real conclusion rather than infinite escalation. That's an unusual call worth flagging on its own — see [`bounded-roguelite`](/patterns/bounded-roguelite).
+The devs explicitly **rejected the "thousands of hours" roguelite model.** Sparklite is one of the few roguelites with a real conclusion rather than infinite escalation. That's an unusual call worth flagging on its own — see [`bounded-roguelite`](/concepts/bounded-roguelite).
 
 ## Patterns this exemplifies
 
 - [`permalife`](/patterns/permalife)
-- [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid)
-- [`bounded-roguelite`](/patterns/bounded-roguelite)
+- [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)
+- [`bounded-roguelite`](/concepts/bounded-roguelite)

@@ -32,7 +32,7 @@ The backpack itself is a fixed-size grid. **Where you place each relic determine
 
 In Sparklite the constraint is *space*: bigger patches eat more cells. In Moonlighter 2, every relic is one cell — so the constraint is **adjacency.** A relic at a corner triggers different effects than the same relic in the middle. A relic placed next to specific other relics absorbs them or boosts them.
 
-This is a more *combinatorial* version of the [`loadout-as-budget`](/patterns/loadout-as-budget) pattern. Sparklite is spatial-shape Tetris; Spire is deck-thinning combinatorics; Moonlighter 2 is **grid-adjacency optimization** — a kind of Tetris-meets-Sudoku for loot.
+This is a more *combinatorial* version of the [`loadout-as-budget`](/concepts/loadout-as-budget) pattern. Sparklite is spatial-shape Tetris; Spire is deck-thinning combinatorics; Moonlighter 2 is **grid-adjacency optimization** — a kind of Tetris-meets-Sudoku for loot.
 
 ## Quality stacking → price multiplier
 
@@ -64,8 +64,8 @@ This is the same instinct as deck-thinning in Spire: **don't try to optimize all
 
 ## Patterns this exemplifies
 
-- [`loadout-as-budget`](/patterns/loadout-as-budget) — the budget is grid-adjacency rather than total cells / total points.
-- [`grid-inventory`](/patterns/grid-inventory) — explicit spatial layout matters.
-- [`opportunity-cost-loadout`](/patterns/opportunity-cost-loadout) — placing a relic in one slot precludes the synergies of every other placement.
+- [`loadout-as-budget`](/concepts/loadout-as-budget) — the budget is grid-adjacency rather than total cells / total points.
+- [`grid-inventory`](/concepts/grid-inventory) — explicit spatial layout matters.
+- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — placing a relic in one slot precludes the synergies of every other placement.
 - [`backpack-puzzle`](/patterns/backpack-puzzle) — the specific lemma. Loot value is a function of placement, not just quantity.
-- [`fusion-economy`](/patterns/fusion-economy) — burn / absorb / transform mechanics consolidate loot at quality cost.
+- [`fusion-economy`](/concepts/fusion-economy) — burn / absorb / transform mechanics consolidate loot at quality cost.

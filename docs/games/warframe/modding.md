@@ -84,7 +84,7 @@ See [`community-driven-balance`](/patterns/community-driven-balance) and [`rando
 
 ## Patterns this exemplifies
 
-- [`loadout-as-budget`](/patterns/loadout-as-budget) — power lives inside a fixed mod-capacity budget.
+- [`loadout-as-budget`](/concepts/loadout-as-budget) — power lives inside a fixed mod-capacity budget.
 - [`permanent-grind-currency`](/patterns/permanent-grind-currency) — Forma converts time into permanent slot expansion.
 - [`community-driven-balance`](/patterns/community-driven-balance) — Riven Disposition shifts based on usage stats.
 - [`random-perfect-roll-economy`](/patterns/random-perfect-roll-economy) — Rivens as a lottery + market mechanic.

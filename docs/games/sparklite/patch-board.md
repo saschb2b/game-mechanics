@@ -72,10 +72,10 @@ It also creates a **second-order loop**: collect patches → outgrow board → i
 
 ## Patterns this exemplifies
 
-- [`grid-inventory`](/patterns/grid-inventory)
+- [`grid-inventory`](/concepts/grid-inventory)
 - [`power-creep-mitigation`](/patterns/power-creep-mitigation)
-- [`fusion-economy`](/patterns/fusion-economy)
-- [`opportunity-cost-loadout`](/patterns/opportunity-cost-loadout)
+- [`fusion-economy`](/concepts/fusion-economy)
+- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout)
 
 ## Compare with
 

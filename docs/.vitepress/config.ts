@@ -31,7 +31,6 @@ export default defineConfig({
     nav: [
       { text: 'Games', link: '/games/' },
       { text: 'Concepts', link: '/concepts/' },
-      { text: 'Patterns', link: '/patterns/' },
       { text: 'About', link: '/about' },
       {
         text: 'GitHub',
@@ -196,14 +195,6 @@ export default defineConfig({
             { text: 'Vision-driven iteration', link: '/concepts/vision-driven-iteration' },
           ]
         },
-      ],
-      '/patterns/': [
-        {
-          text: 'Patterns',
-          items: [
-            { text: 'Index', link: '/patterns/' },
-          ]
-        }
       ],
     },
 

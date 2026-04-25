@@ -61,7 +61,7 @@ After each act boss, pick 1 of 3 boss relics. These are the **most game-warping 
 
 The drawback is the design point. **Boss relics force you to commit to a strategy direction.** They make the run "about" something — and they prevent you from picking up the most-broken option without a real cost.
 
-See [`bonus-with-drawback`](/patterns/bonus-with-drawback).
+See [`bonus-with-drawback`](/concepts/bonus-with-drawback).
 
 ## What this teaches
 
@@ -70,4 +70,4 @@ If your game has run-defining loot, **give it costs.** Uncosted upgrades flatten
 ## Patterns this exemplifies
 
 - [`rule-breaking-relics`](/patterns/rule-breaking-relics)
-- [`bonus-with-drawback`](/patterns/bonus-with-drawback)
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback)

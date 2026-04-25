@@ -77,7 +77,7 @@ Hand-authored tile-sets, procedurally connected.
 
 The exact same trick Sparklite uses for its biomes — Warframe shipped it 6 years earlier. Mission types (Survival, Defense, Disruption, Capture, …) define objectives; tile-sets (Grineer asteroid, Corpus ship, Infested ship, Earth forest, …) define aesthetic and layout vocabulary. The procedural piece is *which* tiles get connected this run; the hand-crafted piece is *what's inside* each tile.
 
-See [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid).
+See [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid).
 
 ## 4-player co-op
 
@@ -88,4 +88,4 @@ The **power fantasy** intent is explicit. Maxed builds melt entire rooms — by 
 ## Patterns this exemplifies
 
 - [`damage-type-matrix`](/patterns/damage-type-matrix)
-- [`handcrafted-pcg-hybrid`](/patterns/handcrafted-pcg-hybrid)
+- [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid)

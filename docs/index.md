@@ -9,11 +9,11 @@ hero:
       text: Browse games →
       link: /games/
     - theme: alt
-      text: Patterns index
-      link: /patterns/
-    - theme: alt
       text: Concepts
       link: /concepts/
+    - theme: alt
+      text: About
+      link: /about
 ---
 
 <div class="stats-row">
@@ -24,10 +24,6 @@ hero:
   <div class="stat-card">
     <span class="stat-num">10</span>
     <span class="stat-label">Curated concepts</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-num">53</span>
-    <span class="stat-label">Patterns indexed</span>
   </div>
 </div>
 
@@ -241,7 +237,7 @@ Pattern-first pages with cross-game contrast tables. Each one shows how multiple
 
 Every game has a <strong>snapshot</strong> (genre, iconic mechanic, core dialectic), a <strong>macro loop</strong> diagram, mechanic deep-dives, design tensions with dev quotes when available, and a <strong>lessons</strong> page on what's worth stealing for my own Godot games.
 
-Patterns are tagged in frontmatter; the <a href="/patterns/">patterns index</a> is auto-generated, showing every recurring design pattern × every game that exemplifies it. When ≥2 games share a pattern, it gets a curated <a href="/concepts/">concept page</a> with a contrast table.
+When two or more games end up using the same design move, it earns a curated <a href="/concepts/">concept page</a> with a cross-game contrast table.
 
 The <a href="/about">about page</a> is a quieter overview. <a href="https://github.com/saschb2b/game-mechanics">Source on GitHub</a>, MIT licence.
 
