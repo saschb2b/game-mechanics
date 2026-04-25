@@ -10,7 +10,9 @@ All Xenoblade Chronicles screenshots are © Monolith Soft / Nintendo. Used here 
 | `xc2-promo-art.jpg` | 1355×904 | [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-2-review) | XC2 cast in the field (Rex, Pyra, Mòrag, Tora, Nia, Dromarch) with a giant Titan in the background. |
 | `xc3-title-art.jpg` | 1600×800 | [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3) | XC3 title art with the six-character cast on a vista. |
 | `xc3-noah-portrait.jpg` | 1280×720 | [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3) | Noah with the Lucky Seven sword — XC3's protagonist. |
-| `xc3-combat-chain.jpg` | 421×237 | [Wikipedia (en, fair-use)](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3) | XC3 combat with multiple party members, chain-attack overlay, and "Daze" damage callouts. |
+| `xc3-chain-attack.jpg` | 1920×1080 | [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500) | XC3 mid-chain-attack: party panels, Tactical Points gauge, Heroic Chain tactic card, target boss. |
+| `xc3-class-loadout.jpg` | 1920×1080 | [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500) | XC3 Characters menu — Noah's class, arts, skills, gems, accessories, clothing, interlink — the open class system in one view. |
+| `xc3-tutorial-menu.jpg` | 1920×1080 | [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500) | XC3 Tips menu — tutorial-replay archive sliced by Combat / Field / Menu / System. |
 | `xcx-skell-combat.jpg` | 1627×1082 | [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-x-review) | Two Skell mechs in combat — XCX's signature visual. |
 | `xcx-elma-portrait.jpg` | 1920×1080 | [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-x-definitive-edition) | Elma, the player's mentor in XCX, in BLADE uniform. |
 
@@ -24,8 +26,10 @@ The XC2/XC3/XCX images are 1280–1920px from Eurogamer's CDN at high quality, s
 
 - **Higher-res XC1 screenshots** — affinity chart UI, Future Connected epilogue. Eurogamer's XC1 review pre-dated their image CDN convention.
 - **XC2 gameplay screenshot showing the Driver–Blade swap**, the blade-combo orb stack, or the Field Skill UI. Currently we have the cast promo art but no in-combat HUD.
-- **XC3 class-selection / Hero Quest UI**, Ouroboros transformation moment, full Tactical Order menu mid-chain-attack.
+- **XC3 Hero Quest cinematic / Ouroboros transformation moment** — gameuidatabase covers HUD/menu UI well; the "moment" shots aren't there.
 - **XCX FrontierNav probe placement screen** — the strategic-layer UI that defines the XCX endgame.
+
+[Game UI Database](https://www.gameuidatabase.com) has full XC3 UI coverage (id 1500); future updates can pull more menu shots from there. XC2 (id unknown) and XCX/XCX-DE entries should be checked too.
 
 ## License
 

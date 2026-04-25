@@ -78,6 +78,9 @@ Avoid when:
 - **Drip + tutorial overload.** A pop-up for a new mechanic at hour 35 *interrupts flow*. The system reveal should integrate into a story beat or a hub-screen visit, not break out of an action moment.
 - **Returning-player friction.** A player who took a 6-month break needs *all* the mid-game tutorials replayable. A Tutorial Log menu (Xenoblade does this; many games don't) is not optional for this pattern.
 
+![XC3 Tips menu — All / Combat / Field / Menu / System tabs, with topics like "How to Begin a Battle", "Auto-Attack", "Arts", "Talent Arts", "Aggro", "Art Combos"](/images/xenoblade-chronicles/xc3-tutorial-menu.jpg)
+*XC3's Tips menu — every tutorial that fired during the campaign is archived and re-readable, sliced by Combat / Field / Menu / System. A player at hour 50 who's forgotten the Aggro rules from hour 8 can pull them up here. This is the shape of "the tutorial log is non-negotiable" rendered as UI: cheap to build, load-bearing for any 60+ hour game that drips systems. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500).*
+
 ## Adjacent patterns
 
 - [`nested-progression-graph`](/concepts/nested-progression-graph) — closely related but distinct. *Nested* is about *how many* axes; *late-introduced* is about *when* axes appear. Most games that ship one ship the other; the patterns reinforce.

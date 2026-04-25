@@ -11,8 +11,8 @@ patterns:
 
 The shared combat grammar across all four Xenoblade entries. Every game in the series is recognizably *Xenoblade combat*, even though each one adds new layers on top.
 
-![XC3 combat — six party members on screen with arts palette, party panels, chain-attack overlay, and a "Daze" damage callout](/images/xenoblade-chronicles/xc3-combat-chain.jpg)
-*XC3 combat — the modern incarnation of the shared series HUD. Six party panels (left), arts palette (bottom-right), aggro indicators above enemies, the chain-attack callout at the top right, a floating "Daze" damage number from the active state combo. The vocabulary — auto-attack hum, arts on cooldown, position-aware, status-chain combos — has been the same since 2010. Only the density grew. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3).*
+![XC3 chain attack screen — party panels left, Tactical Points gauge right, Heroic Chain card with bonus description, "Side Break" / "Off Heart" / "Etched Deep" tactic cards](/images/xenoblade-chronicles/xc3-chain-attack.jpg)
+*XC3 mid-chain-attack — the most elaborate version of the series's freeze-frame combo system. Seven party panels on the left, the boss "Aphlon Assassins · Impregnable Sandhu" centred, a Tactical Points gauge top-right, and a chosen tactic card mid-screen (Heroic Chain: "Multiplies TP by 125% when first in line to attack, and makes all attacks critical"). The chain-attack rules unfold across ~30 hours of campaign — players at hour 10 see chain attacks; players at hour 40 see a different game inside the same menu. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500).*
 
 ## The grammar
 

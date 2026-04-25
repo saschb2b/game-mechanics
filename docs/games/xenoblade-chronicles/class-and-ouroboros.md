@@ -12,6 +12,9 @@ patterns:
 
 XC3's signature systems. **Every party member can master every class, and any two party members can interlink into a fusion form called an Ouroboros.** The result is a combat system with more loadout permutations than any prior Xenoblade entry.
 
+![XC3 character menu showing Noah's full loadout — Class (Swordfighter Rank 16), Arts row, Skills, Gems, Accessories](/images/xenoblade-chronicles/xc3-class-loadout.jpg)
+*Noah's character screen — XC3's loadout in one view. **Class:** Swordfighter (Attacker, Rank 16). **Arts:** the 8-slot palette is what you actually pick from this class's pool. **Skills, Gems, Accessories, Clothing** are separate equipment axes. The left tabs (Class / Arts / Skills / Gems / Accessories / Clothing / Interlink) are the seven layers a player tunes per character — and any character can be any class once mastery unlocks via Hero Quests. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500).*
+
 ![XC3 — Noah with the Lucky Seven sword](/images/xenoblade-chronicles/xc3-noah-portrait.jpg)
 *Noah, XC3's protagonist, with the Lucky Seven — the sword whose form changes in Ouroboros mode. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
 
