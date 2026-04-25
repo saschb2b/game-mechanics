@@ -37,7 +37,7 @@ hero:
 
 <div class="games-grid">
 
-<a class="game-card featured" href="games/path-of-exile/">
+<a class="game-card" href="games/path-of-exile/">
   <img class="gc-img" src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas of Worlds">
   <div class="gc-overlay"></div>
   <div class="gc-content">
