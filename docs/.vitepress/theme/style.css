@@ -1,3 +1,23 @@
+/* ---------- Image lightbox (medium-zoom) ---------- */
+
+/* Subtle hover hint that an image is zoomable. We exclude home-page card
+   images (.gc-img) and pattern-strip thumbnails (.pattern-cell img) since
+   those navigate or are pure thumbnails. */
+.vp-doc img:not(.gc-img):not(.pattern-cell img) {
+  cursor: zoom-in;
+  transition: filter 0.15s ease;
+}
+
+.vp-doc img:not(.gc-img):not(.pattern-cell img):hover {
+  filter: brightness(1.05);
+}
+
+/* Sit above the VitePress nav (z-index ~30) when zoomed. */
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 200;
+}
+
 /* ---------- Home page styling ---------- */
 
 /* Tighten the default hero spacing so visuals can lead */

@@ -10,8 +10,9 @@
     "generate": "tsx .vitepress/build/generate-patterns.ts"
   },
   "devDependencies": {
-    "gray-matter": "^4.0.3",
     "globby": "^14.0.2",
+    "gray-matter": "^4.0.3",
+    "medium-zoom": "^1.1.0",
     "tsx": "^4.19.2",
     "vitepress": "^1.6.0",
     "vue": "^3.5.0"
