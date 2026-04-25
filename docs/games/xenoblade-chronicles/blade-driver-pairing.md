@@ -62,7 +62,19 @@ Driver Combos and Blade Combos run *simultaneously*. **Fusion Combos** apply whe
 
 The meta-strategy: build up orbs through 3-stage Blade Combos for an entire fight, then chain-attack to detonate them all. A maxed Chain Attack on a fully-orbed enemy can do millions of damage in a few seconds.
 
+![XC2 combat HUD — Rex / Nia / Tora party panels, Lv 26 Natto Lizard with "Break" status, "Recharge Boost" callout, Mythra / Roc / Shin Mei Blade row, arts palette and the orb stack on the right](/images/xenoblade-chronicles/xc2-combat-hud.jpg)
+*XC2 combat in mid-fight. Top-left: party HP panels (Rex, Nia, Tora). Top-centre: enemy with Break status applied. Centre: a Driver Combo step landing ("Recharge Boost"). Bottom-left: the **Blade row** — Mythra / Roc / Shin Mei — showing which Blade each Driver has equipped, swappable mid-combat. Bottom-right: the arts palette (Anchor Shot, Sword Bash, Double Spinning Edge) and the **element orb sphere** that builds up through Blade Combos. Three combo systems running at once. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
+
 This is the most-mechanically-complex combat system in any major JRPG. Reception fairly criticized it for *opacity* — the game does not teach the three layers cleanly, and the relevant tutorials drop in over the first ~25 hours.
+
+## The Affinity Chart per Blade
+
+Each Blade carries its **own Affinity Chart** — a bowed-arc graph of nodes the Driver fills by using the Blade. Each filled node grants stats, art evolutions, party-level utility, or new field skills. There are ~70 Rare Blades; that's ~70 Affinity Charts.
+
+![XC2 Shin Mei's Affinity Chart — bowed-arc graph with locked nodes at the bottom, "Resist Dark" tooltip on the left, the Blade portrait at the centre](/images/xenoblade-chronicles/xc2-affinity-chart.jpg)
+*Shin Mei's Affinity Chart. Each ring of nodes unlocks at a Blade-specific milestone (use the Blade in a certain element of combat, win a certain number of fights with this Blade slotted, complete the Blade's personal side-quest). The graph shape is recurring; the *content* of each Blade's nodes is unique. Filling out one Rare Blade is dozens of hours of focused use. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
+
+The Affinity Chart is one of XC2's clearest [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) instances — players who unlock a Rare Blade at hour 30 then face the chart and realize "oh, I have to *use* this Blade for another 20 hours to fill it." The 80-hour campaign is a *consequence* of the per-Blade growth requirement.
 
 ## Rare Blades — the gacha
 
@@ -96,6 +108,9 @@ You combine field skills from your party's *active* Blades. So world traversal i
 This is one of the most-criticized parts of XC2. Walls can be impassable until you pull a specific Rare Blade with the right skill, which means **the gacha gates open-world content.**
 
 ## Late-introduced systems in XC2 (the recurring pattern)
+
+![XC2 Equip Aux Cores screen — Dromarch (Nia's Blade) on the right, two Aux Core slots, list of available cores (Specials Lv 3 Plus, Humanoid Hunter, Outdoor Attack Up, Opening Art, Ambush Boost), tooltip showing "Outdoor Attack Up I: Increases damage dealt outdoors by 20%"](/images/xenoblade-chronicles/xc2-aux-cores.jpg)
+*Aux Cores — XC2's mid-game power-tuning system, unlocked ~15 hours in. Each Blade has 1–2 Aux Core slots; cores are dropped or crafted, and the player tunes which two cores fit each of nine slots (3 Drivers × 3 Blades). Yet another loadout layer on top of Blade choice and arts palette. The system isn't tutorialised cleanly — players often discover they've been playing without it. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
 
 XC2 specifically is *the* poster child for late-system reveal:
 
