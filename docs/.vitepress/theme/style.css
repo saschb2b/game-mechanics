@@ -1,3 +1,150 @@
+/* ---------- Patterns index ---------- */
+
+.pp-section {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 36px;
+}
+
+.pp-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  padding: 16px 18px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  transition: border-color 0.15s ease;
+}
+
+.pp-row:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.pp-row--concept {
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+.pp-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pp-name {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.005em;
+  flex: 1;
+  min-width: 0;
+}
+
+.pp-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 7px;
+  border-radius: 11px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.pp-count[data-n="1"] {
+  opacity: 0.6;
+}
+
+.pp-count[data-n="3"],
+.pp-count[data-n="4"] {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-color: transparent;
+}
+
+.pp-count[data-n="5"],
+.pp-count[data-n="6"],
+.pp-count[data-n="7"] {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-bg);
+  border-color: transparent;
+}
+
+.pp-status {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 4px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.pp-status--concept {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1) !important;
+}
+
+.pp-status--concept:hover {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-bg) !important;
+}
+
+.pp-status--stub {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-3) !important;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.pp-status--stub:hover {
+  color: var(--vp-c-text-2) !important;
+  border-color: var(--vp-c-text-3);
+}
+
+.pp-lemma {
+  margin: 2px 0 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--vp-c-text-2);
+}
+
+.pp-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.pp-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2) !important;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 1px solid var(--vp-c-divider);
+  transition: border-color 0.12s ease, color 0.12s ease, background 0.12s ease;
+}
+
+.pp-pill:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1) !important;
+  border-color: transparent;
+}
+
 /* ---------- Image lightbox (medium-zoom) ---------- */
 
 /* Subtle hover hint that an image is zoomable. We exclude home-page card

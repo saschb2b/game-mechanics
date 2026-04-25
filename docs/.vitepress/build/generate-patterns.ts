@@ -1,8 +1,8 @@
 /**
  * Scans all game and concept pages, collects `patterns:` frontmatter,
  * and generates:
- *   - docs/patterns/index.md — grand table of patterns × games
- *   - docs/patterns/<pattern>.md — stub per pattern (when no concept page exists)
+ *   - docs/patterns/index.md — patterns index, grouped by cross-cutting count
+ *   - docs/patterns/<pattern>.md — stub per pattern (redirect when concept exists)
  *
  * Re-runnable. Hand-written concept pages at /concepts/<name>.md are NEVER touched.
  * Files at /patterns/ with `generated: true` in frontmatter are safe to overwrite.
@@ -19,6 +19,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const DOCS_ROOT = join(__dirname, '..', '..')
 const PATTERNS_DIR = join(DOCS_ROOT, 'patterns')
 const CONCEPTS_DIR = join(DOCS_ROOT, 'concepts')
+const GAMES_DIR = join(DOCS_ROOT, 'games')
 
 interface PageRef {
   file: string        // relative path from docs/
@@ -30,6 +31,14 @@ interface PageRef {
 }
 
 type PatternMap = Map<string, PageRef[]>
+
+interface PatternEntry {
+  pattern: string
+  refs: PageRef[]
+  distinctGames: Set<string>
+  hasConcept: boolean
+  lemma?: string
+}
 
 async function scanFrontmatter(): Promise<PatternMap> {
   const files = await globby(['**/*.md', '!patterns/**', '!**/node_modules/**', '!.vitepress/**'], {
@@ -91,76 +100,234 @@ async function conceptExists(pattern: string): Promise<boolean> {
 }
 
 /**
- * For a pattern's references, produce the rendered "Games" cell:
- *   - One entry per distinct game.
- *   - Prefer the most-specific mechanic page over the game index.
- *   - Concept pages excluded entirely.
+ * Read the lemma line from a curated concept page. Looks for the first
+ * line matching `> **Lemma:** ...` (the convention used by all concept pages).
  */
-function renderGameRefs(refs: PageRef[]): string {
+async function readConceptLemma(pattern: string): Promise<string | undefined> {
+  const path = join(CONCEPTS_DIR, `${pattern}.md`)
+  if (!existsSync(path)) return undefined
+  const raw = await readFile(path, 'utf8')
+  const { content } = matter(raw)
+  for (const line of content.split('\n')) {
+    const m = line.match(/^>\s*\*\*Lemma:\*\*\s*(.+?)\s*$/)
+    if (m) return m[1].trim()
+  }
+  return undefined
+}
+
+/**
+ * Read each game's display title from games/<game>/index.md. Used to render
+ * compact game pills.
+ */
+async function readGameTitles(): Promise<Map<string, string>> {
+  const out = new Map<string, string>()
+  if (!existsSync(GAMES_DIR)) return out
+  const dirs = await readdir(GAMES_DIR, { withFileTypes: true })
+  for (const d of dirs) {
+    if (!d.isDirectory()) continue
+    const idx = join(GAMES_DIR, d.name, 'index.md')
+    if (!existsSync(idx)) continue
+    const raw = await readFile(idx, 'utf8')
+    const { data } = matter(raw)
+    if (typeof data.title === 'string') {
+      // Strip "(series)" or ": Subtitle" for compact display in pills.
+      const compact = data.title
+        .replace(/\s*\(series\)\s*$/i, '')
+        .replace(/^([^:]+):.*$/, '$1')
+        .trim()
+      out.set(d.name, compact)
+    } else {
+      out.set(d.name, deriveTitleFromPath(d.name + '.md'))
+    }
+  }
+  return out
+}
+
+/** Convert a kebab-case pattern slug to display name: "loadout-as-budget" → "Loadout as budget". */
+function patternDisplayName(slug: string): string {
+  // Tokens that should keep all-caps in display.
+  const UPPER = new Set(['pcg', 'dag', 'rng', 'npc', 'f2p', 'tcg', 'mtg', 'arpg', 'xp', 'mmo', 'pvp', 'pve', 'ai', 'ui', 'hp'])
+  return slug
+    .split('-')
+    .map((w, i) => {
+      if (UPPER.has(w)) return w.toUpperCase()
+      if (i === 0) return w[0].toUpperCase() + w.slice(1)
+      return w
+    })
+    .join(' ')
+}
+
+/** Convert basic markdown emphasis (*x*, **x**) to HTML so it renders inside raw-HTML blocks. */
+function inlineMarkdownToHtml(s: string): string {
+  // Escape first, then re-introduce em/strong tags.
+  let out = escapeHtml(s)
+  // **bold** — non-greedy, no whitespace around markers
+  out = out.replace(/\*\*([^*\n]+?)\*\*/g, '<strong>$1</strong>')
+  // *italic* — likewise
+  out = out.replace(/\*([^*\n]+?)\*/g, '<em>$1</em>')
+  // `code`
+  out = out.replace(/`([^`\n]+?)`/g, '<code>$1</code>')
+  return out
+}
+
+/**
+ * Deduplicate refs by game, preferring the most-specific mechanic page over
+ * the game index. Concept pages are excluded.
+ */
+function distinctGameRefs(refs: PageRef[]): PageRef[] {
   const byGame = new Map<string, PageRef>()
   for (const ref of refs) {
-    if (ref.type !== 'game') continue
-    if (!ref.game) continue
+    if (ref.type !== 'game' || !ref.game) continue
     const existing = byGame.get(ref.game)
-    if (!existing) {
-      byGame.set(ref.game, ref)
-      continue
-    }
-    // Prefer mechanic sub-page over the game index.
-    if (existing.isGameIndex && !ref.isGameIndex) {
+    if (!existing || (existing.isGameIndex && !ref.isGameIndex)) {
       byGame.set(ref.game, ref)
     }
   }
-
-  if (byGame.size === 0) return '—'
-
-  return [...byGame.values()]
-    .sort((a, b) => (a.game ?? '').localeCompare(b.game ?? ''))
-    .map(r => `[${gameLabelFromRef(r)}](${r.link})`)
-    .join(', ')
+  return [...byGame.values()].sort((a, b) => (a.game ?? '').localeCompare(b.game ?? ''))
 }
 
-function gameLabelFromRef(ref: PageRef): string {
-  // For sub-pages, the title already has "Game — Section" form.
-  // For game indexes, just use the game's pretty title.
-  return ref.title
+/** Render a single pattern row as raw HTML inside the markdown index. */
+function renderPatternRow(
+  entry: PatternEntry,
+  gameTitles: Map<string, string>
+): string {
+  const refs = distinctGameRefs(entry.refs)
+  const display = patternDisplayName(entry.pattern)
+  const count = entry.distinctGames.size
+
+  const pills = refs
+    .map((r) => {
+      const gameSlug = r.game!
+      const gameName = gameTitles.get(gameSlug) ?? gameSlug
+      // Tooltip: full sub-page title (e.g. "Mega Man Battle Network — NaviCust")
+      const tooltip = r.title.replace(/"/g, '&quot;')
+      return `<a class="pp-pill" href="${r.link}" title="${tooltip}">${gameName}</a>`
+    })
+    .join('')
+
+  const pageLink = entry.hasConcept
+    ? `<a class="pp-status pp-status--concept" href="/concepts/${entry.pattern}">Concept →</a>`
+    : `<a class="pp-status pp-status--stub" href="/patterns/${entry.pattern}">Stub</a>`
+
+  const lemma = entry.lemma
+    ? `<p class="pp-lemma">${inlineMarkdownToHtml(entry.lemma)}</p>`
+    : ''
+
+  const countBadge = `<span class="pp-count" data-n="${count}">${count}</span>`
+
+  return `<div class="pp-row${entry.hasConcept ? ' pp-row--concept' : ''}">
+  <div class="pp-main">
+    <div class="pp-header">
+      <h3 class="pp-name">${escapeHtml(display)}</h3>
+      ${countBadge}
+      ${pageLink}
+    </div>
+    ${lemma}
+    <div class="pp-pills">${pills}</div>
+  </div>
+</div>`
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function renderSection(
+  title: string,
+  blurb: string,
+  entries: PatternEntry[],
+  gameTitles: Map<string, string>
+): string {
+  if (entries.length === 0) return ''
+  const rows = entries.map((e) => renderPatternRow(e, gameTitles)).join('\n')
+  return `## ${title}
+
+${blurb}
+
+<div class="pp-section">
+${rows}
+</div>
+
+`
 }
 
 async function writeIndex(map: PatternMap) {
-  // Sort by number of distinct games covered, descending.
-  const entries = [...map.entries()].map(([pattern, refs]) => {
-    const distinctGames = new Set(refs.filter(r => r.type === 'game').map(r => r.game)).size
-    return { pattern, refs, distinctGames }
-  })
-  entries.sort((a, b) => b.distinctGames - a.distinctGames || a.pattern.localeCompare(b.pattern))
+  const gameTitles = await readGameTitles()
+
+  // Build the pattern entries with distinct-game counts and lemma loading.
+  const entries: PatternEntry[] = []
+  for (const [pattern, refs] of map.entries()) {
+    const distinctGames = new Set(
+      refs.filter((r) => r.type === 'game' && r.game).map((r) => r.game!)
+    )
+    const hasConcept = await conceptExists(pattern)
+    const lemma = hasConcept ? await readConceptLemma(pattern) : undefined
+    entries.push({ pattern, refs, distinctGames, hasConcept, lemma })
+  }
+
+  // Sort: most cross-cutting first, then alphabetical.
+  entries.sort(
+    (a, b) =>
+      b.distinctGames.size - a.distinctGames.size ||
+      a.pattern.localeCompare(b.pattern)
+  )
+
+  // Group by coverage.
+  const broad = entries.filter((e) => e.distinctGames.size >= 3)
+  const cross = entries.filter((e) => e.distinctGames.size === 2)
+  const single = entries.filter((e) => e.distinctGames.size === 1)
+  const orphan = entries.filter((e) => e.distinctGames.size === 0)
+
+  const totalGames = countGamesAcrossPatterns(map)
 
   let body = `---
 generated: true
 ---
 
-# Patterns Index
+# Patterns
 
-*Auto-generated from \`patterns:\` frontmatter across all game and concept pages.*
-
-*Run \`pnpm generate\` to regenerate.*
+Cross-game design patterns, indexed automatically from \`patterns:\` frontmatter on every game and concept page. **${entries.length}** pattern${entries.length === 1 ? '' : 's'} across **${totalGames}** game${totalGames === 1 ? '' : 's'}.
 
 `
 
   if (entries.length === 0) {
-    body += `*No patterns indexed yet. Add \`patterns: [...]\` frontmatter to game pages and run \`pnpm generate\`.*\n`
+    body += `*No patterns indexed yet. Add \`patterns: [...]\` frontmatter to a game page and run \`pnpm generate\`.*\n`
   } else {
-    body += `_${entries.length} pattern(s) indexed across ${countGamesAcrossPatterns(map)} distinct game(s)._\n\n`
-    body += `| Pattern | Games | Page |\n|---|---|---|\n`
-    for (const { pattern, refs, distinctGames } of entries) {
-      const hasConcept = await conceptExists(pattern)
-      const pageCell = hasConcept
-        ? `[concept](/concepts/${pattern})`
-        : `[stub](/patterns/${pattern})`
-      const gamesCell = renderGameRefs(refs)
-      const _ = distinctGames // currently unused, kept for sort key clarity
-      body += `| \`${pattern}\` | ${gamesCell} | ${pageCell} |\n`
+    body += renderSection(
+      'Broadly cross-cutting (3+ games)',
+      'The strongest patterns in the library — same idea, different math, multiple genres.',
+      broad,
+      gameTitles
+    )
+    body += renderSection(
+      'Cross-cutting (2 games)',
+      'Pairs that already point toward a curated concept page. Promote when the contrast is interesting.',
+      cross,
+      gameTitles
+    )
+    body += renderSection(
+      'Single-game patterns',
+      'Distinctive moves that haven\'t been re-discovered yet across the library. Worth tracking — when a second game lands using the same pattern, it earns a curated concept page.',
+      single,
+      gameTitles
+    )
+    if (orphan.length > 0) {
+      body += renderSection(
+        'Concept-only references',
+        'Referenced from concept pages without a tagged game implementation.',
+        orphan,
+        gameTitles
+      )
     }
   }
+
+  body += `\n---
+
+*Re-run with \`pnpm generate\`. The script: scans every \`docs/**/*.md\` for \`patterns:\` frontmatter, deduplicates per game (preferring mechanic sub-pages over the game index), groups by coverage, and writes redirect stubs at \`/patterns/<pattern>\` whenever a curated concept exists at \`/concepts/<pattern>\`.*\n`
 
   await mkdir(PATTERNS_DIR, { recursive: true })
   await writeFile(join(PATTERNS_DIR, 'index.md'), body, 'utf8')
@@ -186,8 +353,6 @@ async function writeStubs(map: PatternMap) {
 
     let body: string
     if (hasConcept) {
-      // Redirect stub — /patterns/<name> stays resolvable when game prose links there,
-      // but we point the reader at the curated concept page.
       body = `---
 generated: true
 title: "Pattern: ${pattern}"
@@ -225,7 +390,6 @@ ${games}
     written.add(`${pattern}.md`)
   }
 
-  // Remove orphan generated stubs.
   for (const name of existing) {
     if (written.has(name)) continue
     const path = join(PATTERNS_DIR, name)
@@ -249,7 +413,7 @@ function renderStubGameList(refs: PageRef[]): string {
   if (byGame.size === 0) return '_(no games yet — only concept references)_'
   return [...byGame.values()]
     .sort((a, b) => (a.game ?? '').localeCompare(b.game ?? ''))
-    .map(r => `- [${r.title}](${r.link})`)
+    .map((r) => `- [${r.title}](${r.link})`)
     .join('\n')
 }
 
@@ -262,7 +426,7 @@ async function main() {
   console.log(`[patterns] indexed ${total} pattern(s) across ${games} game(s)`)
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err)
   process.exit(1)
 })
