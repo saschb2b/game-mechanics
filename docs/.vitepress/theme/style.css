@@ -1,0 +1,276 @@
+/* ---------- Home page styling ---------- */
+
+/* Tighten the default hero spacing so visuals can lead */
+.VPHome .VPHero {
+  padding-bottom: 0 !important;
+}
+
+.VPHome .VPHero .name {
+  font-size: 64px !important;
+  letter-spacing: -0.02em !important;
+}
+
+@media (max-width: 768px) {
+  .VPHome .VPHero .name {
+    font-size: 44px !important;
+  }
+}
+
+/* Hide the default features block on home — we render our own */
+.VPHome .VPFeatures {
+  display: none !important;
+}
+
+/* ---------- Games grid ---------- */
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  margin: 32px auto 56px;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.game-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  aspect-ratio: 16 / 11;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  text-decoration: none !important;
+  color: var(--vp-c-text-1);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.game-card .gc-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.05) contrast(1.02);
+  transition: transform 0.5s ease;
+}
+
+.game-card:hover .gc-img {
+  transform: scale(1.04);
+}
+
+.game-card .gc-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 40%, rgba(0, 0, 0, 0.92) 100%);
+}
+
+.game-card .gc-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 18px 20px 16px;
+  color: #fff;
+}
+
+.game-card .gc-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin: 0 0 2px;
+}
+
+.game-card .gc-iconic {
+  font-size: 13px;
+  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0 0 8px;
+}
+
+.game-card .gc-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+}
+
+.game-card .gc-meta span {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 3px 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+}
+
+/* Featured (large) card variant — first card spans 2 columns on wider screens */
+.games-grid .game-card.featured {
+  aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 900px) {
+  .games-grid .game-card.featured {
+    grid-column: span 2;
+  }
+}
+
+/* ---------- Section headings on the home page ---------- */
+
+.home-section {
+  max-width: 1200px;
+  margin: 56px auto;
+  padding: 0 24px;
+}
+
+.home-section h2 {
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.home-section .lede {
+  font-size: 17px;
+  color: var(--vp-c-text-2);
+  max-width: 720px;
+  line-height: 1.55;
+  margin: 0 0 28px;
+}
+
+/* ---------- Pattern strip ---------- */
+
+.pattern-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.pattern-cell {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
+
+.pattern-cell img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pattern-cell .pc-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px 12px 8px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.85) 100%);
+  color: #fff;
+}
+
+.pattern-cell .pc-game {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+  margin: 0;
+}
+
+.pattern-cell .pc-how {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2px 0 0;
+}
+
+/* ---------- Quick stats row ---------- */
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin: 32px auto;
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.stat-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+.stat-card .stat-num {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--vp-c-brand-1);
+  display: block;
+  line-height: 1;
+}
+
+.stat-card .stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+  margin-top: 6px;
+  display: block;
+}
+
+/* ---------- Concept callouts ---------- */
+
+.concept-callouts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.concept-callout {
+  display: block;
+  padding: 18px 20px;
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  text-decoration: none !important;
+  color: var(--vp-c-text-1);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.concept-callout:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
+}
+
+.concept-callout .cc-name {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  margin: 0 0 4px;
+  color: var(--vp-c-brand-1);
+}
+
+.concept-callout .cc-lemma {
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+  color: var(--vp-c-text-2);
+}
