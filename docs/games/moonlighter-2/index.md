@@ -72,6 +72,10 @@ The hook: **two mini-games stitched together by the loot.** The dungeon teaches 
 - [**Combat**](./combat.md) — 3D isometric, four weapon types, ~100 perks.
 - [**Progression**](./progression.md) — village investment, blacksmith upgrades, perks.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms** — the dual-life loop and backpack-as-sales-prep are the structure of the gameplay's halves, not decoration on it.
+
 ## What this game teaches
 
 - **Loot value can be a *placement* problem, not a *quantity* problem.** Most games make you pick which loot to keep; Moonlighter 2 makes you pick *where* to keep it. Quality stacks dramatically with adjacency.

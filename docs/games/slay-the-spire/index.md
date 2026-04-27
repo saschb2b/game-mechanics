@@ -76,6 +76,10 @@ Pick character (Ironclad / Silent / Defect / Watcher) and Ascension level
 - [**Ascension & meta-progression**](./ascension.md) — difficulty staircase, "variety not power".
 - [**Daily climb & seeds**](./daily-climb.md) — same-seed leaderboards.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: orthogonal** — light fiction, heavy math, honest framing. Forcing resonance would weaken the loop.
+
 ## What this game teaches
 
 - **One design principle, fractally restated.** Risk vs reward shows up at every scale: the map, the draft, the rest site, the boss relic, the shop, every campfire. The whole game is one idea rendered at every level.

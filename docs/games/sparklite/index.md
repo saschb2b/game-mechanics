@@ -64,6 +64,10 @@ The hook: **the world rearranges on death, but the character doesn't.** The devs
 - [**World structure & loop**](./world-and-loop.md) — Refuge hub, tile-shuffled biomes, what brings you back.
 - [**Combat**](./combat.md) — wrench, gadgets, sub-weapons; pattern recognition over reflex.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: mild affirm** — patches, sparklite, and Refuge are fiction-grounded; combat and dialogue stay neutral. The case study in *partial resonance done modestly.*
+
 ## What this game teaches
 
 - A small grid is a brutal forcing function for choice.

@@ -71,6 +71,10 @@ The *new system at 30h* is the unusual move. Other JRPGs front-load. Xenoblade k
 - [**Skells & FrontierNav (XCX)**](./skells-and-frontiernav) — mech mode you license ~30 hours in + a planet you map probe by probe.
 - [**Series evolution**](./series-evolution) — what each entry added and *when*. The drip pattern.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms (across all four entries)** — Monolith Soft's signature design move is making each entry's signature mechanic also its plot's central image.
+
 ## What this game (series) teaches
 
 - **Front-loading isn't the only option.** Xenoblade holds back major systems for 5–40 hours, betting that players who reach hour 30 will absorb a new mechanic eagerly. This works because the existing systems are deep enough to sustain the pre-reveal hours.

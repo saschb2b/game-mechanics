@@ -76,6 +76,10 @@ Power forms — Style Change (BN3) → Soul Unison (BN4–5) → Cross + Beast (
 - [**Power forms**](./power-forms.md) — Style → Soul → Cross → Beast Out, the BN3→BN6 evolution.
 - [**Series evolution**](./series-evolution.md) — what each entry kept, changed, walked back.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms** — fiction-as-mechanics with no translation step; the verbs are *literal* programmer-verbs.
+
 ## What this game teaches
 
 - **Pause-to-draw inside real-time combat is the defining hybrid move.** The Custom Gauge is the only "draw step" mechanic I've seen that's literally embedded in a real-time fight. Players attack and defend the gauge as a *resource*, not just a timer.

@@ -44,6 +44,10 @@ og_image: images/hollow-knight/hk-world-map.jpg
 - [**Map & discovery**](./map-and-discovery) — you can't see a map until you find Cornifer. Exploration *earns* cartography. The Iselda + Hunter's Journal layered systems.
 - [**Shade on death**](./shade-on-death) — soulslike currency-loss recovery: drop your Geo where you die, fight a Shade-of-yourself to reclaim it, lose it permanently if you die again first.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms** — voiceless vessel ↔ voiceless verb-set; you learn the world by walking it.
+
 ## What this game teaches
 
 - **Removing quest markers shifts the player's mental model from *follow* to *explore*.** Hollow Knight has effectively zero objective markers. The player's attention is on the world itself, not on a UI arrow. Most players who've never experienced this report the first ~5 hours as disorienting and the next 30 as the best metroidvania they've ever played.

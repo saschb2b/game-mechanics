@@ -70,6 +70,10 @@ The *return to hub* step is the genre innovation. In most roguelites, dying = "t
 - [**Meta-progression**](./meta-progression) — Mirror of Night → Pact of Punishment (H1), Arcana grid + Resource Cards (H2). Variety unlocks > raw stat bumps.
 - [**Series evolution (H1 → H2)**](./series-evolution) — what H2 adds: Magick, Cast/Hex, two paths, Arcana grid.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms** — dying *is* how the plot moves.
+
 ## What this game (series) teaches
 
 - **Failure-as-content.** The death-resets-the-run loop is the genre default. Hades's contribution is making each reset *narratively productive*. Other roguelites should ask whether their failure state can become *something the player wants to see*.

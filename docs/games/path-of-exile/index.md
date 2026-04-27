@@ -73,6 +73,10 @@ The campaign is the **prologue.** The Atlas is the game. Crafting is the meta-ga
 - [**Atlas of Worlds**](./atlas.md) — the post-campaign map system; maps as items; pinnacle bosses; the Atlas tree.
 - [**Death & difficulty**](./death-and-difficulty.md) — 10% XP loss; HC; SSF; the cliff at level 95.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: orthogonal** — fiction is decorative scaffolding around an honest math game, and that's the right call.
+
 ## What this game teaches
 
 - **Friction can be the product.** PoE's lack of convenience is what makes its rewards feel earned. Most games run from this; PoE leans in.

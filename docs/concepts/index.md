@@ -34,3 +34,9 @@ Cross-game design patterns. Each concept page is **pattern-first** — a one-lin
 
 ## Studio philosophy
 - [**Vision-driven iteration**](./vision-driven-iteration) — balance decisions driven by stated philosophy vs. by player metrics. PoE vs. Slay the Spire.
+
+## Fiction & feel
+
+A *lens*, not a pattern: a question to hold against any mechanic on the site.
+
+- [**Ludonarrative resonance**](./ludonarrative-resonance) — do the mechanics affirm the fiction, or just sit alongside it? Per-game readings live in each game's folder; this page is the framework + index.

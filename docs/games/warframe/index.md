@@ -83,6 +83,10 @@ The Foundry's real-time wait detaches "I farmed this" from "I'm using this", whi
 - [**Monetization model**](./monetization.md) — "the cleverest economy in F2P."
 - [**Combat**](./combat.md) — bullet-jumping, damage matrix, 4-player co-op.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: split** — cinematic-quest peaks resonate hard; the median minute of farming is orthogonal. The intermittent case.
+
 ## What this game teaches
 
 - A massive system stays coherent if **every layer is roughly orthogonal** — Mastery doesn't compete with Forma doesn't compete with Rivens.

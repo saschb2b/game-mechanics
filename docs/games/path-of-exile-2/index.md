@@ -63,6 +63,10 @@ Campaign (Acts 1–3 then Cruel — same acts, harder)
 - [**One-death maps**](./atlas-one-death.md) — the controversial endgame stake.
 - [**Crafting pulled back**](./crafting-pulled-back.md) — what carried over, what was simplified, the bench is gone.
 
+## Through other lenses
+
+- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: split** — combat layer reaches for resonance with the exile fiction; meta-loop stays orthogonal in PoE1's tradition. Deliberate partial-resonance.
+
 ## What this game teaches
 
 - **Sequels can re-litigate.** PoE2 is what GGG would do with PoE1's positioning if they got to start over with everything they've learned. It's not "PoE1 + new content" — it's "PoE1's Vision, applied differently."
