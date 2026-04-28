@@ -43,6 +43,8 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Pokémon RSE — Natures](/games/pokemon-rse/stats-and-natures)** | +10% to one of 5 stats (Attack / Defense / Sp.Atk / Sp.Def / Speed) | −10% to a different one of those 5 | Permanent on each Pokémon, set at capture or hatch; 25-nature grid (incl. 5 neutrals) |
 | **[Pokémon RSE — Choice Band](/games/pokemon-rse/weather-and-battle-modifiers)** | +50% Attack while held | Locked into the first move you select until you switch out (or end battle) | Held item, equippable per Pokémon — 1 item slot |
 | **[Pokémon RSE — status orbs](/games/pokemon-rse/weather-and-battle-modifiers)** | Toxic Orb badly poisons holder; Flame Orb burns. Burn would normally halve Attack and Toxic would chip away HP | But pairing with Guts / Quick Feet / Poison Heal / Magic Guard turns the self-status into a *buff* | Per-Pokémon, requires breeding the right Ability — niche but defining for specific builds |
+| **[BotW — Heart vs Stamina trade](/games/zelda-botw/climbing-stamina)** | +1 Heart Container OR +1 Stamina Vessel at every Goddess Statue | The other one — *permanently*. You cannot fill both bars to max in a single playthrough | 4 Spirit Orbs per trade × 30 trades total — the meta-progression fork that makes players become *kinds* of players |
+| **[BotW — metal weapons in storms](/games/zelda-botw/chemistry-engine)** | High-tier metal weapons (Royal Halberd, Knight's Claymore) are top-of-line damage | In a thunderstorm, lightning targets metal — equipped or held metal calls a guaranteed strike | Chemistry-engine rule, applied universally; the player must drop the weapon mid-storm |
 
 ### Visual reference
 

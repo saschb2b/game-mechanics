@@ -8,6 +8,7 @@ Sorted alphabetically.
 |---|---|---|---|
 | [**Hades (series)**](/games/hades/) | 2020–2025 | Boon-draft + dialogue-after-death narrative | Death as story beat, not failure |
 | [**Hollow Knight**](/games/hollow-knight/) | 2017 | Charm-notch loadout + soul-as-heal-resource | Exploration as mastery, not direction |
+| [**The Legend of Zelda: Breath of the Wild**](/games/zelda-botw/) | 2017 | Multiplicative chemistry engine + climb-anywhere stamina + 120-shrine puzzle network | Reach for any visible point — and pay for it in stamina, weather, or weapons |
 | [**Mega Man Battle Network (series)**](/games/mega-man-battle-network/) | 2001–2005 | 6×3 real-time grid combat + Folder of Battle Chips + Custom Gauge | Action reflexes + card-game collection — combined, not alternated |
 | [**Moonlighter 2: The Endless Vault**](/games/moonlighter-2/) | 2025 | Backpack-puzzle pricing + dual-life loop | Greed vs gold |
 | [**Nier: Automata**](/games/nier-automata/) | 2017 | Plug-in chips replace the HUD + multi-route ABCDE structure | Form mirrors theme — every system rereads the fiction |

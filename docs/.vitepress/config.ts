@@ -129,6 +129,23 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Legend of Zelda: BotW',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/zelda-botw/' },
+            { text: 'Chemistry engine', link: '/games/zelda-botw/chemistry-engine' },
+            { text: 'Climbing + stamina', link: '/games/zelda-botw/climbing-stamina' },
+            { text: 'Weapon degradation', link: '/games/zelda-botw/weapon-degradation' },
+            { text: 'Shrine network', link: '/games/zelda-botw/shrine-network' },
+            { text: 'Runes + traversal', link: '/games/zelda-botw/runes-and-traversal' },
+            { text: 'Ludonarrative reading', link: '/games/zelda-botw/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/zelda-botw/design-tensions' },
+            { text: 'Patterns', link: '/games/zelda-botw/patterns' },
+            { text: 'Lessons', link: '/games/zelda-botw/lessons' },
+            { text: 'Sources', link: '/games/zelda-botw/sources' },
+          ]
+        },
+        {
           text: 'Mega Man Battle Network',
           collapsed: false,
           items: [

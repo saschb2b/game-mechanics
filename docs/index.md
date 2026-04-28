@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "game-mechanics"
   text: "How games actually work."
-  tagline: "Six games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
+  tagline: "Thirteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
   actions:
     - theme: brand
       text: Browse games →
@@ -43,6 +43,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
   </div>
 </a>
 
+<a class="game-card" href="games/zelda-botw/">
+  <img class="gc-img" src="/images/zelda-botw/title-screen.jpg" alt="Breath of the Wild title screen — Link looking out at Hyrule">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Zelda: Breath of the Wild</h3>
+    <p class="gc-iconic">Multiplicative chemistry engine + climb-anywhere stamina + 120 shrines · pay for any reach in stamina, weather, or weapons</p>
+    <div class="gc-meta">
+      <span>2017</span><span>Open-world action-adventure</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
 <a class="game-card" href="games/mega-man-battle-network/">
   <img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge">
   <div class="gc-overlay"></div>
@@ -67,6 +79,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
   </div>
 </a>
 
+<a class="game-card" href="games/nier-automata/">
+  <img class="gc-img" src="/images/nier-automata/chip-categories.jpg" alt="Nier Automata Plug-in Chips configuration screen, Storage Used 68 of 72">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Nier: Automata</h3>
+    <p class="gc-iconic">Plug-in chips replace the HUD + multi-route ABCDE structure · form mirrors theme — every system rereads the fiction</p>
+    <div class="gc-meta">
+      <span>2017</span><span>Action-RPG</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
 <a class="game-card" href="games/path-of-exile/">
   <img class="gc-img" src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas of Worlds">
   <div class="gc-overlay"></div>
@@ -87,6 +111,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
     <p class="gc-iconic">Slowed combat + weapons grant skills · re-litigating PoE1's drift</p>
     <div class="gc-meta">
       <span>2024</span><span>Action RPG</span><span>F2P · EA</span>
+    </div>
+  </div>
+</a>
+
+<a class="game-card" href="games/pokemon-rse/">
+  <img class="gc-img" src="/images/pokemon-rse/pokemon-info.jpg" alt="Pokémon Ruby/Sapphire/Emerald — Torchic info screen showing Type, Ability Blaze, and Sassy nature">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Pokémon Ruby/Sapphire/Emerald</h3>
+    <p class="gc-iconic">17-type RPS + 4-move loadout + permanent stat profile · math under cute</p>
+    <div class="gc-meta">
+      <span>2002–2004</span><span>Monster-collector RPG</span><span>Series</span>
     </div>
   </div>
 </a>
@@ -143,9 +179,9 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 
 <div class="home-section">
 
-## Same problem, six solutions
+## Same problem, many solutions
 
-Every game in this library has a *loadout-as-budget* — a system that forces real trade-offs between competing build directions. **Same design problem, totally different math.**
+Most games in this library have a *loadout-as-budget* — a system that forces real trade-offs between competing build directions. **Same design problem, totally different math.**
 
 <div class="pattern-strip">
 
