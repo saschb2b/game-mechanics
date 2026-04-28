@@ -218,6 +218,24 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Pokémon Ruby/Sapphire/Emerald',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/pokemon-rse/' },
+            { text: 'Type chart', link: '/games/pokemon-rse/type-chart' },
+            { text: 'Stats: IVs / EVs / Natures / Abilities', link: '/games/pokemon-rse/stats-and-natures' },
+            { text: 'Weather, doubles, held items', link: '/games/pokemon-rse/weather-and-battle-modifiers' },
+            { text: 'Version exclusivity + trade', link: '/games/pokemon-rse/version-exclusivity' },
+            { text: 'Hoenn side-systems', link: '/games/pokemon-rse/hoenn-side-systems' },
+            { text: 'Series evolution (R/S → Emerald)', link: '/games/pokemon-rse/series-evolution' },
+            { text: 'Ludonarrative reading', link: '/games/pokemon-rse/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/pokemon-rse/design-tensions' },
+            { text: 'Patterns', link: '/games/pokemon-rse/patterns' },
+            { text: 'Lessons', link: '/games/pokemon-rse/lessons' },
+            { text: 'Sources', link: '/games/pokemon-rse/sources' },
+          ]
+        },
+        {
           text: 'Slay the Spire',
           collapsed: false,
           items: [

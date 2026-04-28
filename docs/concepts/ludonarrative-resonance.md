@@ -47,6 +47,7 @@ Resonance is in the *verbs*, not the labels and not the audiovisual layer. A gre
 | **[Sparklite](/games/sparklite/ludonarrative-resonance)** | Patch board + sparklite economy + permalife | **Mild affirm** | The fiction's nouns (patches, sparklite, Refuge) are the mechanic's nouns; combat and dialogue stay neutral. |
 | **[Warframe](/games/warframe/ludonarrative-resonance)** | Cinematic-quest spine vs. day-to-day farming loop | **Split** | Cinematic peaks resonate hard; the median minute is orthogonal. The intermittent case. |
 | **[Path of Exile 2](/games/path-of-exile-2/ludonarrative-resonance)** | Slowed combat + one-death maps vs. inherited optimisation loop | **Split** | Combat layer reaches for resonance; meta-loop stays orthogonal. Deliberate partial-resonance. |
+| **[Pokémon RSE](/games/pokemon-rse/ludonarrative-resonance)** | Hoenn-as-nature + starter-pick + trade vs. IV/EV/Nature math | **Split** | Surface layer reads as a Trainer journey; competitive math layer is openly orthogonal. The same product offers both readings. |
 | **[Path of Exile](/games/path-of-exile/ludonarrative-resonance)** | Loot/skill/Atlas loop | **Orthogonal** | Honest about being a math game; fiction is decorative scaffolding, and that's the right call. |
 | **[Slay the Spire](/games/slay-the-spire/ludonarrative-resonance)** | Card draft + energy + map + Ascension | **Orthogonal** | Light fiction, heavy math, honest framing. Forcing resonance would weaken the loop. |
 

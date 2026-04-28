@@ -40,6 +40,9 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Hollow Knight — Fragile charms](/games/hollow-knight/charms-and-notches)** | +HP / +Damage / +Geo bonuses for the duration | **Shatter on death.** Must pay 200/350/450 Geo at Leg Eater to repair each | Opt-in equip; the death-loop converts the charm to a Geo sink |
 | **[Nier: Automata — OS Chip](/games/nier-automata/chip-system)** | The OS Chip is what makes the android function — it's the bonus of "being alive" | Removing it kills the character instantly and sends you back to your last save | Equippable in the chip menu like any other chip; the game does not block the unequip option |
 | **[Nier: Automata — chip drop on death](/games/nier-automata/chip-system)** | All currently equipped chips remain equipped on respawn — including HUD elements | If you die again before recovering your corpse, the chips drop with the corpse are **permanently lost** | Standard death loop; the drawback is hidden until the player misses a recovery |
+| **[Pokémon RSE — Natures](/games/pokemon-rse/stats-and-natures)** | +10% to one of 5 stats (Attack / Defense / Sp.Atk / Sp.Def / Speed) | −10% to a different one of those 5 | Permanent on each Pokémon, set at capture or hatch; 25-nature grid (incl. 5 neutrals) |
+| **[Pokémon RSE — Choice Band](/games/pokemon-rse/weather-and-battle-modifiers)** | +50% Attack while held | Locked into the first move you select until you switch out (or end battle) | Held item, equippable per Pokémon — 1 item slot |
+| **[Pokémon RSE — status orbs](/games/pokemon-rse/weather-and-battle-modifiers)** | Toxic Orb badly poisons holder; Flame Orb burns. Burn would normally halve Attack and Toxic would chip away HP | But pairing with Guts / Quick Feet / Poison Heal / Magic Guard turns the self-status into a *buff* | Per-Pokémon, requires breeding the right Ability — niche but defining for specific builds |
 
 ### Visual reference
 

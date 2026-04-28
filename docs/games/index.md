@@ -13,6 +13,7 @@ Sorted alphabetically.
 | [**Nier: Automata**](/games/nier-automata/) | 2017 | Plug-in chips replace the HUD + multi-route ABCDE structure | Form mirrors theme — every system rereads the fiction |
 | [**Path of Exile**](/games/path-of-exile/) | 2013 | 1500-node passive tree + skill gems as gear | Friction over convenience |
 | [**Path of Exile 2**](/games/path-of-exile-2/) | 2024 (EA) | Slowed combat + weapons grant skills | Re-litigating PoE1's drift toward speed-clearing |
+| [**Pokémon Ruby/Sapphire/Emerald**](/games/pokemon-rse/) | 2002–2004 | 17-type RPS + 4-move loadout + permanent stat profile per Pokémon | Math under cute — a six-axis stat optimisation sim packaged as a kids' adventure |
 | [**Slay the Spire**](/games/slay-the-spire/) | 2019 | Card draft + Ascension staircase | Risk vs reward, fractally |
 | [**Sparklite**](/games/sparklite/) | 2019 | Patch-board grid inventory + permalife | Power growth vs spatial budget |
 | [**Warframe**](/games/warframe/) | 2013 | Forma + Riven Disposition | Power fantasy vs grind |

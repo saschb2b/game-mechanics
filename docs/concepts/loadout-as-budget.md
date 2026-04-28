@@ -41,6 +41,7 @@ This solves several problems at once:
 | **[Xenoblade Chronicles 3](/games/xenoblade-chronicles/class-and-ouroboros)** | **Combinatorial: 8-art palette × class × cross-class master** — pick a class for each character; pick which 3 arts of that class are active; pick alt-arts from a *different* mastered class | Arts (class-bound), Master Arts (from another mastered class), accessory slots, gem slots | 8 art slots × ~20 classes × N other classes mastered for cross-slotting | Pick the wrong cross-class slot and you've burned 60+ hours of class mastery; the loadout *is* the build |
 | **[Hollow Knight](/games/hollow-knight/charms-and-notches)** | **Pure numeric — 11-notch charm budget** | ~45 charms with integer costs (1–5 notches each) | Total notches; opt-in *overcharm* state lets you exceed at the cost of 2× damage taken | A 5-notch charm eats nearly half the early budget; cheap-charms-only vs. one-big-charm builds play very differently |
 | **[Nier: Automata](/games/nier-automata/chip-system)** | **Numeric storage budget — starts ~64, max 256 — that *includes the HUD*** | Plug-in chips: combat passives, Auto-* accessibility, AND the HUD elements (HP bar, minimap, damage numbers). Same chip exists at multiple storage costs depending on quality | Total storage; mandatory OS Chip cannot be removed without dying; three saved Sets (A/B/C) for fast role-swap | Showing the minimap costs storage you can't spend on Auto-Heal. Frame and action share one budget — the only entry where the *UI itself* is in the loadout |
+| **[Pokémon RSE](/games/pokemon-rse/stats-and-natures)** | **Tiny 4-slot moveset per Pokémon, drawn from hundreds of typed options; plus 510 EVs across 6 stats per Pokémon** | Battle moves (typed; with PP); Effort Values (cap 252 per stat); held items (1 slot per creature) | 4 move slots — adding a 5th forces *forgetting* an existing move permanently; EVs hard-capped at 510 total / 252 per stat | A 5th move replaces a 4th — coverage vs power vs status vs finisher; EVs in two stats means none in the others. The smallest-grain canonical case in this knowledge base |
 
 ### Visual contrast
 
@@ -49,10 +50,10 @@ This solves several problems at once:
 | ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Warframe modding upgrade detail](/images/warframe/modding-upgrade-detail.jpg) | ![Slay the Spire Defect combat](/images/slay-the-spire/combat-defect.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) | ![PoE Atlas tree showing massive node graph](/images/path-of-exile/atlas-of-worlds.jpg) |
 | Patches collected, awaiting placement on the Med Bay grid | Mod points + polarity slots; matching polarity halves cost | 4/3 energy + 5-card hand; every turn is allocation | Backpack grid where adjacency triggers POINTED / ABSORB synergies | Atlas tree (≈700 nodes) — the *meta*-budget; the character passive tree is even bigger (~1500 nodes) |
 
-| Hollow Knight | Nier: Automata |
-|---|---|
-| ![Hollow Knight charm screen — 5 of 11 notches used, full grid of charms below](/images/hollow-knight/hk-charms-equip.jpg) | ![Nier Automata chip categories — Storage Used 68/72](/images/nier-automata/chip-categories.jpg) |
-| 11 notches, ~45 charms with integer costs. Pure numeric. | 72 storage, chip costs 1–17. Same numeric form — but the HUD elements (HP bar, minimap, damage numbers) are *also* chips in the same budget. |
+| Hollow Knight | Nier: Automata | Pokémon RSE |
+|---|---|---|
+| ![Hollow Knight charm screen — 5 of 11 notches used, full grid of charms below](/images/hollow-knight/hk-charms-equip.jpg) | ![Nier Automata chip categories — Storage Used 68/72](/images/nier-automata/chip-categories.jpg) | ![Pokémon battle moves — Torchic with 4 typed moves and PP counters](/images/pokemon-rse/battle-moves.jpg) |
+| 11 notches, ~45 charms with integer costs. Pure numeric. | 72 storage, chip costs 1–17. Same numeric form — but the HUD elements (HP bar, minimap, damage numbers) are *also* chips in the same budget. | 4 move slots, hundreds of typed moves. The smallest-grain budget — and the constraint that's anchored Pokémon battling for ~30 years. |
 
 ## When to use this pattern
 
