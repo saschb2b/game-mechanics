@@ -165,6 +165,23 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Nier: Automata',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/nier-automata/' },
+            { text: 'Plug-in chips', link: '/games/nier-automata/chip-system' },
+            { text: 'Multi-route structure', link: '/games/nier-automata/multi-route-structure' },
+            { text: 'Genre-shifting combat', link: '/games/nier-automata/genre-shifting-combat' },
+            { text: 'Ending E + save sacrifice', link: '/games/nier-automata/ending-e-save-sacrifice' },
+            { text: 'Weapon stories', link: '/games/nier-automata/weapon-stories' },
+            { text: 'Ludonarrative reading', link: '/games/nier-automata/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/nier-automata/design-tensions' },
+            { text: 'Patterns', link: '/games/nier-automata/patterns' },
+            { text: 'Lessons', link: '/games/nier-automata/lessons' },
+            { text: 'Sources', link: '/games/nier-automata/sources' },
+          ]
+        },
+        {
           text: 'Path of Exile',
           collapsed: false,
           items: [

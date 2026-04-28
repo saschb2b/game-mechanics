@@ -40,6 +40,7 @@ This solves several problems at once:
 | **[Mega Man Battle Network](/games/mega-man-battle-network/folder-and-chip-codes)** | **Layered fixed budgets** — 30-chip Folder + 4×4 NaviCust grid + ~5-card Hand drawn from Folder | Battle Chips (codes A–Z + ★), NaviCust programs (Tetris shapes), opening Hand from random draw | Folder size (30) + Hand size (5) + NaviCust cells; chip codes constrain co-play | Fewer co-playable codes = more dead Hand draws; more bug-tolerant NaviCust = more debuffs |
 | **[Xenoblade Chronicles 3](/games/xenoblade-chronicles/class-and-ouroboros)** | **Combinatorial: 8-art palette × class × cross-class master** — pick a class for each character; pick which 3 arts of that class are active; pick alt-arts from a *different* mastered class | Arts (class-bound), Master Arts (from another mastered class), accessory slots, gem slots | 8 art slots × ~20 classes × N other classes mastered for cross-slotting | Pick the wrong cross-class slot and you've burned 60+ hours of class mastery; the loadout *is* the build |
 | **[Hollow Knight](/games/hollow-knight/charms-and-notches)** | **Pure numeric — 11-notch charm budget** | ~45 charms with integer costs (1–5 notches each) | Total notches; opt-in *overcharm* state lets you exceed at the cost of 2× damage taken | A 5-notch charm eats nearly half the early budget; cheap-charms-only vs. one-big-charm builds play very differently |
+| **[Nier: Automata](/games/nier-automata/chip-system)** | **Numeric storage budget — starts ~64, max 256 — that *includes the HUD*** | Plug-in chips: combat passives, Auto-* accessibility, AND the HUD elements (HP bar, minimap, damage numbers). Same chip exists at multiple storage costs depending on quality | Total storage; mandatory OS Chip cannot be removed without dying; three saved Sets (A/B/C) for fast role-swap | Showing the minimap costs storage you can't spend on Auto-Heal. Frame and action share one budget — the only entry where the *UI itself* is in the loadout |
 
 ### Visual contrast
 
@@ -47,6 +48,11 @@ This solves several problems at once:
 |---|---|---|---|---|
 | ![Sparklite adventure log with patches](/images/sparklite/adventure-log-ui.jpg) | ![Warframe modding upgrade detail](/images/warframe/modding-upgrade-detail.jpg) | ![Slay the Spire Defect combat](/images/slay-the-spire/combat-defect.jpg) | ![Moonlighter 2 backpack puzzle](/images/moonlighter-2/backpack-puzzle.jpg) | ![PoE Atlas tree showing massive node graph](/images/path-of-exile/atlas-of-worlds.jpg) |
 | Patches collected, awaiting placement on the Med Bay grid | Mod points + polarity slots; matching polarity halves cost | 4/3 energy + 5-card hand; every turn is allocation | Backpack grid where adjacency triggers POINTED / ABSORB synergies | Atlas tree (≈700 nodes) — the *meta*-budget; the character passive tree is even bigger (~1500 nodes) |
+
+| Hollow Knight | Nier: Automata |
+|---|---|
+| ![Hollow Knight charm screen — 5 of 11 notches used, full grid of charms below](/images/hollow-knight/hk-charms-equip.jpg) | ![Nier Automata chip categories — Storage Used 68/72](/images/nier-automata/chip-categories.jpg) |
+| 11 notches, ~45 charms with integer costs. Pure numeric. | 72 storage, chip costs 1–17. Same numeric form — but the HUD elements (HP bar, minimap, damage numbers) are *also* chips in the same budget. |
 
 ## When to use this pattern
 

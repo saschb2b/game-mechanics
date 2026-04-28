@@ -38,6 +38,8 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Hollow Knight — Joni's Blessing](/games/hollow-knight/charms-and-notches)** | +40% maximum HP (replaces blue Lifeblood masks with permanent white ones) | **Cannot heal with Soul.** The entire Focus heal system is removed | Charm slot, late-game discovery |
 | **[Hollow Knight — Overcharming](/games/hollow-knight/charms-and-notches)** | Cram extra charms past your notch budget | Take 2× damage from all sources until you remove charms | Opt-in toggle when equipping |
 | **[Hollow Knight — Fragile charms](/games/hollow-knight/charms-and-notches)** | +HP / +Damage / +Geo bonuses for the duration | **Shatter on death.** Must pay 200/350/450 Geo at Leg Eater to repair each | Opt-in equip; the death-loop converts the charm to a Geo sink |
+| **[Nier: Automata — OS Chip](/games/nier-automata/chip-system)** | The OS Chip is what makes the android function — it's the bonus of "being alive" | Removing it kills the character instantly and sends you back to your last save | Equippable in the chip menu like any other chip; the game does not block the unequip option |
+| **[Nier: Automata — chip drop on death](/games/nier-automata/chip-system)** | All currently equipped chips remain equipped on respawn — including HUD elements | If you die again before recovering your corpse, the chips drop with the corpse are **permanently lost** | Standard death loop; the drawback is hidden until the player misses a recovery |
 
 ### Visual reference
 

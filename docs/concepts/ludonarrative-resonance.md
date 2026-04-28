@@ -38,6 +38,7 @@ Resonance is in the *verbs*, not the labels and not the audiovisual layer. A gre
 
 | Game | Mechanic read | Verdict | One-line |
 |---|---|---|---|
+| **[Nier: Automata](/games/nier-automata/ludonarrative-resonance)** | Chip system + multi-route reread + Ending E save sacrifice | **Affirms (structurally enforced)** | The HUD is software, replay is rereading, hope is paid in saves. Three load-bearing mechanics, three thematic claims. |
 | **[Hades](/games/hades/ludonarrative-resonance)** | Death-as-narrative + hub dialogue | **Affirms** | Dying *is* how the plot moves; the rollback is the storytelling beat. |
 | **[Hollow Knight](/games/hollow-knight/ludonarrative-resonance)** | Earned cartography + silent protagonist | **Affirms** | Voiceless vessel ↔ voiceless verb-set; you learn the world by walking it. |
 | **[Mega Man Battle Network](/games/mega-man-battle-network/ludonarrative-resonance)** | Folder + chip-codes + NaviCust | **Affirms** | The mechanics are *literal* programmer-verbs — fiction-as-mechanics with no translation step. |

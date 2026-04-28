@@ -31,8 +31,10 @@ This is closely related to [`loadout-as-budget`](./loadout-as-budget.md) — opp
 |---|---|---|
 | **[Sparklite](/games/sparklite/patch-board)** | Every cell on the patch board holds one effect; bigger patches eat more cells | Damage vs. HP vs. defense vs. map markers vs. energy |
 | **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** | Every backpack cell can only hold one relic; placement triggers one synergy | Which 3–4 target relics to stack quality on; everything else is fuel |
+| **[Hollow Knight](/games/hollow-knight/charms-and-notches)** | Every charm slotted is a charm not slotted; 11-notch budget vs. ~45 charms with integer costs | Damage vs. healing speed vs. soul economy vs. movement vs. compass / map markers |
+| **[Nier: Automata](/games/nier-automata/chip-system)** | Every chip equipped is a chip not equipped; the HUD is in the same budget | Combat power vs. accessibility (Auto-*) vs. **the HUD itself** — show the minimap or take an Auto-Heal? |
 
-Both games make the trade *spatial* — the constraint is the grid itself. Other games could make the trade numeric (mod points), categorical (only one weapon at a time), or temporal (turn-based hand size).
+Three of these are spatial (grid-based), the others are numeric. Nier: Automata is the unusual case where the trade includes UI elements — the player decides whether seeing the HUD is worth the storage cost.
 
 ## When to use this pattern
 
