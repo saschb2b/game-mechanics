@@ -29,6 +29,7 @@ The "variety, not power" stance says: **unlock more cards, more relics, more cha
 | **[Slay the Spire](/games/slay-the-spire/ascension)** | New cards, new relics, new characters, Ascension difficulty levels | No starting HP/damage/energy bumps. Ever. |
 | **[Moonlighter 2](/games/moonlighter-2/progression)** | New recipes, new perks, new shop decorations, new village NPC services | Some permanent power exists (blacksmith stat upgrades) — partial commitment |
 | **[Hades](/games/hades/meta-progression)** | Mirror talents (mostly variety effects); Arcana cards (combinatorial loadout); weapon Aspects; god-favor unlocks | Mirror does include some +HP / +damage; Arcana grid leans variety hard. Softer than Spire; harder than Moonlighter 2 — a *middle stance* |
+| **[Balatro](/games/balatro/decks-and-stakes)** | 15 starting Decks (each a *rule* mod, not a power bump — Plasma balances chips and mult; Erratic randomizes ranks; Black Deck trades a hand for a Joker slot); 8 Stakes (cumulative difficulty modifiers); ~150 Jokers in the shop pool; 32 Vouchers; ~22 Tarots; ~18 Spectrals | Zero base-stat unlocks. The first run and the 200th run start with the same chips, mults, hand size, and ante thresholds. **The strictest case in this knowledge base** — even Spire has some characters easier than others, but Balatro's decks are deliberately balanced as *different*, not weaker/stronger |
 
 ### The strict vs. relaxed stance
 

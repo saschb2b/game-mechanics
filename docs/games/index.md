@@ -6,6 +6,7 @@ Sorted alphabetically.
 
 | Game | Released | Iconic mechanic | Core dialectic |
 |---|---|---|---|
+| [**Balatro**](/games/balatro/) | 2024 | Poker hands × Jokers × deck-mutation × Ante staircase | Familiar surface, deep math underneath |
 | [**Hades (series)**](/games/hades/) | 2020–2025 | Boon-draft + dialogue-after-death narrative | Death as story beat, not failure |
 | [**Hollow Knight**](/games/hollow-knight/) | 2017 | Charm-notch loadout + soul-as-heal-resource | Exploration as mastery, not direction |
 | [**The Legend of Zelda: Breath of the Wild**](/games/zelda-botw/) | 2017 | Multiplicative chemistry engine + climb-anywhere stamina + 120-shrine puzzle network | Reach for any visible point — and pay for it in stamina, weather, or weapons |

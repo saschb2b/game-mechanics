@@ -51,6 +51,7 @@ Resonance is in the *verbs*, not the labels and not the audiovisual layer. A gre
 | **[Pokémon RSE](/games/pokemon-rse/ludonarrative-resonance)** | Hoenn-as-nature + starter-pick + trade vs. IV/EV/Nature math | **Split** | Surface layer reads as a Trainer journey; competitive math layer is openly orthogonal. The same product offers both readings. |
 | **[Path of Exile](/games/path-of-exile/ludonarrative-resonance)** | Loot/skill/Atlas loop | **Orthogonal** | Honest about being a math game; fiction is decorative scaffolding, and that's the right call. |
 | **[Slay the Spire](/games/slay-the-spire/ludonarrative-resonance)** | Card draft + energy + map + Ascension | **Orthogonal** | Light fiction, heavy math, honest framing. Forcing resonance would weaken the loop. |
+| **[Balatro](/games/balatro/ludonarrative-resonance)** | Poker hands × Jokers × deck-mutation × Ante staircase | **Orthogonal** | Effectively no fiction. Court-jester aesthetic decoration; the game is a math sandbox in poker drag — and honest about it. |
 
 Rows are roughly ordered from densest affirmation to honest orthogonality. Each links to the full reading inside that game's folder. New entries get added here as they earn one.
 

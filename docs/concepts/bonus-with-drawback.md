@@ -45,6 +45,9 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Pokémon RSE — status orbs](/games/pokemon-rse/weather-and-battle-modifiers)** | Toxic Orb badly poisons holder; Flame Orb burns. Burn would normally halve Attack and Toxic would chip away HP | But pairing with Guts / Quick Feet / Poison Heal / Magic Guard turns the self-status into a *buff* | Per-Pokémon, requires breeding the right Ability — niche but defining for specific builds |
 | **[BotW — Heart vs Stamina trade](/games/zelda-botw/climbing-stamina)** | +1 Heart Container OR +1 Stamina Vessel at every Goddess Statue | The other one — *permanently*. You cannot fill both bars to max in a single playthrough | 4 Spirit Orbs per trade × 30 trades total — the meta-progression fork that makes players become *kinds* of players |
 | **[BotW — metal weapons in storms](/games/zelda-botw/chemistry-engine)** | High-tier metal weapons (Royal Halberd, Knight's Claymore) are top-of-line damage | In a thunderstorm, lightning targets metal — equipped or held metal calls a guaranteed strike | Chemistry-engine rule, applied universally; the player must drop the weapon mid-storm |
+| **[Balatro — Spectral Cards (Ankh, Hex)](/games/balatro/deck-as-build)** | Strong run-warping upgrades: Ankh duplicates a Joker; Hex applies Polychrome to a Joker | **Destroys all other Jokers** | Once-per-run nuclear option; takes a fully-built Joker chain and discards 4 of 5 to amplify 1 |
+| **[Balatro — Glass Cards](/games/balatro/deck-as-build)** | ×2 mult on score for that card | 25% chance the card breaks (permanently destroyed) per scoring | Per-card modifier; running multiple Glass Cards is a calculated attrition build |
+| **[Balatro — Madness Joker](/games/balatro/jokers)** | ×1.5 mult per Blind selected | Destroys 1 random other Joker per Blind | The most punishing per-Blind tradeoff; pairs only with Blueprint chains and 2-Joker minimum builds |
 
 ### Visual reference
 

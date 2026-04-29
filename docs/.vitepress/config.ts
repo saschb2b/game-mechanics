@@ -98,6 +98,24 @@ export default defineConfig({
       '/games/': [
         { text: 'All games', link: '/games/' },
         {
+          text: 'Balatro',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/balatro/' },
+            { text: 'Poker scoring (chip × mult)', link: '/games/balatro/poker-scoring' },
+            { text: 'Jokers', link: '/games/balatro/jokers' },
+            { text: 'Deck as the build', link: '/games/balatro/deck-as-build' },
+            { text: 'Shop economy + interest', link: '/games/balatro/shop-economy' },
+            { text: 'Blinds + Boss Blinds', link: '/games/balatro/blinds-and-bosses' },
+            { text: 'Decks + Stakes', link: '/games/balatro/decks-and-stakes' },
+            { text: 'Ludonarrative reading', link: '/games/balatro/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/balatro/design-tensions' },
+            { text: 'Patterns', link: '/games/balatro/patterns' },
+            { text: 'Lessons', link: '/games/balatro/lessons' },
+            { text: 'Sources', link: '/games/balatro/sources' },
+          ]
+        },
+        {
           text: 'Hades',
           collapsed: false,
           items: [

@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "game-mechanics"
   text: "How games actually work."
-  tagline: "Thirteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
+  tagline: "Fourteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
   actions:
     - theme: brand
       text: Browse games →
@@ -18,6 +18,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 ---
 
 <div class="games-grid">
+
+<a class="game-card" href="games/balatro/">
+  <img class="gc-img" src="/images/balatro/scoring-flush.jpg" alt="Balatro scoring a Flush — chips × mult readout 35 × 4">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Balatro</h3>
+    <p class="gc-iconic">Poker hands × Jokers × deck-mutation × Ante staircase · familiar surface, deep math underneath</p>
+    <div class="gc-meta">
+      <span>2024</span><span>Roguelike deckbuilder</span><span>Premium</span>
+    </div>
+  </div>
+</a>
 
 <a class="game-card" href="games/hades/">
   <img class="gc-img" src="/images/hades/h2-title-screen.jpg" alt="Hades II title screen with Melinoë">
