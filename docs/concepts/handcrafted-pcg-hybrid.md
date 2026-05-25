@@ -32,13 +32,14 @@ This is now the dominant pattern in modern roguelites. Once you see it, you see 
 | **[Warframe](/games/warframe/combat)** | Tile-sets per faction (Grineer asteroid, Corpus ship, Infested ship, Earth forest, …) | Which tiles connect into the mission layout each run | Mission *type* (Survival, Defense, …) defines objective; tile-set defines aesthetic; layout is procedural |
 | **[Slay the Spire](/games/slay-the-spire/map-and-nodes)** | Each fight, event, shop, rest is a hand-authored encounter | The DAG map of *which* encounters appear on *which* floor, in what branching pattern | Encounters are individually tuned; the player's path through them is the procedural axis |
 | **[Moonlighter 2](/games/moonlighter-2/dungeon-map)** | Hand-tuned encounter rooms (chests, events, blacksmiths, bosses) per biome | The dungeon map DAG — which node types appear in what arrangement | Same trick as Spire's map but in 3D action context; node-type variety drives perceived depth |
+| **[Cult of the Lamb](/games/cult-of-the-lamb/crusades)** | Per-biome room templates (Darkwood / Anura / Anchordeep / Silk Cradle), each authored as a fixed-geometry combat arena | The DAG layer above the room library — which room *type* spawns at each node, plus the higher-level Land sequence | Two-layer hybrid: rooms ≈ Isaac, plus a Spire-style map sitting *above* the room pool |
 
 ### Visual contrast — a hand-authored unit from each game
 
-| Sparklite tile | Warframe tile-set | Slay the Spire encounter | Moonlighter 2 dungeon map |
-|---|---|---|---|
-| ![Mine-shaft trap-gauntlet](/images/sparklite/trap-gauntlet.jpg) | ![Warframe in-mission HUD on a tile-set level](/images/warframe/in-mission-hud.jpg) | ![Council of Ghosts event](/images/slay-the-spire/event-council-ghosts.jpg) | ![Moonlighter 2 Zephyr Fields map](/images/moonlighter-2/dungeon-map-dag.jpg) |
-| One trap-gauntlet tile, hand-authored, dropped into a randomized biome layout | A Corpus tile, hand-authored, connected procedurally with other tiles into a mission | One narrative event encounter, hand-authored, slotted procedurally into a map node | Each map node hand-authored; the DAG arrangement chosen procedurally per descent |
+| Sparklite tile | Warframe tile-set | Slay the Spire encounter | Moonlighter 2 dungeon map | Cult of the Lamb room |
+|---|---|---|---|---|
+| ![Mine-shaft trap-gauntlet](/images/sparklite/trap-gauntlet.jpg) | ![Warframe in-mission HUD on a tile-set level](/images/warframe/in-mission-hud.jpg) | ![Council of Ghosts event](/images/slay-the-spire/event-council-ghosts.jpg) | ![Moonlighter 2 Zephyr Fields map](/images/moonlighter-2/dungeon-map-dag.jpg) | ![Cult of the Lamb Darkwood chest room](/images/cult-of-the-lamb/crusade-chest-darkwood.jpg) |
+| One trap-gauntlet tile, hand-authored, dropped into a randomized biome layout | A Corpus tile, hand-authored, connected procedurally with other tiles into a mission | One narrative event encounter, hand-authored, slotted procedurally into a map node | Each map node hand-authored; the DAG arrangement chosen procedurally per descent | One Darkwood room template — fixed arena, biome-specific enemy mix; shuffled per Crusade and stitched by the DAG layer above |
 
 ## When to use this pattern
 

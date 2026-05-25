@@ -116,6 +116,27 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Cult of the Lamb',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/cult-of-the-lamb/' },
+            { text: 'Crusades (dungeon generation)', link: '/games/cult-of-the-lamb/crusades' },
+            { text: 'Crusades — technical implementation', link: '/games/cult-of-the-lamb/crusades-technical' },
+            { text: 'Dungeon map (DAG nodes)', link: '/games/cult-of-the-lamb/dungeon-map' },
+            { text: 'Hub & followers', link: '/games/cult-of-the-lamb/hub-and-followers' },
+            { text: 'Doctrines & rituals', link: '/games/cult-of-the-lamb/doctrines-and-rituals' },
+            { text: 'Divine Inspiration (tech tree)', link: '/games/cult-of-the-lamb/divine-inspiration' },
+            { text: 'Combat & loadout', link: '/games/cult-of-the-lamb/combat-and-loadout' },
+            { text: 'Bishops & progression', link: '/games/cult-of-the-lamb/bishops-and-progression' },
+            { text: 'Post-launch evolution', link: '/games/cult-of-the-lamb/post-launch-evolution' },
+            { text: 'Ludonarrative reading', link: '/games/cult-of-the-lamb/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/cult-of-the-lamb/design-tensions' },
+            { text: 'Patterns', link: '/games/cult-of-the-lamb/patterns' },
+            { text: 'Lessons', link: '/games/cult-of-the-lamb/lessons' },
+            { text: 'Sources', link: '/games/cult-of-the-lamb/sources' },
+          ]
+        },
+        {
           text: 'Hades',
           collapsed: false,
           items: [

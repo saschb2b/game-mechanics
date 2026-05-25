@@ -28,15 +28,16 @@ This is one of the most-imitated patterns in modern roguelites. Slay the Spire p
 | **[Slay the Spire](/games/slay-the-spire/map-and-nodes)** | Vertical DAG, 15 floors per act | Monster, Elite, Event, Shop, Rest, Treasure, Boss | Whole act visible from floor 1 |
 | **[Moonlighter 2](/games/moonlighter-2/dungeon-map)** | Horizontal DAG per biome | Chest, Event, Potion, Blacksmith, Recipe, Elite, Miniboss, Boss, Ice/Thunder Perk | Full biome path visible at start |
 | **[Hades](/games/hades/chamber-and-paths)** | Per-biome chamber DAG, *one chamber visible ahead* | Boon (per god), Hammer, Gold, Healing, Charon shop, Nectar, biome-specific currencies | Just the next chamber's reward — no whole-biome view; the player commits chamber-by-chamber |
+| **[Cult of the Lamb](/games/cult-of-the-lamb/dungeon-map)** | 2–4 fork DAG per mini-dungeon, ~12 node types | Combat, Mini-boss, Bishop, Tarot, Lore, Recruitment, Shop, Event, Prayer, Graveyard, Resource, Heart, **Sacrifice door** | 1–3 layers visible — between Spire's full-map and Hades' one-ahead view. Unique: a node type that takes a *named follower* from the other loop |
 
 ### Visual contrast
 
 Spire's map (DAG node graph) isn't yet captured locally; see the [wiki](https://slaythespire.wiki.gg/wiki/Map_Locations).
 
-| Moonlighter 2 — Zephyr Fields biome map |
-|---|
-| ![Moonlighter 2 dungeon map showing DAG of node types](/images/moonlighter-2/dungeon-map-dag.jpg) |
-| Full DAG visible at the start of the descent. Legend (left) shows the node-type vocabulary. |
+| Moonlighter 2 — Zephyr Fields biome map | Cult of the Lamb — mid-Crusade DAG |
+|---|---|
+| ![Moonlighter 2 dungeon map showing DAG of node types](/images/moonlighter-2/dungeon-map-dag.jpg) | ![Cult of the Lamb's mid-Crusade DAG with a skull boss, tarot tent and combat node](/images/cult-of-the-lamb/crusade-map-dag.jpg) |
+| Full DAG visible at the start of the descent. Legend (left) shows the node-type vocabulary. | Just the next 2–3 layers visible — between Hades' one-ahead and Spire's whole-act. Dashed-red = previewed branch, teal-solid = committed path, plain grey = available. |
 
 Both games make the map a single screen, with all node types in a legend. **The player plans the run shape before the first encounter.**
 

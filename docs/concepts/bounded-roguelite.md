@@ -27,6 +27,7 @@ A bounded roguelite says: **the run-replay structure is the gameplay shape, but 
 | **[Sparklite](/games/sparklite/world-and-loop)** | 10–30 min | ~20-hour campaign | Five Titans defeated → credits |
 | **[Moonlighter 2](/games/moonlighter-2/dual-life-loop)** | 30–60 min | Three biomes (EA scope) → final-release content | Final story / biome boss |
 | **[Hades](/games/hades/)** | 20–40 min | ~30–40h to credits, ~80–100h to "true ending" | Final boss → credits → opt-in Pact-of-Punishment difficulty for replay |
+| **[Cult of the Lamb](/games/cult-of-the-lamb/bishops-and-progression)** | ~15 min Crusade (synced to a hub day) | ~20–30h to credits at launch; post-game added later via *Relics of the Old Faith* | Shamura (final of four Bishops) → credits. The post-launch arc itself is an instructive case of "ship bounded; expand the boundary once data confirms players want more." |
 
 ### Why these games chose to be bounded
 
