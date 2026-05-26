@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "build": "node .vitepress/generate-llms-txt.mjs && vitepress build",
+    "preview": "vitepress preview",
+    "llms": "node .vitepress/generate-llms-txt.mjs"
   },
   "devDependencies": {
     "medium-zoom": "^1.1.0",
