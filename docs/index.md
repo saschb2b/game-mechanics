@@ -20,8 +20,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 <div class="games-grid">
 
 <a class="game-card" href="games/balatro/">
-  <img class="gc-img" src="/images/balatro/scoring-flush.jpg" alt="Balatro scoring a Flush — chips × mult readout 35 × 4">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/balatro/scoring-flush.jpg" alt="Balatro scoring a Flush — chips × mult readout 35 × 4"></div>
   <div class="gc-content">
     <h3 class="gc-title">Balatro</h3>
     <p class="gc-iconic">Poker hands × Jokers × deck-mutation × Ante staircase · familiar surface, deep math underneath</p>
@@ -32,11 +31,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/cult-of-the-lamb/">
-  <img class="gc-img" src="/images/cult-of-the-lamb/cult-hub-with-quest-tracker.jpg" alt="Cult of the Lamb — the cult hub at midday with a pinned quest tracker">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/cult-of-the-lamb/cult-hub-with-quest-tracker.jpg" alt="Cult of the Lamb — the cult hub at midday with a pinned quest tracker"></div>
   <div class="gc-content">
     <h3 class="gc-title">Cult of the Lamb</h3>
-    <p class="gc-iconic">Indoctrination loop — crusade for resources, run a cult with the spoils · cute aesthetic vs cult horror</p>
+    <p class="gc-iconic">Indoctrination loop — crusade for resources, run a cult · cute aesthetic vs cult horror</p>
     <div class="gc-meta">
       <span>2022</span><span>Action roguelite + base-builder</span><span>Premium</span>
     </div>
@@ -44,8 +42,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/hades/">
-  <img class="gc-img" src="/images/hades/h2-title-screen.jpg" alt="Hades II title screen with Melinoë">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/hades/h2-title-screen.jpg" alt="Hades II title screen with Melinoë"></div>
   <div class="gc-content">
     <h3 class="gc-title">Hades</h3>
     <p class="gc-iconic">Boon-draft + dialogue-after-death · death as story beat, not failure</p>
@@ -56,8 +53,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/hollow-knight/">
-  <img class="gc-img" src="/images/hollow-knight/hk-world-map.jpg" alt="Hollow Knight world map of Hallownest">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/hollow-knight/hk-world-map.jpg" alt="Hollow Knight world map of Hallownest"></div>
   <div class="gc-content">
     <h3 class="gc-title">Hollow Knight</h3>
     <p class="gc-iconic">Charm-notch loadout + soul-as-heal-resource · exploration as mastery, not direction</p>
@@ -68,11 +64,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/zelda-botw/">
-  <img class="gc-img" src="/images/zelda-botw/title-screen.jpg" alt="Breath of the Wild title screen — Link looking out at Hyrule">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/zelda-botw/title-screen.jpg" alt="Breath of the Wild title screen — Link looking out at Hyrule"></div>
   <div class="gc-content">
     <h3 class="gc-title">Zelda: Breath of the Wild</h3>
-    <p class="gc-iconic">Multiplicative chemistry engine + climb-anywhere stamina + 120 shrines · pay for any reach in stamina, weather, or weapons</p>
+    <p class="gc-iconic">Multiplicative chemistry engine + climb-anywhere stamina + 120 shrines · reach anywhere, pay the cost</p>
     <div class="gc-meta">
       <span>2017</span><span>Open-world action-adventure</span><span>Premium</span>
     </div>
@@ -80,8 +75,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/mega-man-battle-network/">
-  <img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/mega-man-battle-network/combat-grid-custom-gauge.jpg" alt="Mega Man Battle Network 6×3 grid combat with Custom Gauge"></div>
   <div class="gc-content">
     <h3 class="gc-title">Mega Man Battle Network</h3>
     <p class="gc-iconic">6×3 real-time grid + Folder of chips + Custom Gauge · action + card hybrid</p>
@@ -92,11 +86,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/mina-the-hollower/">
-  <img class="gc-img" src="/images/mina-the-hollower/gameplay-cave-network.jpg" alt="Mina the Hollower — Mina mid-burrow in a gothic Cave Network dungeon">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/mina-the-hollower/gameplay-cave-network.jpg" alt="Mina the Hollower — Mina mid-burrow in a gothic Cave Network dungeon"></div>
   <div class="gc-content">
     <h3 class="gc-title">Mina the Hollower</h3>
-    <p class="gc-iconic">Hollowing — burrow as dodge, traversal & ambush · deliberate Castlevania combat in a Zelda-shaped world</p>
+    <p class="gc-iconic">Hollowing — burrow as dodge, traversal & ambush · Castlevania combat in a Zelda-shaped world</p>
     <div class="gc-meta">
       <span>2026</span><span>Action-adventure</span><span>Premium</span>
     </div>
@@ -104,8 +97,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/moonlighter-2/">
-  <img class="gc-img" src="/images/moonlighter-2/showcase-pricing.jpg" alt="Moonlighter 2 showcase pricing UI">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/moonlighter-2/showcase-pricing.jpg" alt="Moonlighter 2 showcase pricing UI"></div>
   <div class="gc-content">
     <h3 class="gc-title">Moonlighter 2</h3>
     <p class="gc-iconic">Backpack-puzzle pricing + dual-life loop · greed vs gold</p>
@@ -116,11 +108,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/nier-automata/">
-  <img class="gc-img" src="/images/nier-automata/chip-categories.jpg" alt="Nier Automata Plug-in Chips configuration screen, Storage Used 68 of 72">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/nier-automata/chip-categories.jpg" alt="Nier Automata Plug-in Chips configuration screen, Storage Used 68 of 72"></div>
   <div class="gc-content">
     <h3 class="gc-title">Nier: Automata</h3>
-    <p class="gc-iconic">Plug-in chips replace the HUD + multi-route ABCDE structure · form mirrors theme — every system rereads the fiction</p>
+    <p class="gc-iconic">Plug-in chips replace the HUD + multi-route ABCDE structure · form mirrors theme</p>
     <div class="gc-meta">
       <span>2017</span><span>Action-RPG</span><span>Premium</span>
     </div>
@@ -128,8 +119,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/path-of-exile/">
-  <img class="gc-img" src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas of Worlds">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas of Worlds"></div>
   <div class="gc-content">
     <h3 class="gc-title">Path of Exile</h3>
     <p class="gc-iconic">1500-node passive tree + skill gems as gear · friction over convenience</p>
@@ -140,8 +130,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/path-of-exile-2/">
-  <img class="gc-img" src="/images/path-of-exile-2/boss-jamanra.jpg" alt="Path of Exile 2 boss Jamanra the Risen King">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/path-of-exile-2/boss-jamanra.jpg" alt="Path of Exile 2 boss Jamanra the Risen King"></div>
   <div class="gc-content">
     <h3 class="gc-title">Path of Exile 2</h3>
     <p class="gc-iconic">Slowed combat + weapons grant skills · re-litigating PoE1's drift</p>
@@ -152,8 +141,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/pokemon-rse/">
-  <img class="gc-img" src="/images/pokemon-rse/pokemon-info.jpg" alt="Pokémon Ruby/Sapphire/Emerald — Torchic info screen showing Type, Ability Blaze, and Sassy nature">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/pokemon-rse/pokemon-info.jpg" alt="Pokémon Ruby/Sapphire/Emerald — Torchic info screen showing Type, Ability Blaze, and Sassy nature"></div>
   <div class="gc-content">
     <h3 class="gc-title">Pokémon Ruby/Sapphire/Emerald</h3>
     <p class="gc-iconic">17-type RPS + 4-move loadout + permanent stat profile · math under cute</p>
@@ -164,8 +152,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/slay-the-spire/">
-  <img class="gc-img" src="/images/slay-the-spire/combat-defect.jpg" alt="Slay the Spire combat with the Defect">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/slay-the-spire/combat-defect.jpg" alt="Slay the Spire combat with the Defect"></div>
   <div class="gc-content">
     <h3 class="gc-title">Slay the Spire</h3>
     <p class="gc-iconic">Card draft + Ascension staircase · risk vs reward, fractally</p>
@@ -176,8 +163,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/sparklite/">
-  <img class="gc-img" src="/images/sparklite/refuge-festival.jpg" alt="Sparklite Refuge hub with NPCs">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/sparklite/refuge-festival.jpg" alt="Sparklite Refuge hub with NPCs"></div>
   <div class="gc-content">
     <h3 class="gc-title">Sparklite</h3>
     <p class="gc-iconic">Patch-board grid inventory + permalife · power growth vs spatial budget</p>
@@ -188,8 +174,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/warframe/">
-  <img class="gc-img" src="/images/warframe/in-mission-hud.jpg" alt="Warframe in-mission HUD">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/warframe/in-mission-hud.jpg" alt="Warframe in-mission HUD"></div>
   <div class="gc-content">
     <h3 class="gc-title">Warframe</h3>
     <p class="gc-iconic">Forma + Riven Disposition · power fantasy vs grind</p>
@@ -200,8 +185,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/xenoblade-chronicles/">
-  <img class="gc-img" src="/images/xenoblade-chronicles/xc1-bionis-landscape.jpg" alt="Xenoblade Chronicles Bionis vista">
-  <div class="gc-overlay"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/xenoblade-chronicles/xc1-bionis-landscape.jpg" alt="Xenoblade Chronicles Bionis vista"></div>
   <div class="gc-content">
     <h3 class="gc-title">Xenoblade Chronicles</h3>
     <p class="gc-iconic">MMO-shape combat + new systems unlocking 30+ hours in · how long can you keep teaching</p>
