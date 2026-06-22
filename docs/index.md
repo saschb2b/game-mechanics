@@ -206,7 +206,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 <div class="pattern-strip">
 
 <div class="pattern-cell">
-  <img src="/images/sparklite/adventure-log-ui.jpg" alt="Sparklite patches">
+  <div class="pc-media"><img src="/images/sparklite/adventure-log-ui.jpg" alt="Sparklite patches"></div>
   <div class="pc-label">
     <p class="pc-game">Sparklite</p>
     <p class="pc-how">Spatial — Tetris on a 3×3 grid</p>
@@ -214,7 +214,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 </div>
 
 <div class="pattern-cell">
-  <img src="/images/warframe/modding-upgrade-detail.jpg" alt="Warframe modding">
+  <div class="pc-media"><img src="/images/warframe/modding-upgrade-detail.jpg" alt="Warframe modding"></div>
   <div class="pc-label">
     <p class="pc-game">Warframe</p>
     <p class="pc-how">Numeric — 60 mod points + polarities</p>
@@ -222,7 +222,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 </div>
 
 <div class="pattern-cell">
-  <img src="/images/slay-the-spire/combat-defect.jpg" alt="Slay the Spire combat">
+  <div class="pc-media"><img src="/images/slay-the-spire/combat-defect.jpg" alt="Slay the Spire combat"></div>
   <div class="pc-label">
     <p class="pc-game">Slay the Spire</p>
     <p class="pc-how">Combinatorial — energy + thin deck</p>
@@ -230,7 +230,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 </div>
 
 <div class="pattern-cell">
-  <img src="/images/moonlighter-2/backpack-puzzle.jpg" alt="Moonlighter 2 backpack">
+  <div class="pc-media"><img src="/images/moonlighter-2/backpack-puzzle.jpg" alt="Moonlighter 2 backpack"></div>
   <div class="pc-label">
     <p class="pc-game">Moonlighter 2</p>
     <p class="pc-how">Adjacency — placement triggers synergies</p>
@@ -238,7 +238,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 </div>
 
 <div class="pattern-cell">
-  <img src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas">
+  <div class="pc-media"><img src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas"></div>
   <div class="pc-label">
     <p class="pc-game">Path of Exile</p>
     <p class="pc-how">Massive — 1500 nodes shared across classes</p>
