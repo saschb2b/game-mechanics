@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "game-mechanics"
   text: "How games actually work."
-  tagline: "Fourteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
+  tagline: "Sixteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
   actions:
     - theme: brand
       text: Browse games →
@@ -27,6 +27,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
     <p class="gc-iconic">Poker hands × Jokers × deck-mutation × Ante staircase · familiar surface, deep math underneath</p>
     <div class="gc-meta">
       <span>2024</span><span>Roguelike deckbuilder</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
+<a class="game-card" href="games/cult-of-the-lamb/">
+  <img class="gc-img" src="/images/cult-of-the-lamb/cult-hub-with-quest-tracker.jpg" alt="Cult of the Lamb — the cult hub at midday with a pinned quest tracker">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Cult of the Lamb</h3>
+    <p class="gc-iconic">Indoctrination loop — crusade for resources, run a cult with the spoils · cute aesthetic vs cult horror</p>
+    <div class="gc-meta">
+      <span>2022</span><span>Action roguelite + base-builder</span><span>Premium</span>
     </div>
   </div>
 </a>
@@ -75,6 +87,18 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
     <p class="gc-iconic">6×3 real-time grid + Folder of chips + Custom Gauge · action + card hybrid</p>
     <div class="gc-meta">
       <span>2001–2005</span><span>Action-RPG / card hybrid</span><span>Series</span>
+    </div>
+  </div>
+</a>
+
+<a class="game-card" href="games/mina-the-hollower/">
+  <img class="gc-img" src="/images/mina-the-hollower/gameplay-cave-network.jpg" alt="Mina the Hollower — Mina mid-burrow in a gothic Cave Network dungeon">
+  <div class="gc-overlay"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Mina the Hollower</h3>
+    <p class="gc-iconic">Hollowing — burrow as dodge, traversal & ambush · deliberate Castlevania combat in a Zelda-shaped world</p>
+    <div class="gc-meta">
+      <span>2026</span><span>Action-adventure</span><span>Premium</span>
     </div>
   </div>
 </a>
