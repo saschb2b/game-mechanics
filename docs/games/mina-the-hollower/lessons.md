@@ -6,7 +6,7 @@ game: mina-the-hollower
 
 # Lessons — what I'd steal
 
-Opinionated takeaways for my own (Godot) projects. Mina is a master class in *getting a lot from a little*: one verb, two currencies, a handful of slots, and a hard-but-fair death loop.
+Opinionated takeaways for my own (Godot) projects. Mina gets a lot from a little: one verb, two currencies, a handful of slots, and a hard-but-fair death loop.
 
 ## Steal these
 

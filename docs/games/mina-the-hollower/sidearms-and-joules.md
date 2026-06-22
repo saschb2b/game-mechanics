@@ -22,7 +22,7 @@ Sidearms sort into three roles, and which one you slot reshapes what the run is 
 | **Utility** | Defense, control, support | Deflector Parasol (block/reflect), Beckoning Collar (pull/aggro), Mist Jar |
 | **Traversal** | Movement & exploration keys | Angler's Raft (cross water), Drill Driver, Iron Steed (mount/speed) |
 
-The traversal family is the Metroidvania-gating layer: a sealed area you bounced off in hour three opens once you own the raft or the drill, so sidearms double as the game's "items" in the Zelda sense — each one is both a combat option *and* a key. The Seismic Belt is the cleanest fusion of the two — it's an offensive tool that only fires through the movement verb:
+The traversal family is the Metroidvania-gating layer: a sealed area you bounced off in hour three opens once you own the raft or the drill, so sidearms double as the game's "items" in the Zelda sense: each one is both a combat option *and* a key. The Seismic Belt fuses the two — an offensive tool that only fires through the movement verb:
 
 ![A sidearm vendor selling the Seismic Belt: "Press B while burrowing to emit a damaging pulse," with Bonestone prices](/images/mina-the-hollower/sidearm-shop-seismic-belt.jpg)
 *The Seismic Belt keys directly off the [burrow](./hollowing.md): "Press B while burrowing to emit a damaging pulse." A defensive verb becomes an AoE attack — the sidearm doesn't add a parallel system, it deepens the one Mina already revolves around. Sidearms are bought (and stocked) at vendors with Bonestone, or found in chests and quest rewards. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*

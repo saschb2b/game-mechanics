@@ -35,12 +35,12 @@ The island is dense with optional contraptions and environmental puzzles, like v
 
 ## The Tenebrous Times — a diegetic stat screen
 
-The standout UI idea is **the Tenebrous Times**, an in-world Victorian newspaper that triples as lore delivery, quest board, *and* your stats screen. Instead of a sterile menu, your progress is printed as news:
+The **Tenebrous Times** is an in-world Victorian newspaper that triples as lore delivery, quest board, *and* your stats screen. Your progress is printed as news rather than shown in a menu:
 
 ![The Tenebrous Times newspaper masthead — "Volume 1, 18XX" — headline "Queensbury Crypt calls to grave robbers" over a gothic engraving](/images/mina-the-hollower/newspaper-tenebrous-times-cover.jpg)
 *The masthead. Period dressing ("Volume 1, 18XX"), woodcut-style art, and headlines that double as quest hooks ("Queensbury Crypt calls to grave robbers"). The newspaper is the connective tissue between the player's actions and the island's reaction to them. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
 
-The brilliant move is the **Facts Corner**: your run statistics, formatted as a newspaper sidebar.
+The **Facts Corner** formats your run statistics as a newspaper sidebar:
 
 ![Newspaper "Facts Corner" sidebar listing run stats — Time 0:45:26, Deaths 7, Bones Found 1760, Heals 14, Conversations 31, Jumps 1468, Steps 2274](/images/mina-the-hollower/newspaper-facts-corner-stats.jpg)
 *"Facts Corner" — Time, Deaths, Bones Found, Heals, Conversations, Jumps, Steps. These are exactly the numbers a normal game buries in a stats submenu, here published as gossip-column trivia. Reframing the stat screen as *diegetic print* makes a dry readout feel like part of the world's voice. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
@@ -59,7 +59,7 @@ Mina commits to a **Game Boy Color-style** presentation — limited palette, chu
 
 > *"We definitely packed way more backgrounds and sprites on screen than was capable, even by the best Game Boy programmers."* — David D'Angelo
 
-The constraint isn't nostalgia for its own sake; it's a **focusing device**. A restricted palette forces high-contrast, readable silhouettes; a chunky grid forces clean, legible hazard and telegraph shapes; a small UI vocabulary pushes the team toward diegetic solutions like the newspaper instead of HUD clutter. For a game whose combat is all about *reading* attacks and *timing* a burrow, "everything must be legible at GBC resolution" is a design gift, not a handicap. The look is also doing genre work — the gothic palette sells the horror tone that "2D Dark Souls" needs.
+The constraint does real design work. A restricted palette forces high-contrast, readable silhouettes; a chunky grid forces clean hazard and telegraph shapes; a small UI vocabulary pushes the team toward diegetic solutions like the newspaper instead of HUD clutter. For a game whose combat is built on *reading* attacks and *timing* a burrow, the rule "everything must be legible at GBC resolution" pushes in exactly the right direction. The gothic palette also does genre work, selling the horror tone that "2D Dark Souls" needs.
 
 ## Patterns this exemplifies
 

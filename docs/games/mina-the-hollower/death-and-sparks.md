@@ -8,7 +8,7 @@ patterns:
 
 # Death & Sparks
 
-Mina wears its Souls influence openly, but its death penalty is **graduated** rather than all-or-nothing — and that gradation is one of the smartest design moves in the game. The short version: you have a buffer of **Sparks**, and only running that buffer dry actually costs you anything.
+Mina wears its Souls influence openly, but its death penalty is **graduated** rather than all-or-nothing. You have a buffer of **Sparks**, and only running that buffer dry actually costs you anything.
 
 ## The two-tier penalty
 
@@ -24,7 +24,7 @@ This inverts the usual Souls anxiety. In Dark Souls, *every* death threatens you
 
 ## The "Bone Up" mercy rule
 
-The cleverest safety valve: if you trigger a **level-up** on your run back — the "**Bone Up!**" screen — the game **auto-retrieves all your lost Sparks** from across the map.
+The safety valve: if you trigger a **level-up** on your run back (the "**Bone Up!**" screen), the game **auto-retrieves all your lost Sparks** from across the map.
 
 That turns a normal frustration (losing your bloodstain on a second death) into a strategic out. If you're close to a level, it's often smarter to grind a few weak enemies near the [Underlab](#spark-generators-as-checkpoints) to tip yourself over the threshold — the Bone Up reclaims your Sparks automatically — than to risk a dangerous trek back to a boss arena to pick one up. The system rewards a deliberate, low-risk recovery play instead of forcing a white-knuckle corpse run every time.
 

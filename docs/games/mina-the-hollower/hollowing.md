@@ -16,7 +16,7 @@ Mina is a *Hollower*: she can burrow into the ground for a short beat, travellin
 
 > Lead designer David D'Angelo: *"It was in the game from the start! It didn't evolve during development, but every enemy or object or NPC that went into the game, we often had to think of it in the context of the burrow."*
 
-That last quote is the design thesis. The burrow isn't a feature bolted onto a combat system — it's the axis the combat, the enemies, and the level design all rotate around. Every enemy is partly defined by *how it answers a burrow*; every room is partly defined by *what a burrow lets you skip or reach.*
+That last quote is the design thesis. The combat, the enemies, and the level design all rotate around the burrow. It was there from the start, so every system had to account for it: each enemy is partly defined by *how it answers a burrow*, each room by *what a burrow lets you skip or reach.*
 
 ## Why a burrow instead of a roll
 

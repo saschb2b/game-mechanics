@@ -47,7 +47,7 @@ Exploration / bosses ─► Bonestone (premium)
 Spark containers (found) ─► more Sparks  → bigger death buffer (see Death & Sparks)
 ```
 
-The clever wiring is that **Bones are simultaneously your progress and your stake.** Every Bone you're carrying is a level you haven't banked yet *and* the thing you'll lose if you get greedy. That single overlap is what makes the [death system](./death-and-sparks.md) tense without needing a separate "souls" currency — your XP *is* your bloodstain.
+The wiring that matters: **Bones are simultaneously your progress and your stake.** Every Bone you're carrying is a level you haven't banked yet *and* the thing you'll lose if you get greedy. That single overlap is what makes the [death system](./death-and-sparks.md) tense without needing a separate "souls" currency — your XP *is* your bloodstain.
 
 ## Patterns this exemplifies
 

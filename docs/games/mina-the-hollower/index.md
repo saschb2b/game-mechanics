@@ -20,7 +20,7 @@ og_image: images/mina-the-hollower/gameplay-cave-network.jpg
 
 # Mina the Hollower
 
-> Yacht Club's first game after Shovel Knight: a top-down gothic-horror action-adventure that looks like a lost Game Boy Color cartridge and plays like a 2D Dark Souls. The whole game is built around one verb — **Hollowing**, the ability to burrow underground for a beat. It's your dodge-roll, your gap-crossing traversal, and your ambush-from-below, all at once. Worth dissecting because a single mechanic carries the dodge layer, the level design, *and* the enemy design, and because the death economy (drop a **Spark**, lose your **Bones** only if you're careless) is one of the most legible reworkings of the Souls "bloodstain" yet shipped.
+> Yacht Club's first game after Shovel Knight: a top-down gothic-horror action-adventure that looks like a lost Game Boy Color cartridge and plays like a 2D Dark Souls. The whole game is built around one verb — **Hollowing**, the ability to burrow underground for a beat. It's your dodge-roll, your gap-crossing traversal, and your ambush-from-below, all at once. Worth dissecting because a single mechanic carries the dodge layer, the level design, *and* the enemy design, and because the death economy (drop a **Spark**, lose your **Bones** only if you're careless) reworks the Souls "bloodstain" into a more forgiving, more legible form.
 
 ![Mina, mid-Hollow with a glowing-skull silhouette, exploring a stone "Cave Network" dungeon beside a purple Spark](/images/mina-the-hollower/gameplay-cave-network.jpg)
 *Top-down traversal in a Cave Network dungeon. The blighted Game Boy Color palette, the chunky tile grid, and Mina's burrowing silhouette are the whole pitch in one frame. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
@@ -94,7 +94,7 @@ Sub-pages, in reading order:
 - **A graduated death penalty stays scary without being cruel.** Sparks absorb the first deaths (you keep your Bones); only carelessness — dying with no Sparks banked — actually costs you. Levelling up auto-forgives. It's a Souls bloodstain with a mercy rule.
 - **Deliberate combat needs a generous dodge.** The attacks commit you, so the i-frame burrow has to be reliable — punishing offense is only fair next to trustworthy defense.
 - **Make your stat screen diegetic.** The Tenebrous Times newspaper delivers run stats, lore, quests, and a cipher puzzle in one Victorian broadsheet — UI as worldbuilding.
-- **A hardware-style constraint is a focusing device, not a gimmick.** The GBC palette and chunky grid force readable telegraphs and clean silhouettes — exactly what a timing-based combat game needs.
+- **A hardware-style constraint is a focusing device.** The GBC palette and chunky grid force readable telegraphs and clean silhouettes, exactly what a timing-based combat game needs.
 
 ## See also
 
