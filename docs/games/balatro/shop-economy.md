@@ -1,5 +1,5 @@
 ---
-title: "Balatro — Shop economy + interest"
+title: "Balatro: Shop economy + interest"
 type: game
 game: balatro
 patterns:
@@ -11,8 +11,8 @@ patterns:
 
 The run economy is small and fast: a few dollars per round, a randomized shop, a compounding interest rule. The interest rule alone reshapes the entire game.
 
-![The Shop between rounds. "SHOP — Improve your run!" Next Round / Reroll $5. Slots: a face-down Joker $5, a Venus Planet Card $3, an Ante 1 Voucher $10, a Buffoon Pack $4, a Standard Pack $4. $10 banked](/images/balatro/shop.jpg)
-*The shop after clearing a Small Blind. Reroll costs $5. The voucher slot ($10) is bigger than the player's bank — they cannot afford it this visit. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
+![The Shop between rounds. "SHOP, Improve your run!" Next Round / Reroll $5. Slots: a face-down Joker $5, a Venus Planet Card $3, an Ante 1 Voucher $10, a Buffoon Pack $4, a Standard Pack $4. $10 banked](/images/balatro/shop.jpg)
+*The shop after clearing a Small Blind. Reroll costs $5. The voucher slot ($10) is bigger than the player's bank: they cannot afford it this visit. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 ## The income sources
 
@@ -24,7 +24,7 @@ Each cleared round pays out:
 | **Big Blind base reward** | $4 ($$$$) |
 | **Boss Blind base reward** | $5 ($$$$$) |
 | **Hands remaining at round end** | +$1 each |
-| **Discards remaining at round end** | $0 (use them or lose them — not banked) |
+| **Discards remaining at round end** | $0 (use them or lose them: not banked) |
 | **Interest** | +$1 per $5 banked, **capped at $5/round** (so $25+ banked = $5 interest) |
 | **Various Jokers** | (Cloud 9: +$1 per 9 in deck on round end; Egg: +$3/round; Rocket: +$1/round, +$3 on Boss) |
 | **Gold Seals on cards played** | +$3 per scoring card with seal |
@@ -62,15 +62,15 @@ This is the same dialectic Slay the Spire's economy plays in (combat-then-shop, 
 
 ## The reroll cost ladder
 
-Each shop offers ~2 Joker slots + Voucher + 2 Booster Packs. Players can **reroll** the Joker offers for $5 base, then $6, then $7 — costs reset on next shop.
+Each shop offers ~2 Joker slots + Voucher + 2 Booster Packs. Players can **reroll** the Joker offers for $5 base, then $6, then $7, costs reset on next shop.
 
-So a heavily rerolled shop visit can cost $20+ to find the right Joker. This is a real luxury — most early-Ante runs skip rerolls entirely.
+So a heavily rerolled shop visit can cost $20+ to find the right Joker. This is a real luxury, most early-Ante runs skip rerolls entirely.
 
 The Liquidation Voucher (one of 32 vouchers) reduces reroll cost to $1. A run with Liquidation re-rolls aggressively; a run without it reroles only when desperate.
 
-## Vouchers — the run-permanent shop modifiers
+## Vouchers: the run-permanent shop modifiers
 
-![Booster Packs catalogue — Arcana Pack (Tarot), Celestial (Planets), Spectral, Buffoon (Jokers), Standard, plus Jumbo and Mega variants. Selected: Arcana Pack — "Choose 1 of up to 3 Tarot cards to be used immediately." Page 1/4](/images/balatro/booster-packs-grid.jpg)
+![Booster Packs catalogue, Arcana Pack (Tarot), Celestial (Planets), Spectral, Buffoon (Jokers), Standard, plus Jumbo and Mega variants. Selected: Arcana Pack, "Choose 1 of up to 3 Tarot cards to be used immediately." Page 1/4](/images/balatro/booster-packs-grid.jpg)
 *The shop's Booster Pack inventory. Each Pack is a temporary 2–5 card draft for a specific consumable type. Mega and Jumbo variants are larger / better-odds versions. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 **Vouchers are run-permanent.** Buy one in the shop ($10), it persists across all subsequent rounds in the run. There are 32 of them, paired in tiers (the second tier requires the first as a prerequisite):
@@ -101,10 +101,10 @@ The Antimatter chain (Blank → Antimatter) is one of the most-purchased combos:
 - **Make the interest meter visible.** Players need to *see* the saving floor to behave around it. Hidden interest (or implicit-only) doesn't change behaviour.
 - **Permanent run-modifiers (vouchers) are stronger than per-shop bonuses.** Spending $10 once for run-permanent +$1/round interest cap pays back in 10 rounds. Buy them aggressively.
 - **Pricing tiers should pair gates.** Tier 2 vouchers requiring tier 1 means buying *Blank* (does nothing) becomes valuable as a prerequisite for *Antimatter* (+1 Joker slot). Pair-gating turns useless items into ladders.
-- **The greed-vs-spend trap is the entire midgame.** A run that hoards too much loses to under-built scoring. A run that spends too much dies to no-interest. The right behaviour is *just enough* — a soft cap at $25 with discretionary spending above.
+- **The greed-vs-spend trap is the entire midgame.** A run that hoards too much loses to under-built scoring. A run that spends too much dies to no-interest. The right behaviour is *just enough*: a soft cap at $25 with discretionary spending above.
 
 ## Patterns this exemplifies
 
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — Hieroglyph voucher (skip Ante / lose hand) is the canonical case. Pay a permanent cost to skip a permanent threshold.
-- `greed-vs-spend-economy` — interest creates a saving floor; the player must actively decide when to break it. Uncurated; Balatro is the canonical case.
-- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — every shop choice forecloses others. The reroll cost ladder makes "look at one more option" itself a real cost.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): Hieroglyph voucher (skip Ante / lose hand) is the canonical case. Pay a permanent cost to skip a permanent threshold.
+- `greed-vs-spend-economy`: interest creates a saving floor; the player must actively decide when to break it. Uncurated; Balatro is the canonical case.
+- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout): every shop choice forecloses others. The reroll cost ladder makes "look at one more option" itself a real cost.

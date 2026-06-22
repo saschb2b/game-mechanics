@@ -21,10 +21,10 @@ og_image: images/sparklite/refuge-festival.jpg
 
 # Sparklite
 
-> 16-bit top-down action-adventure × roguelite. Top-of-mind because of two things: a **Tetris-style "patch board"** that turns power upgrades into a spatial puzzle, and **"permalife"** — death reshuffles the world but the character keeps progress.
+> 16-bit top-down action-adventure × roguelite. Top-of-mind because of two things: a **Tetris-style "patch board"** that turns power upgrades into a spatial puzzle, and **"permalife"**, death reshuffles the world but the character keeps progress.
 
 ![Refuge hub overview, the persistent home base](/images/sparklite/refuge-hub.jpg)
-*The Refuge — Sparklite's persistent hub. NPCs and facility upgrades accumulate across deaths. Source: [Steam](https://store.steampowered.com/app/943140/Sparklite/).*
+*The Refuge: Sparklite's persistent hub. NPCs and facility upgrades accumulate across deaths. Source: [Steam](https://store.steampowered.com/app/943140/Sparklite/).*
 
 ## Snapshot
 
@@ -56,24 +56,24 @@ Refuge (hub, persistent)
   → next descent
 ```
 
-The hook: **the world rearranges on death, but the character doesn't.** The devs call this "permalife" instead of "permadeath" — the replay structure of a roguelite without its hostility to narrative or to less-skilled players.
+The hook: **the world rearranges on death, but the character doesn't.** The devs call this "permalife" instead of "permadeath", the replay structure of a roguelite without its hostility to narrative or to less-skilled players.
 
 ## Mechanic deep-dives
 
-- [**Patch board**](./patch-board.md) — the headline mechanic. Tetris-style power placement with footprint as opportunity cost.
-- [**World structure & loop**](./world-and-loop.md) — Refuge hub, tile-shuffled biomes, what brings you back.
-- [**Combat**](./combat.md) — wrench, gadgets, sub-weapons; pattern recognition over reflex.
+- [**Patch board**](./patch-board.md): the headline mechanic. Tetris-style power placement with footprint as opportunity cost.
+- [**World structure & loop**](./world-and-loop.md): Refuge hub, tile-shuffled biomes, what brings you back.
+- [**Combat**](./combat.md): wrench, gadgets, sub-weapons; pattern recognition over reflex.
 
 ## Through other lenses
 
-- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: mild affirm** — patches, sparklite, and Refuge are fiction-grounded; combat and dialogue stay neutral. The case study in *partial resonance done modestly.*
+- [**Ludonarrative reading**](./ludonarrative-resonance): these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: mild affirm**, patches, sparklite, and Refuge are fiction-grounded; combat and dialogue stay neutral. The case study in *partial resonance done modestly.*
 
 ## What this game teaches
 
 - A small grid is a brutal forcing function for choice.
 - "Permalife" is a friendlier alternative to permadeath that retains roguelite tempo.
 - Hand-authored tiles + procedurally chosen layout is a great cost/value point if full PCG is out of reach.
-- **Don't let meta-progression solve the early game *too* well — you'll trivialize the mid-game.** The patch board solves the start so cleanly that, once stacked, mid-game becomes a victory lap.
+- **Don't let meta-progression solve the early game *too* well: you'll trivialize the mid-game.** The patch board solves the start so cleanly that, once stacked, mid-game becomes a victory lap.
 
 See [lessons](./lessons.md) for the longer take and [design tensions](./design-tensions.md) for what the devs themselves said about the choices.
 

@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire — Map & node types"
+title: "Slay the Spire: Map & node types"
 type: game
 game: slay-the-spire
 patterns:
@@ -10,9 +10,9 @@ patterns:
 
 # Map & node types
 
-Each act is a procedurally generated **DAG (directed acyclic graph)** of nodes from bottom to top. The player picks a starting node from the bottom row and travels along connected paths — paths can branch and merge but never go down.
+Each act is a procedurally generated **DAG (directed acyclic graph)** of nodes from bottom to top. The player picks a starting node from the bottom row and travels along connected paths, paths can branch and merge but never go down.
 
-> The iconic Spire map view (a vertical DAG of node icons) isn't yet captured locally — the Steam screenshot set doesn't include it. See the [Slay the Spire wiki — Map Locations](https://slaythespire.wiki.gg/wiki/Map_Locations) for examples until we have a local copy.
+> The iconic Spire map view (a vertical DAG of node icons) isn't yet captured locally, the Steam screenshot set doesn't include it. See the [Slay the Spire wiki, Map Locations](https://slaythespire.wiki.gg/wiki/Map_Locations) for examples until we have a local copy.
 
 ## Seven node types
 
@@ -25,8 +25,8 @@ Each act is a procedurally generated **DAG (directed acyclic graph)** of nodes f
 | (chest) | **Treasure** | Open a chest, get a relic |
 | **?** | **Event** | Flavor + decision; often a real cost-benefit. May resolve as Monster/Shop/Treasure |
 
-![Event encounter — narrative dialogue with a creature](/images/slay-the-spire/event-encounter.jpg)
-*An Event encounter ("Greetings...") — these are hand-authored narrative beats with branching choices, scattered procedurally across the map. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+![Event encounter, narrative dialogue with a creature](/images/slay-the-spire/event-encounter.jpg)
+*An Event encounter ("Greetings..."): these are hand-authored narrative beats with branching choices, scattered procedurally across the map. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
 | (crown) | **Boss** | Choice of 3 rare cards + 3 boss relics |
 
 ## Why the map is the load-bearing mechanic
@@ -37,7 +37,7 @@ The map is the **meta-decision layer** that wraps the combat layer. Every node-c
 - Skip a Rest to hit a Shop, but you can't smith that key card.
 - Cross over to a Treasure, but lose a Monster fight you needed for gold.
 
-Critically: **paths are partially-visible from the start of the act** — so the player plans the *shape* of the run before the first fight. This is what makes Spire feel strategic across runs of similar enemies. The map turns "random encounters" into "**chosen sequences of risks.**"
+Critically: **paths are partially-visible from the start of the act**, so the player plans the *shape* of the run before the first fight. This is what makes Spire feel strategic across runs of similar enemies. The map turns "random encounters" into "**chosen sequences of risks.**"
 
 See [`branching-dag-map`](/concepts/branching-dag-map).
 

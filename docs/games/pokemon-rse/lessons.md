@@ -1,12 +1,12 @@
 ---
-title: "Pokémon RSE — Lessons"
+title: "Pokémon RSE: Lessons"
 type: game
 game: pokemon-rse
 ---
 
 # Lessons
 
-What I'd steal — and what I'd avoid — for my own (Godot) games.
+What I'd steal, and what I'd avoid, for my own (Godot) games.
 
 ## What I'd steal
 
@@ -24,13 +24,13 @@ For a Godot game with creatures or weapons: 4 slots is a sweet spot. 6 is too ma
 
 IVs + EVs + Natures + Abilities together produce **a fixed identity per individual creature** that the player largely cannot alter. This is the engine of competitive Pokémon's longevity: rolling for a perfect Pokémon is a goal that takes hundreds of hours per individual.
 
-For a smaller game: one immutable trait per creature (a Nature equivalent — +10% one stat / −10% another) is enough to create real per-individual identity without exposing the deeper math. The unalterability is the key. *Re-rolling means starting over.*
+For a smaller game: one immutable trait per creature (a Nature equivalent, +10% one stat / −10% another) is enough to create real per-individual identity without exposing the deeper math. The unalterability is the key. *Re-rolling means starting over.*
 
 ### Type chart as a learnable asymmetric matrix
 
-A 6×6 or 8×8 type matrix — *asymmetric, not derivable from a simple rule, with a few hard immunities* — is one of the highest-value design moves available for any combat-with-multiple-options system. The Pokémon chart's irregularity (Bug being weak offensively, Ghost being immune to Normal/Fighting, etc.) is what gives each type real character.
+A 6×6 or 8×8 type matrix, *asymmetric, not derivable from a simple rule, with a few hard immunities*, is one of the highest-value design moves available for any combat-with-multiple-options system. The Pokémon chart's irregularity (Bug being weak offensively, Ghost being immune to Normal/Fighting, etc.) is what gives each type real character.
 
-The trick is **to design the chart by hand** — not generate it from "fast vs heavy" or "magic vs physical" rules. Hand-designed asymmetry is what makes Skarmory feel like Skarmory.
+The trick is **to design the chart by hand**, not generate it from "fast vs heavy" or "magic vs physical" rules. Hand-designed asymmetry is what makes Skarmory feel like Skarmory.
 
 ### Hidden depth with no in-game UI
 
@@ -38,7 +38,7 @@ Pokémon's competitive math layer (IVs / EV-grinding / Nature mathematics) is **
 
 - Casual players never saw the math and finished comfortably.
 - Competitive players had a community to *figure it out together*.
-- The community-knowledge layer became a moat — competitive Pokémon's social fabric is partly *the act of knowing the math*.
+- The community-knowledge layer became a moat: competitive Pokémon's social fabric is partly *the act of knowing the math*.
 
 For a game with optional depth: don't surface the depth in tutorial / settings menus. Let players who want it find it. The hunt is part of the value.
 
@@ -52,7 +52,7 @@ The pattern works because:
 - The new content (post-game challenge tower) is too big to retrofit into a patch.
 - The story revisions (Magma + Aqua merged) require save-format changes incompatible with the original.
 
-For an indie dev: don't dismiss the "directors cut as a separate product" model. Stardew's 1.5 update was free, but it could have been a $10 expansion — and many studios would have benefited from charging for it. The Pokémon model is older, well-understood, and still works.
+For an indie dev: don't dismiss the "directors cut as a separate product" model. Stardew's 1.5 update was free, but it could have been a $10 expansion, and many studios would have benefited from charging for it. The Pokémon model is older, well-understood, and still works.
 
 ## What I'd be careful about
 
@@ -82,7 +82,7 @@ For a smaller game: don't ship three optional side-systems. Ship one that's actu
 
 ### A 30-year-old engine's design constraints become the franchise's
 
-Pokémon's design — fixed turn-based 4-move 6-stat 17-type — was decided in 1996 and has been preserved despite radical hardware shifts. This is *load-bearing for the brand* (every Pokémon player can pick up a new gen and play immediately) and *limiting for innovation* (the franchise has had real trouble breaking out of these defaults).
+Pokémon's design, fixed turn-based 4-move 6-stat 17-type, was decided in 1996 and has been preserved despite radical hardware shifts. This is *load-bearing for the brand* (every Pokémon player can pick up a new gen and play immediately) and *limiting for innovation* (the franchise has had real trouble breaking out of these defaults).
 
 The lesson: be careful what you commit to in your *first* installment. If your IP's design becomes its identity, breaking it in a sequel costs you the audience. Choose your invariants deliberately.
 
@@ -90,7 +90,7 @@ The lesson: be careful what you commit to in your *first* installment. If your I
 
 The single most useful framing in Masuda's interview corpus: **the Pokémon franchise treats the player's collection as a 25-year save state.** Every Pokémon ever caught in Gen 3+ should still be transferable to the latest game (via Pokémon Bank / Home).
 
-This decision drives a *huge* amount of architectural cost — every generation has to support legacy Pokémon, legacy moves, legacy abilities forward-compatibly. Game Freak has paid that cost continuously for 22 years.
+This decision drives a *huge* amount of architectural cost, every generation has to support legacy Pokémon, legacy moves, legacy abilities forward-compatibly. Game Freak has paid that cost continuously for 22 years.
 
 But the payoff is the franchise's deepest moat. A player who started in 2003 with a Torchic in Ruby can, in 2026, still have that Torchic on their team. **No other commercial game treats player progression at this scale.** Pokémon's competition (Digimon, Yo-Kai Watch, etc.) didn't make this commitment and have all faded.
 

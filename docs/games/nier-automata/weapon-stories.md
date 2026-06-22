@@ -1,5 +1,5 @@
 ---
-title: "Nier: Automata — Weapon stories"
+title: "Nier: Automata: Weapon stories"
 type: game
 game: nier-automata
 patterns:
@@ -8,12 +8,12 @@ patterns:
 
 # Weapon stories
 
-Every weapon in Nier: Automata has a four-paragraph **Weapon Story** — flavor text that's gradually unlocked as the weapon is upgraded. The four levels of upgrade reveal four sequential paragraphs. Together, the paragraphs typically form **one short story** with a beginning, middle, end, and grim final twist.
+Every weapon in Nier: Automata has a four-paragraph **Weapon Story**, flavor text that's gradually unlocked as the weapon is upgraded. The four levels of upgrade reveal four sequential paragraphs. Together, the paragraphs typically form **one short story** with a beginning, middle, end, and grim final twist.
 
 This is the game's most consistent narrative voice. There is more total prose in the weapon stories than in the cutscenes.
 
 ![Weapons → Virtuous Treaty Lv 1 detail page. Top-left "WEAPONS" with subheading "Virtuous Treaty". Stats: Type: Large Swords, Lv 1, Attack 300-330, Combo: Lt 2 Hv 2, Enemies Defeated: 11. Below stats, the weapon story line: "This samurai sword's pure white blade is not yet sullied by a single drop of blood." Right panel: small render of the katana, summary "A white katana kept by samurai of the East."](/images/nier-automata/weapon-story-virtuous-treaty.jpg)
-*Virtuous Treaty at Lv 1 — the **first paragraph** of its weapon story is shown: "This samurai sword's pure white blade is not yet sullied by a single drop of blood." Each subsequent upgrade level (Lv 2, 3, 4) reveals the next paragraph. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=150).*
+*Virtuous Treaty at Lv 1: the **first paragraph** of its weapon story is shown: "This samurai sword's pure white blade is not yet sullied by a single drop of blood." Each subsequent upgrade level (Lv 2, 3, 4) reveals the next paragraph. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=150).*
 
 ## The structural mechanic
 
@@ -23,13 +23,13 @@ Each weapon has 4 levels of upgrade (Lv 1 → 4). Upgrading costs Funds (G) + cr
 - Combo attack count increases (Lt 2 Hv 2 → Lt 3 Hv 3 etc).
 - **One new paragraph of weapon story unlocks.**
 
-So to read the full story of a weapon, the player has to *invest in* the weapon — gather materials, return to the shop, spend Funds. The narrative is gated behind player commitment to the item.
+So to read the full story of a weapon, the player has to *invest in* the weapon, gather materials, return to the shop, spend Funds. The narrative is gated behind player commitment to the item.
 
 This couples flavor text to gameplay engagement in an uncommon way. Most RPG flavor text is **read-once at acquisition**. Automata's weapon stories are **read in installments over a 5–25 hour arc.**
 
 ## The narrative voice
 
-The weapon stories are the most consistently dark and inventive prose in the game. A representative selection (paraphrased structurally — the actual prose is on the [wiki](https://nierautomata.wiki.fextralife.com/Weapon+Story)):
+The weapon stories are the most consistently dark and inventive prose in the game. A representative selection (paraphrased structurally, the actual prose is on the [wiki](https://nierautomata.wiki.fextralife.com/Weapon+Story)):
 
 | Weapon | Story shape |
 |---|---|
@@ -48,11 +48,11 @@ This pattern is consistent enough to be a deliberate authorial signature: **ever
 Weapon stories are **opt-in**. The Weapons menu has Equip / Details / Story as a popup; selecting Story opens the four-paragraph reveal at the current upgrade level.
 
 ![Weapons list with Virtuous Treaty highlighted. Context popup with three options: Equip / Details / Story](/images/nier-automata/weapon-context-menu-story.jpg)
-*The "Story" option in the weapon context menu — the canonical entry point. The game does not auto-show stories; the player has to seek them. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=150).*
+*The "Story" option in the weapon context menu: the canonical entry point. The game does not auto-show stories; the player has to seek them. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=150).*
 
-A player who never opens this menu will go through Nier: Automata without seeing a single weapon story. The game does not warn them. Maintaining your weapons for combat efficiency reveals the prose as a side effect — you find out the katana has a story when you tap upgrade one too many times and a paragraph appears.
+A player who never opens this menu will go through Nier: Automata without seeing a single weapon story. The game does not warn them. Maintaining your weapons for combat efficiency reveals the prose as a side effect, you find out the katana has a story when you tap upgrade one too many times and a paragraph appears.
 
-This is **`flavor-as-meta-narrative`** in the sharpest form: the world's deepest prose layer is **discoverable**, not narrated. Players who don't engage stay shallow. Players who do find the game's actual themes — repetition of violence, generational trauma, the persistence of suffering across forms — articulated nowhere else.
+This is **`flavor-as-meta-narrative`** in the sharpest form: the world's deepest prose layer is **discoverable**, not narrated. Players who don't engage stay shallow. Players who do find the game's actual themes, repetition of violence, generational trauma, the persistence of suffering across forms, articulated nowhere else.
 
 ## Why "meta-narrative" is the right framing
 
@@ -74,4 +74,4 @@ So the weapon stories are not decorative. They are the **thematic spine** the pl
 
 ## Patterns this exemplifies
 
-- `flavor-as-meta-narrative` — the most committed instantiation in the knowledge base. Uncurated. Adjacent to `lore-as-itemised-text` (Souls games) but Yoko Taro's weapon stories are *narratively continuous* across upgrade tiers in a way Souls item text typically isn't.
+- `flavor-as-meta-narrative`: the most committed instantiation in the knowledge base. Uncurated. Adjacent to `lore-as-itemised-text` (Souls games) but Yoko Taro's weapon stories are *narratively continuous* across upgrade tiers in a way Souls item text typically isn't.

@@ -1,5 +1,5 @@
 ---
-title: "Breath of the Wild — The chemistry engine"
+title: "Breath of the Wild: The chemistry engine"
 type: game
 game: zelda-botw
 patterns:
@@ -11,10 +11,10 @@ patterns:
 
 The signature design mechanic. **Fire, ice, wind, water, and electricity are systemic rules that propagate through the world independent of any specific encounter.** Wood catches fire; fire warms the air; warm air rises; updrafts carry the paraglider. Ice freezes water; ice melts in fire; metal weapons attract lightning during storms. None of this is scripted per-puzzle. It's the *rules* that are written, and the puzzles emerge when those rules collide with a specific terrain.
 
-This is what programmer Takuhiro Dohta called the "**chemistry engine**" at GDC 2017 — a small set of element rules that interact with the physics engine to produce the player-felt feeling that Hyrule responds to actions consistently, everywhere, all the time.
+This is what programmer Takuhiro Dohta called the "**chemistry engine**" at GDC 2017, a small set of element rules that interact with the physics engine to produce the player-felt feeling that Hyrule responds to actions consistently, everywhere, all the time.
 
-![Magnesis in action — Link aims the rune at a metallic spear glowing yellow + a metallic box mid-air, in a Yiga Clan stronghold. Prompts at bottom: Push / Pull / Cancel / Move](/images/zelda-botw/magnesis-pull.jpg)
-*Magnesis is a "metal-only attraction" rule, applied universally — every metal object in the world reacts to it the same way. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=35).*
+![Magnesis in action, Link aims the rune at a metallic spear glowing yellow + a metallic box mid-air, in a Yiga Clan stronghold. Prompts at bottom: Push / Pull / Cancel / Move](/images/zelda-botw/magnesis-pull.jpg)
+*Magnesis is a "metal-only attraction" rule, applied universally: every metal object in the world reacts to it the same way. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=35).*
 
 ## The element rules
 
@@ -37,7 +37,7 @@ At GDC 2017, Fujibayashi described the team's shift from **additive** to **multi
 
 > "Additive design is when you keep adding things to the game. … Multiplicative design is when objects react to the player's action, and the objects themselves also influence each other."
 >
-> — **Hidemaro Fujibayashi**, GDC 2017, [via Thumbsticks](https://www.thumbsticks.com/gdc-17-breath-of-the-wild-science-lies/)
+>, **Hidemaro Fujibayashi**, GDC 2017, [via Thumbsticks](https://www.thumbsticks.com/gdc-17-breath-of-the-wild-science-lies/)
 
 The mathematical framing is real:
 
@@ -55,14 +55,14 @@ None of these are *authored solutions*. They emerge from the rules.
 
 ## Where the engine shows up
 
-The rule layer is most visible in **shrines** (where each puzzle is a controlled chemistry-engine demonstration) and in **combat encampments** (where the player improvises). It's almost invisible in the *world* because the rules are so consistent that players stop noticing them — fire-grass-updraft becomes a verb the player does without thinking, the same way a console-action player stops thinking about the dodge button.
+The rule layer is most visible in **shrines** (where each puzzle is a controlled chemistry-engine demonstration) and in **combat encampments** (where the player improvises). It's almost invisible in the *world* because the rules are so consistent that players stop noticing them, fire-grass-updraft becomes a verb the player does without thinking, the same way a console-action player stops thinking about the dodge button.
 
 A few canonical world-applications:
 
-- **Korok puzzles** — many are wind-direction tests (drop a leaf or rock to see the wind, paraglide that way).
-- **Storm survival** — heavy rain + metal sword = lightning danger. Drop the sword in the menu; lightning skips you.
-- **Combat improvisation** — surrounded by Bokoblins on dry grass? Throw a fire arrow; the AoE burn drops 4 of them.
-- **Stealth options** — Bokoblins around a campfire. Swim up the river behind, push a metal box over with Magnesis to crush them.
+- **Korok puzzles**: many are wind-direction tests (drop a leaf or rock to see the wind, paraglide that way).
+- **Storm survival**: heavy rain + metal sword = lightning danger. Drop the sword in the menu; lightning skips you.
+- **Combat improvisation**: surrounded by Bokoblins on dry grass? Throw a fire arrow; the AoE burn drops 4 of them.
+- **Stealth options**: Bokoblins around a campfire. Swim up the river behind, push a metal box over with Magnesis to crush them.
 
 ## The cost: emergent solutions outpace difficulty design
 
@@ -74,15 +74,15 @@ This produces the famous BOTW property: **two players who finish the game have h
 
 - **Write rules, not encounters.** A small system of universal rules generates more content than the largest content team can hand-author. The overhead is up-front design; the payoff is at-scale player surprise.
 - **Consistency is the load-bearing property.** The chemistry engine works *because* fire-grass-updraft is true everywhere. Any exception makes players stop trusting the rules.
-- **Pair the rule layer with a small verb-set.** Link has ~5 runes. The runes are *also* universal rules — Magnesis attracts metal *anywhere*; Cryonis freezes water *anywhere*. If the verbs were context-specific, the rule layer's consistency would not pay off.
+- **Pair the rule layer with a small verb-set.** Link has ~5 runes. The runes are *also* universal rules: Magnesis attracts metal *anywhere*; Cryonis freezes water *anywhere*. If the verbs were context-specific, the rule layer's consistency would not pay off.
 - **Some encounters get solved in 8 seconds. That's fine.** The chemistry engine accepts that the same fight will be hard for some players and trivial for others. The expressiveness is more valuable than the difficulty curve.
 
 ## Patterns this exemplifies
 
-- `chemistry-engine` — a small set of element rules + the physics engine, applied universally. The canonical case in commercial games. Uncurated.
-- `multiplicative-systems` — Fujibayashi's framing. Uncurated; the BOTW page is the locus.
+- `chemistry-engine`: a small set of element rules + the physics engine, applied universally. The canonical case in commercial games. Uncurated.
+- `multiplicative-systems`: Fujibayashi's framing. Uncurated; the BOTW page is the locus.
 
 ## Adjacent patterns
 
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — most chemistry-engine moments are *also* drawbacks. Metal weapon = strong but lightning-magnet. Fire arrow = damage but starts a wildfire that dries out cooking ingredients. The trade is structural.
-- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) — most rule combinations are not taught. The player discovers them across 30 hours and is rewarded for the investment.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): most chemistry-engine moments are *also* drawbacks. Metal weapon = strong but lightning-magnet. Fire arrow = damage but starts a wildfire that dries out cooking ingredients. The trade is structural.
+- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics): most rule combinations are not taught. The player discovers them across 30 hours and is rewarded for the investment.

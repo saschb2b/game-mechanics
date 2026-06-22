@@ -1,5 +1,5 @@
 ---
-title: "Mina the Hollower — Sidearms & Joules"
+title: "Mina the Hollower: Sidearms & Joules"
 type: game
 game: mina-the-hollower
 patterns:
@@ -8,9 +8,9 @@ patterns:
 
 # Sidearms & Joules
 
-The **sidearm** is Mina's secondary tool — a swappable gadget in its own HUD slot, powered by a resource called **Joules**. Where the [weapon](./combat-and-weapons.md) is your constant melee verb and the [burrow](./hollowing.md) is your movement verb, the sidearm is the *situational* verb: a burst of damage, a panic button, or a traversal key you reach for when the basic kit isn't enough.
+The **sidearm** is Mina's secondary tool, a swappable gadget in its own HUD slot, powered by a resource called **Joules**. Where the [weapon](./combat-and-weapons.md) is your constant melee verb and the [burrow](./hollowing.md) is your movement verb, the sidearm is the *situational* verb: a burst of damage, a panic button, or a traversal key you reach for when the basic kit isn't enough.
 
-You carry **one sidearm equipped at a time** and swap your loadout between encounters. So the sidearm slot is a single high-value decision, not an accumulating arsenal — which is what makes it a [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) slot rather than a hotbar.
+You carry **one sidearm equipped at a time** and swap your loadout between encounters. So the sidearm slot is a single high-value decision, not an accumulating arsenal, which is what makes it a [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) slot rather than a hotbar.
 
 ## The three families
 
@@ -22,19 +22,19 @@ Sidearms sort into three roles, and which one you slot reshapes what the run is 
 | **Utility** | Defense, control, support | Deflector Parasol (block/reflect), Beckoning Collar (pull/aggro), Mist Jar |
 | **Traversal** | Movement & exploration keys | Angler's Raft (cross water), Drill Driver, Iron Steed (mount/speed) |
 
-The traversal family is the Metroidvania-gating layer: a sealed area you bounced off in hour three opens once you own the raft or the drill, so sidearms double as the game's "items" in the Zelda sense: each one is both a combat option *and* a key. The Seismic Belt fuses the two — an offensive tool that only fires through the movement verb:
+The traversal family is the Metroidvania-gating layer: a sealed area you bounced off in hour three opens once you own the raft or the drill, so sidearms double as the game's "items" in the Zelda sense: each one is both a combat option *and* a key. The Seismic Belt fuses the two, an offensive tool that only fires through the movement verb:
 
 ![A sidearm vendor selling the Seismic Belt: "Press B while burrowing to emit a damaging pulse," with Bonestone prices](/images/mina-the-hollower/sidearm-shop-seismic-belt.jpg)
-*The Seismic Belt keys directly off the [burrow](./hollowing.md): "Press B while burrowing to emit a damaging pulse." A defensive verb becomes an AoE attack — the sidearm doesn't add a parallel system, it deepens the one Mina already revolves around. Sidearms are bought (and stocked) at vendors with Bonestone, or found in chests and quest rewards. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
+*The Seismic Belt keys directly off the [burrow](./hollowing.md): "Press B while burrowing to emit a damaging pulse." A defensive verb becomes an AoE attack: the sidearm doesn't add a parallel system, it deepens the one Mina already revolves around. Sidearms are bought (and stocked) at vendors with Bonestone, or found in chests and quest rewards. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
 
-## Joules — the fuel, and the cost
+## Joules: the fuel, and the cost
 
 Sidearms run on **Joules**. Each activation spends Joules; you replenish them through play (drops, combat), so leaning on a powerful sidearm is rate-limited by your Joule economy rather than free. The HUD shows the current sidearm and its Joule count next to the weapon icon.
 
-The interesting part is what happens at the boundary with [death](./death-and-sparks.md): sidearms "carry real economic cost through Joules and death penalties." A sidearm is **burst power you pay for** — Joules to use, gold to buy, and risk to rely on. That keeps the basic loadout (weapon + burrow + shield) the spine of the game; the sidearm is the spice you reach for at a cost, not the meal.
+The interesting part is what happens at the boundary with [death](./death-and-sparks.md): sidearms "carry real economic cost through Joules and death penalties." A sidearm is **burst power you pay for**, Joules to use, gold to buy, and risk to rely on. That keeps the basic loadout (weapon + burrow + shield) the spine of the game; the sidearm is the spice you reach for at a cost, not the meal.
 
-![A Provisioner shop — a towering ghoul shopkeeper looming over Mina: "Welcome to the Shoppe. Ya' here to stock uppe?"](/images/mina-the-hollower/shop-provisioner.jpg)
-*Restocking at a Provisioner. Vendors are where the sidearm and consumable economy lives — and, like every shopkeeper on Tenebrous Isle, they're rendered as a grotesque to keep even the menus inside the [gothic-horror fiction](./world-and-newspaper.md). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
+![A Provisioner shop, a towering ghoul shopkeeper looming over Mina: "Welcome to the Shoppe. Ya' here to stock uppe?"](/images/mina-the-hollower/shop-provisioner.jpg)
+*Restocking at a Provisioner. Vendors are where the sidearm and consumable economy lives: and, like every shopkeeper on Tenebrous Isle, they're rendered as a grotesque to keep even the menus inside the [gothic-horror fiction](./world-and-newspaper.md). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2438).*
 
 ## Why one slot, not a belt
 
@@ -48,5 +48,5 @@ This is the same lesson the [trinket layer](./trinkets.md) teaches at a differen
 
 ## Patterns this exemplifies
 
-- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — one equipped sidearm at a time; slotting a defensive tool means *not* slotting a damage tool for that stretch.
+- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout): one equipped sidearm at a time; slotting a defensive tool means *not* slotting a damage tool for that stretch.
 - See [`bonus-with-drawback`](/concepts/bonus-with-drawback) at the [trinket](./trinkets.md) and [combat](./combat-and-weapons.md) layers for the explicit upside/downside version of the same commitment pressure.

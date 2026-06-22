@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Reward & retention loops"
+title: "Warframe: Reward & retention loops"
 type: game
 game: warframe
 patterns:
@@ -14,7 +14,7 @@ patterns:
 Where Warframe is most aggressive *and* most nuanced. The core thesis: **stack many low-pressure incentives** instead of one big retention hook.
 
 ![Daily Tribute reward screen with milestone reward](/images/warframe/daily-tribute.jpg)
-*Daily Tribute — milestone-based, not streak-based. Missing a day costs nothing; total login days unlock progressively rarer rewards. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+*Daily Tribute: milestone-based, not streak-based. Missing a day costs nothing; total login days unlock progressively rarer rewards. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
 ## Daily Tribute (the friendly login reward)
 
@@ -52,7 +52,7 @@ A daily challenge specifically for endgame players. Smaller than Nightwave, hard
 - New Prime frame + Prime weapons drop on a regular cadence (~3 months).
 - Concurrently: previously-released Primes get **vaulted** (unobtainable for ~1–2 years).
 - Drives both: paying customers (who buy Prime Access for instant access) and grinders (who farm relics before vaulting).
-- **Disposition rebalance ships alongside the new Prime drop** — the meta shifts every quarter, on a known schedule.
+- **Disposition rebalance ships alongside the new Prime drop**: the meta shifts every quarter, on a known schedule.
 
 See `vault-rotation-economy`.
 

@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Patterns"
+title: "Warframe: Patterns"
 type: game
 game: warframe
 ---

@@ -1,12 +1,12 @@
 ---
-title: "Breath of the Wild — Lessons"
+title: "Breath of the Wild: Lessons"
 type: game
 game: zelda-botw
 ---
 
 # Lessons
 
-What I'd steal — and what I'd avoid — for my own (Godot) games.
+What I'd steal, and what I'd avoid, for my own (Godot) games.
 
 ## What I'd steal
 
@@ -18,7 +18,7 @@ For a smaller game, the lesson is: **invest in rules over content**. A small sys
 
 ### One resource, multiple verbs
 
-The stamina ring governs sprint + climb + swim + glide + charge-attack. Five verbs, one meter. The player learns the resource once and applies it everywhere — no new tutorial for any new traversal verb.
+The stamina ring governs sprint + climb + swim + glide + charge-attack. Five verbs, one meter. The player learns the resource once and applies it everywhere, no new tutorial for any new traversal verb.
 
 For my own designs: **before adding a new resource, see if an existing one can carry the load.** Two resources are usually enough; three is rarely better.
 
@@ -30,13 +30,13 @@ For a smaller game with a 5–10 hour runtime, this is even more important. Don'
 
 ### Climb-anywhere is one rule with massive consequences
 
-The decision to make almost every surface climbable means the player can break the encounter designer's lines of approach for *every* combat in the game. Counterintuitively, this makes the game *easier to balance* — you can't enforce one-true-route, so you have to design for many approaches, which produces the multiplicative design property.
+The decision to make almost every surface climbable means the player can break the encounter designer's lines of approach for *every* combat in the game. Counterintuitively, this makes the game *easier to balance*, you can't enforce one-true-route, so you have to design for many approaches, which produces the multiplicative design property.
 
 For a Godot game: if your terrain has any meaningful verticality, **try the climb-anywhere rule**. The cost is tuning; the payoff is player agency at every encounter.
 
 ### Weather as a real planning constraint
 
-Rain blocks climbing. Cold drains hearts. Storms strike metal. The player checks the sky before committing to a route. This is **one environmental layer doing five design jobs** — encounter pacing, traversal pacing, equipment choice, resource planning, and atmosphere.
+Rain blocks climbing. Cold drains hearts. Storms strike metal. The player checks the sky before committing to a route. This is **one environmental layer doing five design jobs**, encounter pacing, traversal pacing, equipment choice, resource planning, and atmosphere.
 
 For a smaller game: **a single dynamic environmental rule is high-ROI**. Weather doesn't need to be elaborate; it needs to *gate something the player wants to do*.
 
@@ -48,7 +48,7 @@ For my own games: a dozen 10-minute puzzle nodes is more valuable than three 1-h
 
 ### A meta-progression fork that forces commitment
 
-Heart vs Stamina at every Goddess Statue is irreversible. Players become *kinds* of players — climbers vs fighters — through accumulated commitments. This is the *opposite* of "respec freely" design and produces stronger player identity.
+Heart vs Stamina at every Goddess Statue is irreversible. Players become *kinds* of players, climbers vs fighters, through accumulated commitments. This is the *opposite* of "respec freely" design and produces stronger player identity.
 
 For my own designs: **at least one major meta-progression decision should be permanent**. Not all of them; one is enough to give the run a felt identity.
 
@@ -56,7 +56,7 @@ For my own designs: **at least one major meta-progression decision should be per
 
 ### Weapon durability needs a partner system
 
-BOTW's durability mechanic produces real engagement-with-camps but also real menu-juggling friction. The player's *optimal* play is to avoid combat to preserve weapons — the inverse of the stated design goal.
+BOTW's durability mechanic produces real engagement-with-camps but also real menu-juggling friction. The player's *optimal* play is to avoid combat to preserve weapons, the inverse of the stated design goal.
 
 Tears of the Kingdom's Fuse mechanic is the team's correction: weapons still break, but you can extend them via crafting. The single-system version is incomplete; durability *needs* an extending system to be psychologically tolerable.
 
@@ -90,7 +90,7 @@ The traversal freedom and the difficulty curve trade off. Pick a stance.
 
 The framing that's most useful from BOTW's development: **constraints became design**. The Wii U / Switch dual-launch limited the team's tech footprint, which **forced** the rule-over-content approach. With unlimited hardware, the team has acknowledged they would have been tempted to add more content, which would have diluted the rule-systems' clarity.
 
-For an indie dev: the *limitations of your platform* are not a cost; they're a brief. A 2D pixel-art Switch game cannot do BOTW's chemistry engine, but it can do something equivalent at its own scale — fewer rules, simpler interactions, the same multiplicative principle.
+For an indie dev: the *limitations of your platform* are not a cost; they're a brief. A 2D pixel-art Switch game cannot do BOTW's chemistry engine, but it can do something equivalent at its own scale, fewer rules, simpler interactions, the same multiplicative principle.
 
 The structural lesson: **don't try to scale up; scale to your team**. The chemistry engine works at any size, with any number of elements. Ship a 3-element version of it for a 5-hour game; the design move is the same.
 
@@ -100,4 +100,4 @@ A meta-lesson worth flagging: **shipping a controversial mechanic commits you to
 
 If you're going to ship a mechanic that you know will be divisive, *budget the PR cost*. The conversation will not go away. Either commit to defending it, or commit to evolving it (TotK's Fuse), or budget for the alternative system you'll ship later.
 
-The lesson isn't "don't ship controversial mechanics" — it's "ship them on purpose." Aonuma did. The result: BOTW's weapon system is one of the most-discussed design decisions of the 2010s. Whether or not the durability is right, the *commitment to the system-level argument* is exemplary.
+The lesson isn't "don't ship controversial mechanics", it's "ship them on purpose." Aonuma did. The result: BOTW's weapon system is one of the most-discussed design decisions of the 2010s. Whether or not the durability is right, the *commitment to the system-level argument* is exemplary.

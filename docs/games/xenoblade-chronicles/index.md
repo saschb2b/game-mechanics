@@ -22,8 +22,8 @@ og_image: images/xenoblade-chronicles/xc1-bionis-landscape.jpg
 
 > **A four-game series from Monolith Soft** (under Nintendo) running 2010–2025. **Auto-attack + arts on cooldown + positional bonuses** is the shared combat grammar; on top of that, each entry layers a new signature mechanic, and *each entry keeps revealing major systems dozens of hours in*. The series is a 400-hour study in how long you can keep teaching a player.
 
-![Xenoblade Chronicles — the iconic Bionis vista](/images/xenoblade-chronicles/xc1-bionis-landscape.jpg)
-*The Bionis. Two characters standing on the leg of a god-corpse, looking at the body of another god-corpse. The visual signature of the series — and the world the entire first game takes place on. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)).*
+![Xenoblade Chronicles, the iconic Bionis vista](/images/xenoblade-chronicles/xc1-bionis-landscape.jpg)
+*The Bionis. Two characters standing on the leg of a god-corpse, looking at the body of another god-corpse. The visual signature of the series: and the world the entire first game takes place on. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)).*
 
 ## Snapshot
 
@@ -37,14 +37,14 @@ og_image: images/xenoblade-chronicles/xc1-bionis-landscape.jpg
 | **Core dialectic** | Mechanic drip vs. tutorial overload |
 | **Hours to credits** | XC1 ≈ 60–80h · XC2 ≈ 80–110h · XC3 ≈ 80–120h · XCX ≈ 60h main story (200+ for completion) |
 
-![Xenoblade Chronicles 3 — title art with the cast facing the world](/images/xenoblade-chronicles/xc3-title-art.jpg)
-*Xenoblade Chronicles 3 — the synthesis entry. Six party members on a vast vista, the same series-iconic shape as the XC1 Bionis vista 12 years earlier. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
+![Xenoblade Chronicles 3, title art with the cast facing the world](/images/xenoblade-chronicles/xc3-title-art.jpg)
+*Xenoblade Chronicles 3: the synthesis entry. Six party members on a vast vista, the same series-iconic shape as the XC1 Bionis vista 12 years earlier. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
 
 ## The four entries
 
 | Entry | Year | Iconic mechanic | What it adds late |
 |---|---|---|---|
-| **[Xenoblade Chronicles](./series-evolution)** (XC1, 2010 / DE 2020) | Wii / Switch | **Vision system** — see enemy attacks before they happen | Affinity charts (community graph), gem crafting, skill links, Future Connected epilogue |
+| **[Xenoblade Chronicles](./series-evolution)** (XC1, 2010 / DE 2020) | Wii / Switch | **Vision system**: see enemy attacks before they happen | Affinity charts (community graph), gem crafting, skill links, Future Connected epilogue |
 | **[Xenoblade Chronicles X](./skells-and-frontiernav)** (XCX, 2015 / DE 2025) | Wii U / Switch | **Skell mechs** + open-world planet exploration | Skell licensing (~30h in), FrontierNav probe network, online Squad missions, class trees branching out |
 | **[Xenoblade Chronicles 2](./blade-driver-pairing)** (XC2, 2017) | Switch | **Driver-Blade pairing + Rare Blade gacha** | Field skills gating zones, Tiger! Tiger! mini-game, Mercenary missions, NG+ Blade trading, Torna DLC as standalone prequel |
 | **[Xenoblade Chronicles 3](./class-and-ouroboros)** (XC3, 2022) | Switch | **Open class system + Ouroboros interlinking + chain attacks** | Hero NPCs (7th party member, ~20+ over the campaign), ascension classes, fusion arts, Future Redeemed DLC |
@@ -64,16 +64,16 @@ The *new system at 30h* is the unusual move. Other JRPGs front-load. Xenoblade k
 
 ## Mechanic deep-dives
 
-- [**Combat foundation**](./combat-foundation) — auto-attack + arts + positionals + chain attacks; the shared language across all four games.
-- [**Vision system (XC1)**](./vision-system) — precognition as enemy-intent-telegraph. The most-imitable single move the series ever made.
-- [**Driver–Blade pairing (XC2)**](./blade-driver-pairing) — gacha summoning, driver combos, blade combos, fusion combos. The most-divisive entry's load-bearing system.
-- [**Class & Ouroboros (XC3)**](./class-and-ouroboros) — open class swap across all 6 party members + Ouroboros interlink as a fusion form.
-- [**Skells & FrontierNav (XCX)**](./skells-and-frontiernav) — mech mode you license ~30 hours in + a planet you map probe by probe.
-- [**Series evolution**](./series-evolution) — what each entry added and *when*. The drip pattern.
+- [**Combat foundation**](./combat-foundation): auto-attack + arts + positionals + chain attacks; the shared language across all four games.
+- [**Vision system (XC1)**](./vision-system): precognition as enemy-intent-telegraph. The most-imitable single move the series ever made.
+- [**Driver–Blade pairing (XC2)**](./blade-driver-pairing): gacha summoning, driver combos, blade combos, fusion combos. The most-divisive entry's load-bearing system.
+- [**Class & Ouroboros (XC3)**](./class-and-ouroboros): open class swap across all 6 party members + Ouroboros interlink as a fusion form.
+- [**Skells & FrontierNav (XCX)**](./skells-and-frontiernav): mech mode you license ~30 hours in + a planet you map probe by probe.
+- [**Series evolution**](./series-evolution): what each entry added and *when*. The drip pattern.
 
 ## Through other lenses
 
-- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms (across all four entries)** — Monolith Soft's signature design move is making each entry's signature mechanic also its plot's central image.
+- [**Ludonarrative reading**](./ludonarrative-resonance): these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms (across all four entries)**, Monolith Soft's signature design move is making each entry's signature mechanic also its plot's central image.
 
 ## What this game (series) teaches
 
@@ -86,5 +86,5 @@ See [`lessons.md`](./lessons) for the longer take.
 
 ## See also
 
-- [Patterns](./patterns) — full pattern table
-- [Sources](./sources) — bibliography
+- [Patterns](./patterns): full pattern table
+- [Sources](./sources): bibliography

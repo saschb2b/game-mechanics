@@ -1,5 +1,5 @@
 ---
-title: "Xenoblade Chronicles — Sources"
+title: "Xenoblade Chronicles: Sources"
 type: game
 game: xenoblade-chronicles
 ---
@@ -8,29 +8,29 @@ game: xenoblade-chronicles
 
 ## Wikipedia
 
-- [Xenoblade Chronicles (video game)](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)) — XC1 / Definitive Edition.
-- [Xenoblade Chronicles X](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X) — XCX / Definitive Edition.
-- [Xenoblade Chronicles 2](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_2) — XC2 + Torna DLC.
-- [Xenoblade Chronicles 3](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3) — XC3 + Future Redeemed DLC.
+- [Xenoblade Chronicles (video game)](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)): XC1 / Definitive Edition.
+- [Xenoblade Chronicles X](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X): XCX / Definitive Edition.
+- [Xenoblade Chronicles 2](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_2): XC2 + Torna DLC.
+- [Xenoblade Chronicles 3](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_3): XC3 + Future Redeemed DLC.
 
 ## Wikis
 
-- [xenoblade.fandom.com](https://xenoblade.fandom.com) — community wiki, comprehensive system docs and stat lookups across the series.
-- [xenoblade.wiki](https://xenoblade.wiki) — alternative community wiki (less Cloudflare-walled).
+- [xenoblade.fandom.com](https://xenoblade.fandom.com): community wiki, comprehensive system docs and stat lookups across the series.
+- [xenoblade.wiki](https://xenoblade.wiki): alternative community wiki (less Cloudflare-walled).
 
 ## Reviews and dev coverage
 
-- IGN reviews of each entry — useful for first-impression mechanic descriptions and the recurring "give it 25 hours" framing.
-- Eurogamer reviews — strong on the open-world / MMO-shape critique.
-- Polygon's Xenoblade 2 review — captured the gacha-controversy framing best.
+- IGN reviews of each entry: useful for first-impression mechanic descriptions and the recurring "give it 25 hours" framing.
+- Eurogamer reviews: strong on the open-world / MMO-shape critique.
+- Polygon's Xenoblade 2 review: captured the gacha-controversy framing best.
 - DigitalFoundry technical analyses for the Switch entries.
 
 ## Dev interviews and material
 
-- **Tetsuya Takahashi** (Monolith Soft executive producer / writer-director) — interviews around each entry's launch covering the design philosophy. Recurring theme: *"Players who play 100 hours deserve more than just more bosses."*
-- **Koh Kojima** (XC2 director) — Famitsu interviews on the gacha decision and Field Skill gating.
-- **Genki Yokota** (Nintendo producer overseeing the series) — periodic Iwata-style interviews on the long-term arc of the series.
-- **Yasunori Mitsuda** — composer credits on each entry; relevant for understanding the *tone* of system reveals (each big system unlock typically has its own scored cue).
+- **Tetsuya Takahashi** (Monolith Soft executive producer / writer-director): interviews around each entry's launch covering the design philosophy. Recurring theme: *"Players who play 100 hours deserve more than just more bosses."*
+- **Koh Kojima** (XC2 director): Famitsu interviews on the gacha decision and Field Skill gating.
+- **Genki Yokota** (Nintendo producer overseeing the series): periodic Iwata-style interviews on the long-term arc of the series.
+- **Yasunori Mitsuda**: composer credits on each entry; relevant for understanding the *tone* of system reveals (each big system unlock typically has its own scored cue).
 
 ## Visual sources
 

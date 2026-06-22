@@ -1,5 +1,5 @@
 ---
-title: "Balatro — Blinds + Boss Blinds"
+title: "Balatro: Blinds + Boss Blinds"
 type: game
 game: balatro
 patterns:
@@ -11,7 +11,7 @@ patterns:
 
 The round structure. **Each Ante is three Blinds: Small, Big, and Boss.** Score thresholds escalate; the Boss Blind adds a run-warping modifier; the run is 8 Antes (24 Blinds total) to win.
 
-The Boss Blind catalogue is the run's *anti-build* layer — 30 named modifiers that selectively punish whatever the player is leaning on.
+The Boss Blind catalogue is the run's *anti-build* layer: 30 named modifiers that selectively punish whatever the player is leaning on.
 
 ![The Anteprogression chart. Base score required per Ante: 1=300, 2=800, 3=2,000, 4=5,000, 5=11,000, 6=20,000, 7=35,000, 8=50,000 (run end). Endless mode: 9=110k, 10=560k, 11=7.2M, 12=300M, 13=47B, 14=2.9e13, 15=7.7e16, 16=8.6e20. Right-side icon catalogue shows boss blind variants](/images/balatro/blinds-and-ante.jpg)
 *The Ante progression chart. Numbers stop being readable as integers at Ante 12. Endless mode is a leaderboard surface, not a finite-difficulty curve. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
@@ -32,7 +32,7 @@ Ante 8 plays:
 
 Endless (Ante 9+) is exponential; the rate of growth approximately doubles per Ante.
 
-## Boss Blinds — the catalogue
+## Boss Blinds: the catalogue
 
 There are **30 named Boss Blinds**, each with a unique debuff. The Boss Blind is rolled at the start of each Ante (the player can see which Boss is coming). Examples:
 
@@ -43,7 +43,7 @@ There are **30 named Boss Blinds**, each with a unique debuff. The Boss Blind is
 | The Wheel | 1 in 7 cards drawn flipped face down |
 | The Window | All Spade cards debuffed (give no chips, no mult) |
 | The Manacle | -1 hand size for the round |
-| The Eye | No repeats — no playing the same hand type twice this round |
+| The Eye | No repeats: no playing the same hand type twice this round |
 | The Mouth | Only one hand type can be played this round |
 | The Plant | All face cards debuffed |
 | The Fish | All cards drawn face down until played |
@@ -62,7 +62,7 @@ There are **30 named Boss Blinds**, each with a unique debuff. The Boss Blind is
 
 The full list is ~30 entries. Some bosses (The Wall, The Violet Vessel) crank the score requirement; others (The Hook, The Manacle) reduce the player's resources; others (The Goad, The Plant, The Window, The Club) selectively debuff card categories.
 
-![Same Anteprogression chart with **The Water** boss-blind tooltip: "Score at least ※2× Base — Reward: $$$$$ — Start with 0 discards"](/images/balatro/boss-blind-tooltip.jpg)
+![Same Anteprogression chart with **The Water** boss-blind tooltip: "Score at least ※2x Base, Reward: $$$$$, Start with 0 discards"](/images/balatro/boss-blind-tooltip.jpg)
 *The Water boss tooltip. The single-line debuff "**Start with 0 discards**" is enough to break most discard-dependent builds for one round. Players have to commit to one good hand. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 ## Why selective debuffs work
@@ -76,7 +76,7 @@ The boss-blind catalogue's structural cleverness: **each boss attacks one specif
 
 So the player's run is **continuously stress-tested** against axis-specific debuffs. A "perfect build" doesn't exist; even Sega's most-stacked engine has at least one boss that hits its weak point.
 
-This is `cumulative-modifier-staircase` operating as an *anti-build* layer — the difficulty doesn't get harder uniformly; it gets *targeted* at the player's specific build.
+This is `cumulative-modifier-staircase` operating as an *anti-build* layer: the difficulty doesn't get harder uniformly; it gets *targeted* at the player's specific build.
 
 ## The pre-Ante reveal
 
@@ -92,7 +92,7 @@ The reveal turns the Boss Blind into a planning constraint, not a surprise.
 
 ## Skip option
 
-Each Blind (Small, Big, Boss) can be **skipped**. Skipping forfeits the dollar reward and the shop visit, but progresses the Ante. Skipping pays a small bonus (a tag — see Tags below).
+Each Blind (Small, Big, Boss) can be **skipped**. Skipping forfeits the dollar reward and the shop visit, but progresses the Ante. Skipping pays a small bonus (a tag; see Tags below).
 
 So a player with a strong build can skip the Small Blind to grab the Boss Blind reward without grinding through the Small/Big sequence.
 
@@ -107,5 +107,5 @@ The skip-tag interaction creates a sub-strategy: certain runs benefit from skipp
 
 ## Patterns this exemplifies
 
-- `cumulative-modifier-staircase` — base score doubles per Ante, plus boss multipliers stacked on top. The clearest score-escalator pattern in the knowledge base.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — every Boss Blind is a forced negative modifier. Some can be partially mitigated; none fully avoided. The Verdant Leaf forces the player to *sell a Joker* to release the debuff — a real opportunity-cost trade.
+- `cumulative-modifier-staircase`: base score doubles per Ante, plus boss multipliers stacked on top. The clearest score-escalator pattern in the knowledge base.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): every Boss Blind is a forced negative modifier. Some can be partially mitigated; none fully avoided. The Verdant Leaf forces the player to *sell a Joker* to release the debuff, a real opportunity-cost trade.

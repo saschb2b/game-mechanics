@@ -1,5 +1,5 @@
 ---
-title: "Path of Exile 2 — Patterns"
+title: "Path of Exile 2: Patterns"
 type: game
 game: path-of-exile-2
 ---

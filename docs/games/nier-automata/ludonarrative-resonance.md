@@ -1,5 +1,5 @@
 ---
-title: "Nier: Automata — Ludonarrative reading"
+title: "Nier: Automata: Ludonarrative reading"
 type: game
 game: nier-automata
 patterns:
@@ -10,7 +10,7 @@ patterns:
 
 Reading Nier: Automata's mechanics through the [resonance lens](/concepts/ludonarrative-resonance).
 
-> **Verdict: structurally affirms.** Automata is the rare case where the *form* of the design — chips, routes, ending — argues the same thing as the *content* of the writing. Almost every load-bearing mechanical decision is also a thematic claim.
+> **Verdict: structurally affirms.** Automata is the rare case where the *form* of the design (chips, routes, ending) argues the same thing as the *content* of the writing. Almost every load-bearing mechanical decision is also a thematic claim.
 
 ## The diagnostic question, applied
 
@@ -25,21 +25,21 @@ Yes. The mechanical description of Nier: Automata reads like a précis of its th
 - Endings are not the end. **(Routes A, B, C, D each terminate in credits.)**
 - Hope, in this world, is paid for in shared sacrifice. **(Ending E save deletion.)**
 
-Each of those reads as both a system and a thematic line. The game does not tell you "perception is software" — the chip menu does.
+Each of those reads as both a system and a thematic line. The game does not tell you "perception is software"; the chip menu does.
 
 ## What resonates, and how
 
 ### Chip system as "the body is configurable software"
 
-The fictional premise of Nier: Automata is that 2B and 9S are YoRHa androids — combat units with a OS, a body, and a memory that can be backed up before death. The chip system instantiates this: **everything the android can do is a chip.** Including see. Including survive.
+The fictional premise of Nier: Automata is that 2B and 9S are YoRHa androids: combat units with a OS, a body, and a memory that can be backed up before death. The chip system instantiates this: **everything the android can do is a chip.** Including see. Including survive.
 
-The OS Chip — mandatory, but unequippable, killing the character if removed — is the load-bearing joke. It's also a structural argument: **the character is not a body the system runs. The character is the system.** Removing software from the system removes the character. The android is software all the way down.
+The OS Chip (mandatory, but unequippable, killing the character if removed) is the load-bearing joke. It's also a structural argument: **the character is not a body the system runs. The character is the system.** Removing software from the system removes the character. The android is software all the way down.
 
 Resonance level: **maximum.** The fiction's premise is the menu's interaction language. They are the same thing.
 
 ### Multi-route as "your first reading was incomplete"
 
-The story's central pivot — that the YoRHa androids are not what they think they are, that the war they fight is not what it appears to be, that the antagonist they kill in Route A is grieved in Route B — is **enacted by replaying the game.** Route B is mechanically the same world as Route A, but the *information* the player has makes it read differently.
+The story's central pivot (that the YoRHa androids are not what they think they are, that the war they fight is not what it appears to be, that the antagonist they kill in Route A is grieved in Route B) is **enacted by replaying the game.** Route B is mechanically the same world as Route A, but the *information* the player has makes it read differently.
 
 This is the lens's diagnostic in its purest form: **what the player does mechanically (replay) affirms what the writing argues (rereading is the only way to understand).** The mechanic doesn't *symbolise* rereading. It *is* rereading.
 
@@ -47,7 +47,7 @@ Resonance level: **maximum.** This is the game's signature instance.
 
 ### Ending E as "shared sacrifice creates the future"
 
-The game's writing makes a sustained argument that connection across difference is what makes meaning in a meaningless universe. Pascal's machine village, A2's grief, 9S's collapse, the failed peace negotiations — all are short stories about beings who *cannot* connect failing, and one (Ending E) where they can.
+The game's writing makes a sustained argument that connection across difference is what makes meaning in a meaningless universe. Pascal's machine village, A2's grief, 9S's collapse, the failed peace negotiations: all are short stories about beings who *cannot* connect failing, and one (Ending E) where they can.
 
 The mechanic of Ending E is the player paying their own save data so a stranger can finish the same fight. The verb of the ending is *sharing*, asynchronously, with someone the player will never meet.
 
@@ -67,7 +67,7 @@ Camera framing as rhetoric is unusual but coherent. Resonance level: **strong.**
 
 Most main-story mechanics resonate. Sidequests are a mixed bag: some are structurally tied to the themes (Pascal's village, Emil's quest, Resistance Disappearance) and some are pure fetch-quests. The fetch-quests feel particularly orthogonal because the rest of the game is so consistently thematically loaded.
 
-This is partly intentional. Yoko Taro has noted that the bored, indifferent texture of YoRHa life is part of the world — bored androids do bored fetch-quests. But the median sidequest's mechanical loop ("collect 5 of X") is not making a thematic claim; it's just a quest.
+This is partly intentional. Yoko Taro has noted that the bored, indifferent texture of YoRHa life is part of the world: bored androids do bored fetch-quests. But the median sidequest's mechanical loop ("collect 5 of X") is not making a thematic claim; it's just a quest.
 
 Resonance level: **mostly orthogonal**, with occasional standout exceptions.
 
@@ -87,4 +87,4 @@ It's also the strongest available counterexample to the claim that "deep" mechan
 
 ## Where it sits in the table
 
-In the [main resonance table](/concepts/ludonarrative-resonance), Nier: Automata sits at the **densest affirmation** end — alongside Hades, Hollow Knight, MMBN, Moonlighter 2, and Xenoblade. The qualifier is that Automata is the only entry where the affirmation is **structurally enforced** (you cannot complete the game without doing the rereading) rather than emergent from the loop's pacing.
+In the [main resonance table](/concepts/ludonarrative-resonance), Nier: Automata sits at the **densest affirmation** end, alongside Hades, Hollow Knight, MMBN, Moonlighter 2, and Xenoblade. The qualifier is that Automata is the only entry where the affirmation is **structurally enforced** (you cannot complete the game without doing the rereading) rather than emergent from the loop's pacing.

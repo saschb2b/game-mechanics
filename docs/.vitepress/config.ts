@@ -48,12 +48,12 @@ export default defineConfig({
 
     // Description priority:
     //   1. explicit fm.description
-    //   2. game-page synthesis: iconic_mechanic — core_dialectic
+    //   2. game-page synthesis: iconic_mechanic: core_dialectic
     //   3. site default
     let description = fm.description
     if (!description && fm.iconic_mechanic) {
       description = fm.core_dialectic
-        ? `${fm.iconic_mechanic} — ${fm.core_dialectic}.`
+        ? `${fm.iconic_mechanic}: ${fm.core_dialectic}.`
         : fm.iconic_mechanic
     }
     if (!description) description = defaultDescription
@@ -121,7 +121,7 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/games/cult-of-the-lamb/' },
             { text: 'Crusades (dungeon generation)', link: '/games/cult-of-the-lamb/crusades' },
-            { text: 'Crusades — technical implementation', link: '/games/cult-of-the-lamb/crusades-technical' },
+            { text: 'Crusades: technical implementation', link: '/games/cult-of-the-lamb/crusades-technical' },
             { text: 'Dungeon map (DAG nodes)', link: '/games/cult-of-the-lamb/dungeon-map' },
             { text: 'Hub & followers', link: '/games/cult-of-the-lamb/hub-and-followers' },
             { text: 'Doctrines & rituals', link: '/games/cult-of-the-lamb/doctrines-and-rituals' },

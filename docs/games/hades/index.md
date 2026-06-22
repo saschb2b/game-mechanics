@@ -21,10 +21,10 @@ og_image: images/hades/h2-title-screen.jpg
 
 # Hades
 
-> **A two-game series from Supergiant Games** — Hades (2020) and Hades II (2024 EA → 2025 1.0). The series's load-bearing innovation: **dying advances the story.** Each death triggers fresh dialogue from the gods, family, and mentors who can't help but comment on Zagreus's (or Melinoë's) ongoing escape — making the roguelite's defining failure state into the *narrative engine*.
+> **A two-game series from Supergiant Games:** Hades (2020) and Hades II (2024 EA → 2025 1.0). The series's load-bearing innovation: **dying advances the story.** Each death triggers fresh dialogue from the gods, family, and mentors who can't help but comment on Zagreus's (or Melinoë's) ongoing escape, making the roguelite's defining failure state into the *narrative engine*.
 
-![Hades II title screen — Melinoë holding silver dagger and silver hook against a green-arcana magic circle](/images/hades/h2-title-screen.jpg)
-*Hades II — Melinoë, princess of the underworld, on a quest to defeat Chronos. The series's signature visual style: hand-painted character portraits over moody pixel-painted environments. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2192).*
+![Hades II title screen, Melinoë holding silver dagger and silver hook against a green-arcana magic circle](/images/hades/h2-title-screen.jpg)
+*Hades II: Melinoë, princess of the underworld, on a quest to defeat Chronos. The series's signature visual style: hand-painted character portraits over moody pixel-painted environments. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=2192).*
 
 ## Snapshot
 
@@ -64,26 +64,26 @@ The *return to hub* step is the genre innovation. In most roguelites, dying = "t
 
 ## Mechanic deep-dives
 
-- [**Boons & gods**](./boons-and-gods) — pick-1-of-3 boon draft, ~12 Olympian gods, rarity tiers, duo boons, hammer rare upgrades.
-- [**Chamber paths**](./chamber-and-paths) — branching DAG within each biome; the player picks the run's shape via reward-door icons.
-- [**Death as narrative**](./death-as-narrative) — the series's signature design innovation. Dialogue tracks per-character, advances per death, locks new lines behind run conditions.
-- [**Meta-progression**](./meta-progression) — Mirror of Night → Pact of Punishment (H1), Arcana grid + Resource Cards (H2). Variety unlocks > raw stat bumps.
-- [**Series evolution (H1 → H2)**](./series-evolution) — what H2 adds: Magick, Cast/Hex, two paths, Arcana grid.
+- [**Boons & gods**](./boons-and-gods): pick-1-of-3 boon draft, ~12 Olympian gods, rarity tiers, duo boons, hammer rare upgrades.
+- [**Chamber paths**](./chamber-and-paths): branching DAG within each biome; the player picks the run's shape via reward-door icons.
+- [**Death as narrative**](./death-as-narrative): the series's signature design innovation. Dialogue tracks per-character, advances per death, locks new lines behind run conditions.
+- [**Meta-progression**](./meta-progression): Mirror of Night → Pact of Punishment (H1), Arcana grid + Resource Cards (H2). Variety unlocks > raw stat bumps.
+- [**Series evolution (H1 → H2)**](./series-evolution): what H2 adds: Magick, Cast/Hex, two paths, Arcana grid.
 
 ## Through other lenses
 
-- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms** — dying *is* how the plot moves.
+- [**Ludonarrative reading**](./ludonarrative-resonance): these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: affirms.** Dying *is* how the plot moves.
 
 ## What this game (series) teaches
 
 - **Failure-as-content.** The death-resets-the-run loop is the genre default. Hades's contribution is making each reset *narratively productive*. Other roguelites should ask whether their failure state can become *something the player wants to see*.
 - **Boon draft = Spire-pattern transposed to action combat.** Pick-1-of-3 with skip is Spire's draft language. Hades imports it intact and proves it generalizes outside deckbuilding.
 - **Hub-as-character-roster.** The Crossroads / House of Hades is where the writing lives. Each NPC is a *recurring conversation partner*; their dialogue files are bigger than most JRPG side characters'. The hub structure makes that volume of writing *encounterable* in tiny doses.
-- **Bounded roguelite with a real ending.** Hades 1 is unusual: it has credits, a "true ending" arc, and even an explicit *finished* state — not infinite escalation.
+- **Bounded roguelite with a real ending.** Hades 1 is unusual: it has credits, a "true ending" arc, and even an explicit *finished* state. Not infinite escalation.
 
 See [`lessons.md`](./lessons) for the longer take.
 
 ## See also
 
-- [Patterns](./patterns) — full pattern table
-- [Sources](./sources) — bibliography
+- [Patterns](./patterns): full pattern table
+- [Sources](./sources): bibliography

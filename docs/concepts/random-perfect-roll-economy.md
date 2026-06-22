@@ -11,16 +11,16 @@ og_image: images/warframe/modding-upgrade-detail.jpg
 
 # Random perfect-roll economy
 
-> **Lemma:** Item identity is shaped by **multiple independently-rolled stats**. Most rolls are average; the joint distribution of "all stats are great" is astronomically rare. The rare instances become **traded market commodities** — per-item unique, expensive, identity-defining for the buyer's build.
+> **Lemma:** Item identity is shaped by **multiple independently-rolled stats**. Most rolls are average; the joint distribution of "all stats are great" is astronomically rare. The rare instances become **traded market commodities**, per-item unique, expensive, identity-defining for the buyer's build.
 
 ![Warframe mod detail showing slotted mods, polarities, and rolled stat magnitudes](/images/warframe/modding-upgrade-detail.jpg)
-*Warframe's mod detail screen — the Riven slot is one of these. Each Riven mod rolls 2–3 random positive stats and sometimes a random negative; perfect rolls become tradable market commodities denominated in Platinum. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+*Warframe's mod detail screen: the Riven slot is one of these. Each Riven mod rolls 2–3 random positive stats and sometimes a random negative; perfect rolls become tradable market commodities denominated in Platinum. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
 ## What it solves
 
 A flat "best item" design has nothing to chase past acquisition. You found the legendary; the legendary is the same as everyone else's; done.
 
-Random perfect-roll economies break this by **decoupling the item type from the item instance.** Two players can both have a "Riven for Soma Prime" or a "rare amulet" — but the joint roll on their stats means one is worthless and the other trades for thousands of dollars in market currency. The chase isn't the *item*, it's the *roll*.
+Random perfect-roll economies break this by **decoupling the item type from the item instance.** Two players can both have a "Riven for Soma Prime" or a "rare amulet", but the joint roll on their stats means one is worthless and the other trades for thousands of dollars in market currency. The chase isn't the *item*, it's the *roll*.
 
 This produces:
 
@@ -33,7 +33,7 @@ This produces:
 | Game | The roll surface | Re-roll mechanic | Market position |
 |---|---|---|---|
 | **[Path of Exile (rare items)](/games/path-of-exile/crafting-and-currency)** | Up to 6 affixes (3 prefix + 3 suffix), each rolled independently from a pool weighted by item base + level + tags. Each affix has a tier (T1–T7); T1 is intentionally rare. | Currency orbs (Chaos = re-roll all, Divine = re-roll values, Annulment = remove one, Exalted = add one). Each re-roll is a sink. | Mirror-tier items as the asymptote. Top-1% items trade for thousands of currency or get *mirror-copied* (one-shot duplication). |
-| **[Path of Exile (skill-gem 6-link)](/games/path-of-exile/skill-gems)** | Sockets, colours, and links are all separately rolled on the gear. A 6-link is ~1/1500 attempts via Orb of Fusing. | Jeweller / Chromatic / Fusing orbs; Bench recipe caps the cost deterministically. | The 6-link is one of the cleanest "asymptote" rewards in F2P design — binary, expensive, identity-defining. |
+| **[Path of Exile (skill-gem 6-link)](/games/path-of-exile/skill-gems)** | Sockets, colours, and links are all separately rolled on the gear. A 6-link is ~1/1500 attempts via Orb of Fusing. | Jeweller / Chromatic / Fusing orbs; Bench recipe caps the cost deterministically. | The 6-link is one of the cleanest "asymptote" rewards in F2P design: binary, expensive, identity-defining. |
 | **[Warframe (Riven mods)](/games/warframe/modding)** | Riven attaches to a specific weapon class; carries 2–3 random positive stats and sometimes a random negative. Disposition multiplier shifts the magnitude per-quarter based on weapon usage. | Re-roll with Kuva (per-account farmable). Trade Rivens with other players for Platinum. | A "god-roll" Riven for a popular weapon trades for thousands of Platinum. Off-meta weapon Rivens float upward as Disposition rebalances quarterly. |
 
 The shape is the same across all three: **a base item type + a multi-axis roll + a market that prices the joint outcome**. The variants differ in the re-roll cost (currency, Kuva, fusings) and in whether the rolls are tradable as the unit (Rivens are tradable; PoE rares are tradable; 6-links are gear-bound until you use a divine to manipulate the values).
@@ -41,7 +41,7 @@ The shape is the same across all three: **a base item type + a multi-axis roll +
 ## When to use this pattern
 
 - **Long-running ARPGs / looters** with active player-to-player trade.
-- **Games where item drops are the engine** — every drop should be looked at, evaluated, and either kept, sold, or scrapped. The rolls are what make this evaluation non-trivial.
+- **Games where item drops are the engine**: every drop should be looked at, evaluated, and either kept, sold, or scrapped. The rolls are what make this evaluation non-trivial.
 - **Trade-economy games** where currency-as-crafting + perfect-roll lottery compose: spend currency to re-roll, the rolled item has market value, the market value is denominated in the same currency.
 
 Avoid when:
@@ -57,9 +57,9 @@ Avoid when:
 
 ## Adjacent patterns
 
-- [`aspirational-crafting`](/concepts/aspirational-crafting) — the upstream philosophy. Random perfect-roll only works if the asymptote is held in place; otherwise crafting collapses determinism into "everyone gets a god roll."
-- [`currency-as-crafting`](/concepts/currency-as-crafting) — the natural pair. Re-rolls cost currency that has *other* uses; this is what makes each re-roll feel like a real opportunity cost.
-- `community-driven-balance` — Warframe's Riven Disposition is the unique twist: the magnitude of the perfect roll *floats* based on weapon usage stats. Direct nerfs become disposition shifts; the market self-adjusts. PoE doesn't have an analog.
+- [`aspirational-crafting`](/concepts/aspirational-crafting): the upstream philosophy. Random perfect-roll only works if the asymptote is held in place; otherwise crafting collapses determinism into "everyone gets a god roll."
+- [`currency-as-crafting`](/concepts/currency-as-crafting): the natural pair. Re-rolls cost currency that has *other* uses; this is what makes each re-roll feel like a real opportunity cost.
+- `community-driven-balance`: Warframe's Riven Disposition is the unique twist: the magnitude of the perfect roll *floats* based on weapon usage stats. Direct nerfs become disposition shifts; the market self-adjusts. PoE doesn't have an analog.
 
 ## Why this matters as a design lesson
 

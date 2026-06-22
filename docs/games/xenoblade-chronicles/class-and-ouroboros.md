@@ -1,5 +1,5 @@
 ---
-title: "Xenoblade — Class & Ouroboros (XC3)"
+title: "Xenoblade: Class & Ouroboros (XC3)"
 type: game
 game: xenoblade-chronicles
 patterns:
@@ -12,15 +12,15 @@ patterns:
 
 XC3's signature systems. **Every party member can master every class, and any two party members can interlink into a fusion form called an Ouroboros.** The result is a combat system with more loadout permutations than any prior Xenoblade entry.
 
-![XC3 character menu showing Noah's full loadout — Class (Swordfighter Rank 16), Arts row, Skills, Gems, Accessories](/images/xenoblade-chronicles/xc3-class-loadout.jpg)
-*Noah's character screen — XC3's loadout in one view. **Class:** Swordfighter (Attacker, Rank 16). **Arts:** the 8-slot palette is what you actually pick from this class's pool. **Skills, Gems, Accessories, Clothing** are separate equipment axes. The left tabs (Class / Arts / Skills / Gems / Accessories / Clothing / Interlink) are the seven layers a player tunes per character — and any character can be any class once mastery unlocks via Hero Quests. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500).*
+![XC3 character menu showing Noah's full loadout, Class (Swordfighter Rank 16), Arts row, Skills, Gems, Accessories](/images/xenoblade-chronicles/xc3-class-loadout.jpg)
+*Noah's character screen: XC3's loadout in one view. **Class:** Swordfighter (Attacker, Rank 16). **Arts:** the 8-slot palette is what you actually pick from this class's pool. **Skills, Gems, Accessories, Clothing** are separate equipment axes. The left tabs (Class / Arts / Skills / Gems / Accessories / Clothing / Interlink) are the seven layers a player tunes per character, and any character can be any class once mastery unlocks via Hero Quests. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1500).*
 
-![XC3 — Noah with the Lucky Seven sword](/images/xenoblade-chronicles/xc3-noah-portrait.jpg)
-*Noah, XC3's protagonist, with the Lucky Seven — the sword whose form changes in Ouroboros mode. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
+![XC3, Noah with the Lucky Seven sword](/images/xenoblade-chronicles/xc3-noah-portrait.jpg)
+*Noah, XC3's protagonist, with the Lucky Seven: the sword whose form changes in Ouroboros mode. Source: [Eurogamer](https://www.eurogamer.net/games/xenoblade-chronicles-3).*
 
 ## The class system
 
-Six base party members. Each starts with a **base class** locked in (Noah is a Swordfighter, Mio a Zephyr, etc.). But over the course of the campaign, the party meets **Heroes** — NPC seventh members who join temporarily — and *each Hero unlocks their class as a swappable option for the entire main party.*
+Six base party members. Each starts with a **base class** locked in (Noah is a Swordfighter, Mio a Zephyr, etc.). But over the course of the campaign, the party meets **Heroes**, NPC seventh members who join temporarily, and *each Hero unlocks their class as a swappable option for the entire main party.*
 
 By endgame:
 
@@ -31,26 +31,26 @@ By endgame:
 
 So the loadout decision is: pick a class for each character, pick which 3 arts of that class are active, and pick which arts from *other mastered classes* are slotted as the alt set. Combinatorially huge.
 
-This is **the most XC3-original system** — XC1 and XC2 had fixed character roles; XC3 explodes them.
+This is **the most XC3-original system**, XC1 and XC2 had fixed character roles; XC3 explodes them.
 
-## Ouroboros — the interlink
+## Ouroboros: the interlink
 
 XC3 has **six** main party members (vs. 3 in XC1, 3 in XC2). They're paired into three duos. Each duo can **interlink** mid-combat into an **Ouroboros**:
 
 - Two characters merge into one giant mech-form humanoid.
 - The Ouroboros has its own **dedicated arts palette** (built from the duo's combined arts).
-- It has a **heat gauge** — Ouroboros mode is time-limited.
+- It has a **heat gauge**: Ouroboros mode is time-limited.
 - Triggering Ouroboros at the right moment is an offensive burst; using it defensively is a survival tool.
 
 There are three Ouroboros pairings (Noah+Mio, Lanz+Sena, Eunie+Taion), each with a distinct mech-form and combat identity. Each pairing has its own **Ouroboros tree** of upgradeable abilities and a relationship-driven story arc.
 
-## Chain attacks — the heavy XC3 version
+## Chain attacks: the heavy XC3 version
 
 XC3 chain attacks are a **multi-stage menu sequence**:
 
 1. Pick which character starts (each has a different bonus).
 2. Pick a **Tactic** card from that character's deck (each tactic has a target multiplier and a hit count).
-3. Score points by clearing tactic targets — extending the chain or finishing it.
+3. Score points by clearing tactic targets: extending the chain or finishing it.
 4. The longer the chain extends, the more damage the final hit does.
 
 The chain attack is **the centerpiece of XC3's late-game combat.** Bosses have ~5× more HP than they would in XC1. The intended encounter rhythm is *survive 3–5 minutes of normal combat, then chain-attack for 60–90 seconds and delete a third of the boss's HP, then survive another 3 minutes.*
@@ -68,7 +68,7 @@ The other layer XC3 layers on top of class. Throughout the campaign, the party m
 
 Heroes are how XC3 paces class introduction. You can't dump 20 classes on a player at hour 5; you drip them across 80 hours of campaign through encounter-driven hero arcs. Each new class is *narratively earned* before being mechanically equipped.
 
-This is one of the cleanest examples of [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) — using the campaign structure as a system-reveal pacing tool.
+This is one of the cleanest examples of [`late-introduced-mechanics`](/concepts/late-introduced-mechanics), using the campaign structure as a system-reveal pacing tool.
 
 ## What XC3 borrows and adds
 
@@ -76,13 +76,13 @@ This is one of the cleanest examples of [`late-introduced-mechanics`](/concepts/
 |---|---|---|
 | Auto-attack + arts | XC1, XC2, XCX | Same shape, with class-swappable palettes |
 | Break → Topple → Launch → Smash → Burst | XC2's | Inherited; combined with class-driven arts that own different chain steps |
-| Chain attacks | All prior entries | Most elaborate version — full menu game inside combat |
+| Chain attacks | All prior entries | Most elaborate version: full menu game inside combat |
 | 6-character party | New | Doubles XC1/XC2's party-of-3 |
 | Class system | New | The defining XC3 system; no direct precedent in series |
 | Ouroboros (pair interlink) | New | Distantly related to XCX Skell mode (vehicle form), but mechanically distinct |
 
 ## Patterns this exemplifies
 
-- [`loadout-as-budget`](/concepts/loadout-as-budget) — pick class (1 of ~20), pick 3 arts from that class, pick alt arts from *another* mastered class. Permutations explode.
-- [`nested-progression-graph`](/concepts/nested-progression-graph) — main character XP + class mastery + Hero affinity + Ouroboros tree are 4 orthogonal axes.
-- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) — Heroes as a 30+ hour drip of class options; chain attack rules unfold across the campaign.
+- [`loadout-as-budget`](/concepts/loadout-as-budget): pick class (1 of ~20), pick 3 arts from that class, pick alt arts from *another* mastered class. Permutations explode.
+- [`nested-progression-graph`](/concepts/nested-progression-graph): main character XP + class mastery + Hero affinity + Ouroboros tree are 4 orthogonal axes.
+- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics): Heroes as a 30+ hour drip of class options; chain attack rules unfold across the campaign.

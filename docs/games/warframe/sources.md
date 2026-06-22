@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Sources"
+title: "Warframe: Sources"
 type: game
 game: warframe
 ---
@@ -19,16 +19,16 @@ game: warframe
 
 ## Analysis & critique
 
-- [Game Developer — The Cleverness of Warframe's Economy](https://www.gamedeveloper.com/business/the-cleverness-of-warframe-s-economy)
-- [Tenodru Creative — Warframe Core Systems Analysis](https://tenodrucreative.com/blog/gameanalysis/warframe-core-systems-analysis/)
-- [Kotaku — Warframe's Take On The Battle Pass](https://kotaku.com/warframes-take-on-the-battle-pass-is-a-clever-episodic-1832996706)
-- [Massively OP — Should DE Ditch RNG In Endgame Loot Drops?](https://massivelyop.com/2019/05/28/warframe-of-mind-should-digital-extremes-ditch-rng-in-endgame-loot-drops/)
-- [einfogames — Steve Sinclair Interview](http://einfogames.com/hub/interview-steve-sinclair-reveals-inspirations-behind-warframe/)
+- [Game Developer: The Cleverness of Warframe's Economy](https://www.gamedeveloper.com/business/the-cleverness-of-warframe-s-economy)
+- [Tenodru Creative: Warframe Core Systems Analysis](https://tenodrucreative.com/blog/gameanalysis/warframe-core-systems-analysis/)
+- [Kotaku: Warframe's Take On The Battle Pass](https://kotaku.com/warframes-take-on-the-battle-pass-is-a-clever-episodic-1832996706)
+- [Massively OP: Should DE Ditch RNG In Endgame Loot Drops?](https://massivelyop.com/2019/05/28/warframe-of-mind-should-digital-extremes-ditch-rng-in-endgame-loot-drops/)
+- [einfogames: Steve Sinclair Interview](http://einfogames.com/hub/interview-steve-sinclair-reveals-inspirations-behind-warframe/)
 
 ## Guides
 
-- [GameTruth — Warframe Progression Guide 2026](https://www.gametruth.com/guides/warframe-progression-guide-2026-from-star-chart-to-steel-path/)
-- [TheGamer — Complete Guide to Warframe](https://www.thegamer.com/warframe-complete-guide-walkthrough/)
-- [TheGamer — Helminth System Guide](https://www.thegamer.com/warframe-helminth-system-guide/)
-- [Morrow Shore — Riven Guide](https://morrowshore.com/guide/rivens/)
-- [FandomWire — DE QoL crafting time update](https://fandomwire.com/warframe-devs-tease-a-game-changing-update-that-promises-a-massive-qol-revolution/)
+- [GameTruth: Warframe Progression Guide 2026](https://www.gametruth.com/guides/warframe-progression-guide-2026-from-star-chart-to-steel-path/)
+- [TheGamer: Complete Guide to Warframe](https://www.thegamer.com/warframe-complete-guide-walkthrough/)
+- [TheGamer: Helminth System Guide](https://www.thegamer.com/warframe-helminth-system-guide/)
+- [Morrow Shore: Riven Guide](https://morrowshore.com/guide/rivens/)
+- [FandomWire: DE QoL crafting time update](https://fandomwire.com/warframe-devs-tease-a-game-changing-update-that-promises-a-massive-qol-revolution/)

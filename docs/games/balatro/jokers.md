@@ -1,5 +1,5 @@
 ---
-title: "Balatro — Jokers as multiplicative modifiers"
+title: "Balatro: Jokers as multiplicative modifiers"
 type: game
 game: balatro
 patterns:
@@ -13,7 +13,7 @@ The build. **150 base Jokers, 5 starting slots.** Every Joker is a passive trigg
 
 Solving a Balatro run is solving the **Joker synergy graph**.
 
-![Joker editions display — five copies of the Joker base card showing different Editions: Base / Foil / Holographic / Polychrome / Negative. Tooltip on Base: "No extra effects." Caption: "Playing cards may each have one Enhancement, Edition, and Seal"](/images/balatro/editions-grid.jpg)
+![Joker editions display, five copies of the Joker base card showing different Editions: Base / Foil / Holographic / Polychrome / Negative. Tooltip on Base: "No extra effects." Caption: "Playing cards may each have one Enhancement, Edition, and Seal"](/images/balatro/editions-grid.jpg)
 *Editions are roll modifiers on Jokers (and on playing cards). Foil = +50 chips, Holographic = +10 mult, Polychrome = ×1.5 mult, Negative = doesn't take a Joker slot. The same Joker becomes much stronger with the right edition. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 ## Slot budget
@@ -22,7 +22,7 @@ The default Joker capacity is **5 slots**. Sources of expansion:
 
 | Source | Effect |
 |---|---|
-| **Negative edition** (random shop roll) | Joker takes 0 slots — effectively a free slot |
+| **Negative edition** (random shop roll) | Joker takes 0 slots: effectively a free slot |
 | **Antimatter Voucher** | +1 slot |
 | **Hidden / specific Joker effects** | Some Jokers (e.g. Blueprint, Brainstorm) reference *other* Jokers; the game treats them as having a slot but their power scales with neighbours |
 
@@ -55,7 +55,7 @@ Each component multiplies the next, producing the famous "Balatro Astronomical N
 
 So the slot order is a real puzzle. Players physically drag Jokers in the menu to optimize the firing chain.
 
-Compare to [Hollow Knight charms](/games/hollow-knight/charms-and-notches) — order doesn't matter there, only fit. Balatro's order-mattering is closer to a pipeline / functional-composition design.
+Compare to [Hollow Knight charms](/games/hollow-knight/charms-and-notches), order doesn't matter there, only fit. Balatro's order-mattering is closer to a pipeline / functional-composition design.
 
 ## Joker rarity tiers
 
@@ -66,7 +66,7 @@ Compare to [Hollow Knight charms](/games/hollow-knight/charms-and-notches) — o
 | Rare | $8 | 5% |
 | **Legendary** | (Soul Spectral Card only) | special unlock |
 
-Legendary Jokers (5 of them — Caino, Chicot, Triboulet, Yorick, Perkeo) only appear via the Soul Spectral Card or specific shop interactions. They're build-defining.
+Legendary Jokers (5 of them, Caino, Chicot, Triboulet, Yorick, Perkeo) only appear via the Soul Spectral Card or specific shop interactions. They're build-defining.
 
 Editions stack on top of rarity: a Negative Polychrome Common is rarer than any base Legendary.
 
@@ -86,13 +86,13 @@ So the player is not guaranteed any specific Joker on any given run. Two structu
 
 ## What this teaches
 
-- **Multiplicative passives produce emergent ceilings.** Balatro's ceiling isn't bounded by stat balance — it's bounded by the number of multiplicative Jokers you can chain. Designers who fear "too much power" should look at how Balatro's chained ceiling *feels good* even at 1e20 scores.
-- **Slot-order-mattering is a design lever.** Most loadout systems are commutative (order doesn't change output). Balatro's left-to-right firing breaks that — and produces *more* depth for the same nominal slot count.
+- **Multiplicative passives produce emergent ceilings.** Balatro's ceiling isn't bounded by stat balance: it's bounded by the number of multiplicative Jokers you can chain. Designers who fear "too much power" should look at how Balatro's chained ceiling *feels good* even at 1e20 scores.
+- **Slot-order-mattering is a design lever.** Most loadout systems are commutative (order doesn't change output). Balatro's left-to-right firing breaks that: and produces *more* depth for the same nominal slot count.
 - **Rarity × edition is more space than rarity alone.** A common Joker with a Polychrome edition is collectively rarer than a base Legendary. Stacking randomness dimensions cheaply expands the variation surface.
 - **A 5-slot budget is enough.** 150 Jokers / 5 slots = 750+ million possible loadouts. The constraint is what makes individual loadouts feel chosen rather than collected.
 - **Solo dev coherence.** LocalThunk hand-balanced 150 Jokers without committee process. Several Jokers were nerfed post-launch (Triboulet, etc) but the *aesthetic* of each Joker is consistent because one author held all the threads.
 
 ## Patterns this exemplifies
 
-- [`loadout-as-budget`](/concepts/loadout-as-budget) — 5 Joker slots over 150 candidates. Combinatorial space far exceeds slot count.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — many Jokers have strict trade-offs. Mr. Bones (prevents 1 death, then deletes itself), Madness (× 1.5 mult, but destroys 1 random Joker per Blind), Burnt Joker (upgrades a hand, but only the *first* hand each round counts).
+- [`loadout-as-budget`](/concepts/loadout-as-budget): 5 Joker slots over 150 candidates. Combinatorial space far exceeds slot count.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): many Jokers have strict trade-offs. Mr. Bones (prevents 1 death, then deletes itself), Madness (× 1.5 mult, but destroys 1 random Joker per Blind), Burnt Joker (upgrades a hand, but only the *first* hand each round counts).

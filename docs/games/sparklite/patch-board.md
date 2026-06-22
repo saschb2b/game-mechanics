@@ -1,5 +1,5 @@
 ---
-title: "Sparklite — Patch board"
+title: "Sparklite: Patch board"
 type: game
 game: sparklite
 patterns:
@@ -31,9 +31,9 @@ You can leave the descent to rearrange patches, but you can't change them mid-fi
 
 ## Patches have *footprint*
 
-Patches occupy 1–4 cells with Tetris-shaped outlines. **Stronger effects take more cells.** The damage-up patch (which also upgrades the 2-hit combo to a 3-hit combo) takes **4 cells** — that's nearly half a starter board for a single effect.
+Patches occupy 1–4 cells with Tetris-shaped outlines. **Stronger effects take more cells.** The damage-up patch (which also upgrades the 2-hit combo to a 3-hit combo) takes **4 cells**, that's nearly half a starter board for a single effect.
 
-This footprint is the design move. It's not "better stats cost more gold" — it's "better stats cost *space you can't use for anything else.*"
+This footprint is the design move. It's not "better stats cost more gold", it's "better stats cost *space you can't use for anything else.*"
 
 Categories the player chooses between:
 
@@ -60,7 +60,7 @@ This is **the load-bearing piece of the design.** Without fusion, low-tier patch
 
 ## Why it works as a design pattern
 
-It's a **deliberate anti-power-creep mechanism that doesn't actually prevent power growth** — it forces a constant choice about *what kind* of power.
+It's a **deliberate anti-power-creep mechanism that doesn't actually prevent power growth**, it forces a constant choice about *what kind* of power.
 
 - More health → less damage-up.
 - Map markers → less defense.
@@ -68,7 +68,7 @@ It's a **deliberate anti-power-creep mechanism that doesn't actually prevent pow
 
 Every descent is a small archetype declaration: am I a tank this run, a glass cannon, a navigator? The grid forces commit.
 
-It also creates a **second-order loop**: collect patches → outgrow board → invest Sparklite in tier or fusion → re-arrange → descend again. The grid isn't just inventory — it's a puzzle the player solves between runs.
+It also creates a **second-order loop**: collect patches → outgrow board → invest Sparklite in tier or fusion → re-arrange → descend again. The grid isn't just inventory, it's a puzzle the player solves between runs.
 
 ## Patterns this exemplifies
 
@@ -79,5 +79,5 @@ It also creates a **second-order loop**: collect patches → outgrow board → i
 
 ## Compare with
 
-- **Warframe modding** — a numeric+categorical version of the same idea: 60-point capacity + matching polarities. Read [/games/warframe/modding](/games/warframe/modding).
-- **Slay the Spire decks** — a combinatorial version: tighter deck = stronger draws. Read [/games/slay-the-spire/deckbuilding](/games/slay-the-spire/deckbuilding).
+- **Warframe modding**: a numeric+categorical version of the same idea: 60-point capacity + matching polarities. Read [/games/warframe/modding](/games/warframe/modding).
+- **Slay the Spire decks**: a combinatorial version: tighter deck = stronger draws. Read [/games/slay-the-spire/deckbuilding](/games/slay-the-spire/deckbuilding).

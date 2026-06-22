@@ -31,7 +31,7 @@ og_image: images/slay-the-spire/combat-defect.jpg
 
 > The genre-defining roguelike deckbuilder. Codified the patterns now copied by Monster Train, Inscryption, Wildfrost, Across the Obelisk, Roguebook, and dozens more. Worth dissecting because **almost every system in it is a fractal restatement of one principle: risk vs. reward.**
 
-![Defect combat — orb channeling, cards in hand, energy 4/3, intent lightning visible](/images/slay-the-spire/combat-defect.jpg)
+![Defect combat, orb channeling, cards in hand, energy 4/3, intent lightning visible](/images/slay-the-spire/combat-defect.jpg)
 *Defect combat. Card hand at the bottom, energy budget (4/3) bottom-left, the intent telegraph (lightning) visible above the enemy. Every Spire mechanic on one screen. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
 
 ## Snapshot
@@ -68,17 +68,17 @@ Pick character (Ironclad / Silent / Defect / Watcher) and Ascension level
 
 ## Mechanic deep-dives
 
-- [**Map & node types**](./map-and-nodes.md) — branching DAG, anti-streak resolution, why the map is the load-bearing mechanic.
-- [**Combat system**](./combat.md) — energy + block + intent. Complete-information per-turn puzzles.
-- [**Deckbuilding**](./deckbuilding.md) — card drafts, deck thinning, archetypes.
-- [**Relics**](./relics.md) — rule-breaking modifiers, bonus-with-drawback boss relics.
-- [**Characters**](./characters.md) — four orthogonal designs, not stat reskins.
-- [**Ascension & meta-progression**](./ascension.md) — difficulty staircase, "variety not power".
-- [**Daily climb & seeds**](./daily-climb.md) — same-seed leaderboards.
+- [**Map & node types**](./map-and-nodes.md): branching DAG, anti-streak resolution, why the map is the load-bearing mechanic.
+- [**Combat system**](./combat.md): energy + block + intent. Complete-information per-turn puzzles.
+- [**Deckbuilding**](./deckbuilding.md): card drafts, deck thinning, archetypes.
+- [**Relics**](./relics.md): rule-breaking modifiers, bonus-with-drawback boss relics.
+- [**Characters**](./characters.md): four orthogonal designs, not stat reskins.
+- [**Ascension & meta-progression**](./ascension.md): difficulty staircase, "variety not power".
+- [**Daily climb & seeds**](./daily-climb.md): same-seed leaderboards.
 
 ## Through other lenses
 
-- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: orthogonal** — light fiction, heavy math, honest framing. Forcing resonance would weaken the loop.
+- [**Ludonarrative reading**](./ludonarrative-resonance): these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: orthogonal**, light fiction, heavy math, honest framing. Forcing resonance would weaken the loop.
 
 ## What this game teaches
 

@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Lessons for my own games"
+title: "Warframe: Lessons for my own games"
 type: game
 game: warframe
 ---
@@ -22,7 +22,7 @@ This pattern works anywhere players want to invest "time = power" in a way that 
 
 ## Steal: community-driven soft balance
 
-The Riven Disposition idea — **don't nerf, change the multiplier on a layered system.** Direct nerfs hurt players who built around the nerfed thing. Multiplier shifts on a *secondary* layer (Rivens) preserve base stats and keep base builds intact.
+The Riven Disposition idea, **don't nerf, change the multiplier on a layered system.** Direct nerfs hurt players who built around the nerfed thing. Multiplier shifts on a *secondary* layer (Rivens) preserve base stats and keep base builds intact.
 
 For multiplayer / competitive games this is gold. For single-player it's overkill. For live-service single-player (live-service rogues, evergreen sims) it may be the right tool.
 
@@ -53,7 +53,7 @@ Incarnon Genesis is "give old weapons a new mode rather than designing new weapo
 
 ## Cautionary lesson: power fantasy in co-op is structurally fragile
 
-If your game is single-player, "let the player feel godlike" is fine. If your game is co-op or multiplayer, that fantasy *removes the other players' agency*. There's no clean fix — DE has been wrestling with this for a decade. Plan for it before shipping co-op, not after.
+If your game is single-player, "let the player feel godlike" is fine. If your game is co-op or multiplayer, that fantasy *removes the other players' agency*. There's no clean fix, DE has been wrestling with this for a decade. Plan for it before shipping co-op, not after.
 
 ## Cautionary lesson: don't gate everything on a single meta-currency
 
@@ -61,9 +61,9 @@ Mastery Rank is great as a metric of breadth. It's *also* a friction point becau
 
 ## Cautionary lesson: feature creep happens, plan for it
 
-Twelve years in, Warframe has a dozen sub-systems some players ignore entirely. That's fine — but it's a *load* on every new player ("which of these do I have to learn?"). New-player onboarding is *much* harder when the game is 12 years deep.
+Twelve years in, Warframe has a dozen sub-systems some players ignore entirely. That's fine, but it's a *load* on every new player ("which of these do I have to learn?"). New-player onboarding is *much* harder when the game is 12 years deep.
 
-For my own games: design new systems to be optional from a player's perspective when possible. If a new system gates the *next* system, the floor under everything keeps rising — and at some point you'll need to invest seriously in onboarding compression.
+For my own games: design new systems to be optional from a player's perspective when possible. If a new system gates the *next* system, the floor under everything keeps rising, and at some point you'll need to invest seriously in onboarding compression.
 
 ## Cautionary lesson: crafting timers age badly
 

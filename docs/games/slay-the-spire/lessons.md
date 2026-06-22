@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire — Lessons for my own games"
+title: "Slay the Spire: Lessons for my own games"
 type: game
 game: slay-the-spire
 ---
@@ -28,9 +28,9 @@ Works for turn-based combat, semi-real-time, even action games (Dark Souls alrea
 
 ## Steal: power as variety, not stats
 
-For replay-heavy games, **meta-progression should unlock variety, not raise base power.** The next run should be more *interesting*, not easier. New cards, new relics, new modifiers, new starter loadouts — yes. Bigger HP, bigger damage — no.
+For replay-heavy games, **meta-progression should unlock variety, not raise base power.** The next run should be more *interesting*, not easier. New cards, new relics, new modifiers, new starter loadouts, yes. Bigger HP, bigger damage, no.
 
-This is a strong default if you want runs to matter long-term. Hades does the opposite (and is great), but Hades is a very different shape — its meta-progression is deliberately a power ramp because the game *wants* you to eventually win. Spire's stance: keep the run's challenge constant; expand what you might encounter.
+This is a strong default if you want runs to matter long-term. Hades does the opposite (and is great), but Hades is a very different shape, its meta-progression is deliberately a power ramp because the game *wants* you to eventually win. Spire's stance: keep the run's challenge constant; expand what you might encounter.
 
 ## Steal: subtractive loadouts
 
@@ -40,7 +40,7 @@ The lesson: thin decks > big decks. **Make removing as rewarding as adding.**
 
 ## Steal: the map as a meta-decision layer
 
-Adding a "node map" between fights — even a simple one — turns "string of random encounters" into "**chosen sequence of risks.**" Huge perceived-agency upgrade for very little authoring cost.
+Adding a "node map" between fights, even a simple one, turns "string of random encounters" into "**chosen sequence of risks.**" Huge perceived-agency upgrade for very little authoring cost.
 
 Could overlay on top of an action game (Hades' isometric room choice is a softer version of the same idea). Could overlay on top of a level-based platformer. Anywhere the player would otherwise just be handed encounters in a fixed order.
 
@@ -64,7 +64,7 @@ This is genuinely worth doing for *any* game with random rewards.
 
 ## Cautionary lesson: don't trust playtester preferences over data
 
-Mega Crit's metric-driven patching is what kept Spire from drift over years of updates. Need a way to track *something* — pick rates, win rates, completion rates — even in a small game. **Even a simple analytics layer is more valuable than another playtester opinion round.**
+Mega Crit's metric-driven patching is what kept Spire from drift over years of updates. Need a way to track *something*, pick rates, win rates, completion rates, even in a small game. **Even a simple analytics layer is more valuable than another playtester opinion round.**
 
 ## Cautionary lesson: be ruthless about pruning
 

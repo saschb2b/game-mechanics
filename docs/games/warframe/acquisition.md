@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Acquisition pipeline"
+title: "Warframe: Acquisition pipeline"
 type: game
 game: warframe
 patterns:
@@ -11,8 +11,8 @@ patterns:
 
 How do you get a Warframe? Five-day-real-time chain across multiple sub-systems. The structure repeats for most loot in the game.
 
-![Warframe Foundry — build queue showing Air Support Charges (1 minute), Archwing Launcher (30 minutes, Archwing Launcher Segment Required), Ascaris Negator (1 blueprint left, Not Enough Components), with material costs and timers visible](/images/warframe/foundry-crafting.jpg)
-*The Foundry. Three concurrent builds in different states: one ready to start (1 minute timer, all materials present), one gated on a *segment* unlock (which is itself a separate quest reward), one stalled on missing components. The whole acquisition pipeline routes through this screen — every Warframe, weapon, gadget, and upgrade resource passes through a Foundry queue with real-time timers. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+![Warframe Foundry, build queue showing Air Support Charges (1 minute), Archwing Launcher (30 minutes, Archwing Launcher Segment Required), Ascaris Negator (1 blueprint left, Not Enough Components), with material costs and timers visible](/images/warframe/foundry-crafting.jpg)
+*The Foundry. Three concurrent builds in different states: one ready to start (1 minute timer, all materials present), one gated on a *segment* unlock (which is itself a separate quest reward), one stalled on missing components. The whole acquisition pipeline routes through this screen: every Warframe, weapon, gadget, and upgrade resource passes through a Foundry queue with real-time timers. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
 ## A standard (non-Prime) frame
 
@@ -40,11 +40,11 @@ star-chart progression → unlock the planet
 
 That's not one task. It's a chain of tasks across multiple sub-systems, deliberately spread over real-world days. The chain is the design.
 
-## Prime frames — the Void Relic system
+## Prime frames: the Void Relic system
 
 Prime variants replace the boss-drop step with a **squad-driven Relic pipeline**:
 
-- Relics drop from specific mission types — **Lith / Meso / Neo / Axi** (early → late game tiers).
+- Relics drop from specific mission types: **Lith / Meso / Neo / Axi** (early → late game tiers).
 - Refine a relic with **Void Traces** (25 / 50 / 100) to bias drop rarity.
 - Crack the relic in a **Void Fissure mission** (typically 4-player). Everyone's relic shows one drop; the squad picks one each.
 - Each relic has 3 commons / 2 uncommons / 1 rare drop slot.
@@ -61,11 +61,11 @@ This timer does two jobs:
 1. **Anti-rush pacing.** You finish the boss but can't immediately use the reward. The dopamine spreads across days, and you keep playing while waiting because the next thing is also queued.
 2. **Soft monetization.** Impatient players pay Platinum to skip.
 
-DE has openly walked the timer back over time. The Koumei release (2024) shipped with a 24h timer as an experiment — they're considering reducing 72h → 24h game-wide, suggesting they think the original timer is too long for the modern audience.
+DE has openly walked the timer back over time. The Koumei release (2024) shipped with a 24h timer as an experiment, they're considering reducing 72h → 24h game-wide, suggesting they think the original timer is too long for the modern audience.
 
-## Vault rotation — the scarcity engine
+## Vault rotation: the scarcity engine
 
-After ~1–2 years, older Prime frames get **vaulted** — pulled out of the active relic pool. They can still be traded between players, but they can't be farmed fresh.
+After ~1–2 years, older Prime frames get **vaulted**, pulled out of the active relic pool. They can still be traded between players, but they can't be farmed fresh.
 
 This drives both populations:
 - **Paying customers** who buy Prime Access or Prime Vault bundles for instant access.

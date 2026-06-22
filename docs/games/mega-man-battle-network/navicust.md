@@ -1,5 +1,5 @@
 ---
-title: "Mega Man Battle Network — NaviCust"
+title: "Mega Man Battle Network: NaviCust"
 type: game
 game: mega-man-battle-network
 patterns:
@@ -11,16 +11,16 @@ patterns:
 
 # NaviCust (Navi Customizer)
 
-Introduced in **BN3 (2002)** as a replacement for the linear stat-upgrade system. The single most-original meta-progression mechanic the series produced — and a textbook [`grid-inventory`](/concepts/grid-inventory) implementation that **pre-dates Sparklite by 17 years** and Moonlighter 2 by 23.
+Introduced in **BN3 (2002)** as a replacement for the linear stat-upgrade system. The single most-original meta-progression mechanic the series produced, and a textbook [`grid-inventory`](/concepts/grid-inventory) implementation that **pre-dates Sparklite by 17 years** and Moonlighter 2 by 23.
 
 ![NaviCust 4×4 grid with pink, white, and grey program blocks placed in cells; NormStyl indicator on the left and RUN button on the right](/images/mega-man-battle-network/navicust-grid.png)
-*The NaviCust customization screen in BN3. Pink program (UnderSht — keeps you at 1 HP on otherwise-lethal hits), white programs (Atk+1, Speed+1), grey buster mods. The third row is the Command Line — solid programs must touch it; striped programs must not. Source: image captured during a community Let's Play of MMBN3 (CC) on the [LP Archive](https://lparchive.org/Mega-Man-Battle-Network-3-Blue/Update%2009/); underlying game © Capcom.*
+*The NaviCust customization screen in BN3. Pink program (UnderSht: keeps you at 1 HP on otherwise-lethal hits), white programs (Atk+1, Speed+1), grey buster mods. The third row is the Command Line, solid programs must touch it; striped programs must not. Source: image captured during a community Let's Play of MMBN3 (CC) on the [LP Archive](https://lparchive.org/Mega-Man-Battle-Network-3-Blue/Update%2009/); underlying game © Capcom.*
 
 ## Structure
 
-A small grid (4×4 in BN3, expandable to 5×5; effectively doubled in BN6 via off-grid overflow). The player drops **Tetromino-shaped programs** onto the grid: HP+50, Charge+1, Shield, AirShoes, FloatShoes, Custom+1, Buster+1, etc. Each program is a 1–4 cell shape — same Tetris-style geometry as Sparklite's patches.
+A small grid (4×4 in BN3, expandable to 5×5; effectively doubled in BN6 via off-grid overflow). The player drops **Tetromino-shaped programs** onto the grid: HP+50, Charge+1, Shield, AirShoes, FloatShoes, Custom+1, Buster+1, etc. Each program is a 1–4 cell shape, same Tetris-style geometry as Sparklite's patches.
 
-There's a **Command Line** running through the middle of the grid horizontally — the load-bearing constraint:
+There's a **Command Line** running through the middle of the grid horizontally, the load-bearing constraint:
 
 | Program type | Rule |
 |---|---|
@@ -28,7 +28,7 @@ There's a **Command Line** running through the middle of the grid horizontally �
 | **Plus / "OFF" parts** (textured/striped, often pink/white/yellow) | **Must NOT** touch the Command Line |
 | **Same-color edge adjacency** | Forbidden (corners are fine) |
 
-Violating any rule **doesn't reject the placement** — it boots the program **bugged.**
+Violating any rule **doesn't reject the placement**, it boots the program **bugged.**
 
 ## Bugs as an opt-in cost
 
@@ -40,7 +40,7 @@ Bugs are **persistent debuffs that follow MegaMan into combat:**
 - Accidental chip use
 - Aggro behavior that pulls enemies toward you
 
-This is the cleverest part of the design. **You can ship a sub-optimal solution to fit one more program in.** "I want HP+50 but it doesn't fit in a legal placement → ship it bugged → take the bug → still get the +50." A BugStop program neutralizes one bug — but BugStop costs valuable space too.
+This is the cleverest part of the design. **You can ship a sub-optimal solution to fit one more program in.** "I want HP+50 but it doesn't fit in a legal placement → ship it bugged → take the bug → still get the +50." A BugStop program neutralizes one bug, but BugStop costs valuable space too.
 
 The whole NaviCust meta-puzzle is: **how much chaos can I tolerate to fit one more buff?** Pure-clean solutions are achievable but constrained. Strong, bug-tolerant solutions are tighter.
 
@@ -48,7 +48,7 @@ This is **textbook [`bonus-with-drawback`](/concepts/bonus-with-drawback) at the
 
 ## Compression Codes (BN6)
 
-BN6 added a depth layer: **secret button-input codes that compress a program by one cell.** Hold Up + B + Select on the Customizer screen with a specific program selected, and its footprint shrinks. The codes are released in magazines, in-game hints, and (now) community wikis — same "hidden knowledge depth" pattern as Program Advance recipes.
+BN6 added a depth layer: **secret button-input codes that compress a program by one cell.** Hold Up + B + Select on the Customizer screen with a specific program selected, and its footprint shrinks. The codes are released in magazines, in-game hints, and (now) community wikis, same "hidden knowledge depth" pattern as Program Advance recipes.
 
 Compressed programs let you fit *more* into the same grid. Players who memorize the codes can ship 50%+ more programs than players who don't.
 
@@ -62,7 +62,7 @@ NaviCust matches the [`grid-inventory`](/concepts/grid-inventory) pattern as cle
 | Item shape | Tetris-shaped programs |
 | Adjacency rules | Command-Line constraint + same-color non-adjacency |
 | Footprint vs. value | Bigger / better programs eat more cells |
-| Constraint violation cost | Bugs (debuffs) — opt-in, not failure |
+| Constraint violation cost | Bugs (debuffs): opt-in, not failure |
 | Pressure-release valve | BugStop, Compression Codes (BN6) |
 
 **BN3 shipped this in 2002.** It pre-dates Sparklite (2019), Moonlighter 2 (2025), and most Tetris-inventory games of the modern era. The game does not get cited as much as it should for the genre's lineage.
@@ -79,13 +79,13 @@ NaviCust matches the [`grid-inventory`](/concepts/grid-inventory) pattern as cle
 ## What this teaches
 
 - **Adjacency-based constraint puzzles produce more design space than slot-counting.** Same buff library, totally different meta-puzzle.
-- **Opt-in chaos is more interesting than fail-state chaos.** Bugs aren't "you broke the rule, now this doesn't work" — they're "you bent the rule, here's what it costs you."
+- **Opt-in chaos is more interesting than fail-state chaos.** Bugs aren't "you broke the rule, now this doesn't work": they're "you bent the rule, here's what it costs you."
 - **A 4×4 grid is enough.** You don't need a sprawling Sparklite-scale grid; the constraints carry the design.
 - **Hidden depth (Compression Codes) extends the system's lifespan.** Codes shipped in magazines in 2005 are still being shared in retrospectives.
 
 ## Patterns this exemplifies
 
-- [`grid-inventory`](/concepts/grid-inventory) — the canonical example, predating most modern instances.
-- `block-puzzle-stat-upgrades` — Tetris-shaped stat blocks; passive upgrades through spatial packing.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — Bugs as opt-in costs for fitting more.
-- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout) — every cell taken by HP+ is a cell not available for Charge+, FloatShoes, etc.
+- [`grid-inventory`](/concepts/grid-inventory): the canonical example, predating most modern instances.
+- `block-puzzle-stat-upgrades`: Tetris-shaped stat blocks; passive upgrades through spatial packing.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): Bugs as opt-in costs for fitting more.
+- [`opportunity-cost-loadout`](/concepts/opportunity-cost-loadout): every cell taken by HP+ is a cell not available for Charge+, FloatShoes, etc.

@@ -31,8 +31,8 @@ og_image: images/warframe/in-mission-hud.jpg
 
 > Twelve years of accreted systems on top of a co-op looter-shooter spine. The game most worth dissecting if you want to understand **how to keep multiple progression systems coherent over a decade.** Also home to one of the cleverest F2P economies ever shipped.
 
-![Warframe loadout overview screen — frame, primary, secondary, melee, companion](/images/warframe/loadout-overview.jpg)
-*The loadout summary screen — frame + 3 weapons + companion. Each slot has its own progression chain (acquisition → leveling → modding → Forma). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+![Warframe loadout overview screen, frame, primary, secondary, melee, companion](/images/warframe/loadout-overview.jpg)
+*The loadout summary screen: frame + 3 weapons + companion. Each slot has its own progression chain (acquisition → leveling → modding → Forma). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
 ## Snapshot
 
@@ -47,7 +47,7 @@ og_image: images/warframe/in-mission-hud.jpg
 | **Business model** | F2P + Platinum (premium, tradable) + Prime Access subscriptions + cosmetics |
 | **Setting** | The Origin System. Warframes are bio-mech suits piloted by Tenno. |
 
-## Macro loop — five nested loops
+## Macro loop: five nested loops
 
 Warframe isn't one loop, it's **five concurrent loops**, each feeding the next:
 
@@ -72,24 +72,24 @@ Warframe isn't one loop, it's **five concurrent loops**, each feeding the next:
    daily login tribute, Nightwave seasons, Riven dispositions rebalance, new frame cadence
 ```
 
-The Foundry's real-time wait detaches "I farmed this" from "I'm using this", which **forces players to multi-task across loops** — or pay Platinum to skip.
+The Foundry's real-time wait detaches "I farmed this" from "I'm using this", which **forces players to multi-task across loops**, or pay Platinum to skip.
 
 ## Mechanic deep-dives
 
-- [**Acquisition pipeline**](./acquisition.md) — blueprints, Foundry, Void Relics. The canonical loot example.
-- [**Modding system**](./modding.md) — capacity, polarity, **Forma**, **Rivens**, **Disposition**. The actual core game.
-- [**Progression layers**](./progression-layers.md) — Mastery, Focus, Arcanes, Helminth, Steel Path. A graph, not a track.
-- [**Reward & retention loops**](./reward-loops.md) — daily/Nightwave/Sortie/Prime Access cadence.
-- [**Monetization model**](./monetization.md) — "the cleverest economy in F2P."
-- [**Combat**](./combat.md) — bullet-jumping, damage matrix, 4-player co-op.
+- [**Acquisition pipeline**](./acquisition.md): blueprints, Foundry, Void Relics. The canonical loot example.
+- [**Modding system**](./modding.md): capacity, polarity, **Forma**, **Rivens**, **Disposition**. The actual core game.
+- [**Progression layers**](./progression-layers.md): Mastery, Focus, Arcanes, Helminth, Steel Path. A graph, not a track.
+- [**Reward & retention loops**](./reward-loops.md): daily/Nightwave/Sortie/Prime Access cadence.
+- [**Monetization model**](./monetization.md): "the cleverest economy in F2P."
+- [**Combat**](./combat.md): bullet-jumping, damage matrix, 4-player co-op.
 
 ## Through other lenses
 
-- [**Ludonarrative reading**](./ludonarrative-resonance) — these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: split** — cinematic-quest peaks resonate hard; the median minute of farming is orthogonal. The intermittent case.
+- [**Ludonarrative reading**](./ludonarrative-resonance): these mechanics read through the [resonance lens](/concepts/ludonarrative-resonance). **Verdict: split**, cinematic-quest peaks resonate hard; the median minute of farming is orthogonal. The intermittent case.
 
 ## What this game teaches
 
-- A massive system stays coherent if **every layer is roughly orthogonal** — Mastery doesn't compete with Forma doesn't compete with Rivens.
+- A massive system stays coherent if **every layer is roughly orthogonal**: Mastery doesn't compete with Forma doesn't compete with Rivens.
 - **Convert "time spent" into permanent slot expansion via a consumable.** Forma is one of the best designs in live-service.
 - **Soft balance is better than nerfs.** Riven Disposition rebalances power without touching base stats. Players hate nerfs; they accept Riven Disposition shifts.
 - **Let players trade premium currency.** Counter-intuitive, but it makes the F2P economy self-balancing instead of zero-sum.

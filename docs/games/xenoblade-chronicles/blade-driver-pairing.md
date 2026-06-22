@@ -1,5 +1,5 @@
 ---
-title: "Xenoblade — Driver–Blade pairing (XC2)"
+title: "Xenoblade: Driver–Blade pairing (XC2)"
 type: game
 game: xenoblade-chronicles
 patterns:
@@ -11,16 +11,16 @@ patterns:
 
 # Driver–Blade pairing (XC2)
 
-XC2's signature system. Every party member is a **Driver** who fights with a **Blade** — a weapon-and-companion that *also* acts as a second character on screen. Drivers can swap between Blades mid-combat to change their entire moveset, weapon class, and elemental affinity.
+XC2's signature system. Every party member is a **Driver** who fights with a **Blade**, a weapon-and-companion that *also* acts as a second character on screen. Drivers can swap between Blades mid-combat to change their entire moveset, weapon class, and elemental affinity.
 
-![XC2 promo art — the party with Pyra and a giant titan](/images/xenoblade-chronicles/xc2-promo-art.jpg)
-*The XC2 cast in their world: Rex (Driver, foreground left) and Pyra (Blade, red), with the rest of the party scattered across the field of a Titan — the gigantic living creatures that make up the world. The Driver–Blade relationship is the game's load-bearing mechanical *and* narrative thread. Source: [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-2-review).*
+![XC2 promo art, the party with Pyra and a giant titan](/images/xenoblade-chronicles/xc2-promo-art.jpg)
+*The XC2 cast in their world: Rex (Driver, foreground left) and Pyra (Blade, red), with the rest of the party scattered across the field of a Titan: the gigantic living creatures that make up the world. The Driver–Blade relationship is the game's load-bearing mechanical *and* narrative thread. Source: [Eurogamer](https://www.eurogamer.net/xenoblade-chronicles-2-review).*
 
 ## The pairing
 
 A **Driver** is the controllable character (Rex, Mòrag, Nia, Tora, etc.). A **Blade** is bonded to a Driver and provides:
 
-- **The weapon.** Greatsword, twin rings, knuckle claws, etc. — there are ~12 weapon classes.
+- **The weapon.** Greatsword, twin rings, knuckle claws, etc.: there are ~12 weapon classes.
 - **An element.** Fire, water, wind, earth, electric, ice, light, dark.
 - **A role.** Attacker / Tank / Healer.
 - **A skill tree** the Driver levels by *using* this Blade.
@@ -28,7 +28,7 @@ A **Driver** is the controllable character (Rex, Mòrag, Nia, Tora, etc.). A **B
 
 A Driver carries up to **3 Blades** at once and can switch the active one freely in combat (with a swap cooldown). Switching mid-fight is core to combo execution.
 
-## Combo system — three nested layers
+## Combo system: three nested layers
 
 This is where XC2 combat earns its complexity reputation. There are **three combo systems stacked on each other:**
 
@@ -58,27 +58,27 @@ When a Blade Combo completes, an **elemental orb** locks onto the enemy. Up to 8
 
 ### 3. Fusion Combos (the meta one)
 
-Driver Combos and Blade Combos run *simultaneously*. **Fusion Combos** apply when both fire on the same target at the same time — multiplying damage and locking in elemental orbs. Then, in a Chain Attack, the player **bursts all the orbs**, dealing exponential multiplied damage.
+Driver Combos and Blade Combos run *simultaneously*. **Fusion Combos** apply when both fire on the same target at the same time, multiplying damage and locking in elemental orbs. Then, in a Chain Attack, the player **bursts all the orbs**, dealing exponential multiplied damage.
 
 The meta-strategy: build up orbs through 3-stage Blade Combos for an entire fight, then chain-attack to detonate them all. A maxed Chain Attack on a fully-orbed enemy can do millions of damage in a few seconds.
 
-![XC2 combat HUD — Rex / Nia / Tora party panels, Lv 26 Natto Lizard with "Break" status, "Recharge Boost" callout, Mythra / Roc / Shin Mei Blade row, arts palette and the orb stack on the right](/images/xenoblade-chronicles/xc2-combat-hud.jpg)
-*XC2 combat in mid-fight. Top-left: party HP panels (Rex, Nia, Tora). Top-centre: enemy with Break status applied. Centre: a Driver Combo step landing ("Recharge Boost"). Bottom-left: the **Blade row** — Mythra / Roc / Shin Mei — showing which Blade each Driver has equipped, swappable mid-combat. Bottom-right: the arts palette (Anchor Shot, Sword Bash, Double Spinning Edge) and the **element orb sphere** that builds up through Blade Combos. Three combo systems running at once. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
+![XC2 combat HUD, Rex / Nia / Tora party panels, Lv 26 Natto Lizard with "Break" status, "Recharge Boost" callout, Mythra / Roc / Shin Mei Blade row, arts palette and the orb stack on the right](/images/xenoblade-chronicles/xc2-combat-hud.jpg)
+*XC2 combat in mid-fight. Top-left: party HP panels (Rex, Nia, Tora). Top-centre: enemy with Break status applied. Centre: a Driver Combo step landing ("Recharge Boost"). Bottom-left: the **Blade row**: Mythra / Roc / Shin Mei, showing which Blade each Driver has equipped, swappable mid-combat. Bottom-right: the arts palette (Anchor Shot, Sword Bash, Double Spinning Edge) and the **element orb sphere** that builds up through Blade Combos. Three combo systems running at once. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
 
-This is the most-mechanically-complex combat system in any major JRPG. Reception fairly criticized it for *opacity* — the game does not teach the three layers cleanly, and the relevant tutorials drop in over the first ~25 hours.
+This is the most-mechanically-complex combat system in any major JRPG. Reception fairly criticized it for *opacity*, the game does not teach the three layers cleanly, and the relevant tutorials drop in over the first ~25 hours.
 
 ## The Affinity Chart per Blade
 
-Each Blade carries its **own Affinity Chart** — a bowed-arc graph of nodes the Driver fills by using the Blade. Each filled node grants stats, art evolutions, party-level utility, or new field skills. There are ~70 Rare Blades; that's ~70 Affinity Charts.
+Each Blade carries its **own Affinity Chart**, a bowed-arc graph of nodes the Driver fills by using the Blade. Each filled node grants stats, art evolutions, party-level utility, or new field skills. There are ~70 Rare Blades; that's ~70 Affinity Charts.
 
-![XC2 Shin Mei's Affinity Chart — bowed-arc graph with locked nodes at the bottom, "Resist Dark" tooltip on the left, the Blade portrait at the centre](/images/xenoblade-chronicles/xc2-affinity-chart.jpg)
+![XC2 Shin Mei's Affinity Chart, bowed-arc graph with locked nodes at the bottom, "Resist Dark" tooltip on the left, the Blade portrait at the centre](/images/xenoblade-chronicles/xc2-affinity-chart.jpg)
 *Shin Mei's Affinity Chart. Each ring of nodes unlocks at a Blade-specific milestone (use the Blade in a certain element of combat, win a certain number of fights with this Blade slotted, complete the Blade's personal side-quest). The graph shape is recurring; the *content* of each Blade's nodes is unique. Filling out one Rare Blade is dozens of hours of focused use. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
 
-The Affinity Chart is one of XC2's clearest [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) instances — players who unlock a Rare Blade at hour 30 then face the chart and realize "oh, I have to *use* this Blade for another 20 hours to fill it." The 80-hour campaign is a *consequence* of the per-Blade growth requirement.
+The Affinity Chart is one of XC2's clearest [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) instances, players who unlock a Rare Blade at hour 30 then face the chart and realize "oh, I have to *use* this Blade for another 20 hours to fill it." The 80-hour campaign is a *consequence* of the per-Blade growth requirement.
 
-## Rare Blades — the gacha
+## Rare Blades: the gacha
 
-Most Blades are summoned from **Core Crystals** — random pulls from items dropped in the world or bought from shops. There are ~50+ Rare Blades; pulling one is a gacha event with weighted RNG.
+Most Blades are summoned from **Core Crystals**, random pulls from items dropped in the world or bought from shops. There are ~50+ Rare Blades; pulling one is a gacha event with weighted RNG.
 
 | Element | Pull source | Rate |
 |---|---|---|
@@ -93,9 +93,9 @@ This was contentious. Reception split:
 - **Fans:** the gacha's a content drip; pulling a new Blade is exciting; Blade rolls are part of the long progression.
 - **Critics:** it's a Switch first-party Nintendo game with **gacha mechanics**; you can't "pay" but you grind. It feels like F2P design dropped into a $60 premium product.
 
-GGG / DE / Spire-style metrics-driven studios would have nerfed this. Monolith Soft kept it. Same vibe as `vision-driven-iteration` — the gacha is *intentional*, not a mistake.
+GGG / DE / Spire-style metrics-driven studios would have nerfed this. Monolith Soft kept it. Same vibe as `vision-driven-iteration`, the gacha is *intentional*, not a mistake.
 
-## Field Skills — the open-world gating
+## Field Skills: the open-world gating
 
 Every Blade has 1–3 **field skills**: out-of-combat traversal abilities. World traversal is gated by these:
 
@@ -109,8 +109,8 @@ This is one of the most-criticized parts of XC2. Walls can be impassable until y
 
 ## Late-introduced systems in XC2 (the recurring pattern)
 
-![XC2 Equip Aux Cores screen — Dromarch (Nia's Blade) on the right, two Aux Core slots, list of available cores (Specials Lv 3 Plus, Humanoid Hunter, Outdoor Attack Up, Opening Art, Ambush Boost), tooltip showing "Outdoor Attack Up I: Increases damage dealt outdoors by 20%"](/images/xenoblade-chronicles/xc2-aux-cores.jpg)
-*Aux Cores — XC2's mid-game power-tuning system, unlocked ~15 hours in. Each Blade has 1–2 Aux Core slots; cores are dropped or crafted, and the player tunes which two cores fit each of nine slots (3 Drivers × 3 Blades). Yet another loadout layer on top of Blade choice and arts palette. The system isn't tutorialised cleanly — players often discover they've been playing without it. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
+![XC2 Equip Aux Cores screen, Dromarch (Nia's Blade) on the right, two Aux Core slots, list of available cores (Specials Lv 3 Plus, Humanoid Hunter, Outdoor Attack Up, Opening Art, Ambush Boost), tooltip showing "Outdoor Attack Up I: Increases damage dealt outdoors by 20%"](/images/xenoblade-chronicles/xc2-aux-cores.jpg)
+*Aux Cores: XC2's mid-game power-tuning system, unlocked ~15 hours in. Each Blade has 1–2 Aux Core slots; cores are dropped or crafted, and the player tunes which two cores fit each of nine slots (3 Drivers × 3 Blades). Yet another loadout layer on top of Blade choice and arts palette. The system isn't tutorialised cleanly, players often discover they've been playing without it. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=562).*
 
 XC2 specifically is *the* poster child for late-system reveal:
 
@@ -132,12 +132,12 @@ This is a defining instance of [`late-introduced-mechanics`](/concepts/late-intr
 ## What this teaches
 
 - **Combat depth scales with system layering.** XC1 has Break → Topple → Daze. XC2 has *all three* of Driver Combos, Blade Combos, Fusion Combos. The lattice of states grows; the player has more dimensions to optimize. Whether that's *good* depends on whether the tutorial scaffolding holds up.
-- **Gacha can land in single-player.** It's controversial and high-friction. But for a player who plays 100+ hours, the gacha is a *content drip* — not a monetization vehicle but an attention-pacing tool. The trade-off is tonal mismatch (premium product, F2P feel).
+- **Gacha can land in single-player.** It's controversial and high-friction. But for a player who plays 100+ hours, the gacha is a *content drip*: not a monetization vehicle but an attention-pacing tool. The trade-off is tonal mismatch (premium product, F2P feel).
 - **Field-skill open-world gating produces real load-bearing decisions.** Spending currency on a specific Rare Blade pull because you need *Salvaging 5* to unlock a quest line is the kind of decision that connects loadout to world traversal. Few RPGs do this.
 
 ## Patterns this exemplifies
 
-- [`loadout-as-budget`](/concepts/loadout-as-budget) — three Blades per Driver × three Drivers = nine slots. A combinatorial loadout puzzle for both combat *and* field-skill coverage.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — every Blade choice forecloses two others; element-locked Blades can't fight an enemy of the same element.
-- [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy) — Rare Blade gacha is the closest a Nintendo first-party JRPG has come to a perfect-roll economy. Specific Blades have meta-defining stats; Common/Rare drift is the lottery.
-- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) — XC2 is the canonical case in the series.
+- [`loadout-as-budget`](/concepts/loadout-as-budget): three Blades per Driver × three Drivers = nine slots. A combinatorial loadout puzzle for both combat *and* field-skill coverage.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): every Blade choice forecloses two others; element-locked Blades can't fight an enemy of the same element.
+- [`random-perfect-roll-economy`](/concepts/random-perfect-roll-economy): Rare Blade gacha is the closest a Nintendo first-party JRPG has come to a perfect-roll economy. Specific Blades have meta-defining stats; Common/Rare drift is the lottery.
+- [`late-introduced-mechanics`](/concepts/late-introduced-mechanics): XC2 is the canonical case in the series.

@@ -1,5 +1,5 @@
 ---
-title: "Sparklite — Combat"
+title: "Sparklite: Combat"
 type: game
 game: sparklite
 patterns:
@@ -15,28 +15,28 @@ Top-down action. Less novel than the patch board, but worth a quick page because
 
 ## Melee
 
-- **Wrench** — main weapon. Tap = quick slash, hold = heavy. Successive taps chain a 2-hit combo, upgradable to 3-hit via the damage patch.
-- **Hammer** — secondary, doubles as a puzzle interaction tool.
+- **Wrench**: main weapon. Tap = quick slash, hold = heavy. Successive taps chain a 2-hit combo, upgradable to 3-hit via the damage patch.
+- **Hammer**: secondary, doubles as a puzzle interaction tool.
 
 ## Sub-weapons / gadgets
 
-Found one per Vault, one Vault per biome. Energy-gated — capacity comes from the patch board.
+Found one per Vault, one Vault per biome. Energy-gated, capacity comes from the patch board.
 
-- **Boom Balloon** — remote-control kamikaze.
-- **Spark Slinger** — rapid energy bolts.
-- **Spark Blitzer** — charge-shot precision burst.
-- **Flare Bang** — area light + crowd disrupt.
-- **Rocket Boots** — dash / gap-jump (also a traversal unlock).
-- **Shrink Ray** — lets Ada enter pipes (traversal unlock).
+- **Boom Balloon**: remote-control kamikaze.
+- **Spark Slinger**: rapid energy bolts.
+- **Spark Blitzer**: charge-shot precision burst.
+- **Flare Bang**: area light + crowd disrupt.
+- **Rocket Boots**: dash / gap-jump (also a traversal unlock).
+- **Shrink Ray**: lets Ada enter pipes (traversal unlock).
 
 The dual-purpose pattern (some gadgets are weapons, others are traversal keys for new biomes) is metroidvania scaffolding under the procedural skin.
 
 ## Combat shape
 
-Pattern-recognition first, reflex second. Enemies have clearly telegraphed wind-ups; bosses are layered patterns. Starter HP is deliberately tight — about 3 hearts, and most enemies hit for a full heart — so first runs are punishing. The patch board is the lever that opens that bottleneck.
+Pattern-recognition first, reflex second. Enemies have clearly telegraphed wind-ups; bosses are layered patterns. Starter HP is deliberately tight, about 3 hearts, and most enemies hit for a full heart, so first runs are punishing. The patch board is the lever that opens that bottleneck.
 
-The wind-ups are the genre default — flash, hitch, swing. They're worth flagging because the patch board's tightness *depends* on combat being readable: if attacks were unannounced, no patch loadout would feel survivable. See [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph).
+The wind-ups are the genre default, flash, hitch, swing. They're worth flagging because the patch board's tightness *depends* on combat being readable: if attacks were unannounced, no patch loadout would feel survivable. See [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph).
 
 ## Why this matters for the patch-board design
 
-Combat being **survivable** is gated on a successful patch loadout, but combat being **fun** isn't gated on the loadout. That distinction is what lets the patch board *force* archetype commits without making bad commits feel like a death sentence — you can play around a bad loadout if your reflex / pattern-reading is good enough.
+Combat being **survivable** is gated on a successful patch loadout, but combat being **fun** isn't gated on the loadout. That distinction is what lets the patch board *force* archetype commits without making bad commits feel like a death sentence, you can play around a bad loadout if your reflex / pattern-reading is good enough.

@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "game-mechanics"
   text: "How games actually work."
-  tagline: "Sixteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki — a designer's reference, written from play."
+  tagline: "Sixteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki, a designer's reference, written from play."
   actions:
     - theme: brand
       text: Browse games →
@@ -20,7 +20,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 <div class="games-grid">
 
 <a class="game-card" href="games/balatro/">
-  <div class="gc-media"><img class="gc-img" src="/images/balatro/scoring-flush.jpg" alt="Balatro scoring a Flush — chips × mult readout 35 × 4"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/balatro/scoring-flush.jpg" alt="Balatro scoring a Flush, chips × mult readout 35 × 4"></div>
   <div class="gc-content">
     <h3 class="gc-title">Balatro</h3>
     <p class="gc-iconic">Poker hands × Jokers × deck-mutation × Ante staircase · familiar surface, deep math underneath</p>
@@ -31,10 +31,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/cult-of-the-lamb/">
-  <div class="gc-media"><img class="gc-img" src="/images/cult-of-the-lamb/cult-hub-with-quest-tracker.jpg" alt="Cult of the Lamb — the cult hub at midday with a pinned quest tracker"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/cult-of-the-lamb/cult-hub-with-quest-tracker.jpg" alt="Cult of the Lamb, the cult hub at midday with a pinned quest tracker"></div>
   <div class="gc-content">
     <h3 class="gc-title">Cult of the Lamb</h3>
-    <p class="gc-iconic">Indoctrination loop — crusade for resources, run a cult · cute aesthetic vs cult horror</p>
+    <p class="gc-iconic">Indoctrination loop, crusade for resources, run a cult · cute aesthetic vs cult horror</p>
     <div class="gc-meta">
       <span>2022</span><span>Action roguelite + base-builder</span><span>Premium</span>
     </div>
@@ -64,7 +64,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/zelda-botw/">
-  <div class="gc-media"><img class="gc-img" src="/images/zelda-botw/title-screen.jpg" alt="Breath of the Wild title screen — Link looking out at Hyrule"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/zelda-botw/title-screen.jpg" alt="Breath of the Wild title screen, Link looking out at Hyrule"></div>
   <div class="gc-content">
     <h3 class="gc-title">Zelda: Breath of the Wild</h3>
     <p class="gc-iconic">Multiplicative chemistry engine + climb-anywhere stamina + 120 shrines · reach anywhere, pay the cost</p>
@@ -86,10 +86,10 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/mina-the-hollower/">
-  <div class="gc-media"><img class="gc-img" src="/images/mina-the-hollower/gameplay-cave-network.jpg" alt="Mina the Hollower — Mina mid-burrow in a gothic Cave Network dungeon"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/mina-the-hollower/gameplay-cave-network.jpg" alt="Mina the Hollower, Mina mid-burrow in a gothic Cave Network dungeon"></div>
   <div class="gc-content">
     <h3 class="gc-title">Mina the Hollower</h3>
-    <p class="gc-iconic">Hollowing — burrow as dodge, traversal & ambush · Castlevania combat in a Zelda-shaped world</p>
+    <p class="gc-iconic">Hollowing, burrow as dodge, traversal & ambush · Castlevania combat in a Zelda-shaped world</p>
     <div class="gc-meta">
       <span>2026</span><span>Action-adventure</span><span>Premium</span>
     </div>
@@ -141,7 +141,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 </a>
 
 <a class="game-card" href="games/pokemon-rse/">
-  <div class="gc-media"><img class="gc-img" src="/images/pokemon-rse/pokemon-info.jpg" alt="Pokémon Ruby/Sapphire/Emerald — Torchic info screen showing Type, Ability Blaze, and Sassy nature"></div>
+  <div class="gc-media"><img class="gc-img" src="/images/pokemon-rse/pokemon-info.jpg" alt="Pokémon Ruby/Sapphire/Emerald, Torchic info screen showing Type, Ability Blaze, and Sassy nature"></div>
   <div class="gc-content">
     <h3 class="gc-title">Pokémon Ruby/Sapphire/Emerald</h3>
     <p class="gc-iconic">17-type RPS + 4-move loadout + permanent stat profile · math under cute</p>
@@ -201,7 +201,7 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
 
 ## Same problem, many solutions
 
-Most games in this library have a *loadout-as-budget* — a system that forces real trade-offs between competing build directions. **Same design problem, totally different math.**
+Most games in this library have a *loadout-as-budget*, a system that forces real trade-offs between competing build directions. **Same design problem, totally different math.**
 
 <div class="pattern-strip">
 
@@ -209,7 +209,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
   <div class="pc-media"><img src="/images/sparklite/adventure-log-ui.jpg" alt="Sparklite patches"></div>
   <div class="pc-label">
     <p class="pc-game">Sparklite</p>
-    <p class="pc-how">Spatial — Tetris on a 3×3 grid</p>
+    <p class="pc-how">Spatial, Tetris on a 3×3 grid</p>
   </div>
 </div>
 
@@ -217,7 +217,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
   <div class="pc-media"><img src="/images/warframe/modding-upgrade-detail.jpg" alt="Warframe modding"></div>
   <div class="pc-label">
     <p class="pc-game">Warframe</p>
-    <p class="pc-how">Numeric — 60 mod points + polarities</p>
+    <p class="pc-how">Numeric, 60 mod points + polarities</p>
   </div>
 </div>
 
@@ -225,7 +225,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
   <div class="pc-media"><img src="/images/slay-the-spire/combat-defect.jpg" alt="Slay the Spire combat"></div>
   <div class="pc-label">
     <p class="pc-game">Slay the Spire</p>
-    <p class="pc-how">Combinatorial — energy + thin deck</p>
+    <p class="pc-how">Combinatorial, energy + thin deck</p>
   </div>
 </div>
 
@@ -233,7 +233,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
   <div class="pc-media"><img src="/images/moonlighter-2/backpack-puzzle.jpg" alt="Moonlighter 2 backpack"></div>
   <div class="pc-label">
     <p class="pc-game">Moonlighter 2</p>
-    <p class="pc-how">Adjacency — placement triggers synergies</p>
+    <p class="pc-how">Adjacency, placement triggers synergies</p>
   </div>
 </div>
 
@@ -241,7 +241,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
   <div class="pc-media"><img src="/images/path-of-exile/atlas-of-worlds.jpg" alt="Path of Exile Atlas"></div>
   <div class="pc-label">
     <p class="pc-game">Path of Exile</p>
-    <p class="pc-how">Massive — 1500 nodes shared across classes</p>
+    <p class="pc-how">Massive, 1500 nodes shared across classes</p>
   </div>
 </div>
 
@@ -255,7 +255,7 @@ Most games in this library have a *loadout-as-budget* — a system that forces r
 
 ## Concepts that recur
 
-Pattern-first pages with cross-game contrast tables. Each one shows how multiple games solve the same design problem differently — and what the trade-offs are.
+Pattern-first pages with cross-game contrast tables. Each one shows how multiple games solve the same design problem differently, and what the trade-offs are.
 
 <div class="concept-callouts">
 
@@ -281,7 +281,7 @@ Pattern-first pages with cross-game contrast tables. Each one shows how multiple
 
 <a class="concept-callout" href="concepts/grid-inventory">
   <p class="cc-name">Grid inventory</p>
-  <p class="cc-lemma">Items live on an explicit 2D grid. <em>Where</em> you place them — not just <em>how many</em> — determines value.</p>
+  <p class="cc-lemma">Items live on an explicit 2D grid. <em>Where</em> you place them, not just <em>how many</em>, determines value.</p>
 </a>
 
 <a class="concept-callout" href="concepts/handcrafted-pcg-hybrid">
@@ -291,7 +291,7 @@ Pattern-first pages with cross-game contrast tables. Each one shows how multiple
 
 <a class="concept-callout" href="concepts/loadout-as-budget">
   <p class="cc-name">Loadout as budget</p>
-  <p class="cc-lemma">Power lives inside a fixed budget — points, cells, slots, hand size. Adding more of one means having less of another.</p>
+  <p class="cc-lemma">Power lives inside a fixed budget, points, cells, slots, hand size. Adding more of one means having less of another.</p>
 </a>
 
 <a class="concept-callout" href="concepts/meta-as-variety-not-power">

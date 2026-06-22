@@ -1,5 +1,5 @@
 ---
-title: "Path of Exile — Lessons for my own games"
+title: "Path of Exile: Lessons for my own games"
 type: game
 game: path-of-exile
 ---
@@ -13,17 +13,17 @@ Notes from 1000+ hours. Some patterns are wildly stealable; others only work bec
 The single most-stealable PoE design move, and *almost no one steals it*. Most games have gold + materials, where gold has no intrinsic use (only as a trading abstraction). PoE collapses the two: every currency does something, and trade prices are denominated in those same currencies.
 
 This produces:
-- Built-in inflation control — trade flows are also sinks.
+- Built-in inflation control: trade flows are also sinks.
 - Real opportunity cost on every drop.
 - Denomination as game design.
 
-If your game has loot and economy, **try this.** Even a small game can have "every currency is a verb." Roguelite deck-builders, looter-action games, factory games, even cozy games — all candidates. Don't give the player gold; give them *materials* that flow through the economy as currency *and* as inputs.
+If your game has loot and economy, **try this.** Even a small game can have "every currency is a verb." Roguelite deck-builders, looter-action games, factory games, even cozy games, all candidates. Don't give the player gold; give them *materials* that flow through the economy as currency *and* as inputs.
 
 ## Steal: shared progression tree where class is a starting position
 
-The 1500-node tree is too big to copy literally. The **principle** generalizes: instead of class-locked trees, give every player the same progression space, with class as a *vector* into it. Marauder's start position is in the south, Witch's in the north — but the geometry is shared.
+The 1500-node tree is too big to copy literally. The **principle** generalizes: instead of class-locked trees, give every player the same progression space, with class as a *vector* into it. Marauder's start position is in the south, Witch's in the north, but the geometry is shared.
 
-This solves "every Sorcerer plays the same" without giving up class identity. **You can scale it down dramatically** — even a 100-node shared tree is more interesting than a 30-node-per-class tree. The size is for sustaining a 12-year game; smaller games don't need that.
+This solves "every Sorcerer plays the same" without giving up class identity. **You can scale it down dramatically**, even a 100-node shared tree is more interesting than a 30-node-per-class tree. The size is for sustaining a 12-year game; smaller games don't need that.
 
 ## Steal: bonus-with-drawback keystones
 
@@ -47,7 +47,7 @@ For my games: ship hooks (mod systems, save format, stat APIs), *not* defaults. 
 
 PoE's HC and SSF as **separate leagues** rather than a difficulty checkbox. Players who want HC commit; players who don't are unaffected.
 
-For multiplayer / leaderboard games, this is much cleaner than "Hard Mode" toggle. The cost is content duplication — economies, ladders, sometimes balance tuning per ladder. The benefit is that each ladder has its own meta and its own community.
+For multiplayer / leaderboard games, this is much cleaner than "Hard Mode" toggle. The cost is content duplication, economies, ladders, sometimes balance tuning per ladder. The benefit is that each ladder has its own meta and its own community.
 
 ## Steal: meta-progression as a build, not a stat sheet
 
@@ -61,13 +61,13 @@ PoE's friction is load-bearing for its 1000-hour audience. It also turns away th
 
 ## Cautionary lesson: aspirational crafting requires careful calibration
 
-The "ship deterministic system → nerf it" cycle is *expensive* — every cycle the community burns. GGG accepts the cost because they think the alternative (build crafted items become baseline) is worse. **You probably can't afford this cycle if your audience isn't already invested.**
+The "ship deterministic system → nerf it" cycle is *expensive*, every cycle the community burns. GGG accepts the cost because they think the alternative (build crafted items become baseline) is worse. **You probably can't afford this cycle if your audience isn't already invested.**
 
 For smaller games, pick *one* stance: deterministic-end (you can build perfect items eventually) or RNG-end (perfect items are pure luck). The middle is hard.
 
 ## Cautionary lesson: complexity has a tax
 
-PoE's onboarding is famously brutal. Even after 1000 hours I had to look up what some new league mechanics did. The complexity is the depth, but it's also the wall — and PoE2's existence is partly an admission that PoE1's wall got too high. **If you ship complexity, ship onboarding too** — guided builds, in-game tooltips that aren't just stat names, glossaries, build templates.
+PoE's onboarding is famously brutal. Even after 1000 hours I had to look up what some new league mechanics did. The complexity is the depth, but it's also the wall, and PoE2's existence is partly an admission that PoE1's wall got too high. **If you ship complexity, ship onboarding too**, guided builds, in-game tooltips that aren't just stat names, glossaries, build templates.
 
 ## Cautionary lesson: nerfs need a clear story
 
@@ -79,4 +79,4 @@ GGG ships a 3-month league cadence. Each league = new content + balance pass + e
 
 ## Compared to my hours in Warframe
 
-The contrast is the most useful lesson. Both games are F2P, both 2013, both hugely deep. Warframe gives you power *fantasy*; PoE makes you *earn* power. Warframe's economy is "trade premium currency between players"; PoE's is "currency is also crafting." Warframe is "Mastery as breadth"; PoE is "Build identity through commitment." **Both work.** The question for my own games is which player I'm designing for — the one who wants to feel godlike (Warframe) or the one who wants to feel *clever* (PoE). They're different games for different moods.
+The contrast is the most useful lesson. Both games are F2P, both 2013, both hugely deep. Warframe gives you power *fantasy*; PoE makes you *earn* power. Warframe's economy is "trade premium currency between players"; PoE's is "currency is also crafting." Warframe is "Mastery as breadth"; PoE is "Build identity through commitment." **Both work.** The question for my own games is which player I'm designing for, the one who wants to feel godlike (Warframe) or the one who wants to feel *clever* (PoE). They're different games for different moods.

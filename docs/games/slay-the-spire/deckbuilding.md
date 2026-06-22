@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire — Deckbuilding"
+title: "Slay the Spire: Deckbuilding"
 type: game
 game: slay-the-spire
 patterns:
@@ -13,7 +13,7 @@ patterns:
 The actual loadout system. Fills the role that the patch board plays in Sparklite, or that mods/Forma play in Warframe.
 
 ![Card compendium showing Red (Ironclad) cards in a grid](/images/slay-the-spire/compendium-cards.jpg)
-*The card compendium — a slice of the ~75 Red (Ironclad) cards. Each card is hand-tuned; the run-time question is which 15–20 you can stitch into a coherent deck. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+*The card compendium: a slice of the ~75 Red (Ironclad) cards. Each card is hand-tuned; the run-time question is which 15–20 you can stitch into a coherent deck. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
 
 ## Card rarities and rewards
 
@@ -46,7 +46,7 @@ Where upgrades come from:
 
 Note that the smith vs heal choice at every campfire is *itself* a small risk-vs-reward decision. Heal now (survive the next fight) or upgrade (snowball longer). See the recurring pattern.
 
-## Deck thinning — the canonical strategy
+## Deck thinning: the canonical strategy
 
 You start with **10 starter cards** (mostly basic Strikes/Defends). The new-player intuition is *"more cards = more power."* The actual best play, almost always, is **fewer, better cards.**
 
@@ -55,7 +55,7 @@ A 15-card deck cycles fast and reliably draws its synergies. A 35-card deck dilu
 Tools for thinning:
 
 ![Merchant shop with Card Removal Service panel visible on the right](/images/slay-the-spire/shop-card-removal.jpg)
-*The merchant shop. The "Card Removal Service" on the right is the canonical thinning tool — pay gold to remove a card from your deck. Cost escalates per visit, capped per shop. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+*The merchant shop. The "Card Removal Service" on the right is the canonical thinning tool: pay gold to remove a card from your deck. Cost escalates per visit, capped per shop. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
 
 - **Shop card-removal** (escalating cost, capped per shop visit).
 - **Events** that exhaust/transform/remove cards.
@@ -68,7 +68,7 @@ See [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding).
 
 ## Card draft with skip
 
-Each post-fight draft: pick 1 of 3 cards **or skip.** Skipping has real value — fewer cards is better, but you need *some* cards. So every draft is a question: "is this card better than nothing?"
+Each post-fight draft: pick 1 of 3 cards **or skip.** Skipping has real value, fewer cards is better, but you need *some* cards. So every draft is a question: "is this card better than nothing?"
 
 Skip is a first-class option, not a punishment. That changes the entire shape of decision-making vs. games where you must pick. See `card-draft-with-skip`.
 
@@ -76,14 +76,14 @@ Skip is a first-class option, not a punishment. That changes the entire shape of
 
 Each character has a few well-known archetype templates competent players recognize:
 
-- **Ironclad** — Strength scaling, Heavy Blade, Limit Break / Exhaust, Corruption, Feel No Pain / Block, Barricade, Body Slam.
-- **Silent** — Poison ramp, Shivs, Thousand Cuts, Footwork-scaling, Discard synergies.
-- **Defect** — Frost-block, Lightning-volley, Focus scaling, Claw spam.
-- **Watcher** — Wrath/Calm stance dance, Retain, mid-combat card generation.
+- **Ironclad**: Strength scaling, Heavy Blade, Limit Break / Exhaust, Corruption, Feel No Pain / Block, Barricade, Body Slam.
+- **Silent**: Poison ramp, Shivs, Thousand Cuts, Footwork-scaling, Discard synergies.
+- **Defect**: Frost-block, Lightning-volley, Focus scaling, Claw spam.
+- **Watcher**: Wrath/Calm stance dance, Retain, mid-combat card generation.
 
 **Archetypes aren't strictly defined.** They emerge from the cards/relics you happen to find. The skill is in *recognizing* what archetype the game is offering you 5 cards into Act 1 and **committing.**
 
-This is a deliberate design call — Mega Crit explicitly rejected letting players pre-pick a starting rare card to direct their deck. *Forcing players to react* to what's offered is the design principle. See [design tensions](./design-tensions.md).
+This is a deliberate design call, Mega Crit explicitly rejected letting players pre-pick a starting rare card to direct their deck. *Forcing players to react* to what's offered is the design principle. See [design tensions](./design-tensions.md).
 
 ## Patterns this exemplifies
 

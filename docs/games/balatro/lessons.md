@@ -1,12 +1,12 @@
 ---
-title: "Balatro — Lessons"
+title: "Balatro: Lessons"
 type: game
 game: balatro
 ---
 
 # Lessons
 
-What I'd steal — and what I'd be careful about — for my own (Godot) games.
+What I'd steal, and what I'd be careful about, for my own (Godot) games.
 
 ## What I'd steal
 
@@ -14,7 +14,7 @@ What I'd steal — and what I'd be careful about — for my own (Godot) games.
 
 Poker hand rankings are the most accessible card-game vocabulary in the world. Players already know that a Flush beats a Straight, that a Royal Flush is rare, that a Pair is weak. LocalThunk didn't have to teach the noun set; he reused poker's.
 
-For my own designs: **before inventing a new input format, see if a familiar one fits.** Tarot, chess, mahjong, dominoes, dice notation — any well-known game format ships with built-in player fluency.
+For my own designs: **before inventing a new input format, see if a familiar one fits.** Tarot, chess, mahjong, dominoes, dice notation, any well-known game format ships with built-in player fluency.
 
 ### Two scoring axes (chip × mult)
 
@@ -36,7 +36,7 @@ For my own games: **a small slot count + a large pool > a large slot count + a s
 
 Jokers fire left-to-right. Blueprint copies the Joker to its right. Brainstorm copies the leftmost. This makes loadout *ordering* a real puzzle on top of *picking*.
 
-Most loadout systems are commutative. Breaking commutativity is a design lever — order-mattering produces a second optimization layer for free.
+Most loadout systems are commutative. Breaking commutativity is a design lever, order-mattering produces a second optimization layer for free.
 
 For my own games: if your passives can interact, **make order matter**. The depth scales without adding new mechanics.
 
@@ -70,13 +70,13 @@ For my own games: when adding starting variants, **avoid "+5% damage" mods**. Us
 
 LocalThunk built Balatro alone, with one composer and a publisher for distribution. The aesthetic is wildly coherent because one author held all the threads. Every Joker name is in the same tonal palette. Every card feels hand-balanced.
 
-The lesson is unfair to copy directly — most studios can't afford "one author" — but it argues for **strong directorial authority** even in larger teams. Committee-balanced cards drift toward sameness.
+The lesson is unfair to copy directly, most studios can't afford "one author", but it argues for **strong directorial authority** even in larger teams. Committee-balanced cards drift toward sameness.
 
 ## What I'd be careful about
 
 ### The math ceiling can become a turn-off
 
-By Ante 16, scores cross 10²⁰. For some players, this *feels* unrewarding — the numbers stop being legible, and "I scored 7.7e16" doesn't read as more impressive than "I scored 50,000."
+By Ante 16, scores cross 10²⁰. For some players, this *feels* unrewarding, the numbers stop being legible, and "I scored 7.7e16" doesn't read as more impressive than "I scored 50,000."
 
 LocalThunk has acknowledged this. Endless mode is opt-in; the canonical run ends at Ante 8 with bounded numbers. If you ship multiplicative stacking, **make sure the bounded experience is the canonical one**.
 
@@ -94,7 +94,7 @@ For my own games: ship with playtest analytics if you can. Solo dev "feel" is gr
 
 ### The completion grid is voluntary; some players bounce
 
-15 decks × 8 stakes = 120 cells. Many players complete ~30 cells and stop. The completion grid is *opt-in* — the game doesn't require it for narrative or unlocks.
+15 decks × 8 stakes = 120 cells. Many players complete ~30 cells and stop. The completion grid is *opt-in*, the game doesn't require it for narrative or unlocks.
 
 This is the right design for an audience that wants a math sandbox. But it's hostile to players who need *external structure* to keep engaging. **Offer the completion grid; don't force it.** Don't gate content behind it.
 
@@ -116,7 +116,7 @@ LocalThunk:
 - Shipped without microtransactions or service plans.
 - Sold 5M+ copies.
 
-Most indie devs ship a less-polished game with more ambition (3D, multiplayer, story, voice acting). LocalThunk inverted: small visual scope, *huge* mechanical scope. Pixel art, flat 2D UI, no animations beyond card movements — but 150+ unique Jokers, 30 Boss Blinds, 32 Vouchers.
+Most indie devs ship a less-polished game with more ambition (3D, multiplayer, story, voice acting). LocalThunk inverted: small visual scope, *huge* mechanical scope. Pixel art, flat 2D UI, no animations beyond card movements, but 150+ unique Jokers, 30 Boss Blinds, 32 Vouchers.
 
 The lesson: **scope down on visuals; scope up on systems.** A small team can build the systems of a big game; they cannot build the art of one.
 

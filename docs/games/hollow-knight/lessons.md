@@ -1,5 +1,5 @@
 ---
-title: "Hollow Knight — Lessons"
+title: "Hollow Knight: Lessons"
 type: game
 game: hollow-knight
 ---
@@ -28,7 +28,7 @@ For my own designs: **if combat depth is your goal, make healing risky**. The 1.
 
 Soul fuels both Focus (heal) and spells (damage). You can't pour resources into both. Every Soul gauge is an offense-vs-defense decision.
 
-This is the same insight as Spire's tight-energy-budget — the resource is the design. Hollow Knight just applies it to action combat instead of turn-based combat.
+This is the same insight as Spire's tight-energy-budget, the resource is the design. Hollow Knight just applies it to action combat instead of turn-based combat.
 
 For my own work: **don't bifurcate health and mana if you want tense combat**. The single-resource constraint is what makes encounters interesting.
 

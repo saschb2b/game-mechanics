@@ -1,5 +1,5 @@
 ---
-title: "Hades — Sources"
+title: "Hades: Sources"
 type: game
 game: hades
 ---
@@ -8,28 +8,28 @@ game: hades
 
 ## Wikipedia / official
 
-- [Hades (video game)](https://en.wikipedia.org/wiki/Hades_(video_game)) — Hades 1.
-- [Hades II](https://en.wikipedia.org/wiki/Hades_II) — Hades 2.
-- [Supergiant Games](https://www.supergiantgames.com) — official site.
+- [Hades (video game)](https://en.wikipedia.org/wiki/Hades_(video_game)): Hades 1.
+- [Hades II](https://en.wikipedia.org/wiki/Hades_II): Hades 2.
+- [Supergiant Games](https://www.supergiantgames.com): official site.
 
 ## Wikis
 
-- [hades.fandom.com](https://hades.fandom.com) — comprehensive system docs and stat lookups across both entries.
-- [Game UI Database — Hades II](https://www.gameuidatabase.com/gameData.php?id=2192) — UI screenshot reference, source of most images here.
+- [hades.fandom.com](https://hades.fandom.com): comprehensive system docs and stat lookups across both entries.
+- [Game UI Database: Hades II](https://www.gameuidatabase.com/gameData.php?id=2192), UI screenshot reference, source of most images here.
 
 ## Reviews and dev coverage
 
-- IGN, Polygon, Eurogamer reviews of Hades 1 (2020) — broadly captured the "death-as-narrative" framing.
-- *Hades: Developer Update* devblogs — periodic studio posts on Steam covering EA progression for both entries.
-- Noclip's *Hades* documentary series — multi-part dev-team interview covering the writing system and EA workflow.
-- *The Game Awards 2020* — Hades won Best Indie / Best Action Game / Best Game Direction. Multi-category recognition validated the design as a genre move, not a one-off.
+- IGN, Polygon, Eurogamer reviews of Hades 1 (2020): broadly captured the "death-as-narrative" framing.
+- *Hades: Developer Update* devblogs: periodic studio posts on Steam covering EA progression for both entries.
+- Noclip's *Hades* documentary series: multi-part dev-team interview covering the writing system and EA workflow.
+- *The Game Awards 2020*: Hades won Best Indie / Best Action Game / Best Game Direction. Multi-category recognition validated the design as a genre move, not a one-off.
 
 ## Dev interviews and material
 
-- **Greg Kasavin** (creative director / writer) — recurring podcast / GDC appearances. Repeating themes: writing volume as the enabling constraint, granular dialogue triggers as the engine.
-- **Amir Rao** (studio director) — *Game Maker's Toolkit* interviews on EA workflow and how the studio iterates on player feedback.
-- **Darren Korb** (composer / sound director) — interviews on the audio direction; periodic OST drops via Bandcamp.
-- **Logan Cunningham** (voice of Hades, Charon, Asterius, Skelly + many more) — public interviews on recording the dialogue volume.
+- **Greg Kasavin** (creative director / writer): recurring podcast / GDC appearances. Repeating themes: writing volume as the enabling constraint, granular dialogue triggers as the engine.
+- **Amir Rao** (studio director): *Game Maker's Toolkit* interviews on EA workflow and how the studio iterates on player feedback.
+- **Darren Korb** (composer / sound director): interviews on the audio direction; periodic OST drops via Bandcamp.
+- **Logan Cunningham** (voice of Hades, Charon, Asterius, Skelly + many more): public interviews on recording the dialogue volume.
 
 ## Visual sources
 

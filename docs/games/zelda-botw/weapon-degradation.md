@@ -1,5 +1,5 @@
 ---
-title: "Breath of the Wild — Weapon degradation"
+title: "Breath of the Wild: Weapon degradation"
 type: game
 game: zelda-botw
 patterns:
@@ -11,10 +11,10 @@ patterns:
 
 The most controversial mechanic in BOTW. **Every melee weapon, bow, and shield Link picks up has a hidden durability counter, and breaks after a finite number of hits.** No repair tool. No "permanent weapon" except, eventually, the Master Sword (which itself "runs out of energy" and recharges, not breaks).
 
-Aonuma defended it. Players argued for years. The system is doing more design work than its critics acknowledge — and the cost is real.
+Aonuma defended it. Players argued for years. The system is doing more design work than its critics acknowledge, and the cost is real.
 
 ![Inventory → Weapons tab. 18 weapons listed in a grid; each shows a durability number (5/30, 20/50, 30/50, 10/10, 1/1, 50/50, 50/50, 55/55, 40/40, 42/42, 26/26, 19/19, 15/15, 14/14, 35/35, 18/18). "Edge of Duality" selected: 30/50 durability with green Durability Up modifier. Description: "A curious double-edged sword crafted using Sheikah technology"](/images/zelda-botw/inventory-weapons.jpg)
-*The weapon menu's center constraint: each weapon has a remaining-uses count visible as a number on the icon. The "Edge of Duality" with **Durability Up** modifier displays 30/50 durability — most picked-up weapons sit in the 5-50 hit range. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=35).*
+*The weapon menu's center constraint: each weapon has a remaining-uses count visible as a number on the icon. The "Edge of Duality" with **Durability Up** modifier displays 30/50 durability: most picked-up weapons sit in the 5-50 hit range. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=35).*
 
 ## The numbers
 
@@ -44,11 +44,11 @@ So an "Edge of Duality" 30/50 with Durability Up = ~30 of 75 hits remaining.
 
 > "Having a nice weapon that will break after a certain number of uses, that forces players to think about: when am I going to use it? What enemies am I going to use it on? It encourages the player to strategize."
 >
-> — **Eiji Aonuma**, paraphrased from interviews summarised in [ScreenRant](https://screenrant.com/breath-wild-repair-weapon-durability/) and similar coverage
+>, **Eiji Aonuma**, paraphrased from interviews summarised in [ScreenRant](https://screenrant.com/breath-wild-repair-weapon-durability/) and similar coverage
 
-> "We added weapon durability to draw players into the open world — to encourage them to challenge enemies and claim weapons to use on their adventure."
+> "We added weapon durability to draw players into the open world, to encourage them to challenge enemies and claim weapons to use on their adventure."
 >
-> — **Hidemaro Fujibayashi** (paraphrased)
+>, **Hidemaro Fujibayashi** (paraphrased)
 
 The two stated design goals:
 
@@ -63,7 +63,7 @@ Three persistent player complaints, all worth taking seriously:
 
 ### 1. Reward-trivialisation
 
-Open a chest in a hidden cave after a 20-minute climb. Get a Knight's Broadsword that will break in 30 hits. The reward feels *transient* — the player can't keep it. The tradeoff between exploration effort and reward permanence becomes negative-feeling for many players.
+Open a chest in a hidden cave after a 20-minute climb. Get a Knight's Broadsword that will break in 30 hits. The reward feels *transient*, the player can't keep it. The tradeoff between exploration effort and reward permanence becomes negative-feeling for many players.
 
 ### 2. Cooking + planning friction
 
@@ -73,7 +73,7 @@ Players who *want* to engage with weapon-tier strategy end up:
 - Avoiding combat to preserve weapon durability ("hoarding").
 - Force-completing fights with bare fists or thrown weapons to save the good gear.
 
-The friction is not the design's intent — Aonuma wanted strategy, not menu-juggling — but the player's optimal strategy is to *minimize combat*, which is the opposite of the stated goal.
+The friction is not the design's intent, Aonuma wanted strategy, not menu-juggling, but the player's optimal strategy is to *minimize combat*, which is the opposite of the stated goal.
 
 ### 3. The Master Sword compromise
 
@@ -83,11 +83,11 @@ The legendary, lore-canonical Master Sword is the one weapon that doesn't break.
 
 Despite the friction, the system produces three real design wins:
 
-- **Combat pacing.** Without breakage, players would stick to one weapon class. With breakage, every fight forces variety — you'll cycle through swords, spears, two-handers, claymores, and bows over a single hour, learning each weapon's animations.
+- **Combat pacing.** Without breakage, players would stick to one weapon class. With breakage, every fight forces variety: you'll cycle through swords, spears, two-handers, claymores, and bows over a single hour, learning each weapon's animations.
 - **Exploration justification.** Every camp / shrine / chest is *worth visiting* because the loot has utility. A non-breaking system means most chests become trivial; a breaking system keeps them meaningful.
 - **Difficulty curves.** The Master Sword being *limited* is what allows late-game enemies (Lynels, Guardians) to be threatening at all. If the player had a permanent 60-damage sword, they'd one-shot everything.
 
-The system is a `bonus-with-drawback` at the engagement-loop layer — every weapon you find is also a clock running down. The drawback is what makes the bonus matter.
+The system is a `bonus-with-drawback` at the engagement-loop layer, every weapon you find is also a clock running down. The drawback is what makes the bonus matter.
 
 ## The Tears of the Kingdom answer
 
@@ -99,14 +99,14 @@ Worth flagging as evidence that the team *agreed* the original system needed a f
 
 - **Reward-permanence and engagement-pressure trade off.** A breakable weapon drives engagement with the world; a permanent weapon trivialises that engagement. There's no free option; pick one and commit.
 - **A reload-friction mechanic is hostile to its own goal.** The stated goal was "strategic weapon use." The actual play behaviour was "open menu every 30 seconds." If your strategy mechanic requires menu-opening, the strategy is being eaten by the friction.
-- **Defending a controversial system is a real cost — pay it deliberately.** Aonuma has spent ~7 years defending durability in interviews. The PR cost compounds. If you ship a controversial system, you're committing to the public discourse around it indefinitely.
+- **Defending a controversial system is a real cost: pay it deliberately.** Aonuma has spent ~7 years defending durability in interviews. The PR cost compounds. If you ship a controversial system, you're committing to the public discourse around it indefinitely.
 - **A "limited" legendary item works better than a "breakable" common item.** The Master Sword's energy mechanic is *less* annoying than weapon breakage even though it's mechanically similar. The framing matters: "recharges" reads as ritual, "breaks" reads as loss.
 
 ## Patterns this exemplifies
 
-- `weapon-degradation` — each weapon has a hidden hit-count and breaks. Uncurated; canonical case.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — every weapon found is *also* a depleting resource. Found-resource-as-cost is the structural form.
+- `weapon-degradation`: each weapon has a hidden hit-count and breaks. Uncurated; canonical case.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): every weapon found is *also* a depleting resource. Found-resource-as-cost is the structural form.
 
 ## Adjacent patterns
 
-- `loot-as-engagement-pressure` — the broader category. Diablo's degrading rares, Dark Souls's repair-cost weapons. BOTW's version is the most aggressive and the most disliked.
+- `loot-as-engagement-pressure`: the broader category. Diablo's degrading rares, Dark Souls's repair-cost weapons. BOTW's version is the most aggressive and the most disliked.

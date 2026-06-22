@@ -7,17 +7,17 @@ Sorted alphabetically.
 | Game | Released | Iconic mechanic | Core dialectic |
 |---|---|---|---|
 | [**Balatro**](/games/balatro/) | 2024 | Poker hands × Jokers × deck-mutation × Ante staircase | Familiar surface, deep math underneath |
-| [**Cult of the Lamb**](/games/cult-of-the-lamb/) | 2022 | Indoctrination loop — crusade for resources, run a cult with the spoils | Cute aesthetic vs cult horror; dungeon time vs hub time |
+| [**Cult of the Lamb**](/games/cult-of-the-lamb/) | 2022 | Indoctrination loop: crusade for resources, run a cult with the spoils | Cute aesthetic vs cult horror; dungeon time vs hub time |
 | [**Hades (series)**](/games/hades/) | 2020–2025 | Boon-draft + dialogue-after-death narrative | Death as story beat, not failure |
 | [**Hollow Knight**](/games/hollow-knight/) | 2017 | Charm-notch loadout + soul-as-heal-resource | Exploration as mastery, not direction |
-| [**The Legend of Zelda: Breath of the Wild**](/games/zelda-botw/) | 2017 | Multiplicative chemistry engine + climb-anywhere stamina + 120-shrine puzzle network | Reach for any visible point — and pay for it in stamina, weather, or weapons |
-| [**Mega Man Battle Network (series)**](/games/mega-man-battle-network/) | 2001–2005 | 6×3 real-time grid combat + Folder of Battle Chips + Custom Gauge | Action reflexes + card-game collection — combined, not alternated |
-| [**Mina the Hollower**](/games/mina-the-hollower/) | 2026 | Hollowing — burrowing is your dodge, traversal, and ambush | Deliberate Castlevania combat inside a Zelda-shaped open world |
+| [**The Legend of Zelda: Breath of the Wild**](/games/zelda-botw/) | 2017 | Multiplicative chemistry engine + climb-anywhere stamina + 120-shrine puzzle network | Reach for any visible point, and pay for it in stamina, weather, or weapons |
+| [**Mega Man Battle Network (series)**](/games/mega-man-battle-network/) | 2001–2005 | 6×3 real-time grid combat + Folder of Battle Chips + Custom Gauge | Action reflexes + card-game collection, combined not alternated |
+| [**Mina the Hollower**](/games/mina-the-hollower/) | 2026 | Hollowing: burrowing is your dodge, traversal, and ambush | Deliberate Castlevania combat inside a Zelda-shaped open world |
 | [**Moonlighter 2: The Endless Vault**](/games/moonlighter-2/) | 2025 | Backpack-puzzle pricing + dual-life loop | Greed vs gold |
-| [**Nier: Automata**](/games/nier-automata/) | 2017 | Plug-in chips replace the HUD + multi-route ABCDE structure | Form mirrors theme — every system rereads the fiction |
+| [**Nier: Automata**](/games/nier-automata/) | 2017 | Plug-in chips replace the HUD + multi-route ABCDE structure | Form mirrors theme; every system rereads the fiction |
 | [**Path of Exile**](/games/path-of-exile/) | 2013 | 1500-node passive tree + skill gems as gear | Friction over convenience |
 | [**Path of Exile 2**](/games/path-of-exile-2/) | 2024 (EA) | Slowed combat + weapons grant skills | Re-litigating PoE1's drift toward speed-clearing |
-| [**Pokémon Ruby/Sapphire/Emerald**](/games/pokemon-rse/) | 2002–2004 | 17-type RPS + 4-move loadout + permanent stat profile per Pokémon | Math under cute — a six-axis stat optimisation sim packaged as a kids' adventure |
+| [**Pokémon Ruby/Sapphire/Emerald**](/games/pokemon-rse/) | 2002–2004 | 17-type RPS + 4-move loadout + permanent stat profile per Pokémon | Math under cute: a six-axis stat optimisation sim packaged as a kids' adventure |
 | [**Slay the Spire**](/games/slay-the-spire/) | 2019 | Card draft + Ascension staircase | Risk vs reward, fractally |
 | [**Sparklite**](/games/sparklite/) | 2019 | Patch-board grid inventory + permalife | Power growth vs spatial budget |
 | [**Warframe**](/games/warframe/) | 2013 | Forma + Riven Disposition | Power fantasy vs grind |

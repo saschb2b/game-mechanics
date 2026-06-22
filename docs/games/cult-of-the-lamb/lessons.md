@@ -1,5 +1,5 @@
 ---
-title: "Cult of the Lamb — Lessons"
+title: "Cult of the Lamb: Lessons"
 type: game
 game: cult-of-the-lamb
 ---
@@ -10,12 +10,12 @@ Opinionated takeaways from the dissection. Things worth stealing for indie / God
 
 ## Steal: a 1:1 clock between hub and run
 
-The single most differentiating choice in Cult of the Lamb is that **a Crusade is ~15 minutes and so is a hub day, and the hub clock keeps ticking during the run**. The implication is that the player is *spending the same minute* on each side — they can't get all the way greedy on either.
+The single most differentiating choice in Cult of the Lamb is that **a Crusade is ~15 minutes and so is a hub day, and the hub clock keeps ticking during the run**. The implication is that the player is *spending the same minute* on each side, they can't get all the way greedy on either.
 
 Why this is worth stealing:
 - It makes the time-budgeting *itself* the meta-game on top of both halves.
 - It makes the hub feel alive even when you're not in it.
-- It's mechanically cheap — just don't pause the hub timers when you load the dungeon scene.
+- It's mechanically cheap: just don't pause the hub timers when you load the dungeon scene.
 
 **Caveat:** this is also the most-complained-about design choice in negative reviews. Ship a "skip the night" verb early in the unlock arc (CotL waited 18 months to add the Leader's Tent; that was the wrong order).
 
@@ -32,31 +32,31 @@ The discipline: when you add a new resource, you must add a named consumer for i
 
 ## Steal: triple-payoff bosses
 
-Each Bishop kill pays out three layers at once — story beat + permanent ability + hub population jump. The act-clear *feels* three times bigger than the time invested.
+Each Bishop kill pays out three layers at once, story beat + permanent ability + hub population jump. The act-clear *feels* three times bigger than the time invested.
 
 Why this is worth stealing:
-- It decouples reward from *how clean the fight was*. A 1-HP-scrape Bishop kill pays the same as a 5-star one — which means **bad-run-good-payoff is possible**, which is one of the things that keeps players in a campaign.
+- It decouples reward from *how clean the fight was*. A 1-HP-scrape Bishop kill pays the same as a 5-star one: which means **bad-run-good-payoff is possible**, which is one of the things that keeps players in a campaign.
 - It compresses several pacing beats into one event, so the game's narrative pulse is high without the dev needing to author more story beats.
 
 In a smaller game: every boss kill should pay (a) progression, (b) a permanent verb, (c) a state change in the hub/town. Pick three. Don't ship a one-payoff boss.
 
 ## Steal: doctrine-as-binary-fork
 
-Doctrines force a permanent cult-wide policy choice with mutually exclusive options. The forks are designed so *neither* is strictly correct — each closes the *other's* exploit while opening its own.
+Doctrines force a permanent cult-wide policy choice with mutually exclusive options. The forks are designed so *neither* is strictly correct, each closes the *other's* exploit while opening its own.
 
 Why this is worth stealing:
-- It produces **replayable runs without changing the mechanic** — different Doctrine choices generate genuinely different cult cultures.
+- It produces **replayable runs without changing the mechanic**: different Doctrine choices generate genuinely different cult cultures.
 - It makes the *narrative* of a save file flow from the player's choices, not from the dev's branching scripts.
-- It's mechanically cheap — each Doctrine is a couple of flags and a couple of recipe substitutions.
+- It's mechanically cheap: each Doctrine is a couple of flags and a couple of recipe substitutions.
 
-The discipline: do not give the player a "respec" button. The forks have to commit. If you respec, they aren't choices — they're loadouts.
+The discipline: do not give the player a "respec" button. The forks have to commit. If you respec, they aren't choices, they're loadouts.
 
 ## Steal: the follower-cost sacrifice door
 
 The sacrifice door (pay 1 follower from the hub to open a Crusade detour) is the *only* node in any game I know of that takes resources from the *other* loop. It's the single most expressive cross-loop choice in the genre.
 
 Why this is worth stealing:
-- It turns the *other* loop's state into a *currency*. The hub isn't just a passive backdrop — it's a wallet.
+- It turns the *other* loop's state into a *currency*. The hub isn't just a passive backdrop: it's a wallet.
 - It produces wildly different emotional weight per use because the cost is a **named character**, not a number.
 
 The discipline: the cost has to be *expensive* and *visible*. CotL shows the follower's name and your remaining count before you commit; that's correct. Don't hide the cost.
@@ -65,7 +65,7 @@ The discipline: the cost has to be *expensive* and *visible*. CotL shows the fol
 
 Cult of the Lamb shipped *eight* free major updates in two years, then pivoted to a paid expansion. The pivot was *publicly framed*:
 
-> "This will be the last of our free updates for now. We have given a lot of love, and now it's time to get some money from people." — Julian Wilton
+> "This will be the last of our free updates for now. We have given a lot of love, and now it's time to get some money from people.", Julian Wilton
 
 Why this is worth stealing:
 - Free updates → re-engaged audience → bigger market for the paid expansion.
@@ -75,12 +75,12 @@ Why this is worth stealing:
 
 ## Steal: late-introduced mechanics that **extend** existing systems
 
-The 2024 *Sins of the Flesh* update added procreation. It didn't replace the recruitment loop — it added a *second* recruitment source that interacted with the existing one (follower traits became heritable).
+The 2024 *Sins of the Flesh* update added procreation. It didn't replace the recruitment loop, it added a *second* recruitment source that interacted with the existing one (follower traits became heritable).
 
 Why this is worth stealing:
 - Late-introduced mechanics are usually risky because they invalidate prior decisions.
 - Extension-not-replacement preserves the player's earlier investments.
-- It also lets the original launch arc remain *complete on its own* — important for buyers who don't follow updates.
+- It also lets the original launch arc remain *complete on its own*: important for buyers who don't follow updates.
 
 The discipline: a late-added mechanic must be representable as "X you already love, now with a new input/output."
 
@@ -88,11 +88,11 @@ The discipline: a late-added mechanic must be representable as "X you already lo
 
 Cult of the Lamb's cute aesthetic enables the dark mechanics, but the *story* never makes the Lamb confront them. A vocal cohort of reviewers reads this as "all aesthetic, no consequence." See [ludonarrative reading](./ludonarrative-resonance.md).
 
-If you're building a similar dialectic, ship at least *one* in-narrative moment where the protagonist is forced to face what they've done. Doesn't have to be much — a single forced-pause dialogue at a milestone. The cost is small; the payoff is the resonance going from *split* to *affirms*.
+If you're building a similar dialectic, ship at least *one* in-narrative moment where the protagonist is forced to face what they've done. Doesn't have to be much, a single forced-pause dialogue at a milestone. The cost is small; the payoff is the resonance going from *split* to *affirms*.
 
 ## Cautionary: hub micromanagement scales linearly with population
 
-A cult of 10 followers is fun to maintain. A cult of 35 is a click carousel. CotL never fixes the scaling problem — late-game hub time is mostly bless-pet-bless-pet-feed-feed-clean-clean.
+A cult of 10 followers is fun to maintain. A cult of 35 is a click carousel. CotL never fixes the scaling problem, late-game hub time is mostly bless-pet-bless-pet-feed-feed-clean-clean.
 
 If you're building a colony sim layered on a roguelite:
 - Cap the population or **make follower self-sufficiency** a deep tree itself.
@@ -103,9 +103,9 @@ If you're building a colony sim layered on a roguelite:
 
 Massive Monster acknowledged it openly:
 
-> "Each side of the game had to be simpler than a game that only does one thing." — Jay Armstrong
+> "Each side of the game had to be simpler than a game that only does one thing.", Jay Armstrong
 
-The trade is real. Players who want depth-of-combat go to Hades. Players who want depth-of-colony go to Stardew. Cult of the Lamb's audience is the *fusion* audience — and that audience exists, but it's not the same audience as either pure-genre player.
+The trade is real. Players who want depth-of-combat go to Hades. Players who want depth-of-colony go to Stardew. Cult of the Lamb's audience is the *fusion* audience, and that audience exists, but it's not the same audience as either pure-genre player.
 
 If you ship a fusion, **own that you're not the depth choice for either half** in your marketing. Don't promise Hades-level combat in your trailer.
 

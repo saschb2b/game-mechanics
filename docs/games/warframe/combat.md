@@ -1,5 +1,5 @@
 ---
-title: "Warframe — Combat"
+title: "Warframe: Combat"
 type: game
 game: warframe
 patterns:
@@ -11,7 +11,7 @@ patterns:
 
 # Combat
 
-Less novel than the meta systems, but worth a page because it's the *fun* — and because the damage-type matrix is a genuinely strong combat-design pattern.
+Less novel than the meta systems, but worth a page because it's the *fun*, and because the damage-type matrix is a genuinely strong combat-design pattern.
 
 ![In-mission HUD: shields, energy, ability bar, minimap, weapon reticle](/images/warframe/in-mission-hud.jpg)
 *In-mission HUD. Shields (blue), health (red), energy (yellow), 4-ability bar (bottom-left), minimap, waypoint markers. Tile-set procedural levels under the action layer. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
@@ -29,10 +29,10 @@ Combat that asks for fast movement *plus* big AoE *plus* power-fantasy abilities
 - **Melee** (sword, hammer, polearm, gunblade, whip-claw, …).
 - **4 frame abilities** consuming Energy.
 
-Cycle freely between them. Most missions reward switching — heavy gunners for crowd, melee for heat-wave room clears, abilities for boss debuff windows.
+Cycle freely between them. Most missions reward switching, heavy gunners for crowd, melee for heat-wave room clears, abilities for boss debuff windows.
 
-![Excalibur abilities screen — frame model with surrounding enemies in tableau, four ability icons at the bottom: Slash Dash, Radial Blind, Radial Javelin, Exalted Blade](/images/warframe/abilities.jpg)
-*The 4-ability bar — every frame has exactly four. Excalibur shown: Slash Dash (mobility burst), Radial Blind (CC), Radial Javelin (AoE damage), Exalted Blade (channeled signature ult). Each ability has its own Energy cost and tactical role; ability order across frames is a hidden language ("4 is the ult, 1 is the cheap one"). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
+![Excalibur abilities screen, frame model with surrounding enemies in tableau, four ability icons at the bottom: Slash Dash, Radial Blind, Radial Javelin, Exalted Blade](/images/warframe/abilities.jpg)
+*The 4-ability bar: every frame has exactly four. Excalibur shown: Slash Dash (mobility burst), Radial Blind (CC), Radial Javelin (AoE damage), Exalted Blade (channeled signature ult). Each ability has its own Energy cost and tactical role; ability order across frames is a hidden language ("4 is the ult, 1 is the cheap one"). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=192).*
 
 ## Damage type matrix
 
@@ -56,9 +56,9 @@ The actual combat-design depth lives here.
 
 Each enemy faction (Grineer / Corpus / Infested / Sentient / Murmur) has its own armor/flesh/shield distribution with rock-paper-scissors weaknesses.
 
-**Build crafting is partly choosing which elements to layer.** A weapon with Toxin + Cold mods does Viral, ignores armor scaling, and demolishes Grineer flesh — but is mediocre against Corpus shields. So players carry multiple builds or pick the loadout per mission.
+**Build crafting is partly choosing which elements to layer.** A weapon with Toxin + Cold mods does Viral, ignores armor scaling, and demolishes Grineer flesh: but is mediocre against Corpus shields. So players carry multiple builds or pick the loadout per mission.
 
-The depth isn't *raw damage* — it's *damage type*. See `damage-type-matrix`.
+The depth isn't *raw damage*, it's *damage type*. See `damage-type-matrix`.
 
 ## Status effects as build-defining tags
 
@@ -78,7 +78,7 @@ See `damage-archetype-via-tags` (concept page TBD).
 
 Hand-authored tile-sets, procedurally connected.
 
-The exact same trick Sparklite uses for its biomes — Warframe shipped it 6 years earlier. Mission types (Survival, Defense, Disruption, Capture, …) define objectives; tile-sets (Grineer asteroid, Corpus ship, Infested ship, Earth forest, …) define aesthetic and layout vocabulary. The procedural piece is *which* tiles get connected this run; the hand-crafted piece is *what's inside* each tile.
+The exact same trick Sparklite uses for its biomes, Warframe shipped it 6 years earlier. Mission types (Survival, Defense, Disruption, Capture, …) define objectives; tile-sets (Grineer asteroid, Corpus ship, Infested ship, Earth forest, …) define aesthetic and layout vocabulary. The procedural piece is *which* tiles get connected this run; the hand-crafted piece is *what's inside* each tile.
 
 See [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid).
 
@@ -86,7 +86,7 @@ See [`handcrafted-pcg-hybrid`](/concepts/handcrafted-pcg-hybrid).
 
 Up to 4 players per mission. Enemy stats scale with player count. Friendly fire off. No PvP in core loop (Conclave exists but is largely abandoned).
 
-The **power fantasy** intent is explicit. Maxed builds melt entire rooms — by design — but DE periodically nerfs frames whose room-clearing removes other players' ability to *participate*. Tension between "I'm a god" and "I'm part of a squad" is unresolved and likely permanent. See [design tensions](./design-tensions.md).
+The **power fantasy** intent is explicit. Maxed builds melt entire rooms, by design, but DE periodically nerfs frames whose room-clearing removes other players' ability to *participate*. Tension between "I'm a god" and "I'm part of a squad" is unresolved and likely permanent. See [design tensions](./design-tensions.md).
 
 ## Patterns this exemplifies
 

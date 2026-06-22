@@ -1,19 +1,19 @@
 ---
-title: "Cult of the Lamb — Post-launch evolution"
+title: "Cult of the Lamb: Post-launch evolution"
 type: game
 game: cult-of-the-lamb
 patterns:
   - late-introduced-mechanics
 ---
 
-# Post-launch evolution — eight free updates → first paid expansion
+# Post-launch evolution: eight free updates → first paid expansion
 
-The base game at launch (Aug 11, 2022 — v1.0) was a complete arc. The cult shipped with one Doctrine tree per launch category, four Bishops, five weapons, the original combat system, and no NG+. **Most of what people now consider Cult of the Lamb arrived after release** — over eight free major updates spanning two years, then the first paid expansion (Woolhaven) in early 2026.
+The base game at launch (Aug 11, 2022, v1.0) was a complete arc. The cult shipped with one Doctrine tree per launch category, four Bishops, five weapons, the original combat system, and no NG+. **Most of what people now consider Cult of the Lamb arrived after release**, over eight free major updates spanning two years, then the first paid expansion (Woolhaven) in early 2026.
 
 This page is the timeline plus the lessons baked into the cadence.
 
-![The title screen showing version 1.0.1 (top right) — the build these screenshots come from](/images/cult-of-the-lamb/title-screen.jpg)
-*The 1.0.1 baseline this dossier's screenshots come from — i.e., before any of the major updates listed below. Worth keeping in mind when reading: "the original cult" is much smaller than the post-Woolhaven game. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1549).*
+![The title screen showing version 1.0.1 (top right), the build these screenshots come from](/images/cult-of-the-lamb/title-screen.jpg)
+*The 1.0.1 baseline this dossier's screenshots come from: i.e., before any of the major updates listed below. Worth keeping in mind when reading: "the original cult" is much smaller than the post-Woolhaven game. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1549).*
 
 ## Timeline
 
@@ -31,10 +31,10 @@ This page is the timeline plus the lessons baked into the cadence.
 
 ## What each update teaches the design analyst
 
-### Blood Moon — proof that limited-time events can become permanent
+### Blood Moon: proof that limited-time events can become permanent
 The Halloween festival started as a limited-time drop and was made permanent in November. The lesson: **a seasonal event is a low-risk way to test a major new system** (here, the Blood Moon Ritual and a whole class of dark-themed follower forms). If it lands, you fold it into base.
 
-### Relics of the Old Faith — the inflection update
+### Relics of the Old Faith: the inflection update
 This is the single biggest update and the one that retroactively transformed the game's Steam-review trajectory. The structural moves:
 
 - **Post-game story** addresses "the credits roll feels too early."
@@ -46,25 +46,25 @@ This is the single biggest update and the one that retroactively transformed the
 
 This update is a textbook case of **listening to the specific shape of player complaints and shipping a targeted fix per complaint**, rather than a vague "more content" patch.
 
-### Don't Starve crossover — IP partnership as content moat
-A clean crossover with another Devolver-adjacent indie roguelike adds *narrative weight* without much *system risk* — Webber is a follower form, Penitence Mode is a settings toggle. The cost is small; the cross-community marketing is large.
+### Don't Starve crossover: IP partnership as content moat
+A clean crossover with another Devolver-adjacent indie roguelike adds *narrative weight* without much *system risk*, Webber is a follower form, Penitence Mode is a settings toggle. The cost is small; the cross-community marketing is large.
 
-### Sins of the Flesh — late-introduced mechanic
+### Sins of the Flesh: late-introduced mechanic
 Adding procreation **18 months after launch** turned the follower lifecycle from *recruitment → death* (a 1-way attrition loop) into *recruitment → procreation → death* (a self-sustaining loop). Late-introduced mechanics are usually risky because they invalidate prior decisions; CotL got away with it because the new system *extended* existing systems rather than replacing them.
 
 The **Leader's Tent** is the specific design fix for the launch friction the index page calls out: time passes during Crusades. Add a "skip a night" verb three years in and the worst long-tail complaint about the hub clock loses its teeth.
 
 See the pattern: [`late-introduced-mechanics`](/concepts/late-introduced-mechanics).
 
-### Unholy Alliance — co-op as a fresh audience hook
+### Unholy Alliance: co-op as a fresh audience hook
 Local 2-player co-op is the largest *structural* change. It introduces:
 - back-to-back fighting / sync mechanics,
 - co-op-only Tarots / Relics,
 - a co-op-only "Nursery" building.
 
-The lesson is more economic than design: a fully-co-op'd existing game opens up the audience to the "let's play with my partner" market — Steam reviews note that this update specifically drove a wave of new purchases.
+The lesson is more economic than design: a fully-co-op'd existing game opens up the audience to the "let's play with my partner" market, Steam reviews note that this update specifically drove a wave of new purchases.
 
-### Woolhaven — the paid pivot
+### Woolhaven: the paid pivot
 After two years of free updates, Massive Monster shipped the first paid expansion. Julian Wilton (Massive Monster blog / well-played.com.au):
 
 > "This will be the last of our free updates for now. We have given a lot of love, and now it's time to get some money from people."
@@ -80,14 +80,14 @@ CotL is one of the canonical examples of **live-service shape without live-servi
 - Paid cosmetic packs (Heretic, Cultist, Pilgrim) are entirely *optional* and *separate*.
 - Free major updates on a roughly twice-a-year cadence for two years.
 
-The result was that Steam reviews kept *climbing* post-launch (most games trend down), the player base kept *re-engaging* on each major drop, and the game's cultural footprint kept growing. The trade-off — confirmed by the Wilton quote above — is that the studio was funding two years of update work from launch sales alone. The paid pivot is the necessary closing of that loop.
+The result was that Steam reviews kept *climbing* post-launch (most games trend down), the player base kept *re-engaging* on each major drop, and the game's cultural footprint kept growing. The trade-off, confirmed by the Wilton quote above, is that the studio was funding two years of update work from launch sales alone. The paid pivot is the necessary closing of that loop.
 
 ## What carries forward to indie design lessons
 
 1. **Ship a complete arc first.** CotL 1.0 had a full credits roll. The updates expanded *within* that arc rather than retrofitting an arc onto an open-ended game.
 2. **Listen to specific complaints, not vibes.** Relics of the Old Faith fixed five distinct named complaints at once.
 3. **Late mechanics should extend, not replace.** Procreation extended the follower loop; it didn't replace it.
-4. **Make the time-cost of free updates honest.** Don't pretend the studio can do this forever. The eventual paid pivot is OK — make it transparent.
+4. **Make the time-cost of free updates honest.** Don't pretend the studio can do this forever. The eventual paid pivot is OK: make it transparent.
 5. **Crossovers cost little if they don't change the core.** Webber's a sprite swap; Penitence is a toggle. High-perceived-value, low engineering cost.
 
 See [Lessons](./lessons.md) for the longer takeaways.

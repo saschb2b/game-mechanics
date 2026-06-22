@@ -1,5 +1,5 @@
 ---
-title: "Balatro — The deck as the build"
+title: "Balatro: The deck as the build"
 type: game
 game: balatro
 patterns:
@@ -9,12 +9,12 @@ patterns:
 
 # The deck as the build
 
-Most card games treat the deck as input — you draw, you play, you reshuffle. Balatro treats the deck as **equipment**. Tarot Cards mutate cards; Spectral Cards transform them; Enhancements / Editions / Seals stack three orthogonal modifier dimensions on each card.
+Most card games treat the deck as input: you draw, you play, you reshuffle. Balatro treats the deck as **equipment**. Tarot Cards mutate cards; Spectral Cards transform them; Enhancements / Editions / Seals stack three orthogonal modifier dimensions on each card.
 
 By Ante 8, your deck is no longer a standard 52-card poker deck. It is a curated weapon.
 
-![Full Deck reference — Red Deck shown (+1 discard every round). 4×13 grid of every playing card; greyed-out cards are already drawn or removed. Sidebar: rank counts (A 4 / K 3 / Q 4 / J 4 / 10 3 …) + suit counts (♠ 12 / ♥ 10 / ♣ 10 / ♦ 12)](/images/balatro/full-deck.jpg)
-*The Full Deck reference page shows what's currently in the deck — including greyed-out cards that have been drawn this round, removed via Tarot, or destroyed. Suit and rank counts in the sidebar update live as the deck mutates. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
+![Full Deck reference, Red Deck shown (+1 discard every round). 4×13 grid of every playing card; greyed-out cards are already drawn or removed. Sidebar: rank counts (A 4 / K 3 / Q 4 / J 4 / 10 3 …) + suit counts (♠ 12 / ♥ 10 / ♣ 10 / ♦ 12)](/images/balatro/full-deck.jpg)
+*The Full Deck reference page shows what's currently in the deck, including greyed-out cards that have been drawn this round, removed via Tarot, or destroyed. Suit and rank counts in the sidebar update live as the deck mutates. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 ## Three orthogonal modifier dimensions
 
@@ -28,29 +28,29 @@ Each playing card can carry up to **one of each**:
 
 So a single playing card can be: *Polychrome Glass Two of Hearts with a Red Seal*. That card alone adds chips, ×1.5 mult, ×2 mult on score, 25% break-on-use risk, retriggers itself, and counts as a Heart for suit synergies.
 
-![Enhancements grid — 8 enhancement card variants (Bonus / Mult / Wild / Glass / Steel / Stone / Gold / Lucky). Tooltip on Bonus: "+30 extra chips."](/images/balatro/enhancements-grid.jpg)
-*The 8 Enhanced Card variants. Each replaces or augments a playing card's behaviour. The "Stone Card" — no rank, no suit, +50 chips — breaks the card's identity entirely. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
+![Enhancements grid, 8 enhancement card variants (Bonus / Mult / Wild / Glass / Steel / Stone / Gold / Lucky). Tooltip on Bonus: "+30 extra chips."](/images/balatro/enhancements-grid.jpg)
+*The 8 Enhanced Card variants. Each replaces or augments a playing card's behaviour. The "Stone Card" (no rank, no suit, +50 chips) breaks the card's identity entirely. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
-![Seals grid — 4 colored seals (Gold / Red / Blue / Purple) on otherwise-blank playing cards. Tooltip on Gold Seal: "Earn $3 when this card is played and scores."](/images/balatro/seals-grid.jpg)
+![Seals grid, 4 colored seals (Gold / Red / Blue / Purple) on otherwise-blank playing cards. Tooltip on Gold Seal: "Earn $3 when this card is played and scores."](/images/balatro/seals-grid.jpg)
 *Seals are a per-card modifier dimension orthogonal to enhancements and editions. A card can have all three. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
-## Tarots — the deck-mutation layer
+## Tarots: the deck-mutation layer
 
 Tarot Cards (consumables, ~22 of them) are the primary mutation tool. Each does one of:
 
 - **Mutate cards** (Strength: enhance to next rank; Death: copy one card to another; Tower: convert to Stone Card; Hierophant: enhance 2 selected to Bonus)
 - **Add cards** (Wheel of Fortune: 25% chance to add an edition to a Joker; The World: change suit of selected to Spades)
-- **Destroy cards** (Hanged Man: destroy 2 selected — for thinning)
+- **Destroy cards** (Hanged Man: destroy 2 selected, for thinning)
 - **Generate consumables** (The Magician: enhance to Lucky; Hermit: gain $X based on conditions)
 
-![Tarot Cards collection — 22 Major-Arcana cards in pixel-art (Fool / Magician / High Priestess / Empress / Emperor / Hierophant / Lovers / Chariot / Justice / Hermit / Wheel of Fortune visible)](/images/balatro/tarot-grid.jpg)
+![Tarot Cards collection, 22 Major-Arcana cards in pixel-art (Fool / Magician / High Priestess / Empress / Emperor / Hierophant / Lovers / Chariot / Justice / Hermit / Wheel of Fortune visible)](/images/balatro/tarot-grid.jpg)
 *The Tarot collection page. Each card maps onto a specific deck-mutation effect. Drawn from Arcana Packs in the shop, or generated by Spectral cards / certain Jokers. Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
-## Spectral Cards — the dangerous mutation layer
+## Spectral Cards: the dangerous mutation layer
 
 Spectral Cards are rarer, stronger, and usually carry a cost.
 
-![Spectral Cards collection — Incantation card visible with tooltip: "Destroy 1 random card in your hand, add 4 random Enhanced numbered cards to your hand." Ectoplasm in the side preview](/images/balatro/spectral-grid.jpg)
+![Spectral Cards collection, Incantation card visible with tooltip: "Destroy 1 random card in your hand, add 4 random Enhanced numbered cards to your hand." Ectoplasm in the side preview](/images/balatro/spectral-grid.jpg)
 *Spectral Cards are rare consumables that mutate the deck more aggressively. Each typically pairs an upside (gain Enhanced cards, copy a Joker, etc.) with a real cost (destroy other Jokers, lose hand size, etc.). Source: [Game UI Database](https://www.gameuidatabase.com/gameData.php?id=1935).*
 
 Examples:
@@ -69,11 +69,11 @@ Examples:
 | **Cryptid** | Create 2 copies of a selected card |
 | **Hex** | Polychrome Edition on a random Joker, **destroy all other Jokers** |
 
-The "destroy all other Jokers" pattern on Ankh / Hex is the canonical [`bonus-with-drawback`](/concepts/bonus-with-drawback) — accept catastrophic loss for one specific powerful upgrade. Most experienced players keep a Spectral in reserve for the right moment.
+The "destroy all other Jokers" pattern on Ankh / Hex is the canonical [`bonus-with-drawback`](/concepts/bonus-with-drawback): accept catastrophic loss for one specific powerful upgrade. Most experienced players keep a Spectral in reserve for the right moment.
 
 ## Subtractive deckbuilding done right
 
-Balatro's deck mutation is a strong instance of [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding) — the *removal* of cards is itself a build move:
+Balatro's deck mutation is a strong instance of [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding): the *removal* of cards is itself a build move.
 
 - **Thin the deck** with The Hanged Man (destroy 2 cards) so you draw your good cards more often.
 - **Filter by suit** by destroying off-suit cards in a Flush build.
@@ -92,6 +92,6 @@ The Spire reference is direct: Slay the Spire's "remove a card at the campfire /
 
 ## Patterns this exemplifies
 
-- [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding) — Tarots and Spectral Cards thin and re-shape the deck. Balatro is the strongest expression of this pattern in the knowledge base, *more* aggressive than Slay the Spire.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — Spectral Cards (Ankh, Hex, Ectoplasm) carry hard drawbacks. Glass Cards (×2 mult / 25% break). Stone Cards (huge chips, no rank or suit so they break poker hands).
-- `equipment-as-input-layer` — the input format (a 52-card deck) is itself moddable. Uncurated.
+- [`subtractive-deckbuilding`](/concepts/subtractive-deckbuilding): Tarots and Spectral Cards thin and re-shape the deck. Balatro is the strongest expression of this pattern in the knowledge base, *more* aggressive than Slay the Spire.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): Spectral Cards (Ankh, Hex, Ectoplasm) carry hard drawbacks. Glass Cards (×2 mult / 25% break). Stone Cards (huge chips, no rank or suit so they break poker hands).
+- `equipment-as-input-layer`: the input format (a 52-card deck) is itself moddable. Uncurated.

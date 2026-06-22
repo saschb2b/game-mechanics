@@ -1,5 +1,5 @@
 ---
-title: "Hades — Lessons"
+title: "Hades: Lessons"
 type: game
 game: hades
 ---
@@ -10,9 +10,9 @@ Notes for Godot work, opinionated. Hades's load-bearing innovation is **converti
 
 ## 1. The post-death return location is a writing surface
 
-Most roguelites treat the post-death state as a punishment the player wants to skip past. Hades treats it as the **most narratively-productive moment in the loop** — the player just finished a run, has fresh memory of what happened, and is about to make decisions about the next attempt. The hub is where that energy gets converted into character writing.
+Most roguelites treat the post-death state as a punishment the player wants to skip past. Hades treats it as the **most narratively-productive moment in the loop**: the player just finished a run, has fresh memory of what happened, and is about to make decisions about the next attempt. The hub is where that energy gets converted into character writing.
 
-For my own work: **if my game has a return-to-hub-on-death loop, every NPC at the hub is a potential dialogue-progression node**. Each NPC should have *fresh content* surfaced based on what happened on the previous run — not just generic filler.
+For my own work: **if my game has a return-to-hub-on-death loop, every NPC at the hub is a potential dialogue-progression node**. Each NPC should have *fresh content* surfaced based on what happened on the previous run, not just generic filler.
 
 The cost is real: this requires (a) a granular dialogue trigger system, (b) writing volume (Hades 1 ships ~21,000 lines), and (c) tagging discipline so triggers fire at the right moments. But the payoff is the rarest thing in roguelite design: the player *wanting* to die because they want to see what happens next.
 
@@ -42,7 +42,7 @@ Cheap to author, big perceived depth. Two axes are usually enough; three is over
 
 Hades 1 has an actual ending (not infinite escalation), then **post-credits content via Pact** for players who want to keep going. This shape:
 
-- Lets the writing team ship a real **arc** — beginning, middle, climax, resolution.
+- Lets the writing team ship a real **arc**: beginning, middle, climax, resolution.
 - Doesn't punish players who want to stop at the credits.
 - Keeps players who *want* the chase engaged via opt-in difficulty.
 - Avoids the infinite-roguelite trap where the writing has to support a 1000-hour engagement curve.
@@ -54,4 +54,4 @@ For my own designs: **if my game has narrative arcs, prefer bounded + opt-in ext
 - **Volume of writing is non-negotiable.** Hades's core innovation is unreplicable without a 20,000+ line dialogue commitment. Don't ship death-as-narrative if you can't fund the writing.
 - **Granular trigger systems are engineering work.** The trigger condition matrix has to land before content authoring scales. Build it first; don't bolt it on.
 - **The hub-character roster is the limiting reagent.** Each NPC supports ~500 unique lines in Hades-shape. If you have 3 NPCs, you have ~1500 lines of unique content. Plan headcount accordingly.
-- **The sequel decision is harder than it looks.** Hades 2 took 3+ years of EA. The original system worked; the new system had to extend without breaking. Adding a new resource axis (Magick) is a massive content multiplier — don't do it casually.
+- **The sequel decision is harder than it looks.** Hades 2 took 3+ years of EA. The original system worked; the new system had to extend without breaking. Adding a new resource axis (Magick) is a massive content multiplier; don't do it casually.

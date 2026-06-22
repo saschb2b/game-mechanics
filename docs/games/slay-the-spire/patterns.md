@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire — Patterns"
+title: "Slay the Spire: Patterns"
 type: game
 game: slay-the-spire
 ---

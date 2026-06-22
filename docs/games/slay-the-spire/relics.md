@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire — Relics"
+title: "Slay the Spire: Relics"
 type: game
 game: slay-the-spire
 patterns:
@@ -11,8 +11,8 @@ patterns:
 
 *Passive permanent effects* for the run. You start with 1 (character-specific starter) and accumulate ~10–20 by the end of a successful run.
 
-![Council of Ghosts event — Accept gain 5 Apparition lose 50 percent max HP, or Refuse](/images/slay-the-spire/event-council-ghosts.jpg)
-*The Council of Ghosts event — a textbook bonus-with-drawback choice: gain 5 Apparition (a powerful run-defining buff) at the cost of 50% max HP. Most game-warping rewards in Spire pair upside with real cost. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
+![Council of Ghosts event, Accept gain 5 Apparition lose 50 percent max HP, or Refuse](/images/slay-the-spire/event-council-ghosts.jpg)
+*The Council of Ghosts event: a textbook bonus-with-drawback choice: gain 5 Apparition (a powerful run-defining buff) at the cost of 50% max HP. Most game-warping rewards in Spire pair upside with real cost. Source: [Steam](https://store.steampowered.com/app/646570/Slay_the_Spire/).*
 
 ## Where relics come from
 
@@ -50,7 +50,7 @@ Each relic is a small *modifier* that turns a normal run into a specific puzzle.
 
 See `rule-breaking-relics`.
 
-## Boss relics — the highest-stakes choice
+## Boss relics: the highest-stakes choice
 
 After each act boss, pick 1 of 3 boss relics. These are the **most game-warping options in the game.** Most have a real **drawback** alongside a powerful bonus:
 
@@ -59,13 +59,13 @@ After each act boss, pick 1 of 3 boss relics. These are the **most game-warping 
 - Coffee Dripper → +1 energy / no Rest.
 - Black Star → Elites drop a powerful Boss-tier relic / common-tier act 1 relic gone.
 
-The drawback is the design point. **Boss relics force you to commit to a strategy direction.** They make the run "about" something — and they prevent you from picking up the most-broken option without a real cost.
+The drawback is the design point. **Boss relics force you to commit to a strategy direction.** They make the run "about" something, and they prevent you from picking up the most-broken option without a real cost.
 
 See [`bonus-with-drawback`](/concepts/bonus-with-drawback).
 
 ## What this teaches
 
-If your game has run-defining loot, **give it costs.** Uncosted upgrades flatten variety because every "great" run has the same shape. Costed upgrades create distinct "this is what the run is about" identities — and force the player to commit to a path rather than collect everything.
+If your game has run-defining loot, **give it costs.** Uncosted upgrades flatten variety because every "great" run has the same shape. Costed upgrades create distinct "this is what the run is about" identities, and force the player to commit to a path rather than collect everything.
 
 ## Patterns this exemplifies
 

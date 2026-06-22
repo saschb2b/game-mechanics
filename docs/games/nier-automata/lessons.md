@@ -1,12 +1,12 @@
 ---
-title: "Nier: Automata — Lessons"
+title: "Nier: Automata: Lessons"
 type: game
 game: nier-automata
 ---
 
 # Lessons
 
-What I'd steal — and what I'd be careful about — for my own (Godot) games.
+What I'd steal, and what I'd be careful about, for my own (Godot) games.
 
 ## What I'd steal
 
@@ -40,7 +40,7 @@ For an item-heavy game, this single decision can roughly *quadruple* the felt pr
 
 ### Mandatory ≠ unequippable
 
-The OS Chip lets the player do the wrong thing — uninstall their own operating system — and immediately punishes it. The lesson: **don't grey out interactions just because they have catastrophic consequences.** Letting the player make the choice and feel the cost is more interesting than blocking the choice.
+The OS Chip lets the player do the wrong thing (uninstall their own operating system) and immediately punishes it. The lesson: **don't grey out interactions just because they have catastrophic consequences.** Letting the player make the choice and feel the cost is more interesting than blocking the choice.
 
 This is `bonus-with-drawback` taken to its limit: the drawback is *the entire game*, but the choice is yours.
 
@@ -50,7 +50,7 @@ This is `bonus-with-drawback` taken to its limit: the drawback is *the entire ga
 
 Yoko Taro's "use the same content twice" trick requires that the second pass be **substantively re-authored**. Route B isn't asset reuse; it's encounter remix + new cutscenes + new mechanic (hacking). The reuse is the *frame*, not the content.
 
-If I tried this without the budget for re-authoring, Route B would feel like a tedious second playthrough with extra cutscenes — the failure mode of every game that's tried "see the story from the antagonist's POV" as DLC.
+If I tried this without the budget for re-authoring, Route B would feel like a tedious second playthrough with extra cutscenes, the failure mode of every game that's tried "see the story from the antagonist's POV" as DLC.
 
 **The technique requires authorial energy, not just engineering.**
 
@@ -62,7 +62,7 @@ For a smaller game, the brand cost of a player losing their save by accident may
 
 ### Genre-shift camera framing only works if your input language stays consistent
 
-The 2D-to-3D-to-shmum transitions in Automata feel seamless because **the controls don't change** — just what they do in space changes. If a 2D platformer used different buttons for jump than its 3D mode, the genre-shift would feel like a different game. The shifts are diegetic *because* the controls are constant.
+The 2D-to-3D-to-shmum transitions in Automata feel smooth because **the controls don't change**; just what they do in space changes. If a 2D platformer used different buttons for jump than its 3D mode, the genre-shift would feel like a different game. The shifts are diegetic *because* the controls are constant.
 
 For my own games: shifting genre is allowed, shifting *button language* is much more expensive than it looks.
 

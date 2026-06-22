@@ -1,5 +1,5 @@
 ---
-title: "Path of Exile 2 — Atlas (one-death maps)"
+title: "Path of Exile 2: Atlas (one-death maps)"
 type: game
 game: path-of-exile-2
 patterns:
@@ -7,16 +7,16 @@ patterns:
   - nested-progression-graph
 ---
 
-# Atlas — one-death maps
+# Atlas: one-death maps
 
-PoE2's endgame is structured similarly to PoE1's Atlas — a graph of map nodes the player traverses, with passive-tree investment shaping which mechanics spawn — but with **one fundamental change: you get one attempt per map.**
+PoE2's endgame is structured similarly to PoE1's Atlas, a graph of map nodes the player traverses, with passive-tree investment shaping which mechanics spawn, but with **one fundamental change: you get one attempt per map.**
 
-![PoE2 Endgame World Map — overworld view with a corruption-spread map graph](/images/path-of-exile-2/endgame-world-map.jpg)
+![PoE2 Endgame World Map, overworld view with a corruption-spread map graph](/images/path-of-exile-2/endgame-world-map.jpg)
 *PoE2's endgame World Map. Map nodes are spread across an overworld; corruption visibly spreads through completed nodes. Source: [Steam](https://store.steampowered.com/app/2694490/).*
 
 ## The one-death rule
 
-In PoE1, dying in a map costs you 10% XP (above level 67) and the map ends — but you can re-enter the same map type by using *another* map. Maps drop frequently enough that "lose one, run another" is fine.
+In PoE1, dying in a map costs you 10% XP (above level 67) and the map ends, but you can re-enter the same map type by using *another* map. Maps drop frequently enough that "lose one, run another" is fine.
 
 In PoE2:
 
@@ -36,16 +36,16 @@ Paraphrased from Jonathan Rogers (EA-launch livestream, December 2024):
 
 The logic: PoE1's "die, try again, die, try again" loop made deaths *feel free*. Players didn't fear death because death cost only XP. PoE2's stake-restoration design says death should cost the run.
 
-This is downstream of the [combat philosophy](./combat-philosophy.md) decision — slowing combat means each fight matters; one-death maps mean each map matters.
+This is downstream of the [combat philosophy](./combat-philosophy.md) decision, slowing combat means each fight matters; one-death maps mean each map matters.
 
 ## Where it works
 
 For players who want **deliberate combat with real consequence**, one-death maps deliver:
 
-- Engagement during the map is heightened — every elite pack is a real check.
-- Build resilience matters — pure-glass-cannon builds die in maps frequently and progress slowly.
+- Engagement during the map is heightened: every elite pack is a real check.
+- Build resilience matters: pure-glass-cannon builds die in maps frequently and progress slowly.
 - Clearing a hard map feels like an achievement, not a routine.
-- Loot has weight — you're going to *want* every drop in this map because you can't come back.
+- Loot has weight: you're going to *want* every drop in this map because you can't come back.
 
 The audience that wanted soulslike consequence in an ARPG broadly loves this.
 
@@ -56,7 +56,7 @@ For players who want **flow-state speed-clearing**, one-death is hostile:
 - One unlucky on-death effect ends the run. RIP-on-death chains in PoE1 are notorious; in PoE2 they're game-ending.
 - Lag, disconnects, or rubber-banding can kill maps that should have been cleared. Online-game realities meet a permadeath rule.
 - Casual players who can't reliably out-skill the difficulty stall on Atlas progression.
-- Boss attempts are particularly punishing — testing a build vs. a pinnacle boss costs you the map.
+- Boss attempts are particularly punishing: testing a build vs. a pinnacle boss costs you the map.
 
 The discourse split between purists ("this is what ARPG endgame should be") and the speed-clear audience ("this isn't fun, it's tedious") has been continuous from EA launch through April 2026.
 
@@ -79,5 +79,5 @@ The discourse split between purists ("this is what ARPG endgame should be") and 
 
 ## Patterns this exemplifies
 
-- `one-death-map` — the design pattern. One attempt per content unit; failure ends the run.
-- [`nested-progression-graph`](/concepts/nested-progression-graph) — like PoE1, the Atlas is a separate progression axis from the character. The shape is different (continuous overworld vs. per-map graph) but the role is the same.
+- `one-death-map`: the design pattern. One attempt per content unit; failure ends the run.
+- [`nested-progression-graph`](/concepts/nested-progression-graph): like PoE1, the Atlas is a separate progression axis from the character. The shape is different (continuous overworld vs. per-map graph) but the role is the same.

@@ -1,14 +1,14 @@
 ---
-title: "Hades — Ludonarrative reading"
+title: "Hades: Ludonarrative reading"
 type: game
 game: hades
 ---
 
 # Through the ludonarrative resonance lens
 
-> A reading of Hades's mechanics through the [ludonarrative resonance](/concepts/ludonarrative-resonance) lens — does what the player *does* affirm what the game says it's *about*?
+> A reading of Hades's mechanics through the [ludonarrative resonance](/concepts/ludonarrative-resonance) lens, does what the player *does* affirm what the game says it's *about*?
 >
-> **Mechanic read:** [Death-as-narrative](./death-as-narrative) — every death returns the player to the hub, where every NPC has fresh dialogue tracking what just happened.
+> **Mechanic read:** [Death-as-narrative](./death-as-narrative): every death returns the player to the hub, where every NPC has fresh dialogue tracking what just happened.
 >
 > **Verdict: Affirms.** Dying *is* how the plot moves. The rollback that most roguelikes treat as narratively meaningless is, here, the storytelling beat itself.
 
@@ -24,7 +24,7 @@ The premise of Hades 1 is *Zagreus, son of Hades, repeatedly attempting to escap
 
 There is no parallel path. You cannot reach the next dialogue beat without re-running and re-failing. The plot literally moves through the rollback.
 
-Compare this to most roguelikes, where death is *rolled-back state* — narratively meaningless, mechanically a reset. Supergiant didn't add a story to a roguelike; they noticed that a roguelike already *has* a story shape (cycle of attempt → failure → return) and built a fiction whose plot has the same shape. The fit is tautological. That's why it lands so hard.
+Compare this to most roguelikes, where death is *rolled-back state*: narratively meaningless, mechanically a reset. Supergiant didn't add a story to a roguelike; they noticed that a roguelike already *has* a story shape (cycle of attempt → failure → return) and built a fiction whose plot has the same shape. The fit is tautological. That's why it lands so hard.
 
 ## What makes the resonance dense, not nominal
 
@@ -47,8 +47,8 @@ That sentence describes both the gameplay and the plot. That is what affirmation
 
 Three things had to hold for "death advances story" to work, and each is a failure mode if missing:
 
-1. **Death lands in the same place every time** — the hub. A roguelite that respawns the player elsewhere can't anchor stateful dialogue.
-2. **The hub has *characters who care*** — mentors, family, antagonists. Few roguelites have the writing budget for a populated hub.
+1. **Death lands in the same place every time** (the hub). A roguelite that respawns the player elsewhere can't anchor stateful dialogue.
+2. **The hub has *characters who care***: mentors, family, antagonists. Few roguelites have the writing budget for a populated hub.
 3. **Triggers are granular enough to surface specific events**, not just "you died." This requires real engineering on the trigger condition system.
 
 Take any of those away and the affirmation collapses into nominal flavor text.
@@ -57,4 +57,4 @@ Take any of those away and the affirmation collapses into nominal flavor text.
 
 - Mechanic page: [Death as narrative](./death-as-narrative)
 - Lens (overview): [Ludonarrative resonance](/concepts/ludonarrative-resonance)
-- Adjacent pattern: [`late-introduced-mechanics`](/concepts/late-introduced-mechanics) — most NPC arcs unlock 5-30 hours in.
+- Adjacent pattern: [`late-introduced-mechanics`](/concepts/late-introduced-mechanics): most NPC arcs unlock 5-30 hours in.

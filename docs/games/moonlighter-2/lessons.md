@@ -1,5 +1,5 @@
 ---
-title: "Moonlighter 2 — Lessons for my own games"
+title: "Moonlighter 2: Lessons for my own games"
 type: game
 game: moonlighter-2
 ---
@@ -10,7 +10,7 @@ What's worth stealing, why, and what to watch out for.
 
 ## Steal: the dual-life loop framing
 
-A single character living **two distinct mini-games that consume each other's outputs** is a rare design shape and almost always interesting. Action-roguelite + shopkeeper is the Moonlighter twist — but the pattern generalizes:
+A single character living **two distinct mini-games that consume each other's outputs** is a rare design shape and almost always interesting. Action-roguelite + shopkeeper is the Moonlighter twist, but the pattern generalizes:
 
 - Combat by day + farming by night (Stardew).
 - Dungeon by day + cooking sim at night (untouched indie space).
@@ -28,7 +28,7 @@ Generalizes naturally:
 - Garden plot layouts where adjacent crops boost each other.
 - Inventory tetris where items have synergy patterns, not just shape.
 
-The lesson: **don't make loot just have a value — make it have a value *equation* that the player solves.**
+The lesson: **don't make loot just have a value. Make it have a value *equation* that the player solves.**
 
 ## Steal: the Hades-style map even in non-roguelikes
 
@@ -38,13 +38,13 @@ Moonlighter 2's map is one of the cleanest "graft a Hades-style DAG onto a non-H
 - Path choices feel meaningful even when individual encounters are simple.
 - One UI screen unlocks days of design discussions about node-type balance.
 
-This is portable to *anything* with sequential encounters. Not just roguelites. Tower defense waves, narrative branching games, RPG dungeons — all candidates.
+This is portable to *anything* with sequential encounters. Not just roguelites. Tower defense waves, narrative branching games, RPG dungeons: all candidates.
 
 ## Steal: layered multipliers as the price equation
 
 The pricing equation `base × quality × popularity × showcase + tip` is a clear template for **player-facing depth via multipliers.** Each multiplier has a different sourcing path (loot → backpack → calendar → furniture → live shop), so each gives the player a different lever to pull.
 
-If you're designing economy systems, **layered multipliers from independent sources** is more interesting than one big number plus modifiers — because each multiplier is a different mini-decision.
+If you're designing economy systems, **layered multipliers from independent sources** is more interesting than one big number plus modifiers, because each multiplier is a different mini-decision.
 
 ## Steal: cite your inspirations
 
@@ -58,7 +58,7 @@ For my own future sequels: if you change *visuals* alongside *mechanics*, audien
 
 ## Cautionary lesson: don't replace charm-mechanics without a great replacement
 
-The original's price-discovery minigame had charm. The sequel's multi-multiplier math has depth. **They are not the same thing.** If you replace a charm-mechanic with a math-mechanic, you'd better make the math itself charming — Spire does this with "risk vs reward fractally"; Moonlighter 2's math is currently not labeled with a similar identity, so it reads as opaque to new players.
+The original's price-discovery minigame had charm. The sequel's multi-multiplier math has depth. **They are not the same thing.** If you replace a charm-mechanic with a math-mechanic, you'd better make the math itself charming. Spire does this with "risk vs reward fractally"; Moonlighter 2's math is currently not labeled with a similar identity, so it reads as opaque to new players.
 
 ## Cautionary lesson: in EA, the exchange rates are everything
 
@@ -66,4 +66,4 @@ Multiple reviewers note that the *ratios* between systems (gold per relic, perk 
 
 ## Cautionary lesson: variety is good, but milestones matter
 
-The original Moonlighter had clean milestone progression — each new dungeon was a real escalation. The sequel has more options, less clear milestones. **Players need to feel "I just unlocked the next thing."** If your meta-progression is mostly variety, you still need *some* mile-markers, or it feels like grinding for nothing.
+The original Moonlighter had clean milestone progression, each new dungeon was a real escalation. The sequel has more options, less clear milestones. **Players need to feel "I just unlocked the next thing."** If your meta-progression is mostly variety, you still need *some* mile-markers, or it feels like grinding for nothing.

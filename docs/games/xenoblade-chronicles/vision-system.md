@@ -1,5 +1,5 @@
 ---
-title: "Xenoblade — Vision system (XC1)"
+title: "Xenoblade: Vision system (XC1)"
 type: game
 game: xenoblade-chronicles
 patterns:
@@ -12,7 +12,7 @@ patterns:
 The signature mechanic of the original Xenoblade Chronicles. **Shulk's sword (the Monado) gives him precognition: he sees enemy attacks ~5 seconds before they happen, and the rest of the fight is about preventing the future he just saw.**
 
 ![XC1 combat with the future-attack callout visible at bottom](/images/xenoblade-chronicles/xc1-battle-system.png)
-*The player has just received a Vision: an arrow icon points to a party member, and a banner reads "Attack inflicts Break." The next 5 seconds are about *changing* that future — by shouting a warning to the targeted party member, switching their gear, or healing them up before the strike lands. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)).*
+*The player has just received a Vision: an arrow icon points to a party member, and a banner reads "Attack inflicts Break." The next 5 seconds are about *changing* that future: by shouting a warning to the targeted party member, switching their gear, or healing them up before the strike lands. Source: [Wikipedia](https://en.wikipedia.org/wiki/Xenoblade_Chronicles_(video_game)).*
 
 ## How it works
 
@@ -24,11 +24,11 @@ Mid-combat, when an enemy is about to use a high-damage attack:
 
 Tools to prevent it:
 
-- **Aggro shift** — pull the enemy onto the tank instead of the squishy support.
-- **Shouts** — Shulk has a "Warn" art that grants the targeted ally a buff; another character can use a *Talent Art* to draw aggro.
-- **Buffs / heals** — Buff the target to survive, or pre-heal so the inevitable hit isn't fatal.
-- **Interrupts** — Some arts cancel the enemy's wind-up entirely; "Topple" the enemy before they swing and the Vision becomes moot.
-- **Monado modes** — Shulk can switch the Monado to a mode that grants party-wide buffs against the specific damage type the Vision predicted.
+- **Aggro shift**: pull the enemy onto the tank instead of the squishy support.
+- **Shouts**: Shulk has a "Warn" art that grants the targeted ally a buff; another character can use a *Talent Art* to draw aggro.
+- **Buffs / heals**: Buff the target to survive, or pre-heal so the inevitable hit isn't fatal.
+- **Interrupts**: Some arts cancel the enemy's wind-up entirely; "Topple" the enemy before they swing and the Vision becomes moot.
+- **Monado modes**: Shulk can switch the Monado to a mode that grants party-wide buffs against the specific damage type the Vision predicted.
 
 If the player **does nothing**, the future plays out exactly as shown. If they act correctly, the Vision is replaced by a different (often less-bad) future.
 
@@ -49,11 +49,11 @@ This is rare in games. Mechanics often gesture at the lore; XC1's lore *is* the 
 
 The Vision system was *not* carried forward as a literal mechanic into XC2, XC3, or XCX. The series replaces it with subtler telegraphs:
 
-- **XC2** — enemy attack wind-ups + visible AoE markers; some bosses telegraph "Break Resist" / "Topple Resist" as a phase indicator.
-- **XC3** — same wind-ups + chain-attack predictive overlays during the menu.
-- **XCX** — wind-up animations only; XCX is more action-leaning generally.
+- **XC2**: enemy attack wind-ups + visible AoE markers; some bosses telegraph "Break Resist" / "Topple Resist" as a phase indicator.
+- **XC3**: same wind-ups + chain-attack predictive overlays during the menu.
+- **XCX**: wind-up animations only; XCX is more action-leaning generally.
 
-So the Vision system is **specifically XC1's signature** — and the rest of the series treats "you can see the future" as a *narrative* device when it appears, not a *combat* device. The trade-off the later games made: speed up combat, accept less prep-driven decision-making.
+So the Vision system is **specifically XC1's signature**, and the rest of the series treats "you can see the future" as a *narrative* device when it appears, not a *combat* device. The trade-off the later games made: speed up combat, accept less prep-driven decision-making.
 
 ## Compared with the broader telegraph family
 
@@ -64,7 +64,7 @@ So the Vision system is **specifically XC1's signature** — and the rest of the
 | **[PoE2](/games/path-of-exile-2/combat-philosophy)** | Boss wind-up animations + ground markers | When to dodge-roll |
 | **Xenoblade Chronicles 1** | **Full cinematic of the future hit** with damage number + status | Replan the next 5–15 seconds |
 
-Xenoblade gives the player **the most information** of any telegraph in this knowledge base — and gives them *time* to act on it. It's the heaviest, most-deliberate telegraph in the genre.
+Xenoblade gives the player **the most information** of any telegraph in this knowledge base, and gives them *time* to act on it. It's the heaviest, most-deliberate telegraph in the genre.
 
 ## Why it's hard to copy
 
@@ -78,5 +78,5 @@ Most games can't satisfy all three. That's why the Vision system has been admire
 
 ## Patterns this exemplifies
 
-- [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph) — the most narrative-rich case in the genre.
-- [`bonus-with-drawback`](/concepts/bonus-with-drawback) — the Monado has *requirement* states (charge, mode-locked) that gate when Visions and Monado arts can fire. Power with hard limits.
+- [`enemy-intent-telegraph`](/concepts/enemy-intent-telegraph): the most narrative-rich case in the genre.
+- [`bonus-with-drawback`](/concepts/bonus-with-drawback): the Monado has *requirement* states (charge, mode-locked) that gate when Visions and Monado arts can fire. Power with hard limits.
