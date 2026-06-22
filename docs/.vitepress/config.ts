@@ -203,6 +203,25 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Mina the Hollower',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/mina-the-hollower/' },
+            { text: 'Hollowing (burrow verb)', link: '/games/mina-the-hollower/hollowing' },
+            { text: 'Combat & weapons', link: '/games/mina-the-hollower/combat-and-weapons' },
+            { text: 'Sidearms & Joules', link: '/games/mina-the-hollower/sidearms-and-joules' },
+            { text: 'Trinkets', link: '/games/mina-the-hollower/trinkets' },
+            { text: 'Bones & progression', link: '/games/mina-the-hollower/bones-and-progression' },
+            { text: 'Death & Sparks', link: '/games/mina-the-hollower/death-and-sparks' },
+            { text: 'World & newspaper', link: '/games/mina-the-hollower/world-and-newspaper' },
+            { text: 'Ludonarrative reading', link: '/games/mina-the-hollower/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/mina-the-hollower/design-tensions' },
+            { text: 'Patterns', link: '/games/mina-the-hollower/patterns' },
+            { text: 'Lessons', link: '/games/mina-the-hollower/lessons' },
+            { text: 'Sources', link: '/games/mina-the-hollower/sources' },
+          ]
+        },
+        {
           text: 'Moonlighter 2',
           collapsed: false,
           items: [

@@ -52,6 +52,8 @@ The pattern is most powerful at **boss-tier rewards** — the rare, run-defining
 | **[Balatro — Spectral Cards (Ankh, Hex)](/games/balatro/deck-as-build)** | Strong run-warping upgrades: Ankh duplicates a Joker; Hex applies Polychrome to a Joker | **Destroys all other Jokers** | Once-per-run nuclear option; takes a fully-built Joker chain and discards 4 of 5 to amplify 1 |
 | **[Balatro — Glass Cards](/games/balatro/deck-as-build)** | ×2 mult on score for that card | 25% chance the card breaks (permanently destroyed) per scoring | Per-card modifier; running multiple Glass Cards is a calculated attrition build |
 | **[Balatro — Madness Joker](/games/balatro/jokers)** | ×1.5 mult per Blind selected | Destroys 1 random other Joker per Blind | The most punishing per-Blind tradeoff; pairs only with Blueprint chains and 2-Joker minimum builds |
+| **[Mina the Hollower — Uranium Bracelet](/games/mina-the-hollower/trinkets)** | Deal *significantly* more damage | Receive significantly more damage — in a game where a few hits already kill | A single [trinket](/games/mina-the-hollower/trinkets) slot; the purest one-line glass-cannon switch on the site — bet on your [burrow](/games/mina-the-hollower/hollowing) timing |
+| **[Mina the Hollower — parry / Grave Counter](/games/mina-the-hollower/combat-and-weapons)** | A clean parry unleashes a stronger counterattack | You must stay in the threat plane and time it to the incoming hit; mistime it and you eat the blow | The riskier of two defensive verbs (vs. the safe under-surface burrow); the bonus is *only* available to those who take the risk |
 
 ### Visual reference
 

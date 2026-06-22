@@ -33,8 +33,9 @@ This is closely related to [`loadout-as-budget`](./loadout-as-budget.md) — opp
 | **[Moonlighter 2](/games/moonlighter-2/backpack-puzzle)** | Every backpack cell can only hold one relic; placement triggers one synergy | Which 3–4 target relics to stack quality on; everything else is fuel |
 | **[Hollow Knight](/games/hollow-knight/charms-and-notches)** | Every charm slotted is a charm not slotted; 11-notch budget vs. ~45 charms with integer costs | Damage vs. healing speed vs. soul economy vs. movement vs. compass / map markers |
 | **[Nier: Automata](/games/nier-automata/chip-system)** | Every chip equipped is a chip not equipped; the HUD is in the same budget | Combat power vs. accessibility (Auto-*) vs. **the HUD itself** — show the minimap or take an Auto-Heal? |
+| **[Mina the Hollower](/games/mina-the-hollower/trinkets)** | A few trinket slots from a pool of 60, plus exactly one equipped sidearm at a time | Glass-cannon vs. wall-burrow traversal vs. parry-counter vs. defense — and which single sidearm to field for *this* stretch |
 
-Three of these are spatial (grid-based), the others are numeric. Nier: Automata is the unusual case where the trade includes UI elements — the player decides whether seeing the HUD is worth the storage cost.
+The spatial ones (Sparklite, Moonlighter 2) make you *feel* the trade as physical space; the rest — Hollow Knight's notches, Mina's trinket slots, Nier's chip storage — make you feel it as an abstract budget. Nier: Automata is the unusual case where the trade includes UI elements — the player decides whether seeing the HUD is worth the storage cost. Mina is the unusual case where the same slot system swaps *between encounters*, so the build is re-chosen situationally rather than locked for a run.
 
 ## When to use this pattern
 
