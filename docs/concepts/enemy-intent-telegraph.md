@@ -36,6 +36,7 @@ Telegraphing the next attack solves both. **Each engagement becomes a decision: 
 | **[Path of Exile 2](/games/path-of-exile-2/combat-philosophy)** | Boss/elite wind-ups, cone tells, ground markers, animation commits | Real-time, mid-combat | Dodge-roll *now*, position before the swing, choose between reactive defense and offense. The "build" doesn't dodge; the player does. |
 | **[Xenoblade Chronicles 1](/games/xenoblade-chronicles/vision-system)** | **A full cinematic of the future hit**: the attack plays out *before it happens* with damage number and status. 5–15 seconds to act. | MMO-real-time, mid-combat | Replan the next 5–15s: shift aggro, buff the target, swap Monado mode, interrupt the wind-up. The most prep-driven telegraph in the genre. |
 | **[Hollow Knight](/games/hollow-knight/soul-and-focus)** | Boss wind-up animations + recovery windows. *Each recovery window is the player's "Focus heal" opportunity.* | Real-time, 2D side-on | Read the boss pattern to find the heal window. Greed = eat the next attack and waste 33 Soul. The telegraph design is fully integrated with the heal system. |
+| **[Clair Obscur: Expedition 33](/games/clair-obscur-expedition-33/reactive-combat)** | The attack animation itself, with the *type* always legible (parryable / must-jump / Gradient-flagged) but the *timing* deliberately theatrical: delayed wind-ups, mid-swing pauses, off-beat multi-hit strings | Turn-based selection, real-time execution | Choose a defensive verb per hit (dodge safe, parry for AP + counter, jump, Gradient Counter) and land it on a rhythm the animation is actively trying to fake you out of. Timing literacy *is* the difficulty curve. |
 
 The cases span turn-based to real-time, icon-based to spatial-tile to animation-tell. The insight is invariant: **show the player what's coming and let them solve.** What changes is the *medium* of the telegraph (icon, tile colour, wind-up animation) and the *response vocabulary* (allocate energy, slide rows, dodge-roll, position).
 
@@ -44,6 +45,7 @@ A few are worth contrasting:
 - **Spire** telegraphs *what action*; **PoE2** telegraphs *which animation*; **MMBN** telegraphs *which tiles*. Same pattern, three render targets.
 - **Sparklite and Moonlighter 2** are the "standard genre default" cases: every action-roguelite has wind-ups. They're listed because the *load-bearing role* of the telegraph is what makes the tight HP / locked-perk builds feel fair. The pattern earns its concept page even when it's not the headline mechanic.
 - **PoE1 is the explicit counter-example.** Screen-clearing combat dissolves telegraphs into noise; PoE2's slowdown was greenlit partly to restore them. (See `anti-screen-clear-combat`.)
+- **Expedition 33 splits the honesty axis in two.** Spire-style honesty about *what* is coming, adversarial hostility about *when*. That split is why the same system earned both "best combat in a decade" reviews and serious accessibility criticism: the second axis has no assist anywhere outside Story mode.
 
 This pattern is **the most-imitated single mechanic in the modern roguelike-deckbuilder**: every Spire-like ships intent icons. It's also the keystone of the soulslike combat tradition (Souls / Elden Ring / Sekiro): wind-up + tell + dodge window. And it predates both: tile-grid telegraphs were already the combat language of Battle Network in 2001.
 
@@ -54,10 +56,10 @@ This pattern is **the most-imitated single mechanic in the modern roguelike-deck
 | ![Slay the Spire intent icons](/images/slay-the-spire/combat-defect.jpg) | ![MMBN 6×3 grid combat with Custom Gauge](/images/mega-man-battle-network/combat-grid-custom-gauge.jpg) | ![PoE2 boss Cualli mid-windup](/images/path-of-exile-2/boss-cualli.jpg) |
 | Icon above each enemy = next action. Combat is a per-turn allocation puzzle. | Telegraph through the grid: panels flash, rows highlight, hazards mark the floor. Reaction is positional. | Boss wind-ups + ground markers. Real-time, soulslike-leaning. The player dodges, not the build. |
 
-| Sparklite | Moonlighter 2 |
-|---|---|
-| ![Sparklite top-down combat](/images/sparklite/combat-wrench.jpg) | ![Moonlighter 2 boss arena with bullet patterns](/images/moonlighter-2/boss-fight.jpg) |
-| Standard 2D wind-ups + flashes. Load-bearing for the tight 3-heart starter HP. | 3D ground markers + projectile fan-outs. Telegraph as the floor of fairness for locked perk builds. |
+| Sparklite | Moonlighter 2 | Clair Obscur: Expedition 33 |
+|---|---|---|
+| ![Sparklite top-down combat](/images/sparklite/combat-wrench.jpg) | ![Moonlighter 2 boss arena with bullet patterns](/images/moonlighter-2/boss-fight.jpg) | ![Expedition 33 dodge tutorial mid-attack](/images/clair-obscur-expedition-33/dodge-tutorial.jpg) |
+| Standard 2D wind-ups + flashes. Load-bearing for the tight 3-heart starter HP. | 3D ground markers + projectile fan-outs. Telegraph as the floor of fairness for locked perk builds. | No icon, no bar: the wind-up animation is the entire channel, and its rhythm is deliberately deceptive. Honest in kind, adversarial in timing. |
 
 ## When to use this pattern
 

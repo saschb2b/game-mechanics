@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "game-mechanics"
   text: "How games actually work."
-  tagline: "Sixteen games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki, a designer's reference, written from play."
+  tagline: "Games, dissected. Reward loops, world building, ludonarrative dissonance, the patterns that show up across genres. Not a wiki, a designer's reference, written from play."
   actions:
     - theme: brand
       text: Browse games →
@@ -26,6 +26,17 @@ og_image: images/path-of-exile/atlas-of-worlds.jpg
     <p class="gc-iconic">Poker hands × Jokers × deck-mutation × Ante staircase · familiar surface, deep math underneath</p>
     <div class="gc-meta">
       <span>2024</span><span>Roguelike deckbuilder</span><span>Premium</span>
+    </div>
+  </div>
+</a>
+
+<a class="game-card" href="games/clair-obscur-expedition-33/">
+  <div class="gc-media"><img class="gc-img" src="/images/clair-obscur-expedition-33/timed-hit-qte.jpg" alt="Clair Obscur: Expedition 33 timed-hit ring mid-attack with Overcharge gauge full"></div>
+  <div class="gc-content">
+    <h3 class="gc-title">Clair Obscur: Expedition 33</h3>
+    <p class="gc-iconic">Turn-based combat defended in real time · plan in turns, survive in real time</p>
+    <div class="gc-meta">
+      <span>2025</span><span>Turn-based RPG</span><span>Premium</span>
     </div>
   </div>
 </a>

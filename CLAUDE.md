@@ -35,3 +35,13 @@ There are two workflows, both fully documented in CONTRIBUTING.md. Read the rele
 **`/concepts/` is the canonical curated surface for design patterns.** Game `patterns.md` tables link out to `/concepts/<x>` for curated patterns; uncurated patterns appear as plain `` `pattern-name` `` (no link). There is no `/patterns/` directory — `patterns:` frontmatter is a machine-readable tag list only.
 
 Per-game image wishlists live in each `docs/public/images/<game>/CREDITS.md` (no top-level TODO).
+
+## Never hardcode content counts in prose
+
+Site copy (landing-page tagline, about page, section intros) must not name how many games/concepts/pages exist ("Sixteen games, dissected").
+
+**Why:** Counts go stale with every new entry, and bumping them on each addition is reflexive filler that reads as AI slop.
+
+**How to apply:**
+- Write copy that stays true regardless of collection size ("Games, dissected.").
+- When adding an entry, don't "helpfully" bump a count you find; delete the count instead.

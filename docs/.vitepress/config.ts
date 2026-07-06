@@ -116,6 +116,24 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Clair Obscur: Expedition 33',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/games/clair-obscur-expedition-33/' },
+            { text: 'Reactive combat', link: '/games/clair-obscur-expedition-33/reactive-combat' },
+            { text: 'AP & Gradient economy', link: '/games/clair-obscur-expedition-33/ap-and-gradient' },
+            { text: 'Character kits', link: '/games/clair-obscur-expedition-33/character-kits' },
+            { text: 'Pictos & Luminas', link: '/games/clair-obscur-expedition-33/pictos-and-luminas' },
+            { text: 'Weapons, attributes & skills', link: '/games/clair-obscur-expedition-33/weapons-attributes-skills' },
+            { text: 'World & camp', link: '/games/clair-obscur-expedition-33/world-and-camp' },
+            { text: 'Ludonarrative reading', link: '/games/clair-obscur-expedition-33/ludonarrative-resonance' },
+            { text: 'Design tensions', link: '/games/clair-obscur-expedition-33/design-tensions' },
+            { text: 'Patterns', link: '/games/clair-obscur-expedition-33/patterns' },
+            { text: 'Lessons', link: '/games/clair-obscur-expedition-33/lessons' },
+            { text: 'Sources', link: '/games/clair-obscur-expedition-33/sources' },
+          ]
+        },
+        {
           text: 'Cult of the Lamb',
           collapsed: false,
           items: [
